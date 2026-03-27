@@ -74,3 +74,32 @@ async def test_create_listing(session):
     await session.commit()
     assert listing.id is not None
     assert listing.listed is True
+
+
+# 追加到 tests/test_commerce.py 末尾
+from jiajia.repositories.commerce import CommerceRepository, ListingRepository
+
+async def test_commerce_repo_create(session):
+    asset = AssetDefinition(
+        name="仓库测试", asset_level="object", state="draft",
+        scene_type="house", object_type="house/room/furniture/bed",
+    )
+    session.add(asset)
+    await session.flush()
+
+    repo = CommerceRepository(session)
+    commerce = await repo.create(
+        asset_id=asset.id, owner_id=asset.id,
+        license_tradeable=True, license_partial=False,
+        license_transferable=False, credit_total=200, credit_final=200,
+    )
+    assert commerce.credit_final == 200
+
+async def test_listing_repo_create_and_list(session):
+    repo = ListingRepository(session)
+    listing = await repo.create(
+        title="测试上架", type="asset", credit_price=30,
+        license_type="non_exclusive", transferable=False, listed=True,
+    )
+    listed = await repo.list_active()
+    assert any(l.id == listing.id for l in listed)

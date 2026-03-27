@@ -38,3 +38,20 @@ async def test_vector_similarity_search(session):
     )
     closest = result.scalar_one()
     assert closest.id == s1.id
+
+
+# 追加到 tests/test_sample.py 末尾
+from jiajia.repositories.sample import SampleRepository
+
+async def test_sample_repo_search_by_style(session):
+    repo = SampleRepository(session)
+    await repo.create(scene_type="house", sample_level="zone", style="现代",
+                      score=80, style_vector=[1.0] + [0.0] * (STYLE_VECTOR_DIM - 1))
+    await repo.create(scene_type="house", sample_level="zone", style="古典",
+                      score=75, style_vector=[0.0] * STYLE_VECTOR_DIM)
+
+    results = await repo.search_by_style(
+        query_vector=[1.0] + [0.0] * (STYLE_VECTOR_DIM - 1),
+        scene_type="house", sample_level="zone", limit=1,
+    )
+    assert results[0].style == "现代"

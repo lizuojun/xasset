@@ -74,3 +74,53 @@ async def test_placed_instance_has_scene_id(session):
     session.add(instance)
     await session.commit()
     assert instance.scene_id == scene.id
+
+
+# 追加到 tests/test_asset.py 末尾
+from jiajia.repositories.asset import AssetRepository
+
+async def test_asset_repo_create_and_get(session):
+    repo = AssetRepository(session)
+    asset = await repo.create(
+        name="布艺沙发", asset_level="object", state="draft",
+        scene_type="house", object_type="house/room/furniture/sofa",
+    )
+    fetched = await repo.get(asset.id)
+    assert fetched.name == "布艺沙发"
+
+async def test_asset_repo_publish(session):
+    repo = AssetRepository(session)
+    asset = await repo.create(
+        name="木椅", asset_level="object", state="draft",
+        scene_type="house", object_type="house/room/furniture/chair",
+    )
+    published = await repo.publish(
+        asset.id,
+        usd_url="oss://packaged/chair.usda",
+        gltf_url="oss://packaged/chair.gltf",
+    )
+    assert published.state == "published"
+    assert published.packaged_data["usd_url"] == "oss://packaged/chair.usda"
+
+async def test_asset_repo_deprecate_blocks_new_instance(session):
+    """废弃资产后，repository 拒绝为其创建新实例"""
+    repo = AssetRepository(session)
+    asset = await repo.create(
+        name="废弃资产", asset_level="object", state="draft",
+        scene_type="house", object_type="house/room/furniture/rug",
+    )
+    await repo.publish(asset.id, usd_url="oss://x.usda", gltf_url="oss://x.gltf")
+    await repo.deprecate(asset.id)
+
+    import pytest
+    with pytest.raises(ValueError, match="deprecated"):
+        await repo.create_instance(asset.id, scene_id=asset.id)
+
+async def test_asset_repo_list_by_scene_type(session):
+    repo = AssetRepository(session)
+    await repo.create(name="A", asset_level="object", state="draft",
+                      scene_type="urban", object_type="urban/build")
+    await repo.create(name="B", asset_level="object", state="draft",
+                      scene_type="urban", object_type="urban/road")
+    results = await repo.list_by_scene_type("urban")
+    assert len(results) >= 2

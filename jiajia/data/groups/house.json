@@ -1,0 +1,67 @@
+{
+  "scene_type": "house",
+  "groups": [
+    {
+      "id": "house-meeting",
+      "name": "会客组",
+      "code": 100001,
+      "scene_types": ["house"],
+      "anchor_role": "sofa",
+      "roles": [
+        {
+          "name": "sofa",
+          "tier": "anchor",
+          "asset_types": ["house/room/furniture/sofa"],
+          "count": [1, 1],
+          "size_range": {"w": [0.8, 8.0], "h": [0.4, 5.0], "d": [0.0, 5.0]},
+          "optional": false
+        },
+        {
+          "name": "coffee_table",
+          "tier": "support",
+          "asset_types": ["house/room/furniture/table/coffee"],
+          "count": [0, 2],
+          "size_range": {"w": [0.4, 5.0], "h": [0.4, 5.0], "d": [0.0, 1.5]},
+          "optional": true
+        },
+        {
+          "name": "rug",
+          "tier": "fill",
+          "asset_types": ["house/room/furniture/rug"],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/furniture/accessory"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-meeting-standard",
+          "name": "标准会客",
+          "placement_mode": "deterministic",
+          "sequence": ["sofa", "coffee_table", "rug", "accessory"],
+          "placements": [
+            {
+              "role": "coffee_table",
+              "position": {"relative": [0.0, 0.0, 1.5], "range": [[-0.5, 0.5], [0.0, 0.0], [0.8, 2.0]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 1]
+            },
+            {
+              "role": "rug",
+              "position": {"relative": [0.0, 0.0, 0.8], "range": [[-0.5, 0.5], [0.0, 0.0], [-0.5, 1.5]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 1]
+            }
+          ],
+          "total_count": 6
+        }
+      ]
+    }
+  ]
+}

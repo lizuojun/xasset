@@ -1,9 +1,9 @@
-# jiajia/repositories/commerce.py
+# xasset/repositories/commerce.py
 import uuid
 from typing import Optional
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-from jiajia.models.commerce import CommerceMetadata, Listing
+from xasset.models.commerce import CommerceMetadata, Listing
 
 class CommerceRepository:
     def __init__(self, session: AsyncSession):

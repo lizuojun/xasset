@@ -1,4 +1,4 @@
-# jiajia/db/base.py
+# xasset/db/base.py
 from sqlalchemy.orm import DeclarativeBase
 
 

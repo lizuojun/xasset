@@ -1,9 +1,9 @@
-# jiajia/repositories/asset.py
+# xasset/repositories/asset.py
 import uuid
 from typing import Optional
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-from jiajia.models.asset import AssetDefinition, AssetInstance
+from xasset.models.asset import AssetDefinition, AssetInstance
 
 class AssetRepository:
     def __init__(self, session: AsyncSession):

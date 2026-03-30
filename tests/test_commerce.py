@@ -1,8 +1,8 @@
 # tests/test_commerce.py
 import pytest
 from sqlalchemy import select
-from jiajia.models.asset import AssetDefinition
-from jiajia.models.commerce import CommerceMetadata, Listing, PlatformConfig
+from xasset.models.asset import AssetDefinition
+from xasset.models.commerce import CommerceMetadata, Listing, PlatformConfig
 
 async def test_create_commerce_metadata(session):
     asset = AssetDefinition(
@@ -77,7 +77,7 @@ async def test_create_listing(session):
 
 
 # 追加到 tests/test_commerce.py 末尾
-from jiajia.repositories.commerce import CommerceRepository, ListingRepository
+from xasset.repositories.commerce import CommerceRepository, ListingRepository
 
 async def test_commerce_repo_create(session):
     asset = AssetDefinition(

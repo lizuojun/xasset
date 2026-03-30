@@ -1,7 +1,7 @@
-# jiajia/repositories/sample.py
+# xasset/repositories/sample.py
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-from jiajia.models.sample import Sample
+from xasset.models.sample import Sample
 
 class SampleRepository:
     def __init__(self, session: AsyncSession):

@@ -1,14 +1,14 @@
-# jiajia/models/commerce.py
+# xasset/models/commerce.py
 import uuid
 from datetime import datetime, timezone
 from typing import Optional, TYPE_CHECKING
 from sqlalchemy import String, Float, Integer, Boolean, DateTime, ForeignKey, Enum
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from jiajia.db.base import Base
+from xasset.db.base import Base
 
 if TYPE_CHECKING:
-    from jiajia.models.asset import AssetDefinition
+    from xasset.models.asset import AssetDefinition
 
 def _now() -> datetime:
     return datetime.now(timezone.utc)

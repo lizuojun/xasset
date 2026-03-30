@@ -1,4 +1,4 @@
-# jiajia/config/schemas.py
+# xasset/config/schemas.py
 from typing import Optional
 from pydantic import BaseModel
 

@@ -1,4 +1,4 @@
-# jiajia/db/connection.py
+# xasset/db/connection.py
 from collections.abc import AsyncGenerator
 from sqlalchemy.ext.asyncio import (
     AsyncSession,

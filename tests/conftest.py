@@ -2,16 +2,16 @@
 import os
 import pytest_asyncio
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
-from jiajia.db.base import Base
+from xasset.db.base import Base
 # 导入所有 ORM 模型，确保 Base.metadata 包含所有表
-import jiajia.models.asset        # noqa: F401
-import jiajia.models.commerce     # noqa: F401
-import jiajia.models.sample       # noqa: F401
-import jiajia.models.composition  # noqa: F401
+import xasset.models.asset        # noqa: F401
+import xasset.models.commerce     # noqa: F401
+import xasset.models.sample       # noqa: F401
+import xasset.models.composition  # noqa: F401
 
 TEST_DB_URL = os.getenv(
     "TEST_DB_URL",
-    "postgresql+asyncpg://postgres:password@localhost:5432/jiajia_test",
+    "postgresql+asyncpg://postgres:password@localhost:5432/xasset_test",
 )
 
 

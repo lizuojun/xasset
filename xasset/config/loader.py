@@ -1,7 +1,7 @@
-# jiajia/config/loader.py
+# xasset/config/loader.py
 import json
 from pathlib import Path
-from jiajia.config.schemas import GroupConfigFile, GroupDefinition
+from xasset.config.schemas import GroupConfigFile, GroupDefinition
 
 _DEFAULT_DATA_DIR = Path(__file__).parent.parent / "data" / "groups"
 _group_cache: dict[str, list[GroupDefinition]] = {}

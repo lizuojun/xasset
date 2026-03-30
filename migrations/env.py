@@ -7,8 +7,8 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from jiajia.db.base import Base
-from jiajia.models import asset, commerce, sample, composition  # noqa: F401
+from xasset.db.base import Base
+from xasset.models import asset, commerce, sample, composition  # noqa: F401
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

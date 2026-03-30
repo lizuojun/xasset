@@ -2,11 +2,11 @@
 """
 端到端验证：沙发资产从创建 → 发布 → 商业化 → Sample 入库 → 向量搜索
 """
-from jiajia.repositories.asset import AssetRepository
-from jiajia.repositories.commerce import CommerceRepository, ListingRepository
-from jiajia.repositories.sample import SampleRepository
-from jiajia.config.loader import get_group_by_code, load_group_configs
-from jiajia.models.sample import STYLE_VECTOR_DIM, PARTITION_VECTOR_DIM
+from xasset.repositories.asset import AssetRepository
+from xasset.repositories.commerce import CommerceRepository, ListingRepository
+from xasset.repositories.sample import SampleRepository
+from xasset.config.loader import get_group_by_code, load_group_configs
+from xasset.models.sample import STYLE_VECTOR_DIM, PARTITION_VECTOR_DIM
 from pathlib import Path
 import pytest
 
@@ -84,7 +84,7 @@ async def test_full_asset_lifecycle(session):
     assert results[0].style == "现代简约"
 
     # 7. JSON 配置可用
-    data_dir = Path(__file__).parent.parent / "jiajia" / "data" / "groups"
+    data_dir = Path(__file__).parent.parent / "xasset" / "data" / "groups"
     load_group_configs(data_dir)
     group = get_group_by_code("house", 100001)
     assert group.anchor_role == "sofa"

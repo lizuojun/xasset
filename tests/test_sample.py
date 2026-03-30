@@ -1,5 +1,5 @@
 # tests/test_sample.py
-from jiajia.models.sample import Sample, STYLE_VECTOR_DIM, PARTITION_VECTOR_DIM
+from xasset.models.sample import Sample, STYLE_VECTOR_DIM, PARTITION_VECTOR_DIM
 
 async def test_create_sample(session):
     sample = Sample(
@@ -41,7 +41,7 @@ async def test_vector_similarity_search(session):
 
 
 # 追加到 tests/test_sample.py 末尾
-from jiajia.repositories.sample import SampleRepository
+from xasset.repositories.sample import SampleRepository
 
 async def test_sample_repo_search_by_style(session):
     repo = SampleRepository(session)

@@ -1,4 +1,4 @@
-# jiajia/schemas/asset.py
+# xasset/schemas/asset.py
 import uuid
 from typing import Literal, Optional
 from pydantic import BaseModel

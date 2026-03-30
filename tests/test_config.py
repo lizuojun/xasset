@@ -1,9 +1,9 @@
 # tests/test_config.py
 import pytest
 from pathlib import Path
-from jiajia.config.loader import load_group_configs, get_groups_for_scene, get_group_by_code
+from xasset.config.loader import load_group_configs, get_groups_for_scene, get_group_by_code
 
-DATA_DIR = Path(__file__).parent.parent / "jiajia" / "data" / "groups"
+DATA_DIR = Path(__file__).parent.parent / "xasset" / "data" / "groups"
 
 def test_load_house_groups():
     configs = load_group_configs(DATA_DIR)

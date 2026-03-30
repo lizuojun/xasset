@@ -1,6 +1,6 @@
 # tests/test_composition.py
-from jiajia.models.asset import AssetDefinition
-from jiajia.models.composition import GroupInstance, Region
+from xasset.models.asset import AssetDefinition
+from xasset.models.composition import GroupInstance, Region
 
 async def test_create_group_instance(session):
     scene = AssetDefinition(

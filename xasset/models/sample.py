@@ -1,4 +1,4 @@
-# jiajia/models/sample.py
+# xasset/models/sample.py
 import uuid
 from datetime import datetime, timezone
 from typing import Optional
@@ -6,7 +6,7 @@ from sqlalchemy import String, Integer, DateTime
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.orm import Mapped, mapped_column
 from pgvector.sqlalchemy import Vector
-from jiajia.db.base import Base
+from xasset.db.base import Base
 
 STYLE_VECTOR_DIM = 128
 PARTITION_VECTOR_DIM = 64

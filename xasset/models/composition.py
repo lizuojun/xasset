@@ -1,10 +1,10 @@
-# jiajia/models/composition.py
+# xasset/models/composition.py
 import uuid
 from typing import Optional
 from sqlalchemy import String, Integer, ForeignKey
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.orm import Mapped, mapped_column
-from jiajia.db.base import Base
+from xasset.db.base import Base
 
 
 class GroupInstance(Base):

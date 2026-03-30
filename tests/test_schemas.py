@@ -2,8 +2,8 @@
 import uuid
 import pytest
 from pydantic import ValidationError
-from jiajia.schemas.asset import AssetDefinitionCreate, AssetInstanceCreate
-from jiajia.schemas.commerce import CommerceMetadataRead, ListingCreate
+from xasset.schemas.asset import AssetDefinitionCreate, AssetInstanceCreate
+from xasset.schemas.commerce import CommerceMetadataRead, ListingCreate
 
 def test_asset_definition_create_valid():
     data = AssetDefinitionCreate(

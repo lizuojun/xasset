@@ -1,5 +1,5 @@
 # tests/test_connection.py
-from jiajia.db.connection import engine
+from xasset.db.connection import engine
 
 
 async def test_db_connection():

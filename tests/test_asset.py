@@ -1,7 +1,7 @@
 # tests/test_asset.py
 import pytest
 from sqlalchemy import select
-from jiajia.models.asset import AssetDefinition, AssetInstance
+from xasset.models.asset import AssetDefinition, AssetInstance
 
 async def test_create_asset_definition(session):
     asset = AssetDefinition(
@@ -77,7 +77,7 @@ async def test_placed_instance_has_scene_id(session):
 
 
 # 追加到 tests/test_asset.py 末尾
-from jiajia.repositories.asset import AssetRepository
+from xasset.repositories.asset import AssetRepository
 
 async def test_asset_repo_create_and_get(session):
     repo = AssetRepository(session)

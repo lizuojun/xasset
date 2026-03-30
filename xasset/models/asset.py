@@ -1,11 +1,11 @@
-# jiajia/models/asset.py
+# xasset/models/asset.py
 import uuid
 from datetime import datetime, timezone
 from typing import Optional
 from sqlalchemy import String, DateTime, ForeignKey, Enum
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from jiajia.db.base import Base
+from xasset.db.base import Base
 
 def _now() -> datetime:
     return datetime.now(timezone.utc)
@@ -99,4 +99,4 @@ class AssetInstance(Base):
 
 
 # 延迟导入避免循环引用
-from jiajia.models.commerce import CommerceMetadata  # noqa: E402
+from xasset.models.commerce import CommerceMetadata  # noqa: E402

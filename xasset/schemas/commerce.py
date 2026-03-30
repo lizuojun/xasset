@@ -1,4 +1,4 @@
-# jiajia/schemas/commerce.py
+# xasset/schemas/commerce.py
 import uuid
 from typing import Literal, Optional
 from pydantic import BaseModel, field_validator

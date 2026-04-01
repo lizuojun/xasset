@@ -1,0 +1,688 @@
+{
+  "830906a7-3d44-4ca2-ac84-f862581f56b9":{
+                                "id": "830906a7-3d44-4ca2-ac84-f862581f56b9",
+                                "type": "door/single swing door",
+                                "style": "Swedish",
+                                "size": [
+                                    85.5,
+                                    256.74,
+                                    18.6788
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    2.478542,
+                                    0,
+                                    -0.112159
+                                ],
+                                "rotation": [
+                                    0,
+                                    0.7071067811865475,
+                                    0,
+                                    0.7071067811865476
+                                ],
+                                "entityId": "20869",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/830906a7-3d44-4ca2-ac84-f862581f56b9/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.855,
+                                        0.001
+                                    ],
+                                    "seam": false,
+                                    "material_id": "20933",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "c3bf351c-cc0d-4bf9-8f1e-09d4d1c06a48":{
+                                "id": "c3bf351c-cc0d-4bf9-8f1e-09d4d1c06a48",
+                                "type": "door/single swing door",
+                                "style": "Contemporary",
+                                "size": [
+                                    74.349,
+                                    200.082,
+                                    12.5951
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    2.478542,
+                                    0,
+                                    -2.23408
+                                ],
+                                "rotation": [
+                                    0,
+                                    0.7071067811865475,
+                                    0,
+                                    0.7071067811865476
+                                ],
+                                "entityId": "21064",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/c3bf351c-cc0d-4bf9-8f1e-09d4d1c06a48/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.001,
+                                        0.373321
+                                    ],
+                                    "seam": false,
+                                    "material_id": "21128",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "6572c77e-233f-464f-a44c-8ac14e39e206": {
+                                "id": "6572c77e-233f-464f-a44c-8ac14e39e206",
+                                "type": "door/single swing door",
+                                "style": "Contemporary",
+                                "size": [
+                                    75.5766,
+                                    210.0,
+                                    5.9516
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    0.230859,
+                                    0,
+                                    -3.535941
+                                ],
+                                "rotation": [
+                                    0,
+                                    1.0,
+                                    0,
+                                    6.123233995736766e-17
+                                ],
+                                "entityId": "20999",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/6572c77e-233f-464f-a44c-8ac14e39e206/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.751766,
+                                        2.096
+                                    ],
+                                    "seam": false,
+                                    "material_id": "21063",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "8dd9a4d5-c6cf-4632-8224-81aad445de49": {
+                                "id": "8dd9a4d5-c6cf-4632-8224-81aad445de49",
+                                "type": "door/single swing door",
+                                "style": "Contemporary",
+                                "size": [
+                                    80.6232,
+                                    199.901,
+                                    7.41763
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    -2.411721,
+                                    0,
+                                    -3.535941
+                                ],
+                                "rotation": [
+                                    0,
+                                    1.0,
+                                    0,
+                                    6.123233995736766e-17
+                                ],
+                                "entityId": "21129",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/8dd9a4d5-c6cf-4632-8224-81aad445de49/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.001,
+                                        0.001
+                                    ],
+                                    "seam": false,
+                                    "material_id": "21193",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "8d05415a-f235-4899-a4ba-346c1201a77d": {
+                                "id": "8d05415a-f235-4899-a4ba-346c1201a77d",
+                                "type": "door/single swing door",
+                                "style": "Contemporary",
+                                "size": [
+                                    67.5367,
+                                    200.0,
+                                    14.6969
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    -4.134611,
+                                    0,
+                                    -3.535941
+                                ],
+                                "rotation": [
+                                    0,
+                                    1.0,
+                                    0,
+                                    6.123233995736766e-17
+                                ],
+                                "entityId": "21194",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/8d05415a-f235-4899-a4ba-346c1201a77d/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.539648,
+                                        0.001
+                                    ],
+                                    "seam": false,
+                                    "material_id": "21258",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "0db2e0bd-4c3f-435b-98f9-24a20e79bc86": {
+                                "id": "0db2e0bd-4c3f-435b-98f9-24a20e79bc86",
+                                "type": "door/single swing door",
+                                "style": "Contemporary",
+                                "size": [
+                                    80.0,
+                                    210.0,
+                                    20.2684
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    -5.253607,
+                                    0,
+                                    -3.535941
+                                ],
+                                "rotation": [
+                                    0,
+                                    1.0,
+                                    0,
+                                    6.123233995736766e-17
+                                ],
+                                "entityId": "21259",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/0db2e0bd-4c3f-435b-98f9-24a20e79bc86/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.001,
+                                        0.001
+                                    ],
+                                    "seam": false,
+                                    "material_id": "21323",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "64399682-75fb-4e52-a176-f3dbd33c3d2e": {
+                                "id": "64399682-75fb-4e52-a176-f3dbd33c3d2e",
+                                "type": "door/single swing door",
+                                "style": "Contemporary",
+                                "size": [
+                                    94.0,
+                                    215.0,
+                                    17.6766
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    -6.988233,
+                                    0,
+                                    -3.535941
+                                ],
+                                "rotation": [
+                                    0,
+                                    1.0,
+                                    0,
+                                    6.123233995736766e-17
+                                ],
+                                "entityId": "21324",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/64399682-75fb-4e52-a176-f3dbd33c3d2e/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.552706,
+                                        2.082025
+                                    ],
+                                    "seam": false,
+                                    "material_id": "21388",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "26783a91-e740-4754-a0ee-780955a1cad9":{
+                                "id": "26783a91-e740-4754-a0ee-780955a1cad9",
+                                "type": "door/single swing door",
+                                "style": "Contemporary",
+                                "size": [
+                                    98.4499,
+                                    280.216,
+                                    11.9701
+                                ],
+                                "scale": [
+                                    1,
+                                    0.815442,
+                                    1
+                                ],
+                                "position": [
+                                    -1.182466,
+                                    0,
+                                    -3.535941
+                                ],
+                                "rotation": [
+                                    0,
+                                    1.0,
+                                    0,
+                                    6.123233995736766e-17
+                                ],
+                                "entityId": "21457",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/26783a91-e740-4754-a0ee-780955a1cad9/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.967362,
+                                        2.785961
+                                    ],
+                                    "seam": false,
+                                    "material_id": "21521",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "11ef000a-e695-40f6-b58d-545af639519a": {
+                                "id": "11ef000a-e695-40f6-b58d-545af639519a",
+                                "type": "door/single swing door",
+                                "style": "Swedish",
+                                "size": [
+                                    80.0,
+                                    223.839,
+                                    18.7
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    -2.382606,
+                                    0,
+                                    2.834101
+                                ],
+                                "rotation": [
+                                    0,
+                                    -0.0,
+                                    0,
+                                    1.0
+                                ],
+                                "entityId": "16662",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/11ef000a-e695-40f6-b58d-545af639519a/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.444,
+                                        1.162389
+                                    ],
+                                    "seam": false,
+                                    "material_id": "16726",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "1a236bad-8523-4fa5-a59d-33d1f44015f1": {
+                                "id": "1a236bad-8523-4fa5-a59d-33d1f44015f1",
+                                "type": "door/single swing door",
+                                "style": "Swedish",
+                                "size": [
+                                    80.2214,
+                                    220.246,
+                                    17.6862
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    -5.080439,
+                                    0,
+                                    2.834101
+                                ],
+                                "rotation": [
+                                    0,
+                                    -0.0,
+                                    0,
+                                    1.0
+                                ],
+                                "entityId": "16727",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/1a236bad-8523-4fa5-a59d-33d1f44015f1/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.65,
+                                        2.2
+                                    ],
+                                    "seam": false,
+                                    "material_id": "16791",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "117721a4-7ae5-4528-ac71-9db54cb5c5c5": {
+                                "id": "117721a4-7ae5-4528-ac71-9db54cb5c5c5",
+                                "type": "door/single swing door",
+                                "style": "Swedish",
+                                "size": [
+                                    80.0549,
+                                    220.246,
+                                    17.6862
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    -3.526613,
+                                    0,
+                                    2.834101
+                                ],
+                                "rotation": [
+                                    0,
+                                    -0.0,
+                                    0,
+                                    1.0
+                                ],
+                                "entityId": "16795",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/117721a4-7ae5-4528-ac71-9db54cb5c5c5/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.65,
+                                        2.2
+                                    ],
+                                    "seam": false,
+                                    "material_id": "16859",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "2e7dd6ee-cee1-46b0-b884-dfdfc7a6b1cb": {
+                                "id": "2e7dd6ee-cee1-46b0-b884-dfdfc7a6b1cb",
+                                "type": "door/single swing door",
+                                "style": "Swedish",
+                                "size": [
+                                    85.5,
+                                    256.74,
+                                    18.6788
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    -0.505691,
+                                    0,
+                                    2.834101
+                                ],
+                                "rotation": [
+                                    0,
+                                    -0.0,
+                                    0,
+                                    1.0
+                                ],
+                                "entityId": "16860",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/2e7dd6ee-cee1-46b0-b884-dfdfc7a6b1cb/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.73175,
+                                        1.519174
+                                    ],
+                                    "seam": false,
+                                    "material_id": "16924",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "c7a42a63-9389-4a5a-a005-705cbaef2c21": {
+                                "id": "c7a42a63-9389-4a5a-a005-705cbaef2c21",
+                                "type": "door/single swing door",
+                                "style": "Swedish",
+                                "size": [
+                                    80.2214,
+                                    220.246,
+                                    17.6862
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    -6.954293,
+                                    0,
+                                    2.834101
+                                ],
+                                "rotation": [
+                                    0,
+                                    -0.0,
+                                    0,
+                                    1.0
+                                ],
+                                "entityId": "20934",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/c7a42a63-9389-4a5a-a005-705cbaef2c21/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.65,
+                                        2.2
+                                    ],
+                                    "seam": false,
+                                    "material_id": "20998",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            },
+  "39a1ac45-c7ad-41ba-889f-357f84650e77": {
+                                "id": "39a1ac45-c7ad-41ba-889f-357f84650e77",
+                                "type": "door/single swing door",
+                                "style": "Contemporary",
+                                "size": [
+                                    85.5,
+                                    256.74,
+                                    10.0
+                                ],
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "position": [
+                                    1.479445,
+                                    0,
+                                    2.087406
+                                ],
+                                "rotation": [
+                                    0,
+                                    0.7071067811865475,
+                                    0,
+                                    0.7071067811865476
+                                ],
+                                "entityId": "16925",
+                                "categories": [],
+                                "pocket": {
+                                    "jid": "",
+                                    "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/39a1ac45-c7ad-41ba-889f-357f84650e77/pocket_tex.jpg",
+                                    "color": null,
+                                    "colorMode": "texture",
+                                    "size": [
+                                        0.73175,
+                                        1.519174
+                                    ],
+                                    "seam": false,
+                                    "material_id": "16989",
+                                    "area": -1
+                                },
+                                "unit_to_room": "",
+                                "unit_to_type": "",
+                                "group": "",
+                                "role": "door",
+                                "count": 1,
+                                "relate": "",
+                                "relate_group": "",
+                                "relate_position": []
+                            }
+}

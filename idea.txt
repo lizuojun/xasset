@@ -1,0 +1,90 @@
+Script:Json->QML/HTML->Action+Value
+
+1-0 
+----------------------------------------------------------------------------------
+Asset Object:
+Labeling: id type(group/role) style(1/2/3) size/scale
+Segmeting & Grouping:
+Modeling & Styling: difficult ???
+
+Data Base:
+OSS+SQLite: data store access 
+----------------------------------------------------------------------------------
+
+1-1 Program for Raw Asset
+----------------------------------------------------------------------------------
+Algorithm: Image -> Scene Description -> Raw Asset Data ( scene-layout-lihgt-navigation-action-animation ) -> IP Asset ( log-ip )
+
+DataStructure:
+
+city
+	road
+		group
+	park
+		build
+			layer
+			stair
+	yard
+		group
+wild
+	type: topography… hydrology…
+	terrain
+	stone
+	plant
+	water
+	
+house
+
+wall:
+
+room:
+	type
+	area
+	shape
+	style
+	//
+	wall
+	floor
+	ceiling
+	//
+	door
+	hole
+	window
+	//
+	decorate: jid type style size scale position rotation
+	//
+	furniture: jid type style size scale position rotation
+	
+layout
+	group
+		type: meeting/bed；dining/work/rest；cabinet 
+		size
+		offset
+		position
+		rotation
+		relate
+		size_min
+		size_rest
+		obj_main
+		obj_type
+		obj_list: type style size scale position rotation role
+		
+light && view
+
+----------------------------------------------------------------------------------
+		
+1-2 Program for USD Asset
+----------------------------------------------------------------------------------
+navigation-action-animation
+----------------------------------------------------------------------------------
+
+
+		
+2-1 USD To Image/Vedio/Game
+
+2-2 Application/Plugin NLP->Content
+
+		
+
+
+

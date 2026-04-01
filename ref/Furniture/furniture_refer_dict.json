@@ -1,0 +1,1422 @@
+{
+    "type": {
+        "sofa": [
+            "single seat sofa",
+            "double seat sofa",
+            " multi seat sofa",
+            "sofa set",
+            "left corner sofa",
+            "right corner sofa",
+            "lounge chair",
+            "ottoman"
+        ],
+        "bed": [
+            "king-size bed",
+            "queen-size bed",
+            "single bed",
+            "matress",
+            "crib"
+        ],
+        "media unit": [
+            "floor-based media unit",
+            "wall-attached media unit"
+        ],
+        "rug": [
+            "rug"
+        ],
+        "table": [
+            "table",
+            "side table",
+            "night table",
+            "dining table",
+            "dining table - round",
+            "dining table - square",
+            "coffee table - round",
+            "coffee table - rectangular",
+            "coffee table - irregular shape",
+            "console table",
+            "majiang table",
+            "kitchen kart"
+        ],
+        "chair": [
+            "chair",
+            "armchair",
+            "bar chair"
+        ],
+        "plants": [
+            "plants - on top of others",
+            "plants - floor-based"
+        ],
+        "accessory": [
+            "accessory - floor-based",
+            "accessory - on top of others",
+            "pillow",
+            "bathroom accessory - wall-attached",
+            "clock - on top of others",
+            "bathroom accessory - on top of others",
+            "clothes",
+            "accessory - wall-attached",
+            "bathroom accessory - floor-based",
+            "accessory - ceiling-attached",
+            "clock - wall-attached",
+            "clock - floor-based",
+            "bathroom accessory - ceiling-attached",
+            "bedding"
+        ],
+        "shelf": [
+            "book shelf",
+            "decorative shelf"
+        ],
+        "cabinet": [
+            "hutch&buffet",
+            "bookcase - L shaped",
+            "floor-based cabinet",
+            "wall-attached cabinet",
+            "floor-based kitchen cabinet"
+        ],
+        "storage unit": [
+            "armoire",
+            "armoire - L shaped",
+            "floor-based storage unit",
+            "wall-attached storage unit",
+            "stackable storage unit",
+            "dresser"
+        ],
+        "appliance": [
+            "others",
+            "appliance - on top of others",
+            "refrigerator",
+            "room heater",
+            "bathroom heater with light",
+            "ventilation - wall-attached",
+            "ventilation - ceiling-attached",
+            "water heater - electrical",
+            "appliance - floor-based",
+            "bathroom heater",
+            "range & cooktop",
+            "water heater - gas",
+            "appliance - wall-attached",
+            "washer",
+            "appliance - ceiling-attached"
+        ],
+        "electronics": [
+            "TV - wall-attached",
+            "TV - on top of others",
+            "air-conditioner - floor-based",
+            "air-conditioner - wall-attached",
+            "computer"
+        ],
+        "recreation": [
+            "musical instrument"
+        ],
+        "art": [
+            "art - wall-attached"
+        ],
+        "mirror": [
+            "floor-based mirror",
+            "wall-attached mirror"
+        ],
+        "vanity": [
+            "single vanity - wall-attached"
+        ],
+        "wardrobe": [
+            "hanging clothes"
+        ],
+        "electric": [
+            "socket strong - five-hole socket",
+            "socket strong - multi-function socket",
+            "switch - yuba switch",
+            "switch - quadruple switch",
+            "socket weak - telephone jack+network",
+            "socket strong - three-hole socket",
+            "switch - single switch",
+            "socket weak - tv cable+network",
+            "switch - tandem switch",
+            "socket weak - telephone jack",
+            "socket strong - air-conditioning outlet",
+            "switch - triple switch",
+            "switch - waterproof switch",
+            "socket strong - five-hole socket (with switch )",
+            "distribution box",
+            "socket strong - three-hole socket (with switch )",
+            "weak box",
+            "socket weak - tv cable",
+            "waterproof panel"
+        ],
+        "attachment": [
+            "taps"
+        ],
+        "lighting": [
+            "pendant light",
+            "floor lamp",
+            "desk lamp",
+            "ceiling light",
+            "downlight",
+            "wall lamp",
+            "track-mounted spotlight- ceiling-attached",
+            "single spotlight - ceiling-attached"
+        ],
+        "door": [
+            "single swing door",
+            "double sliding door",
+            "double swing door - asymmetrical",
+            "entry",
+            "folding door 2-2",
+            "double swing door - symmetrical",
+            "door window",
+            "quad sliding door",
+            "triple sliding door",
+            "folding door 3",
+            "folding door 3-3",
+            "folding door 1-4",
+            "folding door 4"
+        ],
+        "barn door": [
+            "barn door"
+        ],
+        "window": [
+            "window",
+            "floor-based window",
+            "bay window"
+        ],
+        "curtain": [
+            "curtain"
+        ],
+        "stair": [
+            "straight stair",
+            "spiral stair - left",
+            "stair - left-turn",
+            "stair - right-turn",
+            "spiral stair - right"
+        ],
+        "material": [
+            "paint",
+            "flooring - reinforced",
+            "wallpaper",
+            "wood - high gloss"
+        ],
+        "build element": [
+            "railing",
+            "floor drain",
+            "gypsum ceiling",
+            "toilet hole",
+            "background wall",
+            "wainscot",
+            "seam filler",
+            "beam",
+            "air-conditioning vent",
+            "fireplace",
+            "column",
+            "air conditioning opening",
+            "kitchen ceiling",
+            "wall upholstery",
+            "baseboard"
+        ],
+        "outdoor furniture": [
+            "outdoor furniture - floor-based",
+            "playground equipment",
+            "outdoor furniture - wall-attached"
+        ],
+        "200 - on the floor": "",
+        "300 - on top of others": "",
+        "400 - attach to wall": "",
+        "500 - attach to ceiling": "",
+        "bath": [
+            "freestanding bath",
+            "cornered bath",
+            "drop-in bath"
+        ],
+        "basin": [
+            "floor-based single basin with cabinet",
+            "single basin - on top of others",
+            "floor-based double basin with cabinet"
+        ],
+        "shower": [
+            "wall-attached shower head",
+            "shower screen",
+            "floor based shower room",
+            "ceiling-attached shower head",
+            "wall-attached shower room"
+        ],
+        "toilet": [
+            "floor-based toilet",
+            "wall-attached toilet"
+        ],
+        "water": [
+            "hot water",
+            "cold hot water",
+            "water supply",
+            "cold water"
+        ],
+        "sink": [
+            "drop-in double kitchen sink",
+            "drop-in single kitchen sink"
+        ],
+        "meter": [
+            "water meter",
+            "gas meter"
+        ],
+        "kitchen cabinet": [
+            "cbnt door",
+            "cbnt handle type 0",
+            "cbnt drawer",
+            "cbnt handle type 1",
+            "high cabinet",
+            "base cabinet",
+            "cbnt component",
+            "cbnt flip door",
+            "wall cabinet",
+            "corner wall cabinet",
+            "corner base cabinet",
+            "cbnt appliance",
+            "cbnt deco panel"
+        ]
+    },
+    "style_ch": {
+        "欧式": "Victorian",
+        "欧式/古典": "Victorian",
+        "新古典": "Classic",
+        "欧式新古典": "Classic",
+        "简欧/新古典": "Classic",
+        "明清古典": "Asian Antique",
+        "复古怀旧": "Vintage",
+        "古董": "Antique",
+        "北欧": "Swedish",
+        "中世纪": "Midcentury",
+        "包豪斯": "Modern",
+        "地中海": "Mediterranean",
+        "托斯卡纳": "Tuscan",
+        "波西米亚": "Bohemian Chic",
+        "中式": "Chinese Modern",
+        "现代中式": "Chinese Modern",
+        "新中式": "Chinese Modern",
+        "日式": "Japanese",
+        "韩式": "Korean Modern",
+        "东南亚": "Asian",
+        "伊斯兰": "Islamic",
+        "美式乡村": "Country",
+        "简约现代": "Contemporary",
+        "现代": "Contemporary",
+        "工业风": "Industrial",
+        "都市风": "Urban",
+        "年代风": "Retro",
+        "海滩风": "Beach",
+        "热带风": "Tropical",
+        "沿海": "Coastal",
+        "小屋": "Cottage",
+        "田园": "Rural",
+        "花园": "Garden",
+        "冷色调": "Cold Color",
+        "暖色调": "Warm Color",
+        "粗朴": "Rustic",
+        "传统": "Traditional",
+        "轻奢": "Light Luxury",
+        "极简": "Minimal",
+        "极简主义": "Minimalist",
+        "混搭/折衷主义": "Eclectic",
+        "放客风格": "Funky",
+        "过渡风格": "Transitional",
+        "新怀旧风格": "Shabby Chic",
+        "环保设计": "Eco friendly/Green design",
+        "可回收": "Recycled",
+        "其他": "Other"
+    },
+    "style_en": {
+        "victorian": "欧式/古典",
+        "oldeuropean": "欧式/古典",
+        "european": "欧式",
+        "classic": "简欧/新古典",
+        "europeanstyle": "简欧/新古典",
+        "neo-classical": "简欧/新古典",
+        "neoclassical": "简欧/新古典",
+        "asian antique": "明清古典",
+        "vintage": "复古怀旧",
+        "antique": "古董",
+        "swedish": "北欧",
+        "nordic": "北欧",
+        "north-europe": "北欧",
+        "northeuropean": "北欧",
+        "midcentury": "中世纪",
+        "modern": "包豪斯",
+        "mediterranean": "地中海",
+        "tuscan": "托斯卡纳",
+        "bohemian chic": "波西米亚",
+        "chinese": "中式",
+        "chinese modern": "新中式",
+        "chinesestyle": "新中式",
+        "japan": "日式",
+        "japanese": "日式",
+        "jp": "日式",
+        "korea": "韩式",
+        "korean modern": "韩式",
+        "asan": "东南亚",
+        "asian": "东南亚",
+        "islamic": "伊斯兰",
+        "country": "美式乡村",
+        "us": "美式乡村",
+        "contemporary": "现代",
+        "industrial": "工业风",
+        "urban": "都市风",
+        "retro": "年代风",
+        "beach": "海滩风",
+        "tropical": "热带风",
+        "coastal": "沿海",
+        "cottage": "小屋",
+        "rural": "田园",
+        "garden": "花园",
+        "cold color": "冷色调",
+        "warm color": "暖色调",
+        "rustic": "粗朴",
+        "traditional": "传统",
+        "light luxury": "轻奢",
+        "lightluxury": "轻奢",
+        "minimal": "极简",
+        "minimalist": "极简主义",
+        "eclectic": "混搭/折衷主义",
+        "mashup": "混搭/折衷主义",
+        "funky": "放客风格",
+        "transitional": "过渡风格",
+        "shabby chic": "新怀旧风格",
+        "eco friendly/green design": "环保设计",
+        "recycled": "可回收",
+        "emptystyle": "其他",
+        "other": "其他"
+    },
+    "style_id": {
+        "欧式/古典": "d84db045-a586-407a-a64a-b0d600892e9a",
+        "简欧/新古典": "df35651d-e5a2-4d7a-a307-773ad805f30c",
+        "明清古典": "4a261e17-e919-49b2-9e5d-f094709a9f96",
+        "复古怀旧": "7e3ec1fd-0d9a-43ef-8167-61c7ff9c7a24",
+        "古董": "0b0b8f0b-884e-46e6-8b17-5964abb2ba31",
+        "北欧": "63425d9c-9fe6-4375-8ba9-92719d02f1be",
+        "中世纪": "9d461d36-3e81-461b-b9d0-db8e53540b7c",
+        "包豪斯": "8ed90df1-5f71-4181-932e-aba665cf3b07",
+        "地中海": "e60d4fba-b21c-4f0b-a28f-3b59e1f8045b",
+        "托斯卡纳": "b108b365-679a-4bb6-a077-b9bed46f7867",
+        "波西米亚": "520b0e8d-07af-4173-85a9-e68813dfab75",
+        "新中式": "470671d7-5a75-4fdd-9f5f-e7d7dc381a70",
+        "日式": "f1e5f869-97e3-42d6-b9f5-6a05365b14b3",
+        "韩式": "876cb593-b746-406b-ba6f-72cffae1be2d",
+        "东南亚": "df35651d-e5a2-4d7a-a307-773ad805f30b",
+        "美式乡村": "9f32a5c1-f999-4dda-9f9e-2a23d26c4863",
+        "现代": "19b9974d-363d-47df-81b5-81893d48a813",
+        "工业风": "f391c520-135f-4f26-9709-13875fdef33a",
+        "都市风": "646ee04a-2081-4033-b6ae-9061c618552f",
+        "年代风": "bf20d41f-e36e-4d0c-a202-884768d2c4c5",
+        "海滩风": "bbba88cc-4237-479f-99ca-dbd6456f08a5",
+        "热带风": "48be9875-5fbc-4acb-ab45-1875f1805a46",
+        "沿海": "d8a22e80-1f30-42e5-aef2-bc3e84f792a5",
+        "花园": "96771837-ac1e-4916-a361-0020d509d8cc",
+        "冷色调": "4de95dc2-bc94-47ef-802d-f2e70de98aa3",
+        "暖色调": "0b0b0fb3-5e83-4ea3-a347-49b8349c9fda",
+        "粗朴": "1229d5b9-cb5f-4519-9d13-28776b723482",
+        "传统": "58a749dc-4159-44e6-9edb-10195bc3a275",
+        "轻奢": "96771847-ac1e-4916-a361-0020d509d8df",
+        "极简": "6cdde02f-c8da-4c94-8c83-98fb81dee754",
+        "极简主义": "77aff27e-fb52-4f48-9f97-ab9edf3f6d06",
+        "混搭/折衷主义": "f8eb977e-990d-4364-b5e2-397243464f46",
+        "放客风格": "a48926bf-941c-41fe-bb53-093cfb44b3c2",
+        "过渡风格": "000fe44b-bd21-4d86-bc41-bda4c714855b",
+        "新怀旧风格": "208f515d-0955-4893-857c-ccd9e46abf1e",
+        "环保设计": "556b0318-11d2-4862-b472-5d5a69a94a0d",
+        "可回收": "9cde3ec8-90b7-445b-a897-436ed76e15a6",
+        "其他": "c3cd1c9b-a5d0-4e83-ad17-3c729d84aa9d"
+    },
+    "style_room": {
+        "新古典": [
+            "新古典",
+            "简欧/新古典",
+            "欧式/古典"
+        ],
+        "北欧": [
+            "北欧",
+            "现代",
+            "极简"
+        ],
+        "欧式": [
+            "欧式",
+            "简欧/新古典",
+            "欧式/古典"
+        ],
+        "地中海": [
+            "地中海",
+            "海滩风"
+        ],
+        "中式": [
+            "中式",
+            "新中式",
+            "明清古典"
+        ],
+        "日式": [
+            "日式",
+            "北欧"
+        ],
+        "韩式": [
+            "韩式",
+            "日式"
+        ],
+        "东南亚": [
+            "东南亚",
+            "波西米亚",
+            "热带风"
+        ],
+        "美式乡村": [
+            "美式乡村"
+        ],
+        "田园": [
+            "美式乡村"
+        ],
+        "现代": [
+            "现代",
+            "北欧",
+            "极简",
+            "工业风",
+            "环保设计",
+            "极简主义"
+        ],
+        "轻奢": [
+            "轻奢",
+            "北欧",
+            "日式",
+            "现代",
+            "极简",
+            "都市风"
+        ],
+        "混搭": [
+            "混搭/折衷主义"
+        ]
+    },
+    "style_object": {
+        "明清古典": [
+            "明清古典"
+        ],
+        "欧式/古典": [
+            "欧式/古典"
+        ],
+        "古董": [
+            "古董",
+            "粗朴",
+            "波西米亚"
+        ],
+        "复古怀旧": [
+            "复古怀旧",
+            "粗朴",
+            "年代风",
+            "古董"
+        ],
+        "简欧/新古典": [
+            "简欧/新古典",
+            "欧式"
+        ],
+        "北欧": [
+            "北欧",
+            "日式"
+        ],
+        "中世纪": [
+            "中世纪",
+            "欧式/古典"
+        ],
+        "地中海": [
+            "地中海",
+            "海滩风",
+            "沿海"
+        ],
+        "波西米亚": [
+            "波西米亚",
+            "东南亚",
+            "海滩风",
+            "花园"
+        ],
+        "新中式": [
+            "新中式"
+        ],
+        "日式": [
+            "日式",
+            "北欧"
+        ],
+        "韩式": [
+            "韩式"
+        ],
+        "东南亚": [
+            "东南亚",
+            "海滩风"
+        ],
+        "美式乡村": [
+            "美式乡村",
+            "放客风格"
+        ],
+        "现代": [
+            "现代",
+            "都市风",
+            "极简",
+            "包豪斯"
+        ],
+        "都市风": [
+            "都市风",
+            "现代",
+            "工业风"
+        ],
+        "工业风": [
+            "工业风",
+            "现代",
+            "极简"
+        ],
+        "热带风": [
+            "热带风"
+        ],
+        "海滩风": [
+            "海滩风",
+            "东南亚",
+            "热带风"
+        ],
+        "轻奢": [
+            "轻奢",
+            "现代",
+            "都市风",
+            "极简",
+            "包豪斯"
+        ],
+        "粗朴": [
+            "粗朴",
+            "复古怀旧",
+            "工业风"
+        ],
+        "极简": [
+            "极简",
+            "工业风",
+            "环保设计",
+            "极简主义",
+            "冷色调"
+        ],
+        "环保设计": [
+            "环保设计",
+            "工业风",
+            "极简"
+        ],
+        "其他": [
+            "现代",
+            "混搭/折衷主义"
+        ]
+    },
+    "category_id": {
+        "组合沙发": "ce3a5686-8c2e-49c4-931a-041b0fb883b8",
+        "多人沙发": "81780f40-fa53-41c3-8579-65706f4ad50d",
+        "三人沙发": "d2a64592-caa7-4ab1-877e-561323315774",
+        "双人沙发": "a5af8349-bd50-46aa-b97a-2940125aafae",
+        "L型沙发": "58b818d4-2750-4ed9-bcde-59fb7c351769",
+        "U型沙发": "ad3a29e8-8c78-449c-83be-751954a0837a",
+        "单人沙发": "c2dcb449-4729-4cfe-9e38-1fc1453211a5",
+        "懒人沙发": "182f769f-981f-4a8e-9aef-7efe9917cf19",
+        "沙发贵妃椅": "cb8152d7-710f-4b4d-9ced-9a979899fc62",
+        "脚凳/墩": "d6bba626-68d1-4bd7-a32a-bd21457e54a0",
+        "脚凳/沙发凳": "dddf7d67-6277-4fd6-8fc1-7738295f9824",
+        "角几/边几": "5ad47fd2-b143-4af2-9961-e88a57b4a337",
+        "电视柜": "a1804c08-fbdc-4696-9c38-3d3b143c1b02",
+        "坐垫": "aa69f258-ac0d-4991-9759-5bbf01c14595",
+        "抱枕/靠垫": "f16360fe-c78b-4bc5-818d-1f8a48d45bb6",
+        "地毯": "cabb5091-b54f-4fe9-b990-a7ac1b1b2803",
+        "满铺地毯": "30846dc4-25a7-4fab-8ec2-135a7b34b241",
+        "装饰画": "85278e9e-3e38-4070-a0a3-6a798ae51b7a",
+        "挂饰": "8b070666-d82f-4aba-ac88-a4be3f28d619",
+        "挂画": "85278e9e-3e38-4070-a0a3-6a798ae51b7a",
+        "摆画": "eeae99c8-d581-4b97-a5f5-f2b17fbe81d4",
+        "照片墙": "8a0c7699-615e-468d-95f3-cf77008c3369",
+        "茶几": "9eaee326-16c4-4244-87d5-38e7b57a4e38",
+        "套几": "8d3ac449-fb6a-4a58-aaa9-c1c909adfecf",
+        "餐桌": "9161c9e8-49e8-48bd-9ee8-0c75dd267413",
+        "茶桌": "e3b9dbdf-8fd6-4754-b2a2-3fa63c3ab61c",
+        "吧台": "20cffbc8-c1b6-4bab-b279-cd07d0e1c493",
+        "八仙桌": "15fc9ef6-d7ab-4b85-8734-c1b0c0754bb2",
+        "麻将桌": "ed304158-1586-456c-ae38-de9674edd90f",
+        "咖啡桌": "1c76e5ab-df3a-4334-aed3-64b8ed7d39fb",
+        "咖啡几": "03999881-7cd8-4fe8-9445-5a7b636ff7c1",
+        "休闲几": "e9839521-1e30-489f-ab81-2e101c6900b1",
+        "梳妆台": "469c4481-d969-416f-8796-988cc28ca9c3",
+        "洽谈桌椅": "3ed785b5-df30-4db8-b49f-4c06c125ec59",
+        "花几/香几": "d27ad798-da7c-4e05-9eb6-74715dc0e4e5",
+        "书桌/书台": "5c76d84c-aa8c-4bb8-88fc-cbf8da81be71",
+        "书桌椅组合": "e3ff8ac0-0c0a-4162-81db-1fca3dac056a",
+        "凳": "5b4dc4ea-d84e-4b21-8cec-f2d090c61275",
+        "卡座": "2deebec6-ea58-4603-9099-5ae9458bbc4d",
+        "餐椅": "30c7fefc-a32e-48e1-9458-dfab61595dc7",
+        "书椅": "6b1f9a31-9363-4e63-ae8d-28b5277aebf0",
+        "躺椅": "1de7612f-f4a9-4d48-9542-a3310a713433",
+        "摇椅": "23f59e7f-c74d-42a6-9ce1-098174e26d78",
+        "吊椅": "ca5d3593-70ff-4383-b98f-9230fdceae5d",
+        "圈椅": "25dedc25-ce06-4f0a-a05f-58232ba34eaa",
+        "围椅": "6c5f2c82-db0c-403b-8fa4-1dec57e527a8",
+        "吧椅": "6f6caf36-5e5d-49d9-ba50-b76aaee86073",
+        "交椅": "f0f160bf-8267-4cad-a0f0-9da517a1ae8f",
+        "办公椅": "ed9c348d-c0f6-4374-8367-78ef3b862026",
+        "休闲椅": "f2c08afc-68c8-42a7-b62c-1b648f87edba",
+        "折叠椅": "60f05ae9-077f-4b52-905d-31fb5a4d5998",
+        "按摩椅": "126722b5-f356-467f-8c8c-814bb0a20f05",
+        "太师椅": "955a9edf-0696-4f00-9b16-9ffc7f918b91",
+        "电脑椅": "150d721b-609a-436c-be47-bb2cf2bfb30c",
+        "梳妆椅": "5f38bce6-8bd2-4d41-bdbc-e76cbc87d309",
+        "梳妆凳": "509c9c2e-90ba-46f5-88ec-ad78e228a744",
+        "办公桌椅": "9a44fdee-fd49-4756-a2d7-86d8b8f575c1",
+        "餐桌椅组合": "c280a0a3-4a30-4683-8f8d-f55da3f7b53a",
+        "休闲桌椅组合": "627a1dc7-7f05-4872-b3fc-df4bfa1e59c9",
+        "其他中式椅": "1c1177a0-01db-40d5-830c-5f320a72e637",
+        "台灯": "28bf7153-4059-4ff2-aeb0-5b4f35b7133a",
+        "电脑": "506f8b56-81a8-4017-9982-2c597c3bff8a",
+        "音响": "2affb8af-fe5b-4e38-81e4-e5765c80c97b",
+        "瓷器": "ad927e3c-d082-43c4-8dba-e72ca43ba490",
+        "花卉": "f168f93c-351e-4224-aa36-b08441933739",
+        "绿植": "7126c163-836c-4fcd-be09-e612a06a2649",
+        "干支": "9647e1cb-dbbe-4d82-aa8e-68c393e77eb8",
+        "书本杂志": "49801d4a-6610-4b95-80ef-557869ace825",
+        "相框": "cfd8d0f6-7470-4965-add9-0a15fe717fa4",
+        "餐厨用具": "487cf3c3-3dcb-4a71-b222-ce6880057ef4",
+        "餐具": "642b2c31-4dc9-4880-9308-d225a7f876ca",
+        "化妆品": "bbbd6fb4-1ae5-484b-b22c-1e600eef954a",
+        "办公用品": "e02f7519-0d5f-4658-8c0a-3c528952669c",
+        "办公电器": "1f985c08-2350-41e2-ade3-b88f9ae862f2",
+        "办公装饰": "30318601-3e75-4bd5-bf4d-5d298678fa68",
+        "茶台/茶海": "2260695d-c2a1-4a08-a06c-b3be36a4e5d1",
+        "电视": "438a813a-502e-4376-893d-eac6523e1ca7",
+        "冰箱": "09393e8c-9016-4436-b2b9-ead147fe555a",
+        "空调": "f55db167-c365-4d00-8b0a-7e0ba65c20f2",
+        "大家电": "40b9ed72-2a8d-421c-a5ca-5af81d4eb0a6",
+        "洗衣机": "f8e77f0a-068d-457f-9783-121ebb3ec821",
+        "洗衣机柜": "4a3180da-4bba-448a-a666-e5bda590fcf4",
+        "电器中高柜": "34b00d32-fb98-4c93-83e2-ad058721317f",
+        "饮水机": "14c2c236-18a1-4b0b-9777-e0a3db5cb7c4",
+        "净水器": "13ee7ac7-c443-4665-a8e4-7acefaf7c20b",
+        "投影仪": "6d91b80a-ceec-4b9a-b947-c5c73b457a6c",
+        "吸尘器": "55e2a159-72b7-4fd3-a88f-c8c163585db9",
+        "空气净化器": "733a3ce6-0d9e-4ae5-8c2a-a960154d52c9",
+        "吊顶电器": "cf5bce06-2d92-4f32-9cc8-db70137a227e",
+        "定制橱柜电器": "7c5138ed-ce33-4c77-89b2-1ca63ce2e9eb",
+        "双人床": "41ac92b5-5f88-46d0-a59a-e1ed31739154",
+        "单人床": "24670bf9-9c9f-41ae-b190-f5f65eab4ddb",
+        "组合床": "0e544b85-dd5f-49d7-a569-768ff4c1bba1",
+        "高低床": "4909c460-b0f0-4cd1-af59-4898c310f3f5",
+        "婴儿床": "e5118969-c2ae-494a-b63c-a80b0a6c163d",
+        "多功能床": "cc650fc9-02f3-47b0-b86e-1a2430c07059",
+        "豪华大床": "bb8b2c7e-cc9e-4e4e-a208-d76cb1dd6e11",
+        "贵妃床/塌": "366814a5-60f2-4b79-a741-69f4a03a1f37",
+        "罗汉床/榻": "6846f3f3-5e2c-465a-b1fc-f04b667626ef",
+        "榻榻米": "a9828314-ffb5-4902-a8fc-39803e320cb0",
+        "床头柜": "89404b8a-5bb6-42cf-95fa-73c9bfba4c97",
+        "炕几/床几": "29f336ea-3bae-4127-b589-eb5a89b25f39",
+        "床凳": "1a620859-3fda-444c-965f-e3d6893611a8",
+        "床架": "df5ff4d8-0524-42e5-beed-73ea20ac706f",
+        "床垫": "068b6f3a-95e7-4515-b0f2-15568008e3dc",
+        "床品": "411ca374-ef56-4ddf-a686-9407c6789b16",
+        "榻位部件": "0a3209e6-6b48-41e6-953c-6a76a9e98ea6",
+        "衣帽架": "fd556cb2-0677-4e11-961c-497375ae1f29",
+        "挂衣杆": "0a2d100f-c707-4042-a6a2-1385408ad4fd",
+        "顶装旋转衣架": "0b5a17cc-e7e4-41c8-b6d5-c46294664e63",
+        "衣柜": "2dd2368f-a3eb-43c2-8a6b-d585cd19d9a6",
+        "书柜": "0b71b677-e56e-4f5e-8e71-e675ea9a786b",
+        "鞋柜": "14d0d6c8-6857-4bbf-8c4a-26bf6c25c968",
+        "酒柜": "9e33036f-777c-4ef2-b7ea-e4189f1bf107",
+        "餐边柜": "2e336e49-2a54-46cb-bcee-67d2e5361e61",
+        "整体橱柜": "4c28f7eb-b2dc-4129-80e1-edcb11acb485",
+        "浴室柜/主柜": "64880d8a-9a44-4d0e-b704-e29903b718da",
+        "浴室柜/边柜": "a76de286-1ce2-4c63-ae84-0201e1c68015",
+        "浴室柜/镜柜": "788625f2-f9c6-423b-a799-a49aa8412b18",
+        "浴室柜/侧柜": "c36cc781-8d4f-496e-a10c-2a19d96317f3",
+        "浴室柜/高柜": "84fa847a-86d0-43ad-9ba1-d31fd3e58fb8",
+        "浴室柜/地柜": "7b7d75de-673e-4888-b9f5-c314858a8d95",
+        "边柜": "ce4d79f2-546b-46c3-97b5-7c69c2137780",
+        "壁柜": "28be6967-7122-4101-82c8-88f0daadaa5c",
+        "斗柜": "1462419b-2462-4632-aaaa-246285c9c07f",
+        "角柜": "2bce7083-bfb7-4a1d-88b4-807c553e8835",
+        "展柜": "8d7aacc8-d497-4179-bb08-b524c7dd53bc",
+        "开放柜": "c01efc22-3450-42da-9954-da821dd65f33",
+        "壁炉柜": "419932bc-92f1-4d3b-94b0-fa0f1b3a5a8f",
+        "饰物柜": "c3df3303-d48b-49f9-a9db-1c60f3d46964",
+        "玄关柜": "ca571dee-a41f-4289-a191-25007d4d5c37",
+        "书架": "f46d6117-fbfc-4580-b238-7b27d9d7d832",
+        "角架": "eecf4683-b6b3-4749-bf54-537238ffac37",
+        "装饰架": "78254347-9b60-4e74-ae7e-d0e31dd264e1",
+        "置物架": "0a5c9dd8-da3e-4e3e-82f9-e6e98941dc91",
+        "储物柜/架": "4ba1a497-f302-48cf-88fe-311de945f925",
+        "翻转鞋架": "32470490-95f5-49d5-9171-3ef5711701be",
+        "开门顶柜": "4d8b202d-9bcc-48de-afa0-71e99770f7bf",
+        "转角顶柜": "3e3cee0e-f3db-4d89-84a6-dc60ae96b104",
+        "开门底柜": "db5da5cc-5dc7-4ee1-8688-285c78ab8dd5",
+        "转角底柜": "daa326ef-c5d9-4455-bdf3-8e6d80fa21cd",
+        "开门中高柜": "f2d724e7-425d-4f39-8774-a8f90ee4c7f0",
+        "开门吊柜": "ebe4c25d-30b3-4daa-88b2-b890a802fa75",
+        "翻门吊柜": "892072d8-187a-46ce-b29f-d250bd2461cb",
+        "转角吊柜": "5d875032-426d-4461-ab7d-a0cb044ab39c",
+        "开放吊柜": "df8e4b01-2cf0-4020-b063-56fe1efcb825",
+        "功能吊柜": "10fd76dd-cfa6-4c16-900a-169e2366e5d0",
+        "工艺吊柜": "15c50d79-ab44-410b-81d8-20de10bc782a",
+        "开门地柜": "8ffd2431-5ade-44f8-9b41-3d40b20bc72d",
+        "转角地柜": "1ddf7df2-929b-4f1d-a181-520d99f94024",
+        "开放地柜": "c66f1409-955f-4166-90e0-7e60258c1a6f",
+        "功能地柜": "8f474175-3ebd-4437-94b8-510bbbb38d08",
+        "工艺地柜": "8d5e70fc-3453-4436-bb99-48c8e7f1976a",
+        "抽屉地柜": "f3fb63d4-e84f-48f2-bbf5-3ba3147f3f24",
+        "新定制柜体": "7cb238c3-4dd3-4aa6-9b95-93a4434b817a",
+        "柜体组件": "e47d7a36-2e97-419e-b622-be8821b2cc44",
+        "实木抽屉": "13143032-2eda-4fdc-b4a0-188bfe61402a",
+        "烤漆抽屉": "2b2bda54-a061-4a1c-9f2f-6f97b39e20fa",
+        "吸塑抽屉": "046f41ab-060d-4ac4-a191-e8e731660f6c",
+        "参数化抽屉": "40857477-be7b-4183-87d7-f4d725050711",
+        "玻璃拉板抽": "3364dbc9-9498-4000-a6f4-2e4407539f22",
+        "衣柜照明灯具": "4d468406-d0f4-4ff1-8cbe-13158ea4ee16",
+        "衣柜抽屉面板": "49b8a6b6-828b-4e4d-a217-476ee2bad9d3",
+        "缓冲升降衣架": "3d27b5b7-33eb-400b-9f5a-db1506a8ba48",
+        "服饰": "3d811ac2-3098-44a4-9ec0-746120e73015",
+        "置物盒": "3133b331-9b52-4ad0-9716-2410ec11ba24",
+        "衣柜配饰": "3cfe5bb4-850d-469e-9360-0b71f88edb74",
+        "儿童床": "8f58f84c-1424-4aaf-aef5-62ae1da722ab",
+        "儿童架": "76ed61b1-acb6-4ca3-80b1-5a4d467f7ecd",
+        "儿童柜类": "41115241-95b4-4805-8c82-b1651990407b",
+        "儿童桌椅": "9e3580ed-915c-4851-8564-cd869c402983",
+        "儿童饰品": "b5ce4b97-0559-4f0c-8943-cff23db93123",
+        "花洒": "da611a1c-3e16-427a-aaf4-11a9ca12c5fe",
+        "浴缸": "49d4a12a-dade-4ea1-bb97-68139ccac840",
+        "淋浴房": "07da65c6-b306-4030-97e1-c6e897751ae5",
+        "热水器": "1cfa8cb2-25fe-4087-8eb1-ffa41537db5f",
+        "马桶": "35ecf86f-7794-4e95-a411-5972f8b220de",
+        "连体马桶": "323958bf-973b-4f7d-bffe-be8a1e13887a",
+        "分体马桶": "087cf1ce-df43-478f-842e-fe3199822ac6",
+        "智能马桶": "c57f8db6-a107-48f6-b121-0aecc339472b",
+        "浴室柜": "87de0e2d-8542-4f5d-bb37-5726dbee695b",
+        "浴室柜组合": "bb477a34-dd3c-4f55-bdde-ce371d3c9bce",
+        "马桶柜": "5c67a0a8-cd93-421c-8ae0-3ef2c60aaf7c",
+        "浴室镜": "5e93a4a0-fbeb-442a-ae3a-442e004d9575",
+        "浴霸": "22d31eec-e776-4a1e-b26c-14e18c0aa18b",
+        "取暖电器": "365716e6-3bb6-4bf3-8751-30c31de886d6",
+        "地漏": "d2df288d-070c-4f0b-a777-2fe47707b355",
+        "台盆": "37c714c0-2428-43ca-b487-2c34af4819fc",
+        "拖布池": "26d19324-6a33-43b5-ac45-1d48108d3cb9",
+        "水槽龙头": "5758ce5d-b2ad-4ae1-8464-1a3f897b0875",
+        "灶具": "d7aaed16-5eb1-4968-8bd5-fdb773ca7be3",
+        "台面": "d826f293-92ed-452a-a26b-77984ca91b4b",
+        "用水": "2f722f78-ad54-41f3-9dea-c69a23e9a306",
+        "烤箱": "c3cbfbd5-0b11-4bb3-86cd-00cc28790666",
+        "煤气表": "16116152-eddf-4e8d-bec3-4fe1762725a8",
+        "洗碗机": "7c5bb49e-5138-4961-8052-a40c05e0f128",
+        "微波炉": "8cb72911-6a43-4dc2-ad44-a2e6a2838f67",
+        "厨卫灯具": "07df1dad-f651-457d-9595-130131ac3906",
+        "抽油烟机": "3ab51d4f-751d-41a6-b8f6-41d6ee80905d",
+        "厨房电器": "e3704521-7458-49ee-b7b6-4f6fad267a26",
+        "消毒碗柜": "edf508ee-39b5-4102-8d1d-e76557145734",
+        "钟表": "b3545ac4-d6f1-464e-a6fe-0a489bd6fbbe",
+        "开关": "9ecc36be-ca71-438b-b063-96199952d6a6",
+        "插座": "656f4e65-6c66-489d-925a-ef17b9c92edf",
+        "灯线": "33ba6ad1-76e2-4db4-8953-362ae6c9359c",
+        "墙龛": "e7085cba-bfac-4798-8998-14bca8202462",
+        "Logo": "e39a0610-3c93-4694-ac9b-887df419f07e",
+        "全身镜": "34af5d3e-b15b-4657-979e-6512bbeaac88",
+        "壁纸": "9555b3f5-765e-46f8-8601-632206f02d06",
+        "壁画": "c7e42982-aa54-45ed-952b-d2c05e799c74",
+        "壁布": "ef2b6567-faf9-4b59-a2de-bf0fa8752742",
+        "腰线": "38bcdad8-4a7f-451d-a045-e1032c90805a",
+        "镜子": "df3cebf5-3d83-4662-aa6e-fbc34f862858",
+        "配电箱": "395b6e66-f88a-4361-95e1-2c57b8e9b2ac",
+        "弱电插座": "15d405d5-04c4-4500-aae0-f6a4a3817839",
+        "强电插座": "e143430b-9315-4e92-9bea-bf6580cb6c08",
+        "户外家具": "ce9aa3b4-45e3-4d17-9638-713cb5ae0c8a",
+        "照明": "02c036b2-1478-4a87-9cc7-3c05c6fdd8bb",
+        "射灯": "62bc9ca0-497d-4c5e-b274-74a60fe7c9c8",
+        "筒灯": "86ac041a-26e3-4843-bc21-26d91b13c6a3",
+        "壁灯": "360be3ca-48d0-439e-94ba-181b499e285f",
+        "吊灯": "e7a0801e-7abd-4634-b3bc-8777342d124e",
+        "吸顶灯": "2374eec6-a564-4f13-ba49-df54fe5b01f5",
+        "吊顶配件": "1952f97c-6dae-4b4d-8552-2e6564227a1a",
+        "轨道灯": "6260c70b-3149-4830-8626-7ae97706faf5",
+        "换气/风暖": "2a3a3345-9549-4f48-8f02-50dbaff59901",
+        "梁": "0bdb1be3-7b6b-414d-a397-58c7bf3d46c7",
+        "柱": "81e732ac-b1b3-4872-a5ff-8001447919fa",
+        "吊顶": "65144d94-5125-4b96-84ea-043343dd9d32",
+        "烟道": "4f7c6d7e-bf8a-410c-ab4e-629e5ddee821",
+        "石膏线": "6e3daf07-598e-4a90-9da0-75709502635d",
+        "出风口": "b69218f3-f385-4037-8243-bd199b0bc141",
+        "直线吊顶": "91e376e7-ebdb-43cc-a230-827a367cf18e",
+        "异形吊顶": "7ffc3842-c5a8-4e9f-92d6-aef3528ccd1f",
+        "自定义吊顶": "a6d55bdf-86cc-4664-8b95-19136a59d71a",
+        "铝扣板吊顶": "8a3a3d51-a09d-427a-ab51-8cd31f306ab5",
+        "立体铝扣板吊顶": "80d472a9-bd2c-482c-bbcc-c848e579a93e",
+        "智能自定义吊顶": "731b279b-ff76-416e-b6b0-de202b003b5c",
+        "雕塑": "08987ed4-4d00-4db4-87da-30ea0aaf1c45",
+        "展架": "09111528-ef2f-4a77-90be-38c7095ae794",
+        "玩具": "16ccca13-ed62-43b4-8b13-995899aa846b",
+        "卡通": "2750010c-422a-4549-bfe2-1a0b5d606b17",
+        "乐器": "cbe71e44-7998-4598-b8a4-784cdb0aee4d",
+        "PET": "eed48d16-9fab-41e3-a6e2-e27e060cdb8f",
+        "落地灯": "f534e29f-904b-4000-ad45-fcb7869c99b6",
+        "工艺品": "c19c811d-a3df-416a-821f-a329abe74775",
+        "健身器材": "296cd6cd-ea8d-4ff2-a2c9-cc3a24be4cc0",
+        "隔断/屏风": "dbcb0f9e-d552-432a-9be4-60e690b26396",
+        "墩": "b9d59598-5e32-4305-adf5-6147182f784b",
+        "地洞": "b36f8317-5325-4494-8ea6-2dea6214eca2",
+        "踢脚线": "d69b0dd6-d368-44c7-a968-b234ddb716a6",
+        "玄关台": "f82c8374-c11d-4b50-b812-f636840ae94c",
+        "地面下沉": "a53257c9-90ae-436a-b507-dadaf102a265",
+        "竹地板": "c2f39dcd-db2e-413c-aff2-b45b2f546fb2",
+        "实木地板": "ad0a33f3-ccd9-471f-9b5d-b4603183b2ba",
+        "软木地板": "afe92ff7-0055-44d1-a94e-a18a67c808c4",
+        "其它地板": "9f362ebe-639b-4fc3-9d60-9df6b750e649",
+        "防腐木地板": "c2c10779-adbc-4ab4-aace-a3378e430e2c",
+        "实木复合地板": "d5033161-825a-48c3-b6ed-0f6d48feb48a",
+        "强化复合地板": "6b2d08a7-83b3-4bf8-b90d-b461c6b6498d",
+        "壁炉": "fb405dda-afe1-476e-93ab-d8c97189b57b",
+        "通用背景墙": "fda8e92c-9959-4eef-8b71-c1bce298b55b",
+        "木质背景墙": "5f06ba07-6dfc-4742-a161-f01eb9bab42c",
+        "石膏板背景墙": "1d25742d-252c-4a66-ba36-11f51f4bc685",
+        "大理石背景墙": "796daa6a-9eba-4173-8551-4a076db87370",
+        "自定义背景墙": "677c8f6a-d684-4e1b-91d9-4cb756bc59fe",
+        "参数化护墙板": "e25de33e-5406-4971-8c6d-961c9f0c5fe4",
+        "背景墙/墙面固定家具": "bf75580f-d801-42e8-8f3f-4c43aa762628",
+        "推拉门": "2bc73bd5-2f0a-467c-a8ec-4ff285b3a000",
+        "平开门": "a6f133b9-80b1-41ab-a89b-be3b8f4823fa",
+        "折叠门": "b0f9c985-79db-465d-997d-6816013786e6",
+        "单开门": "69d013d3-354d-44af-bdfd-22a1181a8001",
+        "双开门": "6bfdc577-b98f-4398-912c-e15234ee3e70",
+        "子母门": "e9eadbdd-03c9-46c3-b947-f13c4e32e908",
+        "室内门": "aa13fe61-23a6-47b3-8741-bab627cd2b30",
+        "谷仓门": "10c004e8-3444-4362-aa54-dedd6b8aca70",
+        "实木上翻门": "a0f2ed2b-7200-43a9-aa41-fd15c7d3ce24",
+        "烤漆上翻门": "d86bdd9c-f0de-4b8b-948a-95d6f4d68eea",
+        "吸塑上翻门": "e82d5640-e188-44a1-8a5f-cc62c3fdbfd7",
+        "烤漆门板": "1922c220-8941-4caa-9d11-e1955520e57c",
+        "定制门板": "19fe8b8e-7e6f-4e25-82ef-aa06aae9f231",
+        "实木门板": "682255c5-83e4-4750-af50-0a7c42abfdf7",
+        "吸塑门板": "6a1c60bb-c894-4e88-addd-5413d876a0ec",
+        "普通窗": "130a308f-15b6-4472-8e4e-b43b956cdccc",
+        "落地窗": "5656c60a-b26c-4bf8-905a-c9da68d6dacf",
+        "拱形窗": "1f29be3b-70d8-4ae3-b85d-76e439ea38bb",
+        "弧面窗": "f20bc3b2-215f-4265-9101-8c93a9b72048",
+        "门联窗": "6431c1f1-42d2-463c-8188-ec65594d864d",
+        "飘窗": "1899cc7b-05a2-41ef-85d1-fd17e0b7887a",
+        "天窗": "ffb0ac1c-9913-4097-8d76-89887e30f9c1",
+        "参数化窗": "68424a3c-fd39-49f4-91b5-5614198d9c21",
+        "单帘": "6c430954-80d4-4f4b-928c-da31f256b5ee",
+        "双帘": "d156b1d8-8891-4452-b685-41305ca80864",
+        "可定制": "0e295d25-1937-4d5d-bf0b-ed00238be39e",
+        "窗纱": "082b8cb3-a3f6-45ce-a6bf-6b40ea7c31bd",
+        "窗帘配件": "503ba82b-22c7-46a4-a253-479c6635f348",
+        "护栏": "3fdd9158-2459-4ce1-bf60-8a8bf4577ce7",
+        "角花": "44748c50-e8e5-4a5f-92a6-1298532b14ba",
+        "拼花": "ed84aae2-2390-45e5-bd1f-b80b987b4142",
+        "条纹": "628b5d98-9555-403a-aa01-4b39a7721b2e",
+        "花纹": "71defafb-7d53-444c-b7fe-c4351a5c5f4b",
+        "木皮": "07acf354-2510-4b4a-a584-3b6b6bd6d72e",
+        "吸塑": "ba666cab-9aec-45f0-8e2d-d344154aa7b7",
+        "金箔": "dc2557ea-80db-40fc-bf6a-e60483ada3f4",
+        "烤漆": "dd2a17c6-e4a8-4235-a70a-e5cd478d0749",
+        "布料": "ddeb7227-0302-45a6-b506-5568533a7235",
+        "玻璃": "df844577-53dc-4405-8bcc-0922224cd44e",
+        "瓷片": "dfabf9aa-218d-485f-9df1-6fe03cca0c4c",
+        "墙漆": "1704ab2a-0d96-4300-87f7-e00c61dd3d41",
+        "墙砖": "7b53d24e-7991-449f-844c-0a1b9e84e53d",
+        "地砖": "d7981192-acaf-4097-ba62-53af7e58daa7",
+        "瓷砖": "8cdfd5a3-58e8-4ddc-8368-00da8be442c0",
+        "花砖": "f329f2f4-b5a4-4ba2-91f0-6727864c9bd1",
+        "角砖": "ad77401d-9a40-4642-86f5-b685c55a636b",
+        "素面": "e7a92774-60da-455e-92c2-ed2e5da254da",
+        "方形": "26551367-438b-4c92-841a-cd71b3b4c7d3",
+        "拱形": "a7e087e7-d838-44ee-904e-450fcde17bfa",
+        "几何": "a774e790-5e30-48c8-87b6-d957d1f474fe",
+        "双饰面": "48284c3f-93c0-4e66-b2a8-2a32e57d4178",
+        "亚克力": "93e4f782-836a-4710-8844-1f783a9dc906",
+        "人造石": "a5b019fb-59d0-4cbb-a401-f36ff2cf0c3a",
+        "文化石": "4646b423-7dd3-4180-b025-e33eb060c8ee",
+        "石英石": "0d5238a1-d541-4b7e-b88c-c261e8d2f881",
+        "波打砖": "0c8b48f4-7030-480f-9c46-082d61561653",
+        "见光板": "0d9871fc-6d72-489d-870d-f558a3e29fd8",
+        "填缝剂": "1a7b5b71-7b57-49b1-b485-ec7ef52369aa",
+        "包覆膜": "cc354885-17bd-4f9c-9817-b3372a81e0d5",
+        "艺术涂料": "cefcb22d-8af0-4e93-ab5d-c1149c18b7bc",
+        "墙地一体砖": "01ac330d-0bf0-4d1f-8839-eeed23bdb71a",
+        "玻璃马赛克": "4f99c844-b51c-4f8b-b16c-d0d15b0e7f16",
+        "定制罗马柱": "f1c20817-f0ef-4bb8-bba5-5e2f0e827d8a",
+        "瓷砖马赛克": "659aa4d5-5326-4d50-86d6-e033df9f0ec4",
+        "其他": "a4516be5-2f27-4988-9cb5-a3e3bdd5e4dd",
+        "其它": "e80b87c9-d5bf-47ba-9e40-b16418516282"
+    },
+    "category_room": {
+        "儿童床": "KidsRoom",
+        "儿童架": "KidsRoom",
+        "儿童柜类": "KidsRoom",
+        "儿童书桌": "KidsRoom",
+        "儿童桌椅": "KidsRoom",
+        "鞋柜": "Hallway",
+        "玄关柜": "Hallway",
+        "玄关台": "Hallway",
+        "茶几": "LivingRoom",
+        "茶桌": "LivingRoom",
+        "餐桌": "DiningRoom",
+        "餐边柜": "DiningRoom",
+        "酒柜": "DiningRoom",
+        "吧台": "DiningRoom",
+        "书桌": "Library",
+        "书柜": "Library",
+        "衣柜": "Bedroom",
+        "床头柜": "Bedroom",
+        "马桶柜": "Bathroom",
+        "浴室柜": "Bathroom",
+        "洗衣机柜": "Bathroom",
+        "浴室柜组合": "Bathroom"
+    },
+    "category_role": {
+        "儿童书桌": [
+            "Work",
+            "table"
+        ],
+        "儿童桌椅": [
+            "Work",
+            "table"
+        ],
+        "茶桌": [
+            "Meeting",
+            "table"
+        ],
+        "书桌": [
+            "Work",
+            "table"
+        ],
+        "书桌/书台": [
+            "Work",
+            "table"
+        ],
+        "餐桌": [
+            "Dining",
+            "table"
+        ],
+        "餐椅": [
+            "Dining",
+            "chair"
+        ],
+        "吧台": [
+            "Dining",
+            "table"
+        ],
+        "梳妆台": [
+            "Work",
+            "table"
+        ],
+        "电视柜": [
+            "Media",
+            "table"
+        ],
+        "书柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "鞋柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "玄关柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "浴室柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "浴室柜/主柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "浴室柜/边柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "浴室柜/镜柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "浴室柜/侧柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "浴室柜/高柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "浴室柜/地柜": [
+            "Cabinet",
+            "cabinet"
+        ],
+        "浴室柜组合": [
+            "Cabinet",
+            "cabinet"
+        ]
+    },
+    "category_role_map": {
+        "5b4dc4ea-d84e-4b21-8cec-f2d090c61275": ["Meeting", "side sofa"],
+        "6846f3f3-5e2c-465a-b1fc-f04b667626ef" : ["Meeting", "sofa"],
+        "29f336ea-3bae-4127-b589-eb5a89b25f39": ["Meeting", "sofa"],
+        "068b6f3a-95e7-4515-b0f2-15568008e3dc": ["Bed", "bed"],
+        "df5ff4d8-0524-42e5-beed-73ea20ac706f": ["Bed", "bed"],
+        "9e3580ed-915c-4851-8564-cd869c402983": ["Meeting", "side sofa"],
+        "2260695d-c2a1-4a08-a06c-b3be36a4e5d1": ["Meeting", "table"],
+        "9eaee326-16c4-4244-87d5-38e7b57a4e38": ["Meeting", "table"],
+        "469c4481-d969-416f-8796-988cc28ca9c3": ["Work", "table"],
+        "366814a5-60f2-4b79-a741-69f4a03a1f37": ["Meeting", "side sofa"],
+        "5c76d84c-aa8c-4bb8-88fc-cbf8da81be71": ["Work", "table"],
+        "bbfb86e8-dba1-4d71-82be-154fbf69ab28": ["Cabinet", "cabinet"],
+        "d6bba626-68d1-4bd7-a32a-bd21457e54a0": ["Meeting", "side sofa"],
+        "2dd2368f-a3eb-43c2-8a6b-d585cd19d9a6": ["Armoire", "armoire"],
+        "89404b8a-5bb6-42cf-95fa-73c9bfba4c97": ["Bed", "side table"]
+    },
+    "type_category": {
+        "sofa/sofa set": "组合沙发",
+        "sofa/ multi seat sofa": "多人沙发",
+        "sofa/double seat sofa": "双人沙发",
+        "sofa/single seat sofa": "单人沙发",
+        "sofa/right corner sofa": "L型沙发",
+        "sofa/left corner sofa": "L型沙发",
+        "sofa/type L sofa": "L型沙发",
+        "table/side table": "角几/边几",
+        "table/coffee table - rectangular": "茶几",
+        "electronics/TV - wall-attached": "电视",
+        "media unit/floor-based media unit": "电视柜",
+        "rug/rug": "地毯",
+        "accessory/pillow": "抱枕 靠垫 坐垫 沙发垫",
+        "table/table": "书桌/书台 儿童桌椅",
+        "table/dining table": "餐桌",
+        "table/dining table - round": "八仙桌",
+        "chair/chair": "餐椅 书椅 脚凳/沙发凳",
+        "chair/armchair": "沙发贵妃椅",
+        "bed/king-size bed": "双人床",
+        "bed/single bed": "单人床",
+        "bed/crib": "儿童床",
+        "table/night table": "床头柜",
+        "storage unit/armoire": "衣柜",
+        "cabinet/floor-based cabinet": "餐边柜",
+        "cabinet/bookcase - L shaped": "书柜",
+        "cabinet/hutch&buffet": "儿童柜类 儿童架",
+        "basin/floor-based single basin with cabinet": "浴室柜",
+        "bath/freestanding bath": "浴缸",
+        "shower/wall-attached shower head": "花洒",
+        "toilet/floor-based toilet": "马桶",
+        "plants/plants - on top of others": "花卉 绿植 干支",
+        "accessory/accessory - on top of others": "相框 儿童饰品 浴室饰品",
+        "mirror/wall-attached mirror": "装饰画",
+        "art/art - wall-attached": "装饰画 挂画 摆画 照片墙",
+        "lighting/ceiling light": "吊灯 吸顶灯 厨卫灯具",
+        "lighting/pendant light": "壁灯",
+        "lighting/wall lamp": "壁灯",
+        "lighting/floor lamp": "落地灯",
+        "lighting/desk lamp": "台灯",
+        "curtain/curtain": "单帘 双帘 可定制",
+        "door/double sliding door": "推拉门"
+    },
+    "role_category": {
+        "meeting sofa": [
+            "多人沙发",
+            "三人沙发",
+            "双人沙发",
+            "L型沙发",
+            "U型沙发",
+            "组合沙发"
+        ],
+        "meeting sofa sofa set": [
+            "组合沙发"
+        ],
+        "meeting sofa multi seat sofa": [
+            "三人沙发"
+        ],
+        "meeting sofa double seat sofa": [
+            "双人沙发"
+        ],
+        "meeting sofa single seat sofa": [
+            "单人沙发"
+        ],
+        "meeting sofa type L sofa": [
+            "L型沙发"
+        ],
+        "meeting sofa type U sofa": [
+            "U型沙发"
+        ],
+        "meeting sofa left corner sofa": [
+            "L型沙发"
+        ],
+        "meeting sofa right corner sofa": [
+            "L型沙发"
+        ],
+        "meeting table": [
+            "茶几"
+        ],
+        "meeting side sofa": [
+            "单人沙发",
+            "沙发贵妃椅",
+            "脚凳/沙发凳",
+            "脚凳/墩",
+            "躺椅",
+            "凳",
+            "墩"
+        ],
+        "meeting side sofa armchair": [
+            "沙发贵妃椅"
+        ],
+        "meeting side sofa chair": [
+            "脚凳/沙发凳"
+        ],
+        "meeting side table": [
+            "角几/边几"
+        ],
+        "meeting rug": [
+            "地毯"
+        ],
+        "bed bed": [
+            "双人床",
+            "单人床",
+            "高低床",
+            "组合床",
+            "豪华大床",
+            "贵妃床/塌",
+            "罗汉床/榻",
+            "榻榻米"
+        ],
+        "bed bed kid": [
+            "儿童床",
+            "单人床",
+            "高低床",
+            "婴儿床",
+            "多功能床",
+            "贵妃床/塌",
+            "罗汉床/榻",
+            "榻榻米"
+        ],
+        "bed bed king-size bed": [
+            "双人床"
+        ],
+        "bed bed single bed": [
+            "单人床"
+        ],
+        "bed bed crib": [
+            "儿童床"
+        ],
+        "bed side table": [
+            "床头柜"
+        ],
+        "bed table": [
+            "炕几/床几"
+        ],
+        "bed rug": [
+            "地毯"
+        ],
+        "bed lamp": [
+            "台灯"
+        ],
+        "media tv": [
+            "电视"
+        ],
+        "media table": [
+            "电视柜"
+        ],
+        "media side table": [
+            "角几/边几"
+        ],
+        "media lamp": [
+            "台灯"
+        ],
+        "dining table": [
+            "餐桌",
+            "茶桌",
+            "吧台",
+            "八仙桌",
+            "餐桌椅组合"
+        ],
+        "dining chair": [
+            "餐椅",
+            "卡座",
+            "吧椅",
+            "凳"
+        ],
+        "dining accessory": [
+            "餐具"
+        ],
+        "dining plants": [
+            "绿植"
+        ],
+        "work table": [
+            "书桌/书台",
+            "梳妆台",
+            "办公桌椅"
+        ],
+        "work chair": [
+            "书椅",
+            "办公椅",
+            "休闲椅",
+            "电脑椅"
+        ],
+        "work table kid": [
+            "儿童书桌",
+            "儿童桌椅"
+        ],
+        "work chair kid": [
+            "书椅",
+            "休闲椅"
+        ],
+        "work rug": [
+            "地毯"
+        ],
+        "work lamp": [
+            "台灯"
+        ],
+        "rest table": [
+            "咖啡桌",
+            "咖啡几",
+            "休闲几",
+            "休闲桌椅组合"
+        ],
+        "rest chair": [
+            "休闲椅",
+            "单人沙发"
+        ],
+        "rest rug": [
+            "地毯"
+        ],
+        "rest lamp": [
+            "台灯"
+        ],
+        "armoire armoire": [
+            "衣柜"
+        ],
+        "cabinet cabinet door": [
+            "鞋柜",
+            "玄关柜",
+            "玄关台"
+        ],
+        "cabinet cabinet live": [
+            "酒柜",
+            "餐边柜"
+        ],
+        "cabinet cabinet food": [
+            "酒柜",
+            "餐边柜"
+        ],
+        "cabinet cabinet bed": [
+            "衣柜"
+        ],
+        "cabinet cabinet kid": [
+            "儿童柜类",
+            "儿童架"
+        ],
+        "cabinet cabinet book": [
+            "书柜",
+            "书架"
+        ],
+        "cabinet cabinet bath": [
+            "浴室柜",
+            "浴室柜/主柜",
+            "浴室柜/边柜",
+            "浴室柜/镜柜",
+            "浴室柜组合"
+        ],
+        "cabinet lamp": [
+            "台灯"
+        ],
+        "appliance appliance": [],
+        "bath shower": [
+            "花洒"
+        ],
+        "bath bath": [
+            "浴缸"
+        ],
+        "bath screen": [
+            "淋浴房"
+        ],
+        "toilet toilet": [
+            "马桶",
+            "连体马桶",
+            "分体马桶",
+            "智能马桶"
+        ],
+        "wall art - wall-attached": [
+            "装饰画"
+        ],
+        "wall wall-attached mirror": [
+            "装饰画"
+        ],
+        "wall pendant light": [
+            "壁灯"
+        ],
+        "wall wall lamp": [
+            "壁灯"
+        ],
+        "ceiling ceiling light live": [
+            "吊灯"
+        ],
+        "ceiling ceiling light bed": [
+            "吸顶灯"
+        ],
+        "ceiling ceiling light cook": [
+            "厨卫灯具"
+        ],
+        "ceiling ceiling light bath": [
+            "厨卫灯具"
+        ],
+        "ceiling ceiling light rest": [
+            "厨卫灯具"
+        ],
+        "floor hutch&buffet": [
+            "儿童架"
+        ],
+        "floor floor lamp": [
+            "落地灯"
+        ],
+        "floor plants - on top of others": [
+            "绿植"
+        ],
+        "window curtain": [
+            "双帘",
+            "单帘"
+        ]
+    },
+    "rely_category": {
+        "door": [
+            "鞋柜",
+            "玄关柜",
+            "玄关台"
+        ],
+        "food": [
+            "酒柜",
+            "餐边柜"
+        ],
+        "bed": [
+            "衣柜"
+        ],
+        "kid": [
+            "儿童柜类",
+            "儿童架"
+        ],
+        "book": [
+            "书柜",
+            "书架"
+        ],
+        "bath": [
+            "浴室柜",
+            "浴室柜/主柜",
+            "浴室柜/边柜",
+            "浴室柜/镜柜",
+            "浴室柜组合"
+        ]
+    },
+    "object_role": {
+        "5bdc2bdc-03fe-4a21-8689-9fec8f382f00": [
+            "Dining",
+            "chair"
+        ],
+        "0bc0d375-daa5-4a73-8c20-656bd31d5f3b": [
+            "Dining",
+            "table"
+        ],
+        "db62f435-cf4f-49e8-b0d1-8e4bd6221d82": [
+            "Media",
+            "table"
+        ]
+    },
+    "object_size": {
+        "c757412f-03ac-4615-b4e1-f8047a7a98af": [120, 42, 76],
+        "562f9b25-98e0-493c-973b-70113c0deccf": [233, 39, 48],
+        "5618072d-00a8-4681-9cb4-cbc011f2f63c": [93, 68, 78]
+    },
+    "object_zone": {
+        "4ac97977-803d-4fff-96c9-dc8f9c0c554b": ["浴室柜/边柜", "Bathroom"]
+    }
+}

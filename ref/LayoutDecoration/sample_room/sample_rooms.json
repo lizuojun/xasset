@@ -1,0 +1,825 @@
+{
+  "chinese": [
+    {
+      "ceiling": [
+        "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+                "a9262ce3-2523-41d1-b289-ba14f76af345",
+        "b24fed90-5f43-4f40-919f-1fa93cd16b15"
+      ],
+      "door": {
+        "entry": [
+          "d774eaf2-d00c-4bf6-b180-03a23210525e"
+        ],
+        "MasterBedroom": [
+          "e0cffc06-3985-489a-abaf-25ebc5864a95"
+        ],
+        "Balcony": [
+          "f2679117-5361-4cd6-a971-c0b63b53d0ff"
+        ],
+        "Kitchen": [
+          "f2679117-5361-4cd6-a971-c0b63b53d0ff",
+          "aaf7a6e5-e085-400f-9eb0-ca505bc828cf"
+        ],
+        "Bathroom": [
+          "aaf7a6e5-e085-400f-9eb0-ca505bc828cf"
+        ],
+        "sliding door": [
+          "f2679117-5361-4cd6-a971-c0b63b53d0ff",
+          "c89b7e41-2794-43c3-ba36-2aa0725da7bd"
+        ]
+      },
+      "window": {
+        "Balcony": [
+          "83107d57-1e01-43e6-abf7-686a9b01435e"
+        ],
+        "MasterBedroom": [
+          "277aa3da-8844-4dcc-9df7-678fdb7af7b0"
+        ],
+        "single": [
+          "5f203a10-a315-415c-994b-9e85e4346e13"
+        ],
+        "double": [
+          "0ef6c16d-5a6b-4636-8ef9-499b3d502e92"
+        ],
+        "triple": [
+          "3f75de0d-326a-44c9-8e2a-abaaff63152a"
+        ]
+      },
+      "wall": {
+        "LivingDiningRoom": [
+          "ad09a871-b5e9-4618-934c-b519ec2109e4"
+        ],
+        "MasterBedroom": [
+          "17f82fd6-239a-4041-9c3a-8af9043fdefe",
+          "f49957c4-bc34-4bce-8d3d-7e630f9ff4a0"
+        ],
+        "Kitchen": [
+          "3f0f78fb-93c7-4bd9-a782-474df7ab98e8"
+        ],
+        "Bathroom": [
+          "ddf8fffa-aab0-467b-bb2c-90d3594ba41c"
+        ]
+      },
+      "floor": {
+        "LivingDiningRoom": [
+          "93bdec68-922a-41c9-9402-a6b6740a154b"
+        ],
+        "MasterBedroom": [
+          "9ba38bf8-1e56-4822-a242-06f7ae4e7259"
+        ],
+        "Bathroom": [
+          "fb3ddaf4-5e00-4eda-a235-680d512f83ab"
+        ],
+        "Kitchen": [
+          "f8e9e4b2-6882-42e5-a1e4-579c6e07a526"
+        ]
+      },
+      "baseboard": [
+
+        "92f94569-ee0b-4049-a013-6c4aa923fbcf",
+        "2aa8725c-f56b-4c5c-ae02-7bf29e76d299",
+        "1eebceb1-bc0e-4e85-ac1c-72ce7cdead52"
+      ],
+      "FloorLine": [
+        "39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de",
+        "4651a3e6-bdab-4079-8512-796d090c7a21"
+      ],
+      "TileGap": [
+        "256dca79-769a-406e-9be2-810bb1f1d66c"
+      ]
+
+    },
+    {
+      "ceiling": [
+        "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+                "a9262ce3-2523-41d1-b289-ba14f76af345",
+        "b24fed90-5f43-4f40-919f-1fa93cd16b15"
+      ],
+      "door": {
+        "entry": [
+          "9ddebc23-9c92-4de5-a31b-be5ced159c3c"
+        ],
+        "MasterBedroom": [
+          "fe123577-bd54-457a-8ec5-890f99ea7002"
+        ],
+        "Balcony": [
+          "f2679117-5361-4cd6-a971-c0b63b53d0ff",
+          "1e0774cd-c508-4700-8b46-2f483d6d0939"
+        ],
+        "Kitchen": [
+          "f2679117-5361-4cd6-a971-c0b63b53d0ff",
+          "aaf7a6e5-e085-400f-9eb0-ca505bc828cf"
+        ],
+        "Bathroom": [
+          "fe123577-bd54-457a-8ec5-890f99ea7002"
+        ],
+        "sliding door": [
+          "f2679117-5361-4cd6-a971-c0b63b53d0ff",
+          "fef62fdd-9bc2-478d-8457-d2763c28772e"
+        ]
+      },
+      "window": {
+        "Balcony": [
+          "83107d57-1e01-43e6-abf7-686a9b01435e"
+        ],
+        "MasterBedroom": [],
+        "single": [
+          "5f203a10-a315-415c-994b-9e85e4346e13"
+        ],
+        "double": [
+          "0ef6c16d-5a6b-4636-8ef9-499b3d502e92"
+        ],
+        "triple": [
+          "8faa113a-c68d-48db-9d1d-8fb50cd73ca4"
+        ]
+      },
+      "wall": {
+        "LivingDiningRoom": [
+          "fe307b4a-0f1f-42da-913b-7916be2c0572"
+        ],
+        "MasterBedroom": [
+          "fe307b4a-0f1f-42da-913b-7916be2c0572"
+        ],
+        "Kitchen": [
+          "124a9dfa-b9ba-43b1-bc1e-cad1072f918a"
+        ],
+        "Bathroom": [
+          "124a9dfa-b9ba-43b1-bc1e-cad1072f918a"
+        ]
+      },
+      "floor": {
+        "LivingDiningRoom": [
+          "a3775aca-5b9c-4886-97c0-266fd12cc996"
+        ],
+        "MasterBedroom": [
+          "a3775aca-5b9c-4886-97c0-266fd12cc996"
+        ],
+        "Bathroom": [
+          "66901da0-8d8b-4c32-984d-acdbb5abbfe9"
+        ],
+        "Kitchen": [
+          "a3775aca-5b9c-4886-97c0-266fd12cc996"
+        ]
+      },
+      "baseboard": [
+
+        "92f94569-ee0b-4049-a013-6c4aa923fbcf",
+        "2aa8725c-f56b-4c5c-ae02-7bf29e76d299",
+        "1eebceb1-bc0e-4e85-ac1c-72ce7cdead52"
+      ],
+      "FloorLine": [
+        "39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de",
+        "4651a3e6-bdab-4079-8512-796d090c7a21"
+      ],
+      "TileGap": [
+        "256dca79-769a-406e-9be2-810bb1f1d66c"
+      ]
+    }
+  ],
+  "modern": [
+    {
+      "ceiling": [
+        "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+                "a9262ce3-2523-41d1-b289-ba14f76af345",
+        "b24fed90-5f43-4f40-919f-1fa93cd16b15"
+      ],
+      "door": {
+        "entry": [
+          "d774eaf2-d00c-4bf6-b180-03a23210525e"
+        ],
+        "MasterBedroom": [
+          "5f929aed-f939-4e42-abb6-533520819bfb"
+        ],
+        "Balcony": [
+          "8e371292-7033-41fc-8de0-f065a41c8f40"
+        ],
+        "Kitchen": [
+          "8e371292-7033-41fc-8de0-f065a41c8f40",
+          "b96197d8-9bed-4bef-a3d3-dd43a30c2f45"
+        ],
+        "Bathroom": [
+          "b955eaf2-402a-4692-a6f7-f820358d84fc"
+        ],
+        "sliding door": [
+          "8e371292-7033-41fc-8de0-f065a41c8f40"
+        ]
+      },
+      "window": {
+        "Balcony": [
+          "83107d57-1e01-43e6-abf7-686a9b01435e"
+        ],
+        "MasterBedroom": [
+          "277aa3da-8844-4dcc-9df7-678fdb7af7b0"
+        ],
+        "single": [
+          "5f203a10-a315-415c-994b-9e85e4346e13"
+        ],
+        "double": [
+          "0ef6c16d-5a6b-4636-8ef9-499b3d502e92"
+        ],
+        "triple": [
+          "8faa113a-c68d-48db-9d1d-8fb50cd73ca4"
+        ]
+      },
+      "wall": {
+        "LivingDiningRoom": [
+          "ef0f3a9e-f1fe-11e8-aaba-7020840c075d"
+        ],
+        "MasterBedroom": [
+          "ad09a871-b5e9-4618-934c-b519ec2109e4",
+          "c53afd8f-6b30-4d1b-8454-0138ff5d7147"
+        ],
+        "Kitchen": [
+          "c53afd8f-6b30-4d1b-8454-0138ff5d7147"
+        ],
+        "Bathroom": [
+          "c53afd8f-6b30-4d1b-8454-0138ff5d7147"
+        ]
+      },
+      "floor": {
+        "LivingDiningRoom": [
+          "0a60ec7c-442c-4f4d-b4f5-8714caba2b37"
+        ],
+        "MasterBedroom": [
+          "0a60ec7c-442c-4f4d-b4f5-8714caba2b37"
+        ],
+        "Bathroom": [
+          "a9bda43f-3704-46ab-b041-a44d4947fc51"
+        ],
+        "Kitchen": [
+          "a9bda43f-3704-46ab-b041-a44d4947fc51"
+        ]
+      },
+      "baseboard": [
+        "92f94569-ee0b-4049-a013-6c4aa923fbcf",
+        "2aa8725c-f56b-4c5c-ae02-7bf29e76d299",
+        "1eebceb1-bc0e-4e85-ac1c-72ce7cdead52"
+      ],
+      "FloorLine": [
+        "39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de",
+        "4651a3e6-bdab-4079-8512-796d090c7a21"
+      ],
+      "TileGap": [
+        "fff306f8-2251-4d9a-b96b-c614ec58e10e"
+      ]
+    },
+    {
+      "ceiling": [
+        "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+                "a9262ce3-2523-41d1-b289-ba14f76af345",
+        "b24fed90-5f43-4f40-919f-1fa93cd16b15"
+      ],
+      "door": {
+        "entry": [
+          "0f21ec14-afeb-4707-ad78-644f21c4715c"
+        ],
+        "MasterBedroom": [
+          "05e933cf-1a76-4a95-86fc-e38c83ae118b"
+        ],
+        "Balcony": [
+          "c73308c4-2a7a-41d8-82a9-d79bdd9c2d88"
+        ],
+        "Bathroom": [
+          "b96197d8-9bed-4bef-a3d3-dd43a30c2f45"
+        ],
+        "Kitchen": [
+          "14bde614-0376-42bf-884e-95f994283088",
+          "c73308c4-2a7a-41d8-82a9-d79bdd9c2d88"
+        ],
+        "sliding door": [
+          "c73308c4-2a7a-41d8-82a9-d79bdd9c2d88",
+          "4a1ae2ba-aefc-44cc-b5e6-b1decd779100"
+        ]
+      },
+      "window": {
+        "Balcony": [
+          "83107d57-1e01-43e6-abf7-686a9b01435e"
+        ],
+        "MasterBedroom": [
+          "277aa3da-8844-4dcc-9df7-678fdb7af7b0"
+        ],
+        "single": [
+          "5f203a10-a315-415c-994b-9e85e4346e13"
+        ],
+        "double": [
+          "0ef6c16d-5a6b-4636-8ef9-499b3d502e92"
+        ],
+        "triple": [
+          "8faa113a-c68d-48db-9d1d-8fb50cd73ca4"
+        ]
+      },
+      "wall": {
+        "LivingDiningRoom": [
+          "7e3b7768-2c0a-11e8-a386-a860b626e6d0",
+          "705fc8cf-2c0a-11e8-b0a0-a860b626e6d0"
+        ],
+        "MasterBedroom": [
+          "7d7f2ace-d83e-4892-83d1-728d94d17919",
+          "705fc8cf-2c0a-11e8-b0a0-a860b626e6d0"
+        ],
+        "Kitchen": [
+          "ed8b6a41-6b17-43aa-bcd4-eae8d859939c"
+        ],
+        "Bathroom": [
+          "ed8b6a41-6b17-43aa-bcd4-eae8d859939c"
+        ]
+      },
+      "floor": {
+        "LivingDiningRoom": [
+          "9a82bde0-eee8-4409-bee3-fb6bd69e6de2"
+        ],
+        "MasterBedroom": [
+          "84d939a6-e9b2-49f2-854d-71a54ba0c43d"
+        ],
+        "Bathroom": [
+          "84173bbe-96de-42dc-80c3-3a8337507dba",
+          "b3c4a054-fb7a-4c8b-885e-c35e6e066c82"
+        ],
+        "Kitchen": [
+          "84173bbe-96de-42dc-80c3-3a8337507dba"
+        ]
+      },
+      "baseboard": [
+        "92f94569-ee0b-4049-a013-6c4aa923fbcf",
+        "2aa8725c-f56b-4c5c-ae02-7bf29e76d299",
+        "1eebceb1-bc0e-4e85-ac1c-72ce7cdead52"
+      ],
+      "FloorLine": [
+        "39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de",
+        "4651a3e6-bdab-4079-8512-796d090c7a21"
+      ],
+      "TileGap": [
+        "fff306f8-2251-4d9a-b96b-c614ec58e10e"
+      ]
+    }
+  ],
+  "nordic": [
+    {
+      "ceiling": [
+        "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+                "a9262ce3-2523-41d1-b289-ba14f76af345",
+        "b24fed90-5f43-4f40-919f-1fa93cd16b15"
+      ],
+      "door": {
+        "entry": [
+          "7a5b6696-77f7-4d52-b173-54c7df1fdede"
+        ],
+        "MasterBedroom": [
+          "5f929aed-f939-4e42-abb6-533520819bfb"
+        ],
+        "Balcony": [
+          "8e371292-7033-41fc-8de0-f065a41c8f40"
+        ],
+        "Bathroom": [
+          "b955eaf2-402a-4692-a6f7-f820358d84fc"
+        ],
+        "Kitchen": [
+          "8e371292-7033-41fc-8de0-f065a41c8f40",
+          "5f929aed-f939-4e42-abb6-533520819bfb"
+        ],
+        "sliding door": [
+          "8e371292-7033-41fc-8de0-f065a41c8f40",
+          "c89b7e41-2794-43c3-ba36-2aa0725da7bd"
+        ]
+      },
+      "window": {
+        "Balcony": [
+          "83107d57-1e01-43e6-abf7-686a9b01435e"
+        ],
+        "MasterBedroom": [
+          "277aa3da-8844-4dcc-9df7-678fdb7af7b0"
+        ],
+        "single": [
+          "08826448-b2f9-4dca-8739-3207df851137"
+        ],
+        "double": [
+          "f56b9ead-9e4d-4d98-9412-d35fc82bde35",
+          "10cb09b6-53a8-430d-b710-1d8ad979ec88",
+          "ee25f703-d124-48a9-bdd5-cd7377a88c25"
+        ],
+        "triple": [
+          "5fabfc3b-9cbd-4171-aed7-3e6dbc1b8f50",
+          "96a6bc66-a2ed-49ff-b29a-22b8967d80f6"
+        ]
+      },
+      "wall": {
+        "LivingDiningRoom": [
+          "7e47f9c6-ed7f-5fa4-9d71-e945b3b456c4"
+        ],
+        "MasterBedroom": [
+          "7e47f9c6-ed7f-5fa4-9d71-e945b3b456c4"
+        ],
+        "Kitchen": [
+          "c53afd8f-6b30-4d1b-8454-0138ff5d7147"
+        ],
+        "Bathroom": [
+          "491b29a5-5836-4973-ab1e-cbf92ebd5202",
+          "e211c714-3cc9-492b-844b-f5ddf785c2b0"
+        ]
+      },
+      "floor": {
+        "LivingDiningRoom": [
+          "9a82bde0-eee8-4409-bee3-fb6bd69e6de2"
+        ],
+        "MasterBedroom": [
+          "199b3e89-29c2-47c4-bfbf-352ad98fcd15"
+        ],
+        "Bathroom": [
+          "ba985a33-5336-4257-8613-56123896e166"
+        ],
+        "Kitchen": [
+          "84173bbe-96de-42dc-80c3-3a8337507dba"
+        ]
+      },
+      "baseboard": [
+
+        "92f94569-ee0b-4049-a013-6c4aa923fbcf",
+        "2aa8725c-f56b-4c5c-ae02-7bf29e76d299",
+        "1eebceb1-bc0e-4e85-ac1c-72ce7cdead52"
+      ],
+      "FloorLine": [
+        "39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de",
+        "4651a3e6-bdab-4079-8512-796d090c7a21"
+      ],
+      "TileGap": [
+        "fff306f8-2251-4d9a-b96b-c614ec58e10e"
+      ]
+    },
+    {
+      "ceiling": [
+        "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+                "a9262ce3-2523-41d1-b289-ba14f76af345",
+        "b24fed90-5f43-4f40-919f-1fa93cd16b15"
+      ],
+      "door": {
+        "entry": [
+          "a586d768-17fd-425d-897f-bb01658952b4"
+        ],
+        "MasterBedroom": [
+          "91520a06-80c4-43c3-8b3a-9ba60b246f6b"
+        ],
+        "Balcony": [
+          "2b9ef806-7332-4c69-98e6-95e3c144397c"
+        ],
+        "Bathroom": [
+          "e82a09b4-793e-4012-9da2-5be01ba6b499"
+        ],
+        "Kitchen": [
+          "e82a09b4-793e-4012-9da2-5be01ba6b499",
+          "2b9ef806-7332-4c69-98e6-95e3c144397c"
+        ],
+        "sliding door": [
+          "2b9ef806-7332-4c69-98e6-95e3c144397c",
+          "4a1ae2ba-aefc-44cc-b5e6-b1decd779100"
+        ]
+      },
+      "window": {
+        "Balcony": [
+          "a3017175-01da-4bbb-a3f4-aa896e3fa604"
+        ],
+        "MasterBedroom": [
+          "277aa3da-8844-4dcc-9df7-678fdb7af7b0"
+        ],
+        "single": [
+          "08826448-b2f9-4dca-8739-3207df851137"
+        ],
+        "double": [
+          "669dcf8a-161d-4104-a6f5-ce4ffcc97c68",
+          "f56b9ead-9e4d-4d98-9412-d35fc82bde35"
+        ],
+        "triple": [
+          "3f75de0d-326a-44c9-8e2a-abaaff63152a"
+        ]
+      },
+      "wall": {
+        "LivingDiningRoom": [
+          "9a4141ca-61e5-4134-aeea-aedbb2f566ea"
+        ],
+        "MasterBedroom": [
+          "ef0f3a9e-f1fe-11e8-aaba-7020840c075d"
+        ],
+        "Kitchen": [
+          "ddf8fffa-aab0-467b-bb2c-90d3594ba41c"
+        ],
+        "Bathroom": [
+          "6312e4bd-e4db-46a4-8cce-f8850b20bb22"
+        ]
+      },
+      "floor": {
+        "LivingDiningRoom": [
+          "6d58749b-0ca9-4b61-96e5-73457c9ce316"
+        ],
+        "MasterBedroom": [
+          "862e8262-e063-418d-9a7f-b8ae94376e9f"
+        ],
+        "Bathroom": [
+          "7caca6b3-cb21-4b36-968d-42c81233552a"
+        ],
+        "Kitchen": [
+          "fb3ddaf4-5e00-4eda-a235-680d512f83ab"
+        ]
+      },
+      "baseboard": [
+
+        "92f94569-ee0b-4049-a013-6c4aa923fbcf",
+        "2aa8725c-f56b-4c5c-ae02-7bf29e76d299",
+        "1eebceb1-bc0e-4e85-ac1c-72ce7cdead52"
+      ],
+      "FloorLine": [
+        "39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de",
+        "4651a3e6-bdab-4079-8512-796d090c7a21"
+      ],
+      "TileGap": [
+        "256dca79-769a-406e-9be2-810bb1f1d66c"
+      ]
+    }
+  ],
+  "european": [
+    {
+      "ceiling": [
+        "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+                "a9262ce3-2523-41d1-b289-ba14f76af345",
+        "b24fed90-5f43-4f40-919f-1fa93cd16b15"
+      ],
+      "door": {
+        "entry": [
+          "01360f1e-6eb7-4e9d-a5b7-70ff0c359f92"
+        ],
+        "MasterBedroom": [
+          "2b0be061-5a07-42de-a6ea-9d49e94d4e77"
+        ],
+        "Balcony": [
+          "1e0774cd-c508-4700-8b46-2f483d6d0939"
+        ],
+        "Bathroom": [
+          "2b0be061-5a07-42de-a6ea-9d49e94d4e77"
+        ],
+        "Kitchen": [
+          "12b95733-764e-45bb-9278-86e740db1f32",
+          "e82a09b4-793e-4012-9da2-5be01ba6b499"
+        ],
+        "sliding door": [
+          "12b95733-764e-45bb-9278-86e740db1f32"
+        ]
+      },
+      "window": {
+        "Balcony": [
+          "a3017175-01da-4bbb-a3f4-aa896e3fa604"
+        ],
+        "MasterBedroom": [
+          "277aa3da-8844-4dcc-9df7-678fdb7af7b0"
+        ],
+        "single": [
+          "08826448-b2f9-4dca-8739-3207df851137"
+        ],
+        "double": [
+          "db84c83f-6de8-4a36-8d88-af157842becc"
+        ],
+        "triple": [
+          "b63ef35e-9b2f-44b2-bbf8-23996edc42a0"
+        ]
+      },
+      "wall": {
+        "LivingDiningRoom": [
+          "0977cf8e-40c6-413d-a9c8-40758c933213"
+        ],
+        "MasterBedroom": [
+          "0c471be4-258c-48c4-be2f-a87ab5a2e9b9",
+          "0087c517-e60e-4915-9c0a-187441d56697"
+        ],
+        "Kitchen": [
+          "dc4c031c-b5dc-4783-8b83-330f4b139b10"
+        ],
+        "Bathroom": [
+          "6b27e74d-7144-4199-aa46-83b801f83c4f"
+        ]
+      },
+      "floor": {
+        "LivingDiningRoom": [
+          "edaa5953-445a-4536-bbff-9ce4bc48228b"
+        ],
+        "MasterBedroom": [
+          "f44cbd4b-2a75-4bbe-b888-576482435e49",
+          "22388e4a-7e4a-4204-b73f-203b3debc09c"
+        ],
+        "Bathroom": [
+          "4e21dd48-cfca-47df-af94-01b6ccd27d1d"
+        ],
+        "Kitchen": [
+          "47f0ea9a-04f7-4444-b2e1-99b13219b4e2"
+        ]
+      },
+      "baseboard": [
+
+        "92f94569-ee0b-4049-a013-6c4aa923fbcf",
+        "2aa8725c-f56b-4c5c-ae02-7bf29e76d299",
+        "1eebceb1-bc0e-4e85-ac1c-72ce7cdead52"
+      ],
+      "FloorLine": [
+        "39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de",
+        "4651a3e6-bdab-4079-8512-796d090c7a21"
+      ],
+      "TileGap": [
+        "fff306f8-2251-4d9a-b96b-c614ec58e10e"
+      ]
+    },
+    {
+      "ceiling": [
+        "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+                "a9262ce3-2523-41d1-b289-ba14f76af345",
+        "b24fed90-5f43-4f40-919f-1fa93cd16b15"
+      ],
+      "door": {
+        "entry": [
+          "01360f1e-6eb7-4e9d-a5b7-70ff0c359f92",
+          "c61ec66d-4f8a-44c0-aa39-f53df71c344b"
+        ],
+        "MasterBedroom": [
+          "57628a86-0524-4149-9a60-f9495fc0320c"
+        ],
+        "Balcony": [
+          "12b95733-764e-45bb-9278-86e740db1f32"
+        ],
+        "Bathroom": [
+          "57628a86-0524-4149-9a60-f9495fc0320c"
+        ],
+        "Kitchen": [
+          "1e0774cd-c508-4700-8b46-2f483d6d0939",
+          "57628a86-0524-4149-9a60-f9495fc0320c"
+        ],
+        "sliding door": [
+          "12b95733-764e-45bb-9278-86e740db1f32"
+        ]
+      },
+      "window": {
+        "Balcony": [
+          "a3017175-01da-4bbb-a3f4-aa896e3fa604"
+        ],
+        "MasterBedroom": [
+          "277aa3da-8844-4dcc-9df7-678fdb7af7b0"
+        ],
+        "single": [
+          "161c86f3-1eaa-40e3-b412-900bc71d85ee"
+        ],
+        "double": [
+          "db84c83f-6de8-4a36-8d88-af157842becc"
+        ],
+        "triple": [
+          "b63ef35e-9b2f-44b2-bbf8-23996edc42a0"
+        ]
+      },
+      "wall": {
+        "LivingDiningRoom": [
+          "5c870be8-fec1-4a6f-b0d8-d36309b2ec03"
+        ],
+        "MasterBedroom": [
+          "5c870be8-fec1-4a6f-b0d8-d36309b2ec03"
+        ],
+        "Kitchen": [
+          "aed58792-6266-4f4e-9197-18deb31a43e7"
+        ],
+        "Bathroom": [
+          "aed58792-6266-4f4e-9197-18deb31a43e7"
+        ]
+      },
+      "floor": {
+        "LivingDiningRoom": [
+          "1285a786-3dc5-46fc-be03-dff230713998"
+        ],
+        "MasterBedroom": [
+          "fa0eaa20-8292-4faf-b275-31af4b635cc5"
+        ],
+        "Bathroom": [
+          "c2467d65-f4b6-4f93-a5ee-d6720b6701b4"
+        ],
+        "Kitchen": [
+          "c2467d65-f4b6-4f93-a5ee-d6720b6701b4"
+        ]
+      },
+      "baseboard": [
+
+        "92f94569-ee0b-4049-a013-6c4aa923fbcf",
+        "2aa8725c-f56b-4c5c-ae02-7bf29e76d299",
+        "1eebceb1-bc0e-4e85-ac1c-72ce7cdead52"
+      ],
+      "FloorLine": [
+        "39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de",
+        "4651a3e6-bdab-4079-8512-796d090c7a21"
+      ],
+      "TileGap": [
+        "256dca79-769a-406e-9be2-810bb1f1d66c"
+      ]
+    }
+  ],
+  "kitchen": {
+    "cabinet": [
+      {
+        "floor_cabinet": "3d456081-3394-4568-a08c-6013425ea2f4",
+        "wall_cabinet": "73e92d5f-687f-4063-8b70-48863bae1ae6",
+        "sink": "1e346926-c9d6-4ebe-a594-6457ef26207b"
+      },
+      {
+        "floor_cabinet": "2defd8fa-8be7-44de-845a-f5c27a4dbe05",
+        "wall_cabinet": "9f514c40-8115-4d06-8736-9d6f5c321224",
+        "sink": "978bd45b-3e10-4515-8b02-ed1696f49ac6"
+      },
+      {
+        "floor_cabinet": "50135f45-9e48-4705-b4a9-7be5d0ca5d6e",
+        "wall_cabinet": "7629e909-5bcf-4031-8300-3320f598eeea",
+        "sink": "7afdb3b8-be3c-4639-b335-0041d3f7bc51"
+      },
+      {
+        "floor_cabinet": "9ec10a45-7867-4765-b4aa-74f643a9715f",
+        "wall_cabinet": "dc6f2954-57ab-4711-94aa-5eee53ae6843",
+        "sink": "d16b12e8-8160-48c0-8677-93d82e5561b9"
+      },
+      {
+        "floor_cabinet": "fb8fe8d0-4674-488e-b1cf-703cf63baa7b",
+        "wall_cabinet": "5cc64880-ee66-4df3-8a44-53b0881e5cc7",
+        "sink": "b895c555-0aa8-4715-8ed0-df3e2a6b2fa6"
+      },
+      {
+        "floor_cabinet": "b3ba12cb-d6d0-4b4c-8b23-3656c7be1901",
+        "wall_cabinet": "39c4262e-18aa-4398-bf86-46a56fe0bab4",
+        "sink": "70918930-31b2-47bf-bd0c-77005d8ecd90"
+      }
+    ],
+    "cook": [
+      "fe03e3ec-3b71-4bed-87ab-f6267fbe23d4",
+      "d672ce1e-60fd-44de-b31b-ff7ec1177c10",
+      "b7aea8e4-71e5-427a-a227-1ffb2ea3bb51",
+      "e425ff12-d8b7-4b9e-8435-3f9a630ec328",
+      "f8850d07-518a-4f95-b499-34465da79867",
+      "d7015f6d-04dd-4fa1-8d3b-c27c1300a5e5",
+      "5c8bb926-c034-4ef0-b4f8-bff23207062b"
+    ],
+    "range hood": [
+      "8df4e2c7-7002-469a-8219-cf28449eabb2",
+      "2ea6bc5c-fc27-49d8-a0b6-69c7afb43cfe",
+      "b2ef11ba-cdaa-4b73-abe3-7805c6633a55"
+    ],
+    "fridge": [
+      "b8b6f503-ae65-4028-af13-37f74c8054b4",
+      "3c7b73cf-19d1-4929-97e1-64cae1f0e5ff",
+      "22778c04-a4fb-4ca9-9b0e-79e229514d58",
+      "3d4cfabb-e00d-4ccc-8714-13ebd38fdb44"
+    ],
+    "gusset ceiling": [],
+    "gusset ceiling gap": [
+      "16807240-b36e-4777-aca4-03ea45f7bf9c"
+    ]
+  },
+  "KidsRoom": [
+    {
+      "floor": "e5c1af9a-87f3-4308-85c8-27b2a19438df",
+      "general wall": "0508b52d-d0b1-4347-bae5-fd1d4a041213",
+      "prime wall": "e1524e86-400f-4f86-83fb-625b800e0997",
+      "subprime": false
+    },
+    {
+      "floor": "fbcc6439-027e-43ec-a4f6-6ceb6f2bcdff",
+      "general wall": "7e47f9c6-ed7f-5fa4-9d71-e945b3b456c4",
+      "prime wall": "accfbdae-755a-4082-a068-ed72f4ca9649",
+      "subprime": false
+    },
+    {
+      "floor": "fbcc6439-027e-43ec-a4f6-6ceb6f2bcdff",
+      "general wall": "68ba47be-a245-4897-993d-1a83bd01e99c",
+      "prime wall": "381a24c4-7777-477b-ac7c-f8cb244cd0f2",
+      "subprime": false
+    },
+    {
+      "floor": "fbcc6439-027e-43ec-a4f6-6ceb6f2bcdff",
+      "general wall": "68ba47be-a245-4897-993d-1a83bd01e99c",
+      "prime wall": "e2298b06-0005-469f-bce5-0de8c4b57bb5",
+      "subprime": false
+    },
+    {
+      "floor": "e9b933ce-e46b-4a36-9dc0-297d7fe72f5d",
+      "general wall": "9d02c7b0-df24-41da-a1ac-d3dc06a91335",
+      "prime wall": "660e6633-672e-44d1-bc0a-08b14363194f",
+      "subprime": false
+    },
+    {
+      "floor": "d6e19aeb-07c4-4227-8144-8be7ece3a64c",
+      "general wall": "c6d3146f-ce6c-4853-8d70-c037f37b3c8e",
+      "prime wall": "86d69ffe-71c3-4ff3-9a15-be652d3847a8",
+      "subprime": true
+    },
+    {
+      "floor": "710b45ac-0974-4607-b583-6ec81137ec9b",
+      "general wall": "40c0c289-0e1d-4cce-9132-5295786222f8",
+      "prime wall": "",
+      "subprime": false
+    },
+    {
+      "floor": "4d13e4e4-d37f-4514-a4b2-131e98e1e479",
+      "general wall": "f2619638-29f5-45da-8926-6904870a3011",
+      "prime wall": "054da38e-9841-4814-aaa9-7621a615808e",
+      "subprime": false
+    }
+
+  ]
+
+
+}

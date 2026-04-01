@@ -1,0 +1,60 @@
+{
+  "箱": {
+    "room": ["LivingDiningRoom", "LivingRoom", "MasterBedroom", "SecondBedroom", "Bedroom"],
+    "group": ["Meeting", "Bed", "Rest"],
+    "role": ["side sofa", "side table", "chair"],
+    "around_role": {
+      "cabinet": 0
+    },
+    "relate_role": {
+      "rug": ["plants"]
+    }
+  },
+  "包": {
+    "room": ["LivingDiningRoom", "LivingRoom", "MasterBedroom", "SecondBedroom", "Bedroom"],
+    "group": ["Meeting", "Rest", "Cabinet"],
+    "role": [],
+    "around_role": {
+      "cabinet": 0
+    },
+    "relate_role": {
+      "side sofa": [],
+      "table": [],
+      "side table": [],
+      "cabinet": []
+    },
+    "relate_category": {
+      "cabinet": ["玄关柜"]
+    }
+  },
+  "冰箱": {
+    "room": ["LivingDiningRoom", "LivingRoom", "DiningRoom", "Kitchen"],
+    "group": ["Appliance"],
+    "role": ["appliance"]
+  },
+  "洗衣机": {
+    "room": ["MasterBathroom", "SecondBathroom", "Bathroom", "LaundryRoom", "Balcony", "Terrace"],
+    "group": ["Appliance"],
+    "role": ["appliance"]
+  },
+  "面包机": {
+    "room": ["DiningRoom", "Kitchen"],
+    "group": ["Dining", "Rest","Cabinet"],
+    "role": [],
+    "relate_role": {
+      "table": [],
+      "cabinet": []
+    }
+  },
+  "化妆品": {
+    "room": ["LivingDiningRoom", "LivingRoom", "MasterBedroom", "SecondBedroom", "Bedroom"],
+    "group": ["Work", "Rest"],
+    "role": [],
+    "relate_role": {
+      "table": []
+    },
+    "relate_category": {
+      "table": ["梳妆台"]
+    }
+  }
+}

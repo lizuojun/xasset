@@ -1,0 +1,4564 @@
+{
+  "lines": {
+    "cornice": [
+      {
+        "jid": "1dc1571b-0f22-4ff0-a18f-d5e009b2bf0b",
+        "attr_profile": "M0.0,-1.0 L0.1266723,-1.0 L0.1266723,-0.91007143 L0.19413784,-0.91007143 L0.19367236,-0.8370714 L0.20651719,-0.76195717 L0.23324129,-0.6882143 L0.274431,-0.6192714 L0.3306552,-0.5586 L0.40246555,-0.5096429 L0.49046552,-0.4758714 L0.59518963,-0.46074286 L0.59518963,-0.40614286 L0.64746547,-0.4039857 L0.6906896,-0.3933 L0.72527575,-0.37507144 L0.7516896,-0.3503 L0.7703102,-0.32001427 L0.7815861,-0.28521428 L0.7859482,-0.24691428 L0.7838103,-0.20611429 L0.8800517,-0.20611429 L0.8800517,-0.105799995 L1.0,-0.105799995 L1.0,0.0",
+        "size": [
+          58,
+          70
+        ],
+        "contentType": "build element/cornice"
+      },
+      {
+        "jid": "54977d77-60d2-4fbb-8ba4-f2ee126b23d8",
+        "attr_profile": "M0.0,-1.0 L0.14999819,-1.0 L0.14999819,-0.8974265 L0.2499912,-0.8974265 L0.2499912,-0.7693194 L0.31382734,-0.77514005 L0.36954358,-0.76554894 L0.41812116,-0.7412417 L0.46052405,-0.70289564 L0.4977157,-0.6512428 L0.53066,-0.5869422 L0.5603027,-0.5107259 L0.59690547,-0.42971408 L0.64137846,-0.36947688 L0.69134814,-0.32721385 L0.74453014,-0.30014277 L0.79858655,-0.28544497 L0.85117966,-0.28033826 L0.9000072,-0.2820405 L0.9000072,-0.15384193 L1.0,-0.15384193 L1.0,0.0",
+        "size": [
+          56,
+          55
+        ],
+        "contentType": "build element/cornice"
+      },
+      {
+        "jid": "21c261a9-74a4-4fe0-b2fd-abde03bffd6f",
+        "attr_profile": "M0.0,-1.0 L0.46856537,-1.0 L0.46856537,-0.5714157 L0.64570785,-0.5714157 L0.64570785,-0.14284945 L1.0,-0.14284945 L1.0,0.0 L0.0,0.0",
+        "size": [
+          136,
+          70
+        ],
+        "contentType": "build element/cornice"
+      },
+      {
+        "jid": "b3a92ac5-6e05-40cc-924f-eea45f78a8df",
+        "attr_profile": "M0.0,-1.0 L1.0,0.0 L0.0,0.0",
+        "size": [
+          81,
+          81
+        ],
+        "contentType": "build element/cornice"
+      },
+      {
+        "jid": "10f7b665-38b9-4b5c-9b5e-91d9995f2ac7",
+        "attr_profile": "M0.0,-1.0 L0.34550008,-1.0 L0.39616877,-0.99845004 L0.44383338,-0.99395 L0.48733363,-0.98675 L0.52533436,-0.9771 L0.5565004,-0.965225 L0.5833336,-0.95000005 L0.6335016,-0.93887496 L0.71883476,-0.91260004 L0.78316796,-0.88195 L0.8247513,-0.84805 L0.84208435,-0.812025 L0.8333344,-0.775 L0.90791804,-0.763825 L0.95150095,-0.754375 L0.9803337,-0.7426 L0.9954176,-0.730575 L1.0,-0.7191 L1.0,0.0",
+        "size": [
+          12,
+          40
+        ],
+        "contentType": "build element/cornice"
+      }
+    ],
+    "baseboard": [
+      {
+        "jid": "1746062f-10ef-4ebb-97a7-d95ad0f5bd014",
+        "attr_profile": "M1.0,0.0 L1.0,1.0 L0.0,1.0 L0.0,0.0",
+        "size": [
+          15,
+          100
+        ],
+        "contentType": "build element/baseboard"
+      },
+      {
+        "jid": "45b15499-139c-46ae-8c29-8179a77480aa",
+        "attr_profile": "M1.0,0.0 L1.0,0.6399125 L0.9775015,0.648675 L0.87364376,0.6648 L0.9778584,0.6815375 L1.0,0.690375 L1.0,0.798625 L0.94085866,0.8196 L0.86892986,0.8353625 L0.74564445,0.8596 L0.65607274,0.8763875 L0.6129994,0.8894375 L0.5603566,0.912675 L0.50950134,0.9511 L0.43314478,0.977375 L0.36314243,0.9890625 L0.25014305,0.9987375 L0.14471583,1.0 L0.0,1.0",
+        "size": [
+          14,
+          80
+        ],
+        "contentType": "build element/baseboard"
+      },
+      {
+        "jid": "d5f46b63-bb3f-4016-ba96-bf1c2ff8e2ca",
+        "attr_profile": "M1.0,0.0 L1.0,0.8333333 L0.9084676,0.8659833 L0.8042653,0.89613336 L0.6882655,0.9235167 L0.56193286,0.9478166 L0.4263331,0.9688 L0.28299966,0.98625 L0.13333385,1.0 L0.0,1.0",
+        "size": [
+          15,
+          60
+        ],
+        "contentType": "build element/baseboard"
+      },
+      {
+        "jid": "9f926f38-3bae-4131-83b2-68c2d5f9027f",
+        "attr_profile": "M1.0,0.0 L1.0,0.4737913 L0.8901874,0.5116 L0.9661249,0.53651303 L0.9661875,0.5594435 L0.8727498,0.5820696 L1.0,0.6284695 L0.98474985,0.6581217 L0.8328123,0.6979652 L0.5652501,0.74879134 L0.509,0.77976525 L0.545625,0.8052 L0.628625,0.8209478 L0.8248125,0.8362435 L0.9365625,0.8492957 L0.96193737,0.869287 L0.88899976,0.8868696 L0.7508124,0.89378256 L0.7508124,0.9513913 L0.58612514,0.9557652 L0.48087496,0.9675043 L0.42106262,0.9845391 L0.4129376,1.0 L0.0,1.0",
+        "size": [
+          16,
+          115
+        ],
+        "contentType": "build element/baseboard"
+      },
+      {
+        "jid": "9e1edfb1-21e5-4c73-a911-1d8ee9672c09",
+        "attr_profile": "M1.0,0.0 L1.0,0.5071826 L0.9651875,0.5106435 L0.8981875,0.5166696 L0.8518125,0.52411306 L0.8599375,0.53295654 L0.89968747,0.5420087 L0.913625,0.55092174 L0.9221875,0.56433046 L0.8986875,0.57907826 L0.8595625,0.5869478 L0.807125,0.5935217 L0.80799997,0.5984174 L0.8583125,0.6059391 L0.90625,0.6150956 L0.94131255,0.6269304 L0.960875,0.64112175 L0.964625,0.6606087 L0.941625,0.6783565 L0.88875,0.69366956 L0.83618754,0.70511305 L0.753375,0.71630436 L0.6701875,0.72552174 L0.59956247,0.7351131 L0.53937495,0.74647826 L0.47449997,0.7584608 L0.4269375,0.7702696 L0.4036875,0.7824957 L0.39231247,0.7966783 L0.393125,0.81280863 L0.4180625,0.82512176 L0.4558125,0.8351565 L0.50825,0.84472173 L0.566625,0.85105217 L0.63018745,0.8584609 L0.6903125,0.86539125 L0.723,0.8725652 L0.7306875,0.88020873 L0.7195625,0.8936 L0.6911875,0.9028 L0.66024995,0.9088957 L0.6104375,0.91462606 L0.5520625,0.91821736 L0.5494375,0.96266955 L0.47112498,0.9660869 L0.3929375,0.97279996 L0.3405625,0.9816348 L0.32875,0.99170434 L0.3244375,1.0 L0.0,1.0 L0.0,0.0",
+        "size": [
+          16,
+          115
+        ],
+        "contentType": "build element/baseboard"
+      }
+    ]
+  },
+  "ceiling": {
+    "chinese": [
+      {
+        "jid": "3353681b-ab36-4d8f-b7e3-4633cae2510d",
+        "resizeable": false,
+        "inner_decoration": false,
+        "size": [
+          3060,
+          5010,
+          230
+        ],
+        "contentType": "build element/gypsum ceiling"
+      },
+      {
+        "jid": "20c2771c-3a17-4abf-856b-8edbdf1e2f7f",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          2250,
+          2250,
+          140
+        ],
+        "contentType": "build element/gypsum ceiling"
+      },
+      {
+        "jid": "69cbb708-db3d-439e-bc02-7bfd33c27caf",
+        "resizeable": false,
+        "inner_decoration": false,
+        "scale": false,
+        "size": [
+          3770,
+          3770,
+          130
+        ],
+        "contentType": "build element/ceiling molding"
+      },
+      {
+        "jid": "03d075e4-91cb-49ef-a95e-dccdc65b8a13",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          5230,
+          5120,
+          440
+        ],
+        "light": {
+          "type": "strip light",
+          "layout": {
+            "x": [
+              [
+                1975,
+                2050
+              ],
+              [
+                -1975,
+                -2050
+              ]
+            ],
+            "y": [
+              [
+                90,
+                30
+              ]
+            ],
+            "z": [
+              [
+                1975,
+                2050
+              ],
+              [
+                -1975,
+                -2050
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding"
+      },
+      {
+        "jid": "fea3e9f4-4fdf-441e-8e30-f53f746de26f",
+        "resizeable": false,
+        "inner_decoration": false,
+        "size": [
+          4130,
+          4120,
+          70
+        ],
+        "contentType": "build element/ceiling molding"
+      }
+    ],
+    "european": [
+      {
+        "jid": "9cf1d147-27a3-4b10-9ab0-7e25d3feee51",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          3580,
+          3340,
+          300
+        ],
+        "light": {
+          "type": "spot light",
+          "layout": {
+            "x": [
+              [
+                1537.5,
+                1787.5
+              ],
+              [
+                -1537.5,
+                -1787.5
+              ]
+            ],
+            "y": [
+              [
+                0,
+                0
+              ]
+            ],
+            "z": [
+              [
+                -1620,
+                1620
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding",
+        "center_under_height": 10
+      },
+      {
+        "jid": "7f4c1633-c5a0-4559-8e07-d5fc9f195dd5",
+        "resizeable": false,
+        "inner_decoration": false,
+        "size": [
+          3940,
+          2030,
+          110
+        ],
+        "contentType": "build element/gypsum ceiling"
+      },
+      {
+        "jid": "302d265a-a919-4079-b5e3-291eb8e2f169",
+        "resizeable": false,
+        "inner_decoration": false,
+        "scale": false,
+        "size": [
+          1820,
+          1820,
+          120
+        ],
+        "contentType": "build element/ceiling molding"
+      },
+      {
+        "jid": "6b4b14f1-44c4-4721-8674-f8fa35abeb9b",
+        "resizeable": true,
+        "inner_decoration": false,
+        "size": [
+          3420,
+          3330,
+          370
+        ],
+        "contentType": "build element/gypsum ceiling"
+      },
+      {
+        "jid": "e09b0a88-2599-4ec2-b32c-2c50040b9538",
+        "resizeable": true,
+        "inner_decoration": false,
+        "size": [
+          3640,
+          2650,
+          200
+        ],
+        "contentType": "build element/gypsum ceiling"
+      },
+      {
+        "jid": "d93f0cf6-241e-449c-b0c1-8e0ca1dc8868",
+        "resizeable": true,
+        "inner_decoration": false,
+        "size": [
+          4350,
+          7900,
+          350
+        ],
+        "light": {
+          "type": "strip light",
+          "layout": {
+            "x": [
+              [
+                1625,
+                1825
+              ],
+              [
+                -1625,
+                -1825
+              ]
+            ],
+            "y": [
+              [
+                30,
+                80
+              ]
+            ],
+            "z": [
+              [
+                3050,
+                3250
+              ],
+              [
+                -3050,
+                -3250
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding"
+      },
+      {
+        "jid": "8eb7a3ba-5b7b-4428-bb05-f3dcc51afd4f",
+        "resizeable": true,
+        "inner_decoration": false,
+        "size": [
+          2920,
+          4900,
+          210
+        ],
+        "light": {
+          "type": "strip light",
+          "layout": {
+            "x": [
+              [
+                893,
+                1062.1
+              ],
+              [
+                -893,
+                -1062.1
+              ]
+            ],
+            "y": [
+              [
+                90,
+                100
+              ]
+            ],
+            "z": [
+              [
+                1883,
+                2050
+              ],
+              [
+                -1883,
+                -2050
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding"
+      },
+      {
+        "jid": "1d07a08c-4299-4ef6-9d14-2a70a82d3bcd",
+        "resizeable": true,
+        "inner_decoration": false,
+        "air_condition": true,
+        "size": [
+          5200,
+          7290,
+          350
+        ],
+        "contentType": "build element/ceiling molding"
+      }
+    ],
+    "nordic": [
+      {
+        "jid": "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          3580,
+          3260,
+          300
+        ],
+        "light": {
+          "type": "spot light",
+          "layout": {
+            "x": [
+              [
+                1537.5,
+                1787.5
+              ],
+              [
+                -1537.5,
+                -1787.5
+              ]
+            ],
+            "y": [
+              [
+                0,
+                0
+              ]
+            ],
+            "z": [
+              [
+                -1620,
+                1620
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding",
+        "center_under_height": 10
+      },
+      {
+        "jid": "a9262ce3-2523-41d1-b289-ba14f76af345",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          3840,
+          7640,
+          120
+        ],
+        "light": {
+          "type": "strip light",
+          "layout": {
+            "x": [
+              [
+                1520,
+                1600
+              ],
+              [
+                -1520,
+                -1600
+              ]
+            ],
+            "y": [
+              [
+                35,
+                120
+              ]
+            ],
+            "z": [
+              [
+                3430,
+                3500
+              ],
+              [
+                -3430,
+                -3500
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/gypsum ceiling",
+        "center_under_height": 0
+      },
+      {
+        "jid": "95ee6d43-7317-48fb-a4ca-3e1c908e335e",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          4820,
+          4430,
+          150
+        ],
+        "contentType": "build element/gypsum ceiling",
+        "center_under_height": 0
+      },
+      {
+        "jid": "b24fed90-5f43-4f40-919f-1fa93cd16b15",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          4080,
+          3170,
+          150
+        ],
+        "contentType": "build element/gypsum ceiling",
+        "center_under_height": 0
+      },
+      {
+        "jid": "9cf1d147-27a3-4b10-9ab0-7e25d3feee51",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          3580,
+          3340,
+          300
+        ],
+        "light": {
+          "type": "spot light",
+          "layout": {
+            "x": [
+              [
+                1537.5,
+                1787.5
+              ],
+              [
+                -1537.5,
+                -1787.5
+              ]
+            ],
+            "y": [
+              [
+                0,
+                0
+              ]
+            ],
+            "z": [
+              [
+                -1620,
+                1620
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding",
+        "center_under_height": 10
+      }
+    ],
+    "modern": [
+      {
+        "jid": "db593061-992e-4fa9-b4f4-f4db7cc0ef25",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          3580,
+          3260,
+          300
+        ],
+        "light": {
+          "type": "spot light",
+          "layout": {
+            "x": [
+              [
+                1537.5,
+                1787.5
+              ],
+              [
+                -1537.5,
+                -1787.5
+              ]
+            ],
+            "y": [
+              [
+                0,
+                0
+              ]
+            ],
+            "z": [
+              [
+                -1620,
+                1620
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding"
+      },
+      {
+        "jid": "fee638ae-c49c-4937-8a64-a43d99f041f9",
+        "resizeable": true,
+        "inner_decoration": false,
+        "size": [
+          4590,
+          4520,
+          460
+        ],
+        "light": {
+          "type": "spot light",
+          "layout": {
+            "x": [
+              [
+                -1350,
+                1350.0
+              ]
+            ],
+            "y": [
+              [
+                400.0,
+                400.0
+              ]
+            ],
+            "z": [
+              [
+                -1350.0,
+                1350
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding"
+      },
+      {
+        "jid": "34a76b62-212e-4e72-b1e1-a19b02ee4a75",
+        "resizeable": true,
+        "inner_decoration": false,
+        "mi, ed_ceiling": true,
+        "size": [
+          6890,
+          3650,
+          350
+        ],
+        "light": {
+          "type": "spot light",
+          "layout": {
+            "x": [
+              [
+                3000,
+                -3000
+              ]
+            ],
+            "y": [
+              [
+                100,
+                100
+              ]
+            ],
+            "z": [
+              [
+                -1460,
+                -1700
+              ],
+              [
+                1460,
+                1700
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding"
+      },
+      {
+        "jid": "5c458248-5779-4826-b340-dd36ef724192",
+        "resizeable": true,
+        "inner_decoration": false,
+        "size": [
+          6430,
+          5640,
+          750
+        ],
+        "contentType": "500 - attach to ceiling"
+      },
+      {
+        "jid": "7345d527-3ac9-4eb1-805f-c5058dce54e4",
+        "resizeable": true,
+        "inner_decoration": false,
+        "size": [
+          5250,
+          3500,
+          340
+        ],
+        "light": {
+          "type": "strip light",
+          "layout": {
+            "x": [
+              [
+                2180,
+                2480
+              ],
+              [
+                -2180,
+                -2480
+              ]
+            ],
+            "y": [
+              [
+                75,
+                200
+              ]
+            ],
+            "z": [
+              [
+                1300,
+                1560
+              ],
+              [
+                -1300,
+                -1560
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding"
+      },
+      {
+        "jid": "df290e9b-3027-48fb-a79e-7787c74017db",
+        "resizeable": true,
+        "inner_decoration": true,
+        "size": [
+          5380,
+          3980,
+          450
+        ],
+        "light": {
+          "type": "strip light",
+          "layout": {
+            "x": [
+              [
+                2250,
+                2340
+              ],
+              [
+                -2250,
+                -2340
+              ]
+            ],
+            "y": [
+              [
+                50,
+                100
+              ]
+            ],
+            "z": [
+              [
+                1300,
+                1400
+              ],
+              [
+                -1300,
+                -1400
+              ]
+            ]
+          }
+        },
+        "contentType": "build element/ceiling molding"
+      }
+    ]
+  },
+  "corner_pattern": {
+    "chinese": [
+      {
+        "jid": "0070a771-908e-46ec-94b5-c0f832b36abd",
+        "size": [
+          100,
+          100,
+          30
+        ],
+        "contentType": "build element/jiaohua"
+      },
+      {
+        "jid": "1250a65c-cadb-42a9-97d9-84932cf43609",
+        "size": [
+          110,
+          110,
+          40
+        ],
+        "contentType": "build element/jiaohua"
+      }
+    ],
+    "european": [
+      {
+        "jid": "262104c7-490b-4434-a7b8-8f8e055b1fec",
+        "size": [
+          240,
+          240,
+          20
+        ],
+        "contentType": "build element/jiaohua"
+      },
+      {
+        "jid": "c5f458bb-9bd8-4a83-8dde-6ffbde5ebdb3",
+        "size": [
+          240,
+          230,
+          30
+        ],
+        "contentType": "build element/jiaohua"
+      }
+    ]
+  },
+  "tiles": {
+    "wooden": [
+      {
+        "jid": "894cd5fa-16d7-45d5-8c5e-e01847d31749",
+        "color": "deep",
+        "size": [
+          4400,
+          2160
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/894cd5fa-16d7-45d5-8c5e-e01847d31749/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "9ba38bf8-1e56-4822-a242-06f7ae4e7259",
+        "color": "deep",
+        "size": [
+          1620,
+          1037.66
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/9ba38bf8-1e56-4822-a242-06f7ae4e7259/wallfloor.jpg",
+        "contentType": "material/flooring - reinforced"
+      },
+      {
+        "jid": "84d939a6-e9b2-49f2-854d-71a54ba0c43d",
+        "color": "light",
+        "size": [
+          2760.0,
+          1930.0
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/84d939a6-e9b2-49f2-854d-71a54ba0c43d/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "3337d1e4-0fd9-428e-9404-eecdfa42e2f6",
+        "color": "deep",
+        "size": [
+          2500,
+          2500
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/3337d1e4-0fd9-428e-9404-eecdfa42e2f6/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "199b3e89-29c2-47c4-bfbf-352ad98fcd15",
+        "color": "deep",
+        "size": [
+          1800,
+          1460
+        ],
+        "model_id": 367844,
+        "texture_url": "http://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/367844/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "52524506-7c6e-4f2b-ad27-8902c6a7eb47",
+        "color": "deep",
+        "size": [
+          1270,
+          1270
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/52524506-7c6e-4f2b-ad27-8902c6a7eb47/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "bf7b13e2-b749-42d6-918a-7dc28347c769",
+        "color": "deep",
+        "size": [
+          2420,
+          1320
+        ],
+        "model_id": 375021,
+        "texture_url": "http://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/375021/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "f3d5627b-daf2-478e-abad-46cd483d70b7",
+        "color": "deep",
+        "size": [
+          3800,
+          1540
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/f3d5627b-daf2-478e-abad-46cd483d70b7/wallfloor.png",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "09973477-6748-4672-85a9-8d895cffe66c",
+        "color": "deep",
+        "size": [
+          2420,
+          1920
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/09973477-6748-4672-85a9-8d895cffe66c/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "a78b91cc-3660-4534-864d-9a3bc7330219",
+        "color": "deep",
+        "size": [
+          6300,
+          1660
+        ],
+        "model_id": 377004,
+        "texture_url": "http://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/377004/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "130b763f-8b23-4896-934c-65d6c33f1b38",
+        "color": "light",
+        "size": [
+          2450,
+          990
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/130b763f-8b23-4896-934c-65d6c33f1b38/wallfloor.png",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "e97884d7-f38a-48ab-b261-ba71d05b0b17",
+        "color": "light",
+        "size": [
+          2400,
+          1000
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e97884d7-f38a-48ab-b261-ba71d05b0b17/wallfloor.png",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "fa55818e-dea2-4d9d-80c7-d36cec77a896",
+        "color": "light",
+        "size": [
+          1800,
+          1020
+        ],
+        "model_id": 303030,
+        "texture_url": "http://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/303030/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "9b4eda7f-47ae-4ea6-b7d4-cd1096566ed3",
+        "color": "light",
+        "size": [
+          2500,
+          2500
+        ],
+        "model_id": 259472,
+        "texture_url": "http://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/259472/wallfloor.jpg",
+        "contentType": "material/flooring - reinforced"
+      },
+      {
+        "jid": "03e7ea7a-f5c5-42f5-a518-daef2ebc4f63",
+        "color": "light",
+        "size": [
+          1520,
+          930
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/03e7ea7a-f5c5-42f5-a518-daef2ebc4f63/wallfloor.png",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "f50821e5-13a4-49ef-89c4-0f81e2d0660e",
+        "color": "light",
+        "size": [
+          2440,
+          1170
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/f50821e5-13a4-49ef-89c4-0f81e2d0660e/wallfloor.png",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "fcf99d53-867e-4dba-adaf-50459668f78d",
+        "color": "light",
+        "size": [
+          2430,
+          2330
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/fcf99d53-867e-4dba-adaf-50459668f78d/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "15053213-f4a5-4be6-a674-5eb56a32ebe2",
+        "color": "light",
+        "size": [
+          3480,
+          1480
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/15053213-f4a5-4be6-a674-5eb56a32ebe2/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "0a60ec7c-442c-4f4d-b4f5-8714caba2b37",
+        "color": "light",
+        "size": [
+          3400,
+          3200
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/0a60ec7c-442c-4f4d-b4f5-8714caba2b37/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "862e8262-e063-418d-9a7f-b8ae94376e9f",
+        "color": "light",
+        "size": [
+          1292.0,
+          1536
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/862e8262-e063-418d-9a7f-b8ae94376e9f/wallfloor.jpg",
+        "contentType": "material/flooring - reinforced"
+      },
+      {
+        "jid": "f44cbd4b-2a75-4bbe-b888-576482435e49",
+        "color": "deep",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/f44cbd4b-2a75-4bbe-b888-576482435e49/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "22388e4a-7e4a-4204-b73f-203b3debc09c",
+        "color": "deep",
+        "size": [
+          2960,
+          1600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/22388e4a-7e4a-4204-b73f-203b3debc09c/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "fa0eaa20-8292-4faf-b275-31af4b635cc5",
+        "color": "deep",
+        "size": [
+          3000,
+          2100
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/fa0eaa20-8292-4faf-b275-31af4b635cc5/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "e5c1af9a-87f3-4308-85c8-27b2a19438df",
+        "color": "deep",
+        "size": [
+          2436,
+          996
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e5c1af9a-87f3-4308-85c8-27b2a19438df/wallfloor.png",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "fbcc6439-027e-43ec-a4f6-6ceb6f2bcdff",
+        "color": "deep",
+        "size": [
+          1695,
+          628
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/fbcc6439-027e-43ec-a4f6-6ceb6f2bcdff/wallfloor.png",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "e9b933ce-e46b-4a36-9dc0-297d7fe72f5d",
+        "color": "deep",
+        "size": [
+          1500,
+          3000
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e9b933ce-e46b-4a36-9dc0-297d7fe72f5d/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "d6e19aeb-07c4-4227-8144-8be7ece3a64c",
+        "color": "deep",
+        "size": [
+          602,
+          302
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/Products/d6e19aeb-07c4-4227-8144-8be7ece3a64c/resources.jpg",
+        "contentType": ""
+      },
+      {
+        "jid": "710b45ac-0974-4607-b583-6ec81137ec9b",
+        "color": "deep",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/710b45ac-0974-4607-b583-6ec81137ec9b/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      },
+      {
+        "jid": "4d13e4e4-d37f-4514-a4b2-131e98e1e479",
+        "color": "deep",
+        "size": [
+          1830,
+          1830
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/4d13e4e4-d37f-4514-a4b2-131e98e1e479/wallfloor.jpg",
+        "contentType": "material/flooring - hardwood"
+      }
+    ],
+    "ceramic main floor": [
+      {
+        "jid": "9a8ecedd-9669-41cd-bf4e-4fe4741ccb7e",
+        "color": "white",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/9a8ecedd-9669-41cd-bf4e-4fe4741ccb7e/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "a3775aca-5b9c-4886-97c0-266fd12cc996",
+        "color": "white",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/a3775aca-5b9c-4886-97c0-266fd12cc996/wallfloor.png",
+        "contentType": "material/matt tiles"
+      },
+      {
+        "jid": "8ac2c888-d634-4eef-b7ec-aa60fe704a44",
+        "color": "white",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/8ac2c888-d634-4eef-b7ec-aa60fe704a44/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "2b51ac54-9596-4843-a6de-a4182b907d91",
+        "color": "white",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/2b51ac54-9596-4843-a6de-a4182b907d91/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "fccf4732-0217-4c0f-a86a-4c8fd877ff3d",
+        "color": "white",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/fccf4732-0217-4c0f-a86a-4c8fd877ff3d/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "022450a4-1863-4851-8052-cfc910f848db",
+        "color": "white",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/022450a4-1863-4851-8052-cfc910f848db/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "7d18d2eb-3460-46bd-ba91-b9c2b659c87c",
+        "color": "white",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/7d18d2eb-3460-46bd-ba91-b9c2b659c87c/wallfloor.png",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "4060a4a3-eb68-4706-9d43-071e419ecfa6",
+        "color": "brown",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/4060a4a3-eb68-4706-9d43-071e419ecfa6/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "ca0c6909-4324-4b94-9e7d-9de06ad1bc05",
+        "color": "brown",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/ca0c6909-4324-4b94-9e7d-9de06ad1bc05/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "04b2edfd-58f2-4ac7-81bf-59e03cb7ea26",
+        "color": "brown",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/04b2edfd-58f2-4ac7-81bf-59e03cb7ea26/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "1659eb97-a0d3-4b3c-a364-be70c97a5db6",
+        "color": "brown",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/1659eb97-a0d3-4b3c-a364-be70c97a5db6/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "93bdec68-922a-41c9-9402-a6b6740a154b",
+        "color": "brown",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/93bdec68-922a-41c9-9402-a6b6740a154b/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "fe3fdb0f-1b06-4245-b2b5-4d827267efdb",
+        "color": "brown",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/fe3fdb0f-1b06-4245-b2b5-4d827267efdb/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "456ab753-83b4-4257-b959-faa793685971",
+        "color": "brown",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/456ab753-83b4-4257-b959-faa793685971/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "3e2a757e-3282-4bff-9352-9187331a5eea",
+        "color": "brown",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/3e2a757e-3282-4bff-9352-9187331a5eea/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "14b90438-20d9-4ba4-8b0b-a046a3bea8e5",
+        "color": "deep brown",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/14b90438-20d9-4ba4-8b0b-a046a3bea8e5/wallfloor.png",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "e52a97ea-c9d0-4988-a47d-c611ae8534ed",
+        "color": "deep brown",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e52a97ea-c9d0-4988-a47d-c611ae8534ed/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "e812d696-5975-48c4-9a17-e5bbb50ac344",
+        "color": "gray",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e812d696-5975-48c4-9a17-e5bbb50ac344/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "9a82bde0-eee8-4409-bee3-fb6bd69e6de2",
+        "color": "gray",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/9a82bde0-eee8-4409-bee3-fb6bd69e6de2/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "75a077f0-ce66-4178-ad5b-a429247d8985",
+        "color": "gray",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/75a077f0-ce66-4178-ad5b-a429247d8985/wallfloor.jpg",
+        "contentType": "material/matt tiles"
+      },
+      {
+        "jid": "2500f383-167f-4690-a7ce-dac6eb2053b5",
+        "color": "gray",
+        "size": [
+          900,
+          900
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/2500f383-167f-4690-a7ce-dac6eb2053b5/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "6d58749b-0ca9-4b61-96e5-73457c9ce316",
+        "color": "gray",
+        "size": [
+          900,
+          900
+        ],
+        "model_id": 346874,
+        "texture_url": "http://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/346874/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "8f90b26d-cc86-484a-a0c1-3fc8edb66ed4",
+        "color": "black",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/8f90b26d-cc86-484a-a0c1-3fc8edb66ed4/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de",
+        "color": "black",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/39e2ac8d-1810-4f7c-a2d9-4a14cc7bc5de/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "1285a786-3dc5-46fc-be03-dff230713998",
+        "color": "brown",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/1285a786-3dc5-46fc-be03-dff230713998/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "4651a3e6-bdab-4079-8512-796d090c7a21",
+        "color": "red",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/4651a3e6-bdab-4079-8512-796d090c7a21/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "256dca79-769a-406e-9be2-810bb1f1d66c",
+        "color": "black",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/256dca79-769a-406e-9be2-810bb1f1d66c/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "fff306f8-2251-4d9a-b96b-c614ec58e10e",
+        "color": "white",
+        "size": [
+          800,
+          800
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/fff306f8-2251-4d9a-b96b-c614ec58e10e/wallfloor.jpg",
+        "contentType": "material/tiles"
+      }
+    ],
+    "ceramic wall": [
+      {
+        "jid": "c3d69672-c3ae-4456-9a27-3bc479ceacb1",
+        "color": "white",
+        "size": [
+          600,
+          1200
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/c3d69672-c3ae-4456-9a27-3bc479ceacb1/wallfloor.png",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "124a9dfa-b9ba-43b1-bc1e-cad1072f918a",
+        "color": "white",
+        "size": [
+          1200,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/124a9dfa-b9ba-43b1-bc1e-cad1072f918a/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "93eebae5-6e1d-4eb4-8f4c-7d3cded16909",
+        "color": "white",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/93eebae5-6e1d-4eb4-8f4c-7d3cded16909/wallfloor.png",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "ed8b6a41-6b17-43aa-bcd4-eae8d859939c",
+        "color": "white",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/ed8b6a41-6b17-43aa-bcd4-eae8d859939c/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "78bece2f-a89d-4c24-a732-48be59d2e463",
+        "color": "brown",
+        "size": [
+          1200,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/78bece2f-a89d-4c24-a732-48be59d2e463/wallfloor.jpg",
+        "contentType": "material/plank - hardwood"
+      },
+      {
+        "jid": "aed58792-6266-4f4e-9197-18deb31a43e7",
+        "color": "brown",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/aed58792-6266-4f4e-9197-18deb31a43e7/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "3f0f78fb-93c7-4bd9-a782-474df7ab98e8",
+        "color": "brown",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/3f0f78fb-93c7-4bd9-a782-474df7ab98e8/wallfloor.jpg",
+        "contentType": "material/matt tiles"
+      },
+      {
+        "jid": "ddf8fffa-aab0-467b-bb2c-90d3594ba41c",
+        "color": "brown",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/ddf8fffa-aab0-467b-bb2c-90d3594ba41c/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "b8a8cef9-e45f-4b74-a23d-9562027b65ae",
+        "color": "gray",
+        "size": [
+          1200,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/b8a8cef9-e45f-4b74-a23d-9562027b65ae/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "68145cdc-277a-4642-8495-506e42ba70af",
+        "color": "gray",
+        "size": [
+          900,
+          450
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/68145cdc-277a-4642-8495-506e42ba70af/wallfloor.jpg",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "9cfb7ace-1fd5-4b1b-beee-92903abd93aa",
+        "color": "gray",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/9cfb7ace-1fd5-4b1b-beee-92903abd93aa/wallfloor.jpg",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "78a1e7e7-13b1-4c26-a37a-46071da37d2b",
+        "color": "black",
+        "size": [
+          1200,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/78a1e7e7-13b1-4c26-a37a-46071da37d2b/wallfloor.png",
+        "contentType": "material/matt tiles"
+      },
+      {
+        "jid": "6312e4bd-e4db-46a4-8cce-f8850b20bb22",
+        "color": "brown",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/6312e4bd-e4db-46a4-8cce-f8850b20bb22/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "dc4c031c-b5dc-4783-8b83-330f4b139b10",
+        "color": "brown",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/dc4c031c-b5dc-4783-8b83-330f4b139b10/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "6b27e74d-7144-4199-aa46-83b801f83c4f",
+        "color": "brown",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/6b27e74d-7144-4199-aa46-83b801f83c4f/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "491b29a5-5836-4973-ab1e-cbf92ebd5202",
+        "color": "white",
+        "size": [
+          600,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/491b29a5-5836-4973-ab1e-cbf92ebd5202/wallfloor.png",
+        "contentType": "material/matt tiles"
+      },
+      {
+        "jid": "e211c714-3cc9-492b-844b-f5ddf785c2b0",
+        "color": "white",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e211c714-3cc9-492b-844b-f5ddf785c2b0/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "16807240-b36e-4777-aca4-03ea45f7bf9c",
+        "size": [
+          10,
+          10
+        ],
+        "color": "gray",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/16807240-b36e-4777-aca4-03ea45f7bf9c/wallfloor.png",
+        "contentType": "material/sealant"
+      }
+    ],
+    "ceramic extra floor": [
+      {
+        "jid": "b7464edf-555f-4bad-8bff-cc29982b0cc7",
+        "color": "white",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/b7464edf-555f-4bad-8bff-cc29982b0cc7/wallfloor.png",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "e0cad3c8-b8d9-4e77-bd18-ac1ce48d2b37",
+        "color": "white",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e0cad3c8-b8d9-4e77-bd18-ac1ce48d2b37/wallfloor.png",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "84173bbe-96de-42dc-80c3-3a8337507dba",
+        "color": "white",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/84173bbe-96de-42dc-80c3-3a8337507dba/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "7b28df0b-3dd1-4966-98af-0b1ee91d18b5",
+        "color": "white",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/7b28df0b-3dd1-4966-98af-0b1ee91d18b5/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "f8e9e4b2-6882-42e5-a1e4-579c6e07a526",
+        "color": "white",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/f8e9e4b2-6882-42e5-a1e4-579c6e07a526/wallfloor.png",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "66901da0-8d8b-4c32-984d-acdbb5abbfe9",
+        "color": "white",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/66901da0-8d8b-4c32-984d-acdbb5abbfe9/wallfloor.png",
+        "contentType": "material/matt tiles"
+      },
+      {
+        "jid": "e4ad2dac-1b67-4778-927c-5e5f162a6cca",
+        "color": "white",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e4ad2dac-1b67-4778-927c-5e5f162a6cca/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "c2fd616b-d889-4e0e-84f6-ce2d74bee6af",
+        "color": "color",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/c2fd616b-d889-4e0e-84f6-ce2d74bee6af/wallfloor.png",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "5480950c-cbe6-4459-b449-fa39b776b47f",
+        "color": "color",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/5480950c-cbe6-4459-b449-fa39b776b47f/wallfloor.png",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "4166f460-d153-4f08-8b99-4ef5448659f5",
+        "color": "brown",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/4166f460-d153-4f08-8b99-4ef5448659f5/wallfloor.jpg",
+        "contentType": "material/wood grain tiles"
+      },
+      {
+        "jid": "55a51406-033a-4aba-b534-890e7ef117a1",
+        "color": "brown",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/55a51406-033a-4aba-b534-890e7ef117a1/wallfloor.png",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "1108a865-201b-4c0f-a305-838fc89e1458",
+        "color": "brown",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/1108a865-201b-4c0f-a305-838fc89e1458/wallfloor.png",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "9f9b6231-d35f-487b-b535-9a6a403f3e02",
+        "color": "brown",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/9f9b6231-d35f-487b-b535-9a6a403f3e02/wallfloor.jpg",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "fb3ddaf4-5e00-4eda-a235-680d512f83ab",
+        "color": "brown",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/fb3ddaf4-5e00-4eda-a235-680d512f83ab/wallfloor.jpg",
+        "contentType": "material/matt tiles"
+      },
+      {
+        "jid": "b3c4a054-fb7a-4c8b-885e-c35e6e066c82",
+        "color": "brown",
+        "size": [
+          2400,
+          2400
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/b3c4a054-fb7a-4c8b-885e-c35e6e066c82/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "ad054be8-ac4e-40d2-9a03-b45e5883a023",
+        "color": "black",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/ad054be8-ac4e-40d2-9a03-b45e5883a023/wallfloor.png",
+        "contentType": "material/matt tiles"
+      },
+      {
+        "jid": "fe12fbf3-314f-4908-b4ea-1679b155f414",
+        "color": "black",
+        "size": [
+          450,
+          450
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/fe12fbf3-314f-4908-b4ea-1679b155f414/wallfloor.jpg",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "64c0b690-5c9b-4cee-a45c-97c0a8cef6dc",
+        "color": "black",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/64c0b690-5c9b-4cee-a45c-97c0a8cef6dc/wallfloor.png",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "1aa20331-ceec-49ac-b4fa-3adc594672cf",
+        "color": "deep blue",
+        "size": [
+          450,
+          450
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/1aa20331-ceec-49ac-b4fa-3adc594672cf/wallfloor.png",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "62191bf9-807f-4604-902f-5e7ed3251e79",
+        "color": "deep blue",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/62191bf9-807f-4604-902f-5e7ed3251e79/wallfloor.jpg",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "a9bda43f-3704-46ab-b041-a44d4947fc51",
+        "model_id": 361120,
+        "color": "gray",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "http://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/361120/wallfloor.jpg",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "7caca6b3-cb21-4b36-968d-42c81233552a",
+        "color": "gray",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/7caca6b3-cb21-4b36-968d-42c81233552a/wallfloor.jpg",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "edaa5953-445a-4536-bbff-9ce4bc48228b",
+        "color": "brown",
+        "size": [
+          600,
+          600
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/edaa5953-445a-4536-bbff-9ce4bc48228b/wallfloor.jpg",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "4e21dd48-cfca-47df-af94-01b6ccd27d1d",
+        "color": "gray",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/4e21dd48-cfca-47df-af94-01b6ccd27d1d/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "47f0ea9a-04f7-4444-b2e1-99b13219b4e2",
+        "color": "brown",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/47f0ea9a-04f7-4444-b2e1-99b13219b4e2/wallfloor.jpg",
+        "contentType": "material/tiles"
+      },
+      {
+        "jid": "c2467d65-f4b6-4f93-a5ee-d6720b6701b4",
+        "color": "brown",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/c2467d65-f4b6-4f93-a5ee-d6720b6701b4/wallfloor.jpg",
+        "contentType": "material/antique tiles"
+      },
+      {
+        "jid": "ba985a33-5336-4257-8613-56123896e166",
+        "color": "black",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/ba985a33-5336-4257-8613-56123896e166/wallfloor.png",
+        "contentType": "material/matt tiles"
+      }
+    ],
+    "wallpaper solid": [
+      {
+        "jid": "fe307b4a-0f1f-42da-913b-7916be2c0572",
+        "size": [
+          600,
+          600
+        ],
+        "color": "white",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/fe307b4a-0f1f-42da-913b-7916be2c0572/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "705fc8cf-2c0a-11e8-b0a0-a860b626e6d0",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          241,
+          242,
+          237,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "288ee1d2-6d21-41bf-882a-b2eb9b4108f0",
+        "size": [
+          600,
+          600
+        ],
+        "color": "brown",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/288ee1d2-6d21-41bf-882a-b2eb9b4108f0/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "b71d86e8-60ef-492b-ac1e-d10c837ff295",
+        "size": [
+          550,
+          550
+        ],
+        "color": "brown",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/b71d86e8-60ef-492b-ac1e-d10c837ff295/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "ad09a871-b5e9-4618-934c-b519ec2109e4",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": "brown",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/ad09a871-b5e9-4618-934c-b519ec2109e4/wallfloor.jpg",
+        "contentType": "material/diatom mud"
+      },
+      {
+        "jid": "17f82fd6-239a-4041-9c3a-8af9043fdefe",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          237,
+          233,
+          225,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "f49957c4-bc34-4bce-8d3d-7e630f9ff4a0",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          250,
+          249,
+          244,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "d788ab41-623f-448a-90d6-d05c2da1c1e8",
+        "size": [
+          530,
+          530
+        ],
+        "color": "gray",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/d788ab41-623f-448a-90d6-d05c2da1c1e8/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "7e3b7768-2c0a-11e8-a386-a860b626e6d0",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          155,
+          159,
+          163,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "27730eee-9124-4141-bfb6-a3546cdb066c",
+        "size": [
+          530,
+          530
+        ],
+        "color": "deep blue",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/27730eee-9124-4141-bfb6-a3546cdb066c/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "7d7f2ace-d83e-4892-83d1-728d94d17919",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          58,
+          63,
+          81,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "28201087-2c0b-11e8-8c7a-a860b626e6d0",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          70,
+          119,
+          137,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "052edb33-6c57-45ef-ad49-17c84aad45c9",
+        "size": [
+          520,
+          520
+        ],
+        "color": "deep blue",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/052edb33-6c57-45ef-ad49-17c84aad45c9/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "0e5fd286-f4fb-4863-9324-cbe10333bc75",
+        "size": [
+          530,
+          530
+        ],
+        "color": "deep blue",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/0e5fd286-f4fb-4863-9324-cbe10333bc75/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "acc29391-a827-4f60-b57b-7c2ff6c66cc8",
+        "size": [
+          530,
+          800
+        ],
+        "color": "purple",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/acc29391-a827-4f60-b57b-7c2ff6c66cc8/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "03962396-5f6e-4c62-9825-60991d8b5448",
+        "size": [
+          530,
+          530
+        ],
+        "color": "light blue",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/03962396-5f6e-4c62-9825-60991d8b5448/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "d0c1a6f6-817e-47f5-ad07-1e90fa432870",
+        "size": [
+          530,
+          530
+        ],
+        "color": "cyan",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/d0c1a6f6-817e-47f5-ad07-1e90fa432870/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "82419da8-9d86-42ca-8554-3abec4df76d3",
+        "size": [
+          530,
+          530
+        ],
+        "color": "cyan",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/82419da8-9d86-42ca-8554-3abec4df76d3/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "dec73c99-dc2b-46ca-b40c-6d8f87a93fe4",
+        "size": [
+          600,
+          490
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/dec73c99-dc2b-46ca-b40c-6d8f87a93fe4/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "64d7f62e-6205-4344-a108-0f5aa7b9f23e",
+        "size": [
+          600,
+          600
+        ],
+        "color": "orange",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/64d7f62e-6205-4344-a108-0f5aa7b9f23e/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "f5dbeb29-21f6-4e91-972f-8979759259d0",
+        "size": [
+          530,
+          530
+        ],
+        "color": "pink",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/f5dbeb29-21f6-4e91-972f-8979759259d0/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "941a47bf-c052-468c-8430-78e1f15f8fdb",
+        "size": [
+          530,
+          530
+        ],
+        "color": "red",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/941a47bf-c052-468c-8430-78e1f15f8fdb/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "c53afd8f-6b30-4d1b-8454-0138ff5d7147",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          248,
+          249,
+          251,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "7e47f9c6-ed7f-5fa4-9d71-e945b3b456c4",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "9a4141ca-61e5-4134-aeea-aedbb2f566ea",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          202,
+          196,
+          181,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "ef0f3a9e-f1fe-11e8-aaba-7020840c075d",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          204,
+          198,
+          198,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "0087c517-e60e-4915-9c0a-187441d56697",
+        "size": [
+          640,
+          640
+        ],
+        "color": "white",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/0087c517-e60e-4915-9c0a-187441d56697/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "0508b52d-d0b1-4347-bae5-fd1d4a041213",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          189,
+          191,
+          192,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "68ba47be-a245-4897-993d-1a83bd01e99c",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          215,
+          218,
+          213,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "9d02c7b0-df24-41da-a1ac-d3dc06a91335",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          131,
+          184,
+          197,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      },
+      {
+        "jid": "660e6633-672e-44d1-bc0a-08b14363194f",
+        "size": [
+          1000,
+          1000
+        ],
+        "color": [
+          28,
+          90,
+          141,
+          255
+        ],
+        "texture_url": "",
+        "contentType": "material/paint"
+      }
+    ],
+    "wallpaper strip": [
+      {
+        "jid": "5c055c10-bab5-44b4-a9c4-65ff53d742d3",
+        "size": [
+          600,
+          600
+        ],
+        "color": "gray",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/5c055c10-bab5-44b4-a9c4-65ff53d742d3/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "46b4dd5a-2118-4849-ac05-833e9fbd19b3",
+        "size": [
+          530,
+          530
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/46b4dd5a-2118-4849-ac05-833e9fbd19b3/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "bb5f51db-97f2-4e2a-a1bb-b42b33140ed4",
+        "size": [
+          530,
+          530
+        ],
+        "color": "green",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/bb5f51db-97f2-4e2a-a1bb-b42b33140ed4/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "c43cb282-29c2-4d7f-af43-d66fb4987575",
+        "size": [
+          530,
+          530
+        ],
+        "color": "brown",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/c43cb282-29c2-4d7f-af43-d66fb4987575/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "d35b2554-0736-4111-90e1-f7d1e98608b8",
+        "size": [
+          530,
+          530
+        ],
+        "color": "brown",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/d35b2554-0736-4111-90e1-f7d1e98608b8/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "b60fb019-1a66-41d4-b1c1-f12641d11afc",
+        "size": [
+          600,
+          600
+        ],
+        "color": "gray",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/b60fb019-1a66-41d4-b1c1-f12641d11afc/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "175cdbc0-61c3-494b-8b70-61f25ad85d87",
+        "size": [
+          530,
+          500
+        ],
+        "color": "blue",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/175cdbc0-61c3-494b-8b70-61f25ad85d87/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "0cc305c8-2145-4aa2-ae71-e550418bd663",
+        "size": [
+          530,
+          500
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/0cc305c8-2145-4aa2-ae71-e550418bd663/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      }
+    ],
+    "wallpaper pattern": [
+      {
+        "jid": "3289671f-3a64-47be-9c66-baded700f0d0",
+        "size": [
+          650,
+          600
+        ],
+        "color": "pink",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/3289671f-3a64-47be-9c66-baded700f0d0/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "193609e3-5ed3-4d2d-b868-2bc99b3d9131",
+        "size": [
+          560,
+          500
+        ],
+        "color": "blue",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/193609e3-5ed3-4d2d-b868-2bc99b3d9131/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "eb8f70b7-5e1a-4f92-91e9-2283a86b3797",
+        "size": [
+          580,
+          500
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/eb8f70b7-5e1a-4f92-91e9-2283a86b3797/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "eb5591df-73e6-4c07-92f1-cd68c8279ffc",
+        "size": [
+          530,
+          530
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/eb5591df-73e6-4c07-92f1-cd68c8279ffc/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "bcc347e2-cc81-48ef-b740-bef4ad76f1cf",
+        "size": [
+          272,
+          262
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/bcc347e2-cc81-48ef-b740-bef4ad76f1cf/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "9e195b72-2091-43e0-9b1b-891fa9692e18",
+        "size": [
+          167,
+          167
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/9e195b72-2091-43e0-9b1b-891fa9692e18/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "02fe8103-c1df-49c2-b1fa-761ad699a0c7",
+        "size": [
+          530,
+          530
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/02fe8103-c1df-49c2-b1fa-761ad699a0c7/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "0977cf8e-40c6-413d-a9c8-40758c933213",
+        "size": [
+          800,
+          800
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/0977cf8e-40c6-413d-a9c8-40758c933213/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "0c471be4-258c-48c4-be2f-a87ab5a2e9b9",
+        "size": [
+          640,
+          640
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/0c471be4-258c-48c4-be2f-a87ab5a2e9b9/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "5c870be8-fec1-4a6f-b0d8-d36309b2ec03",
+        "size": [
+          530,
+          530
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/5c870be8-fec1-4a6f-b0d8-d36309b2ec03/wallfloor.jpg",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "56c2511f-2e20-4428-bb56-d4a9d19d63e4",
+        "size": [
+          540,
+          450
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/56c2511f-2e20-4428-bb56-d4a9d19d63e4/wallfloor.png",
+        "contentType": "material/wall fabric"
+      },
+      {
+        "jid": "e1524e86-400f-4f86-83fb-625b800e0997",
+        "size": [
+          2700,
+          2700
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e1524e86-400f-4f86-83fb-625b800e0997/wallfloor.png",
+        "contentType": "material/wallpaper"
+      },
+      {
+        "jid": "accfbdae-755a-4082-a068-ed72f4ca9649",
+        "size": [
+          4200,
+          2940
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/accfbdae-755a-4082-a068-ed72f4ca9649/wallfloor.png",
+        "contentType": "material/wallwrap"
+      },
+      {
+        "jid": "e2298b06-0005-469f-bce5-0de8c4b57bb5",
+        "size": [
+          4480,
+          2600
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/e2298b06-0005-469f-bce5-0de8c4b57bb5/wallfloor.jpg",
+        "contentType": "material/wall fabric"
+      },
+      {
+        "jid": "381a24c4-7777-477b-ac7c-f8cb244cd0f2",
+        "size": [
+          4480,
+          2600
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/1d0de250-1b18-42db-b78c-af2be49a196a/wallfloor_mini.png",
+        "contentType": ""
+      },
+      {
+        "jid": "c6d3146f-ce6c-4853-8d70-c037f37b3c8e",
+        "size": [
+          1200,
+          2400
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/c6d3146f-ce6c-4853-8d70-c037f37b3c8e/wallfloor.png",
+        "contentType": "material/wall paint - artistic"
+      },
+      {
+        "jid": "86d69ffe-71c3-4ff3-9a15-be652d3847a8",
+        "size": [
+          100,
+          100
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/86d69ffe-71c3-4ff3-9a15-be652d3847a8/wallfloor.png",
+        "contentType": "material/diatom mud"
+      },
+      {
+        "jid": "40c0c289-0e1d-4cce-9132-5295786222f8",
+        "size": [
+          530,
+          530
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/40c0c289-0e1d-4cce-9132-5295786222f8/wallfloor.jpg",
+        "contentType": "material/wall paint - artistic"
+      },
+      {
+        "jid": "f2619638-29f5-45da-8926-6904870a3011",
+        "size": [
+          600,
+          600
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/f2619638-29f5-45da-8926-6904870a3011/wallfloor.png",
+        "contentType": "material/wall paint - artistic"
+      },
+      {
+        "jid": "054da38e-9841-4814-aaa9-7621a615808e",
+        "size": [
+          3500,
+          2760
+        ],
+        "color": "yellow",
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/i/054da38e-9841-4814-aaa9-7621a615808e/wallfloor.png",
+        "contentType": "material/wallwrap"
+      }
+    ]
+  },
+  "door": {
+    "sliding door": [
+      {
+        "jid": "a3017175-01da-4bbb-a3f4-aa896e3fa604",
+        "size": [
+          2729.1900634765625,
+          63.39700222015381,
+          2167.9600524902344
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/floor-based window"
+      },
+      {
+        "jid": "1eebceb1-bc0e-4e85-ac1c-72ce7cdead52",
+        "size": [
+          1490,
+          93.9401,
+          2100
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "c73308c4-2a7a-41d8-82a9-d79bdd9c2d88",
+        "size": [
+          3960.8,
+          200.466,
+          2001.37
+        ],
+        "num": 3,
+        "open": true,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "c89b7e41-2794-43c3-ba36-2aa0725da7bd",
+        "size": [
+          4217.21,
+          95.0185,
+          2536.69
+        ],
+        "num": 4,
+        "open": true,
+        "contentType": "door/triple sliding door"
+      },
+      {
+        "jid": "c5fd078a-e898-4258-bcef-97c3371ffb79",
+        "size": [
+          1996.699981689453,
+          153.47800254821777,
+          2096.269989013672
+        ],
+        "num": 2,
+        "open": true,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "d7a54022-cd28-438a-9b71-d889a84421ec",
+        "size": [
+          1800.32,
+          121.062,
+          2609.72
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "fef62fdd-9bc2-478d-8457-d2763c28772e",
+        "size": [
+          2990.1,
+          126.0,
+          2050.0
+        ],
+        "num": 4,
+        "open": false,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "f2679117-5361-4cd6-a971-c0b63b53d0ff",
+        "size": [
+          2800.8,
+          144.14,
+          2201.37
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "8e371292-7033-41fc-8de0-f065a41c8f40",
+        "size": [
+          1495.0,
+          77.1058,
+          2185.0
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "9bb2118c-6c47-44f6-b083-9bc099c7df84",
+        "size": [
+          2990.1,
+          126,
+          2050
+        ],
+        "num": 4,
+        "open": false,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "1e0774cd-c508-4700-8b46-2f483d6d0939",
+        "size": [
+          1600,
+          86.3378,
+          2000
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "12b95733-764e-45bb-9278-86e740db1f32",
+        "size": [
+          2980,
+          240,
+          1990.0
+        ],
+        "num": 4,
+        "open": false,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "4a1ae2ba-aefc-44cc-b5e6-b1decd779100",
+        "size": [
+          1660,
+          80.0012,
+          2220
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "door/double sliding door"
+      },
+      {
+        "jid": "2b9ef806-7332-4c69-98e6-95e3c144397c",
+        "size": [
+          3120.12,
+          72.6333,
+          2260
+        ],
+        "num": 4,
+        "open": false,
+        "contentType": "door/double sliding door"
+      }
+    ],
+    "entry": [
+      {
+        "jid": "d774eaf2-d00c-4bf6-b180-03a23210525e",
+        "size": [
+          1062.17,
+          229.715,
+          1958.9
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/double swing door - asymmetrical"
+      },
+      {
+        "jid": "7a5b6696-77f7-4d52-b173-54c7df1fdede",
+        "size": [
+          921.505,
+          202.371,
+          1924.58
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/single swing door"
+      },
+      {
+        "jid": "0f21ec14-afeb-4707-ad78-644f21c4715c",
+        "size": [
+          1242.73,
+          205.001,
+          2381.04
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/double swing door - asymmetrical"
+      },
+      {
+        "jid": "9ddebc23-9c92-4de5-a31b-be5ced159c3c",
+        "size": [
+          1185.31,
+          128.665,
+          2027.43
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/double swing door - asymmetrical"
+      },
+      {
+        "jid": "caf46821-e6d9-4b5d-857b-aceff626266c",
+        "size": [
+          816.179,
+          206.513,
+          1903.77
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/single swing door"
+      },
+      {
+        "jid": "062d5e82-a0e9-465a-8015-f97d721da709",
+        "size": [
+          960.041,
+          156.467,
+          2125.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/single swing door"
+      },
+      {
+        "jid": "5b4a5b82-5f6f-4999-8174-cb540fa2d711",
+        "size": [
+          1193.0,
+          181.345,
+          2150.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/double swing door - asymmetrical"
+      },
+      {
+        "jid": "20ca3cb8-bc09-4b6d-bacd-7faff4d32e72",
+        "size": [
+          1602.48,
+          170.859,
+          2100.0
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "door/entry/double swing door - symmetrical"
+      },
+      {
+        "jid": "89b1fcd7-74b1-4f49-afea-4e56788f2fc3",
+        "size": [
+          1637.46,
+          94.6253,
+          2165.21
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "door/entry/double swing door - symmetrical"
+      },
+      {
+        "jid": "a586d768-17fd-425d-897f-bb01658952b4",
+        "size": [
+          1090.23,
+          126.505,
+          2029,
+          3
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/double swing door - asymmetrical"
+      },
+      {
+        "jid": "01360f1e-6eb7-4e9d-a5b7-70ff0c359f92",
+        "size": [
+          1193,
+          181.345,
+          2150.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/double swing door - asymmetrical"
+      },
+      {
+        "jid": "c61ec66d-4f8a-44c0-aa39-f53df71c344b",
+        "size": [
+          914.204,
+          109.321,
+          2159.26
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/entry/single swing door"
+      }
+    ],
+    "swing door": [
+      {
+        "jid": "83143d6e-d771-4d1b-adbe-58a7bf62ab85",
+        "size": [
+          940.0,
+          244.254,
+          2230.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "bf6226c4-64cf-4960-85dc-d2bd26c81b40",
+        "size": [
+          800.0,
+          122.282,
+          2000.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "05e933cf-1a76-4a95-86fc-e38c83ae118b",
+        "size": [
+          800.844,
+          173.363,
+          2049.27
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "27862988-ac1d-4941-8861-6e6d4019b457",
+        "size": [
+          801.024,
+          136.82,
+          2168.7
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "e0cffc06-3985-489a-abaf-25ebc5864a95",
+        "size": [
+          746.593,
+          174.732,
+          2027.86
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "1946e669-ff87-42ea-9049-c01322a7bba5",
+        "size": [
+          860.047,
+          179.69,
+          2124.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "29be0151-d7b0-4db9-b07d-03df468f48e5",
+        "size": [
+          800.0,
+          136.82,
+          2260.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "5f929aed-f939-4e42-abb6-533520819bfb",
+        "size": [
+          755.766,
+          121.559,
+          2100.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "b955eaf2-402a-4692-a6f7-f820358d84fc",
+        "size": [
+          816.0,
+          130.459,
+          2250.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "fe123577-bd54-457a-8ec5-890f99ea7002",
+        "size": [
+          830,
+          184.662,
+          2200
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "91520a06-80c4-43c3-8b3a-9ba60b246f6b",
+        "size": [
+          800.432,
+          126.043,
+          2161.23
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "2b0be061-5a07-42de-a6ea-9d49e94d4e77",
+        "size": [
+          800,
+          165.463,
+          2100
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "57628a86-0524-4149-9a60-f9495fc0320c",
+        "size": [
+          800.002,
+          171.803,
+          2160
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      }
+    ],
+    "bathroom": [
+      {
+        "jid": "9aa6f456-5fdb-4d71-a5ec-0ebd2a9564c8",
+        "size": [
+          799.999,
+          143.005,
+          2205.83
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "b96197d8-9bed-4bef-a3d3-dd43a30c2f45",
+        "size": [
+          759.27,
+          120.0,
+          2124.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "aaf7a6e5-e085-400f-9eb0-ca505bc828cf",
+        "size": [
+          800.0,
+          143.657,
+          2000.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "14bde614-0376-42bf-884e-95f994283088",
+        "size": [
+          800.457,
+          137.222,
+          2251.93
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      },
+      {
+        "jid": "e82a09b4-793e-4012-9da2-5be01ba6b499",
+        "size": [
+          800.0,
+          143.657,
+          2000.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "door/single swing door"
+      }
+    ]
+  },
+  "window": {
+    "window": [
+      {
+        "jid": "0706c4a1-d833-4593-ae68-654ee460c4f9",
+        "size": [
+          2099.0,
+          158.938,
+          1699.87
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "8faa113a-c68d-48db-9d1d-8fb50cd73ca4",
+        "size": [
+          3100,
+          110.001,
+          1880
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "a4395abe-8915-47a6-b6f8-355fa0038988",
+        "size": [
+          2803.03,
+          189.088,
+          1999.15
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "eeccc157-d405-4be8-abc0-6285b8ffab70",
+        "size": [
+          1019.98,
+          124.216,
+          1000.0
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "0ef6c16d-5a6b-4636-8ef9-499b3d502e92",
+        "size": [
+          1500.28,
+          158.937,
+          1500.42
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "023a12d2-b54c-4dfb-8ee2-3809af8210db",
+        "size": [
+          990.0,
+          105.002,
+          1100.0
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "669dcf8a-161d-4104-a6f5-ce4ffcc97c68",
+        "size": [
+          1452.93,
+          114.916,
+          1421.99
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "27c840f1-8a2c-47c4-b3fc-e977796dd94e",
+        "size": [
+          1500.48,
+          158.937,
+          1699.87
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "22d4543f-feb3-4f18-b006-794400d33298",
+        "size": [
+          801.009,
+          75.4156,
+          817.406
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "08826448-b2f9-4dca-8739-3207df851137",
+        "size": [
+          619.406,
+          108.984,
+          1177.37
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "efffa8a7-cfbc-4a6e-9043-40a07a372cc3",
+        "size": [
+          730.077,
+          120.848,
+          1789.43
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "5f203a10-a315-415c-994b-9e85e4346e13",
+        "size": [
+          272.564,
+          43.324,
+          750.088
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "586b4702-b715-45a0-a804-c9e29a8ad7a7",
+        "size": [
+          1850.0,
+          240.0,
+          1400.0
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "e228c05d-8ce6-46e4-8204-55a216639bbb",
+        "size": [
+          939.944,
+          60.0001,
+          1400
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "f56b9ead-9e4d-4d98-9412-d35fc82bde35",
+        "size": [
+          1500.28,
+          158.937,
+          1500.42
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "db84c83f-6de8-4a36-8d88-af157842becc",
+        "size": [
+          1659.82,
+          237.762,
+          1358.35
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "3f75de0d-326a-44c9-8e2a-abaaff63152a",
+        "size": [
+          2600,
+          141.226,
+          1800
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "b63ef35e-9b2f-44b2-bbf8-23996edc42a0",
+        "size": [
+          2729.91,
+          245.407,
+          1360.35
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "161c86f3-1eaa-40e3-b412-900bc71d85ee",
+        "size": [
+          800,
+          60.0005,
+          1700
+        ],
+        "num": 1,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "10cb09b6-53a8-430d-b710-1d8ad979ec88",
+        "size": [
+          970.114,
+          150.139,
+          1501.38
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "ee25f703-d124-48a9-bdd5-cd7377a88c25",
+        "size": [
+          2187.34,
+          146.904,
+          1508.29
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "5fabfc3b-9cbd-4171-aed7-3e6dbc1b8f50",
+        "size": [
+          2820.0,
+          200.003,
+          2200.0
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/window"
+      },
+      {
+        "jid": "96a6bc66-a2ed-49ff-b29a-22b8967d80f6",
+        "size": [
+          2002.22,
+          187.328,
+          1500.0
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/window"
+      }
+    ],
+    "french window": [
+      {
+        "jid": "3a8aec68-629e-4202-a640-f79e00873132",
+        "size": [
+          2819.67,
+          130.317,
+          2868.15
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/floor-based window"
+      },
+      {
+        "jid": "83107d57-1e01-43e6-abf7-686a9b01435e",
+        "size": [
+          2729.19,
+          63.397,
+          2167.96
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/floor-based window"
+      },
+      {
+        "jid": "ba225dc9-9af8-45e3-8367-cf19dae6dc41",
+        "size": [
+          1695.1,
+          107.097,
+          2178.3
+        ],
+        "num": 2,
+        "open": false,
+        "contentType": "window/floor-based window"
+      },
+      {
+        "jid": "f542cd18-8d05-4f92-9f7c-9ff26a24ba21",
+        "size": [
+          2400.0,
+          117.122,
+          2225.0
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/floor-based window"
+      },
+      {
+        "jid": "7cac0e38-4f5e-4e8a-81d8-eff295715991",
+        "size": [
+          3841.07,
+          65.3367,
+          2095.56
+        ],
+        "num": 4,
+        "open": false,
+        "contentType": "window/floor-based window"
+      },
+      {
+        "jid": "e8711dd5-6a8b-49bd-b640-299b4f240e6c",
+        "size": [
+          6481.94,
+          124.299,
+          2637.0
+        ],
+        "num": 6,
+        "open": false,
+        "contentType": "window/floor-based window"
+      },
+      {
+        "jid": "a3017175-01da-4bbb-a3f4-aa896e3fa604",
+        "size": [
+          2729.1900634765625,
+          63.39700222015381,
+          2167.9600524902344
+        ],
+        "num": 3,
+        "open": false,
+        "contentType": "window/floor-based window"
+      }
+    ],
+    "Bay window": [
+      {
+        "jid": "d5d3629c-278c-4bd2-9cdd-6333d6581ecc",
+        "size": [
+          2972.21,
+          845.003,
+          2157.31
+        ],
+        "num": 3,
+        "open": false,
+        "wall_offset": 260.0,
+        "contentType": "window/bay window"
+      },
+      {
+        "jid": "77663c4a-cd92-42ef-ab05-2854e4ad7f4a",
+        "size": [
+          2844.27,
+          1049.57,
+          2150.24
+        ],
+        "num": 3,
+        "open": false,
+        "wall_offset": 340.0,
+        "contentType": "window/bay window"
+      },
+      {
+        "jid": "f6ae661e-886d-42ee-82d8-8dfe6bc06b48",
+        "size": [
+          2844.27,
+          1797.82,
+          2150.24
+        ],
+        "num": 3,
+        "open": false,
+        "wall_offset": 0.0,
+        "contentType": "window/bay window"
+      },
+      {
+        "jid": "4bc7052b-1c4f-483c-b06f-ae831b00562c",
+        "size": [
+          1894.4,
+          1139.67,
+          1757.45
+        ],
+        "num": 4,
+        "open": false,
+        "wall_offset": 0.0,
+        "contentType": "window/bay window"
+      },
+      {
+        "jid": "277aa3da-8844-4dcc-9df7-678fdb7af7b0",
+        "size": [
+          1989.68,
+          532.529,
+          1373.26
+        ],
+        "num": 4,
+        "open": false,
+        "wall_offset": 140.0,
+        "contentType": "window/bay window"
+      }
+    ]
+  },
+  "bg wall": {
+    "chinese": [
+      {
+        "jid": "fe5c2ad9-457f-4962-b219-09d818b1d1a0",
+        "size": [
+          3474.91,
+          211.644,
+          2607.24
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "b6dc841f-1d10-48e7-8369-699dda41dac3",
+        "size": [
+          4000,
+          40.0004,
+          2600.0
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "2550d2a0-9266-4b90-914b-3e467407ef92",
+        "size": [
+          3980.03,
+          40.0004,
+          2500.0
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "6519523a-14af-4b7d-946b-b62d9c3d358f",
+        "size": [
+          3720.0,
+          102.302,
+          2610.0
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "681a96a8-4cfb-41fc-8d56-811b4a5afb2f",
+        "size": [
+          4881.6,
+          63.937,
+          2620.0
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "0d0b7a60-695e-4669-8bba-2a6a8f547ef0",
+        "size": [
+          3793.91,
+          35.0007,
+          2700.0
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "a4aeb052-5724-4448-b398-7309e382ee42",
+        "size": [
+          4307.39,
+          56.7442,
+          2531.89
+        ],
+        "contentType": "build element/background wall"
+      }
+    ],
+    "european": [
+      {
+        "jid": "19a6a351-01c9-4a53-9e51-4a44fc686860",
+        "size": [
+          2844.0,
+          50.0,
+          2290.41
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "fab278fb-8f73-4759-9bf3-c74b4fd408ab",
+        "size": [
+          5340.0,
+          51.0004,
+          2563.87
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "b1b52c7b-a6e3-4169-b57c-6f0ed8cb9ef7",
+        "size": [
+          4500.39,
+          60.0004,
+          2500.0
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "05a66871-1645-461f-80b5-9ed3c468bf90",
+        "size": [
+          4280.0,
+          38.5842,
+          2700.0
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "29284dd4-89ea-45a4-8ae3-782477aa9c3f",
+        "size": [
+          3670.0,
+          140.0,
+          2349.91
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "383997f4-e22a-4abd-bfd4-2e364f6be590",
+        "size": [
+          4500.67,
+          201.585,
+          2594.08
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "5c0054da-5333-43b4-96b7-e3194e205fd2",
+        "size": [
+          4200.27,
+          130.087,
+          2480.43
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "9a0a2e67-0a7c-4c36-b0bc-e34b06710465",
+        "size": [
+          4499.98,
+          81.0023,
+          2400.05
+        ],
+        "contentType": "build element/background wall"
+      },
+      {
+        "jid": "0ca92f8b-c1d3-47a1-9ca1-9261910daa3e",
+        "size": [
+          4130.0,
+          45.0002,
+          2810.0
+        ],
+        "contentType": "build element/background wall"
+      }
+    ]
+  },
+  "kitchen": {
+    "floor": [
+      {
+        "jid": "3d456081-3394-4568-a08c-6013425ea2f4",
+        "size": [
+          45.0,
+          62.1554,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "2defd8fa-8be7-44de-845a-f5c27a4dbe05",
+        "size": [
+          45.0,
+          62.1554,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "50135f45-9e48-4705-b4a9-7be5d0ca5d6e",
+        "size": [
+          45.0,
+          62.1554,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "9ec10a45-7867-4765-b4aa-74f643a9715f",
+        "size": [
+          45.0,
+          62.1554,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "fb8fe8d0-4674-488e-b1cf-703cf63baa7b",
+        "size": [
+          45.0,
+          62.1554,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "b3ba12cb-d6d0-4b4c-8b23-3656c7be1901",
+        "size": [
+          45.0,
+          62.1554,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      }
+    ],
+    "wall": [
+      {
+        "jid": "73e92d5f-687f-4063-8b70-48863bae1ae6",
+        "size": [
+          90.0,
+          34.3554,
+          66.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "9f514c40-8115-4d06-8736-9d6f5c321224",
+        "size": [
+          90.0,
+          34.3554,
+          66.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "7629e909-5bcf-4031-8300-3320f598eeea",
+        "size": [
+          90.0,
+          34.3554,
+          66.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "dc6f2954-57ab-4711-94aa-5eee53ae6843",
+        "size": [
+          90.0,
+          34.3554,
+          66.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "5cc64880-ee66-4df3-8a44-53b0881e5cc7",
+        "size": [
+          90.0,
+          34.3554,
+          66.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "39c4262e-18aa-4398-bf86-46a56fe0bab4",
+        "size": [
+          90.0,
+          34.3554,
+          66.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      }
+    ],
+    "sink": [
+      {
+        "jid": "1e346926-c9d6-4ebe-a594-6457ef26207b",
+        "size": [
+          90.0,
+          61.8,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "978bd45b-3e10-4515-8b02-ed1696f49ac6",
+        "size": [
+          90.0,
+          61.8,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "7afdb3b8-be3c-4639-b335-0041d3f7bc51",
+        "size": [
+          90.0,
+          61.8,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "d16b12e8-8160-48c0-8677-93d82e5561b9",
+        "size": [
+          90.0,
+          61.8,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "b895c555-0aa8-4715-8ed0-df3e2a6b2fa6",
+        "size": [
+          90.0,
+          61.8,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      },
+      {
+        "jid": "70918930-31b2-47bf-bd0c-77005d8ecd90",
+        "size": [
+          90.0,
+          61.8,
+          83.0
+        ],
+        "contentType": "cabinet/floor-based kitchen cabinet"
+      }
+    ],
+    "cook": [
+      {
+        "jid": "fe03e3ec-3b71-4bed-87ab-f6267fbe23d4",
+        "size": [
+          67.5792,
+          44.1307,
+          5.5059
+        ],
+        "contentType": "appliance/range & cooktop"
+      },
+      {
+        "jid": "d672ce1e-60fd-44de-b31b-ff7ec1177c10",
+        "size": [
+          78.0,
+          45.0,
+          7.6986
+        ],
+        "contentType": "appliance/range & cooktop"
+      },
+      {
+        "jid": "b7aea8e4-71e5-427a-a227-1ffb2ea3bb51",
+        "size": [
+          79.0,
+          48.0,
+          7.5758
+        ],
+        "contentType": "appliance/range & cooktop"
+      },
+      {
+        "jid": "e425ff12-d8b7-4b9e-8435-3f9a630ec328",
+        "size": [
+          72.527,
+          72.527,
+          6.50001
+        ],
+        "contentType": "appliance/range & cooktop"
+      },
+      {
+        "jid": "f8850d07-518a-4f95-b499-34465da79867",
+        "size": [
+          75.0,
+          43.0,
+          6.88
+        ],
+        "contentType": "appliance/range & cooktop"
+      },
+      {
+        "jid": "d7015f6d-04dd-4fa1-8d3b-c27c1300a5e5",
+        "size": [
+          31.869,
+          44.9837,
+          15.1
+        ],
+        "height_bias": 10.0,
+        "contentType": "appliance/range & cooktop"
+      },
+      {
+        "jid": "5c8bb926-c034-4ef0-b4f8-bff23207062b",
+        "size": [
+          33.0,
+          52.0,
+          9.454
+        ],
+        "height_bias": 5.0,
+        "contentType": "appliance/range & cooktop"
+      }
+    ],
+    "range hood": [
+      {
+        "jid": "8df4e2c7-7002-469a-8219-cf28449eabb2",
+        "size": [
+          90.7176,
+          42.374,
+          99.3094
+        ],
+        "height_bias": 55.0,
+        "contentType": "appliance/ventilation - wall-attached"
+      },
+      {
+        "jid": "2ea6bc5c-fc27-49d8-a0b6-69c7afb43cfe",
+        "size": [
+          89.5,
+          51.6779,
+          57.35
+        ],
+        "height_bias": 14.0,
+        "contentType": "appliance/ventilation - ceiling-attached"
+      },
+      {
+        "jid": "b2ef11ba-cdaa-4b73-abe3-7805c6633a55",
+        "size": [
+          89.5,
+          51.0,
+          65.4
+        ],
+        "height_bias": 14.0,
+        "contentType": "appliance/ventilation - ceiling-attached"
+      }
+    ],
+    "fridge": [
+      {
+        "jid": "b8b6f503-ae65-4028-af13-37f74c8054b4",
+        "size": [
+          60.0,
+          63.2881,
+          183.625
+        ],
+        "contentType": "appliance/appliance - wall-attached"
+      },
+      {
+        "jid": "3c7b73cf-19d1-4929-97e1-64cae1f0e5ff",
+        "size": [
+          56.9307,
+          62.0164,
+          182.873
+        ],
+        "contentType": "appliance/refrigerator"
+      },
+      {
+        "jid": "22778c04-a4fb-4ca9-9b0e-79e229514d58",
+        "size": [
+          69.9676,
+          66.3989,
+          187.508
+        ],
+        "contentType": "appliance/appliance - wall-attached"
+      },
+      {
+        "jid": "3d4cfabb-e00d-4ccc-8714-13ebd38fdb44",
+        "size": [
+          70.3812,
+          60.8764,
+          190.331
+        ],
+        "contentType": "appliance/appliance - on top of others"
+      }
+    ],
+    "pot": [
+      {
+        "jid": "837fbeca-9d86-4a16-9757-b83c50d16b82",
+        "size": [
+          0.35194,
+          0.22106,
+          0.13286
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "84e24131-9655-4ff4-a9ef-be6758016fff",
+        "size": [
+          0.32982,
+          0.26504,
+          0.19334
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "9b1a8dcb-768a-4ab7-8be3-4c6b8e53ca2e",
+        "size": [
+          0.32204,
+          0.22799,
+          0.17191
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "9efa86e9-e97c-4312-ab6a-e545a4143295",
+        "size": [
+          0.4536,
+          0.35733,
+          0.11954
+        ],
+        "contentType": "appliance/range & cooktop"
+      },
+      {
+        "jid": "78d5e2ab-5932-4a0f-98d5-c98517fbf48b",
+        "size": [
+          0.29648,
+          0.2,
+          0.13504
+        ],
+        "contentType": "appliance/range & cooktop"
+      },
+      {
+        "jid": "d02121ae-fc71-4474-a710-9411280ffe51",
+        "size": [
+          0.38519,
+          0.3852,
+          0.08957
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      }
+    ],
+    "kitchenware": [
+      {
+        "jid": "176f6980-6dc3-484a-b5cf-5e042d58c44a",
+        "size": [
+          0.38602,
+          0.23566,
+          0.49053
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "d9619c32-a729-4060-98a4-6f6e6390b3b6",
+        "size": [
+          0.32625,
+          0.21671,
+          0.41708
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "5e2c53a9-06a8-4873-8634-2c622a1dbbbe",
+        "size": [
+          0.50186,
+          0.13907,
+          0.3154
+        ],
+        "wall": true,
+        "contentType": "accessory/kitchen decoration-wall attached"
+      },
+      {
+        "jid": "45da753a-7995-45c9-9328-4d5997661ade",
+        "size": [
+          0.51046,
+          0.14568,
+          0.61718
+        ],
+        "wall": true,
+        "contentType": "accessory/kitchen decoration-wall attached"
+      },
+      {
+        "jid": "6d65de6b-b20b-4241-9cce-b328b0918bcb",
+        "size": [
+          0.40053,
+          0.20347,
+          0.62913
+        ],
+        "wall": true,
+        "contentType": "accessory/kitchen decoration-wall attached"
+      }
+    ],
+    "fruit": [
+      {
+        "jid": "be074431-c901-4769-ae37-88bc6d19d833",
+        "size": [
+          0.16211,
+          0.16211,
+          0.09276
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "53c61501-1d93-4d2c-922a-8723aa9254cd",
+        "size": [
+          0.18638,
+          0.18775,
+          0.12164
+        ],
+        "contentType": "accessory/accessory - on top of others"
+      },
+      {
+        "jid": "fc01aa7e-c2ac-4b34-8e4c-0db2acaa0e44",
+        "size": [
+          0.27364,
+          0.27364,
+          0.18071
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "a2b05475-62a9-416e-86ca-11e064746aae",
+        "size": [
+          0.33449,
+          0.1687,
+          0.18075
+        ],
+        "contentType": "accessory/kitchen decoration-wall attached"
+      },
+      {
+        "jid": "781f2d5a-e809-42af-9580-e69275616555",
+        "size": [
+          0.33558,
+          0.14296,
+          0.11469
+        ],
+        "contentType": "accessory/kitchen decoration-wall attached"
+      },
+      {
+        "jid": "022aae23-ac54-4edf-9705-c61ea7745d23",
+        "size": [
+          0.21821,
+          0.2244,
+          0.16844
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "34d707ef-cf9a-4c65-b0db-eb1cb7d12b45",
+        "size": [
+          0.36503,
+          0.30834,
+          0.3381
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "be13ce19-feb6-49da-8940-f9ce0008edc2",
+        "size": [
+          0.48969,
+          0.25962,
+          0.41887
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      }
+    ],
+    "sink bowl": [
+      {
+        "jid": "902026ba-d9e2-433c-a8eb-0f03b5cdcbea",
+        "size": [
+          0.45968,
+          0.28175,
+          0.52711
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "a5d700b6-f5ff-4ce1-861c-ade2ca3e5dd8",
+        "size": [
+          0.51875,
+          0.28005,
+          0.5306
+        ],
+        "contentType": "accessory/kitchen decoration-wall attached"
+      },
+      {
+        "jid": "e210eabf-f5c8-4e56-a2f4-453e30b9b538",
+        "size": [
+          0.44741,
+          0.1531,
+          0.21698
+        ],
+        "contentType": "accessory/kitchen decoration-wall attached"
+      },
+      {
+        "jid": "8e8eb589-afd8-457a-9505-fa2334d49eba",
+        "size": [
+          0.55169,
+          0.39638,
+          0.28511
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "00d71d34-305f-41ec-b45b-bcfde1228b15",
+        "size": [
+          0.49266,
+          0.39957,
+          0.31001
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "d57e9e69-fadc-43f3-bf79-bf7bebc817b9",
+        "size": [
+          0.45649,
+          0.275,
+          0.38778
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      }
+    ],
+    "appliances": [
+      {
+        "jid": "839a1aa1-9952-4be6-8329-36c58dae25fd",
+        "size": [
+          0.595,
+          0.78051,
+          0.454
+        ],
+        "contentType": "appliance/appliance - on top of others"
+      },
+      {
+        "jid": "8db0414d-d4a0-4544-8c91-507ae721de71",
+        "size": [
+          0.257,
+          0.30587,
+          0.23954
+        ],
+        "contentType": "appliance/appliance - on top of others"
+      },
+      {
+        "jid": "3ec14e3a-d70a-4201-9f78-e66c8df0659e",
+        "size": [
+          0.27999,
+          0.36923,
+          0.26917
+        ],
+        "contentType": "appliance/appliance - on top of others"
+      },
+      {
+        "jid": "a6da783b-e45d-4d61-a95a-1efd3e27566a",
+        "size": [
+          0.23229,
+          0.13962,
+          0.2501
+        ],
+        "contentType": "appliance/appliance - wall-attached"
+      },
+      {
+        "jid": "55b8a783-738d-42ba-b1f1-2c9a0ffdcf23",
+        "size": [
+          0.21891,
+          0.17864,
+          0.4735
+        ],
+        "contentType": "appliance/appliance - on top of others"
+      },
+      {
+        "jid": "ff95221a-b76c-4e6f-9549-15d4b0e00c92",
+        "size": [
+          0.23035,
+          0.24421,
+          0.29141
+        ],
+        "contentType": "appliance/appliance - on top of others"
+      },
+      {
+        "jid": "88ac782b-4304-4aea-838d-a9987f69806b",
+        "size": [
+          0.34668,
+          0.34198,
+          0.34205
+        ],
+        "contentType": "appliance/appliance - on top of others"
+      },
+      {
+        "jid": "1517babe-d82f-4205-9f8f-1b078e6935dd",
+        "size": [
+          0.25454,
+          0.21148,
+          0.30393
+        ],
+        "contentType": "300 - on top of others"
+      },
+      {
+        "jid": "44500de6-a82a-493a-9925-1936b7a2eeb8",
+        "size": [
+          0.52407,
+          0.46092,
+          0.32814
+        ],
+        "contentType": "appliance/appliance - wall-attached"
+      },
+      {
+        "jid": "487e3618-9582-4abf-974a-eff98c9ee466",
+        "size": [
+          0.46096,
+          0.36205,
+          0.29
+        ],
+        "contentType": "appliance/appliance - on top of others"
+      }
+    ],
+    "others": [
+      {
+        "jid": "4ab0edfb-98ad-4032-934e-de083d879f75",
+        "size": [
+          0.191,
+          0.088,
+          0.20052
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "deba2713-4149-4926-b822-95de499c7d4a",
+        "size": [
+          0.24246,
+          0.07693,
+          0.13906
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "c4401dc9-aac1-489c-b5c6-777e0055d451",
+        "size": [
+          0.11937,
+          0.088,
+          0.08875
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "1d282f3d-9503-4884-820a-67214f7afcf3",
+        "size": [
+          0.1349,
+          0.13934,
+          0.20846
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "4452adb0-0592-4a0d-8925-14e1add19300",
+        "size": [
+          0.21585,
+          0.32584,
+          0.31431
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "90154853-9b63-40bd-b64f-9769f48cd72c",
+        "size": [
+          0.27382,
+          0.09952,
+          0.21255
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "3850f223-ba52-4bde-91a8-8af0c4aff6b7",
+        "size": [
+          0.26713,
+          0.13356,
+          0.12227
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "52f75e02-b6b2-4ac6-90e1-afed3200411a",
+        "size": [
+          0.90501,
+          0.24032,
+          0.25589
+        ],
+        "contentType": "accessory/accessory - on top of others"
+      },
+      {
+        "jid": "a07d32d8-5115-4b6e-b58c-a9349816d4fa",
+        "size": [
+          0.112,
+          0.112,
+          0.0539
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "3d1bd41f-6c3f-49af-ab39-16b39c84bb1d",
+        "size": [
+          0.099,
+          0.099,
+          0.10282
+        ],
+        "contentType": "300 - on top of others"
+      },
+      {
+        "jid": "23d598b0-45e0-4d30-9251-1e5c259aecae",
+        "size": [
+          0.38162,
+          0.236,
+          0.198
+        ],
+        "contentType": "accessory/kitchen decoration-horizontal"
+      },
+      {
+        "jid": "22e2cf64-73a6-496d-8427-3d03de9b9395",
+        "size": [
+          0.34763,
+          0.30337,
+          0.25372
+        ],
+        "contentType": "accessory/accessory - on top of others"
+      }
+    ],
+    "gusset ceiling": [
+      {
+        "jid": "",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/Products/17bd8ad1-db97-4067-96ce-01f47c42a020/resources.jpg",
+        "contentType": ""
+      },
+      {
+        "jid": "",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/Products/0c1afa30-7bef-4a0f-93ab-cecba7bfb7b2/resources.jpg",
+        "contentType": ""
+      },
+      {
+        "jid": "",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/Products/5c0f0fcb-e5a3-4617-b1eb-c28bf56604da/resources.jpg",
+        "contentType": ""
+      },
+      {
+        "jid": "",
+        "size": [
+          305,
+          305
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/Products/1dae76df-e1a2-4c0e-b6f7-d4854d130da5/resources.jpg",
+        "contentType": ""
+      },
+      {
+        "jid": "",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/Products/b3621ecd-b4ee-436f-9f41-72674b242c5e/resources.jpg",
+        "contentType": ""
+      },
+      {
+        "jid": "",
+        "size": [
+          305,
+          305
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/Products/b0eb5106-8a68-43ba-98b2-ecc092d3f10b/resources.jpg",
+        "contentType": ""
+      },
+      {
+        "jid": "",
+        "size": [
+          300,
+          300
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/Products/2bb66f03-acaa-44a2-842f-4845358b04c7/resources.jpg",
+        "contentType": ""
+      },
+      {
+        "jid": "",
+        "size": [
+          336,
+          336
+        ],
+        "texture_url": "https://jr-prod-pim-products.oss-cn-beijing.aliyuncs.com/Products/b0dbddca-94e3-410b-b38e-08477f94a026/resources.jpg",
+        "contentType": ""
+      }
+    ],
+    "light": [
+      {
+        "jid": "49bb5287-ccc9-4433-a529-0e9b050d2899",
+        "size": [
+          64.0,
+          30.0,
+          5.83767
+        ],
+        "contentType": "lighting/ceiling light"
+      },
+      {
+        "jid": "a52b78ef-2693-4119-b113-1ce46809844c",
+        "size": [
+          50.3392,
+          50.5765,
+          4.01137
+        ],
+        "contentType": "lighting/ceiling light"
+      },
+      {
+        "jid": "03bf01f0-32de-41ba-b99b-e6d9263c31cd",
+        "size": [
+          40.0,
+          40.0,
+          4.0
+        ],
+        "contentType": "lighting/ceiling light"
+      }
+    ]
+  },
+  "tv_paint": [
+    {
+      "jid": "04160c9e-415b-4f87-afff-173672760d57",
+      "pts": [
+        [
+          -35.56,
+          0.84,
+          1.8
+        ],
+        [
+          -35.56,
+          41.87,
+          1.8
+        ],
+        [
+          35.56,
+          41.87,
+          1.8
+        ],
+        [
+          35.56,
+          0.84,
+          1.8
+        ]
+      ]
+    },
+    {
+      "jid": "09624b92-568a-4b4f-93fb-483da3326418",
+      "pts": [
+        [
+          -36,
+          5.18,
+          3.73
+        ],
+        [
+          -36,
+          47.6,
+          3.73
+        ],
+        [
+          36,
+          47.6,
+          3.73
+        ],
+        [
+          36,
+          5.18,
+          3.73
+        ]
+      ]
+    },
+    {
+      "jid": "00ec3b95-a504-4e8c-b82a-46df3a68636c",
+      "pts": [
+        [
+          -54,
+          11.22,
+          5.29
+        ],
+        [
+          -54,
+          74.07,
+          5.29
+        ],
+        [
+          54,
+          74.07,
+          5.29
+        ],
+        [
+          54,
+          11.22,
+          5.29
+        ]
+      ]
+    },
+    {
+      "jid": "01fc7876-b491-4246-abfe-2e06b5772647",
+      "pts": [
+        [
+          -61.37,
+          10.79,
+          3.25
+        ],
+        [
+          -61.37,
+          84.25,
+          3.25
+        ],
+        [
+          61.37,
+          84.25,
+          3.25
+        ],
+        [
+          61.37,
+          10.79,
+          3.25
+        ]
+      ]
+    },
+    {
+      "jid": "01670930-e1c2-475f-a979-aea256c58896",
+      "pts": [
+        [
+          -63.53,
+          2.71,
+          0.72
+        ],
+        [
+          -63.53,
+          78.16,
+          0.72
+        ],
+        [
+          63.53,
+          78.16,
+          0.72
+        ],
+        [
+          63.53,
+          2.71,
+          0.72
+        ]
+      ]
+    },
+    {
+      "jid": "07fbb4c7-30d7-4fd9-a4b6-e903ca4f5bd8",
+      "pts": [
+        [
+          -76.73,
+          10.65,
+          1.77
+        ],
+        [
+          -76.73,
+          97.26,
+          1.77
+        ],
+        [
+          76.73,
+          97.26,
+          1.77
+        ],
+        [
+          76.73,
+          10.65,
+          1.77
+        ]
+      ]
+    },
+    {
+      "jid": "064d04fe-ad72-4fe9-8901-dcb936504e77",
+      "pts": [
+        [
+          -77.67,
+          8.94,
+          1.932
+        ],
+        [
+          -77.67,
+          94.01,
+          1.932
+        ],
+        [
+          77.67,
+          94.01,
+          1.932
+        ],
+        [
+          77.67,
+          8.94,
+          1.932
+        ]
+      ]
+    },
+    {
+      "jid": "1091a3a7-8e66-464e-a120-8956cdf411de",
+      "pts": [
+        [
+          -85.22,
+          3.6,
+          3.87
+        ],
+        [
+          -85.22,
+          99.6,
+          3.87
+        ],
+        [
+          85.22,
+          99.6,
+          3.87
+        ],
+        [
+          85.22,
+          3.6,
+          3.87
+        ]
+      ]
+    }
+  ]
+}

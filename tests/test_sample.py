@@ -17,27 +17,22 @@ async def test_create_sample(session):
     assert sample.score == 85
 
 async def test_vector_similarity_search(session):
-    from sqlalchemy import select
-    s1 = Sample(
+    from xasset.repositories.sample import SampleRepository
+    repo = SampleRepository(session)
+    s1 = await repo.create(
         scene_type="house", sample_level="zone", style="现代",
         score=80, style_vector=[1.0] + [0.0] * (STYLE_VECTOR_DIM - 1),
     )
-    s2 = Sample(
+    await repo.create(
         scene_type="house", sample_level="zone", style="古典",
         score=75, style_vector=[0.0] * STYLE_VECTOR_DIM,
     )
-    session.add_all([s1, s2])
-    await session.commit()
 
     query = [1.0] + [0.0] * (STYLE_VECTOR_DIM - 1)
-    result = await session.execute(
-        select(Sample)
-        .where(Sample.scene_type == "house")
-        .order_by(Sample.style_vector.op("<->")(query))
-        .limit(1)
+    results = await repo.search_by_style(
+        query_vector=query, scene_type="house", sample_level="zone", limit=1
     )
-    closest = result.scalar_one()
-    assert closest.id == s1.id
+    assert results[0].id == s1.id
 
 
 # 追加到 tests/test_sample.py 末尾

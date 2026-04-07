@@ -1,7 +1,18 @@
 # xasset/repositories/sample.py
+import math
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from xasset.models.sample import Sample
+
+
+def _cosine_distance(a: list[float], b: list[float]) -> float:
+    dot = sum(x * y for x, y in zip(a, b))
+    norm_a = math.sqrt(sum(x * x for x in a))
+    norm_b = math.sqrt(sum(y * y for y in b))
+    if norm_a == 0 or norm_b == 0:
+        return 1.0
+    return 1.0 - dot / (norm_a * norm_b)
+
 
 class SampleRepository:
     def __init__(self, session: AsyncSession):
@@ -25,10 +36,11 @@ class SampleRepository:
             select(Sample)
             .where(Sample.scene_type == scene_type)
             .where(Sample.sample_level == sample_level)
-            .order_by(Sample.style_vector.op("<->")(query_vector))
-            .limit(limit)
+            .where(Sample.style_vector.is_not(None))
         )
-        return list(result.scalars().all())
+        rows = list(result.scalars().all())
+        rows.sort(key=lambda s: _cosine_distance(query_vector, s.style_vector))
+        return rows[:limit]
 
     async def search_by_partition(
         self,
@@ -39,7 +51,8 @@ class SampleRepository:
         result = await self.session.execute(
             select(Sample)
             .where(Sample.scene_type == scene_type)
-            .order_by(Sample.partition_vector.op("<->")(query_vector))
-            .limit(limit)
+            .where(Sample.partition_vector.is_not(None))
         )
-        return list(result.scalars().all())
+        rows = list(result.scalars().all())
+        rows.sort(key=lambda s: _cosine_distance(query_vector, s.partition_vector))
+        return rows[:limit]

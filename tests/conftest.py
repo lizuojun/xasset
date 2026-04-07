@@ -1,7 +1,7 @@
 # tests/conftest.py
-import os
 import pytest_asyncio
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
+from sqlalchemy.pool import StaticPool
 from xasset.db.base import Base
 # 导入所有 ORM 模型，确保 Base.metadata 包含所有表
 import xasset.models.asset        # noqa: F401
@@ -9,20 +9,20 @@ import xasset.models.commerce     # noqa: F401
 import xasset.models.sample       # noqa: F401
 import xasset.models.composition  # noqa: F401
 
-TEST_DB_URL = os.getenv(
-    "TEST_DB_URL",
-    "postgresql+asyncpg://postgres:password@localhost:5432/xasset_test",
-)
+TEST_DB_URL = "sqlite+aiosqlite:///:memory:"
 
 
-@pytest_asyncio.fixture(scope="session")
+@pytest_asyncio.fixture
 async def engine():
-    eng = create_async_engine(TEST_DB_URL)
+    # 每个测试独立的 in-memory DB，保证完全隔离
+    eng = create_async_engine(
+        TEST_DB_URL,
+        connect_args={"check_same_thread": False},
+        poolclass=StaticPool,
+    )
     async with eng.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
     yield eng
-    async with eng.begin() as conn:
-        await conn.run_sync(Base.metadata.drop_all)
     await eng.dispose()
 
 

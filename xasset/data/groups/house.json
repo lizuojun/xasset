@@ -2,9 +2,11 @@
   "scene_type": "house",
   "groups": [
     {
-      "id": "house-meeting",
-      "name": "会客组",
+      "id": "house-meeting-living",
+      "name": "客厅会客组",
       "code": 100001,
+      "category": "furniture",
+      "anchor_surface": null,
       "scene_types": ["house"],
       "anchor_role": "sofa",
       "roles": [
@@ -21,7 +23,16 @@
           "tier": "support",
           "asset_types": ["house/room/furniture/table/coffee"],
           "count": [0, 2],
-          "size_range": {"w": [0.4, 5.0], "h": [0.4, 5.0], "d": [0.0, 1.5]},
+          "optional": true
+        },
+        {
+          "name": "side_sofa",
+          "tier": "support",
+          "asset_types": [
+            "house/room/furniture/sofa/single",
+            "house/room/furniture/chair/armchair"
+          ],
+          "count": [0, 2],
           "optional": true
         },
         {
@@ -32,19 +43,26 @@
           "optional": true
         },
         {
+          "name": "side_table",
+          "tier": "fill",
+          "asset_types": ["house/room/furniture/table/side"],
+          "count": [0, 2],
+          "optional": true
+        },
+        {
           "name": "accessory",
           "tier": "accent",
-          "asset_types": ["house/room/furniture/accessory"],
+          "asset_types": ["house/room/accessory"],
           "count": [0, 4],
           "optional": true
         }
       ],
       "templates": [
         {
-          "id": "house-meeting-standard",
-          "name": "标准会客",
+          "id": "house-meeting-living-standard",
+          "name": "标准客厅会客",
           "placement_mode": "deterministic",
-          "sequence": ["sofa", "coffee_table", "rug", "accessory"],
+          "sequence": ["sofa", "coffee_table", "side_sofa", "rug", "side_table", "accessory"],
           "placements": [
             {
               "role": "coffee_table",
@@ -59,7 +77,1362 @@
               "count": [0, 1]
             }
           ],
+          "total_count": 10
+        }
+      ]
+    },
+    {
+      "id": "house-meeting-living-dining",
+      "name": "客餐厅会客组",
+      "code": 100002,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "sofa",
+      "roles": [
+        {
+          "name": "sofa",
+          "tier": "anchor",
+          "asset_types": ["house/room/furniture/sofa"],
+          "count": [1, 1],
+          "size_range": {"w": [0.8, 8.0], "h": [0.4, 5.0], "d": [0.0, 5.0]},
+          "optional": false
+        },
+        {
+          "name": "coffee_table",
+          "tier": "support",
+          "asset_types": ["house/room/furniture/table/coffee"],
+          "count": [0, 2],
+          "optional": true
+        },
+        {
+          "name": "side_sofa",
+          "tier": "support",
+          "asset_types": [
+            "house/room/furniture/sofa/single",
+            "house/room/furniture/chair/armchair"
+          ],
+          "count": [0, 2],
+          "optional": true
+        },
+        {
+          "name": "rug",
+          "tier": "fill",
+          "asset_types": ["house/room/furniture/rug"],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "side_table",
+          "tier": "fill",
+          "asset_types": ["house/room/furniture/table/side"],
+          "count": [0, 2],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-meeting-living-dining-standard",
+          "name": "标准客餐厅会客",
+          "placement_mode": "deterministic",
+          "sequence": ["sofa", "coffee_table", "side_sofa", "rug", "side_table", "accessory"],
+          "placements": [
+            {
+              "role": "coffee_table",
+              "position": {"relative": [0.0, 0.0, 1.5], "range": [[-0.5, 0.5], [0.0, 0.0], [0.8, 2.0]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 1]
+            },
+            {
+              "role": "rug",
+              "position": {"relative": [0.0, 0.0, 0.8], "range": [[-0.5, 0.5], [0.0, 0.0], [-0.5, 1.5]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 1]
+            }
+          ],
+          "total_count": 10
+        }
+      ]
+    },
+    {
+      "id": "house-dining-dining-room",
+      "name": "餐厅餐桌组",
+      "code": 100101,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "table",
+      "roles": [
+        {
+          "name": "table",
+          "tier": "anchor",
+          "asset_types": ["house/room/furniture/table/dining"],
+          "count": [1, 1],
+          "size_range": {"w": [0.8, 4.0], "h": [0.4, 2.0], "d": [0.8, 2.0]},
+          "optional": false
+        },
+        {
+          "name": "chair",
+          "tier": "support",
+          "asset_types": ["house/room/furniture/chair"],
+          "count": [2, 8],
+          "optional": false
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 3],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-dining-standard",
+          "name": "标准餐桌",
+          "placement_mode": "deterministic",
+          "sequence": ["table", "chair", "accessory"],
+          "placements": [
+            {
+              "role": "chair",
+              "position": {"relative": [0.0, 0.0, 0.6], "range": [[-0.3, 0.3], [0.0, 0.0], [0.5, 0.8]]},
+              "rotation": {"fixed": 0.0},
+              "count": [2, 4]
+            }
+          ],
+          "total_count": 9
+        }
+      ]
+    },
+    {
+      "id": "house-dining-living-dining",
+      "name": "客餐厅餐桌组",
+      "code": 100102,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "table",
+      "roles": [
+        {
+          "name": "table",
+          "tier": "anchor",
+          "asset_types": ["house/room/furniture/table/dining"],
+          "count": [1, 1],
+          "size_range": {"w": [0.8, 4.0], "h": [0.4, 2.0], "d": [0.8, 2.0]},
+          "optional": false
+        },
+        {
+          "name": "chair",
+          "tier": "support",
+          "asset_types": ["house/room/furniture/chair"],
+          "count": [2, 8],
+          "optional": false
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 3],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-dining-living-dining-standard",
+          "name": "标准客餐厅餐桌",
+          "placement_mode": "deterministic",
+          "sequence": ["table", "chair", "accessory"],
+          "placements": [
+            {
+              "role": "chair",
+              "position": {"relative": [0.0, 0.0, 0.6], "range": [[-0.3, 0.3], [0.0, 0.0], [0.5, 0.8]]},
+              "rotation": {"fixed": 0.0},
+              "count": [2, 4]
+            }
+          ],
+          "total_count": 9
+        }
+      ]
+    },
+    {
+      "id": "house-bed-master",
+      "name": "主卧床组",
+      "code": 100201,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "bed",
+      "roles": [
+        {
+          "name": "bed",
+          "tier": "anchor",
+          "asset_types": [
+            "house/room/furniture/bed/king",
+            "house/room/furniture/bed/queen"
+          ],
+          "count": [1, 1],
+          "size_range": {"w": [1.5, 2.2], "h": [0.4, 1.2], "d": [2.0, 2.2]},
+          "optional": false
+        },
+        {
+          "name": "side_table",
+          "tier": "support",
+          "asset_types": ["house/room/furniture/table/night"],
+          "count": [0, 2],
+          "optional": true
+        },
+        {
+          "name": "rug",
+          "tier": "fill",
+          "asset_types": ["house/room/furniture/rug"],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-bed-master-standard",
+          "name": "标准主卧床组",
+          "placement_mode": "deterministic",
+          "sequence": ["bed", "side_table", "rug", "accessory"],
+          "placements": [
+            {
+              "role": "side_table",
+              "position": {"relative": [0.8, 0.0, 0.0], "range": [[0.7, 0.9], [0.0, 0.0], [-0.3, 0.3]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 2]
+            }
+          ],
+          "total_count": 8
+        }
+      ]
+    },
+    {
+      "id": "house-bed-second",
+      "name": "次卧床组",
+      "code": 100202,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "bed",
+      "roles": [
+        {
+          "name": "bed",
+          "tier": "anchor",
+          "asset_types": [
+            "house/room/furniture/bed/queen",
+            "house/room/furniture/bed/single"
+          ],
+          "count": [1, 1],
+          "size_range": {"w": [1.5, 2.2], "h": [0.4, 1.2], "d": [2.0, 2.2]},
+          "optional": false
+        },
+        {
+          "name": "side_table",
+          "tier": "support",
+          "asset_types": ["house/room/furniture/table/night"],
+          "count": [0, 2],
+          "optional": true
+        },
+        {
+          "name": "rug",
+          "tier": "fill",
+          "asset_types": ["house/room/furniture/rug"],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-bed-second-standard",
+          "name": "标准次卧床组",
+          "placement_mode": "deterministic",
+          "sequence": ["bed", "side_table", "rug", "accessory"],
+          "placements": [
+            {
+              "role": "side_table",
+              "position": {"relative": [0.8, 0.0, 0.0], "range": [[0.7, 0.9], [0.0, 0.0], [-0.3, 0.3]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 2]
+            }
+          ],
+          "total_count": 8
+        }
+      ]
+    },
+    {
+      "id": "house-bed-kids",
+      "name": "儿童房床组",
+      "code": 100203,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "bed",
+      "roles": [
+        {
+          "name": "bed",
+          "tier": "anchor",
+          "asset_types": [
+            "house/room/furniture/bed/kids",
+            "house/room/furniture/bed/crib"
+          ],
+          "count": [1, 1],
+          "size_range": {"w": [1.5, 2.2], "h": [0.4, 1.2], "d": [2.0, 2.2]},
+          "optional": false
+        },
+        {
+          "name": "side_table",
+          "tier": "support",
+          "asset_types": ["house/room/furniture/table/night"],
+          "count": [0, 2],
+          "optional": true
+        },
+        {
+          "name": "rug",
+          "tier": "fill",
+          "asset_types": ["house/room/furniture/rug"],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-bed-kids-standard",
+          "name": "标准儿童房床组",
+          "placement_mode": "deterministic",
+          "sequence": ["bed", "side_table", "rug", "accessory"],
+          "placements": [
+            {
+              "role": "side_table",
+              "position": {"relative": [0.8, 0.0, 0.0], "range": [[0.7, 0.9], [0.0, 0.0], [-0.3, 0.3]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 2]
+            }
+          ],
+          "total_count": 8
+        }
+      ]
+    },
+    {
+      "id": "house-work-library",
+      "name": "书房工作组",
+      "code": 100301,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "table",
+      "roles": [
+        {
+          "name": "table",
+          "tier": "anchor",
+          "asset_types": ["house/room/furniture/table/desk"],
+          "count": [1, 1],
+          "size_range": {"w": [1.0, 2.0], "h": [0.7, 0.8], "d": [0.5, 1.0]},
+          "optional": false
+        },
+        {
+          "name": "chair",
+          "tier": "support",
+          "asset_types": [
+            "house/room/furniture/chair/office",
+            "house/room/furniture/chair"
+          ],
+          "count": [1, 1],
+          "optional": false
+        },
+        {
+          "name": "rug",
+          "tier": "fill",
+          "asset_types": ["house/room/furniture/rug"],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory", "electronics/computer"],
+          "count": [0, 3],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-work-standard",
+          "name": "标准工作组",
+          "placement_mode": "deterministic",
+          "sequence": ["table", "chair", "rug", "accessory"],
+          "placements": [
+            {
+              "role": "chair",
+              "position": {"relative": [0.0, 0.0, 0.6], "range": [[-0.1, 0.1], [0.0, 0.0], [0.5, 0.8]]},
+              "rotation": {"fixed": 0.0},
+              "count": [1, 1]
+            }
+          ],
           "total_count": 6
+        }
+      ]
+    },
+    {
+      "id": "house-work-bedroom",
+      "name": "卧室书桌组",
+      "code": 100302,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "table",
+      "roles": [
+        {
+          "name": "table",
+          "tier": "anchor",
+          "asset_types": ["house/room/furniture/table/desk"],
+          "count": [1, 1],
+          "size_range": {"w": [0.8, 1.4], "h": [0.7, 0.8], "d": [0.4, 0.6]},
+          "optional": false
+        },
+        {
+          "name": "chair",
+          "tier": "support",
+          "asset_types": [
+            "house/room/furniture/chair/office",
+            "house/room/furniture/chair"
+          ],
+          "count": [1, 1],
+          "optional": false
+        },
+        {
+          "name": "rug",
+          "tier": "fill",
+          "asset_types": ["house/room/furniture/rug"],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory", "electronics/computer"],
+          "count": [0, 3],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-work-bedroom-standard",
+          "name": "标准卧室书桌组",
+          "placement_mode": "deterministic",
+          "sequence": ["table", "chair", "rug", "accessory"],
+          "placements": [
+            {
+              "role": "chair",
+              "position": {"relative": [0.0, 0.0, 0.6], "range": [[-0.1, 0.1], [0.0, 0.0], [0.5, 0.8]]},
+              "rotation": {"fixed": 0.0},
+              "count": [1, 1]
+            }
+          ],
+          "total_count": 6
+        }
+      ]
+    },
+    {
+      "id": "house-rest-balcony",
+      "name": "阳台休闲组",
+      "code": 100401,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "chair",
+      "roles": [
+        {
+          "name": "chair",
+          "tier": "anchor",
+          "asset_types": [
+            "house/room/furniture/chair/armchair",
+            "house/room/furniture/chair/lounge"
+          ],
+          "count": [1, 2],
+          "optional": false
+        },
+        {
+          "name": "table",
+          "tier": "support",
+          "asset_types": [
+            "house/room/furniture/table/side",
+            "house/room/furniture/table/coffee"
+          ],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "lamp",
+          "tier": "fill",
+          "asset_types": ["lighting/floor_lamp"],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory", "plants"],
+          "count": [0, 3],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-rest-balcony-standard",
+          "name": "标准阳台休闲",
+          "placement_mode": "deterministic",
+          "sequence": ["chair", "table", "lamp", "accessory"],
+          "placements": [
+            {
+              "role": "table",
+              "position": {"relative": [0.6, 0.0, 0.0], "range": [[0.4, 0.8], [0.0, 0.0], [-0.3, 0.3]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 1]
+            }
+          ],
+          "total_count": 7
+        }
+      ]
+    },
+    {
+      "id": "house-rest-bedroom",
+      "name": "卧室休闲角",
+      "code": 100402,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "chair",
+      "roles": [
+        {
+          "name": "chair",
+          "tier": "anchor",
+          "asset_types": [
+            "house/room/furniture/chair/armchair",
+            "house/room/furniture/chair/lounge"
+          ],
+          "count": [1, 2],
+          "optional": false
+        },
+        {
+          "name": "table",
+          "tier": "support",
+          "asset_types": [
+            "house/room/furniture/table/side",
+            "house/room/furniture/table/coffee"
+          ],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "lamp",
+          "tier": "fill",
+          "asset_types": ["lighting/floor_lamp"],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory", "plants"],
+          "count": [0, 3],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-rest-bedroom-standard",
+          "name": "标准卧室休闲角",
+          "placement_mode": "deterministic",
+          "sequence": ["chair", "table", "lamp", "accessory"],
+          "placements": [
+            {
+              "role": "table",
+              "position": {"relative": [0.6, 0.0, 0.0], "range": [[0.4, 0.8], [0.0, 0.0], [-0.3, 0.3]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 1]
+            }
+          ],
+          "total_count": 7
+        }
+      ]
+    },
+    {
+      "id": "house-cabinet-dining",
+      "name": "餐边柜",
+      "code": 100501,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "cabinet",
+      "roles": [
+        {
+          "name": "cabinet",
+          "tier": "anchor",
+          "asset_types": ["house/room/furniture/cabinet/sideboard"],
+          "count": [1, 1],
+          "size_range": {"w": [0.8, 2.0], "h": [0.6, 1.0], "d": [0.3, 0.5]},
+          "optional": false
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-cabinet-dining-standard",
+          "name": "标准餐边柜",
+          "placement_mode": "deterministic",
+          "sequence": ["cabinet", "accessory"],
+          "placements": [],
+          "total_count": 5
+        }
+      ]
+    },
+    {
+      "id": "house-cabinet-hallway",
+      "name": "玄关柜",
+      "code": 100502,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "cabinet",
+      "roles": [
+        {
+          "name": "cabinet",
+          "tier": "anchor",
+          "asset_types": [
+            "house/room/furniture/cabinet/hallway",
+            "house/room/furniture/cabinet/shoe"
+          ],
+          "count": [1, 1],
+          "size_range": {"w": [0.8, 1.5], "h": [0.8, 2.0], "d": [0.3, 0.4]},
+          "optional": false
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 2],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-cabinet-hallway-standard",
+          "name": "标准玄关柜",
+          "placement_mode": "deterministic",
+          "sequence": ["cabinet", "accessory"],
+          "placements": [],
+          "total_count": 3
+        }
+      ]
+    },
+    {
+      "id": "house-cabinet-bedroom",
+      "name": "卧室衣柜",
+      "code": 100503,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "armoire",
+      "roles": [
+        {
+          "name": "armoire",
+          "tier": "anchor",
+          "asset_types": ["house/room/furniture/storage/armoire"],
+          "count": [1, 1],
+          "size_range": {"w": [1.2, 3.0], "h": [1.8, 2.4], "d": [0.5, 0.7]},
+          "optional": false
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 2],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-cabinet-bedroom-standard",
+          "name": "标准卧室衣柜",
+          "placement_mode": "deterministic",
+          "sequence": ["armoire", "accessory"],
+          "placements": [],
+          "total_count": 3
+        }
+      ]
+    },
+    {
+      "id": "house-cabinet-library",
+      "name": "书柜",
+      "code": 100504,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "cabinet",
+      "roles": [
+        {
+          "name": "cabinet",
+          "tier": "anchor",
+          "asset_types": ["house/room/furniture/storage/bookcase"],
+          "count": [1, 1],
+          "size_range": {"w": [0.8, 2.4], "h": [1.5, 2.4], "d": [0.3, 0.5]},
+          "optional": false
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory", "books"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-cabinet-library-standard",
+          "name": "标准书柜",
+          "placement_mode": "deterministic",
+          "sequence": ["cabinet", "accessory"],
+          "placements": [],
+          "total_count": 5
+        }
+      ]
+    },
+    {
+      "id": "house-cabinet-bathroom",
+      "name": "浴室柜",
+      "code": 100505,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "cabinet",
+      "roles": [
+        {
+          "name": "cabinet",
+          "tier": "anchor",
+          "asset_types": [
+            "house/room/furniture/cabinet/bathroom",
+            "basin/floor-based"
+          ],
+          "count": [1, 1],
+          "size_range": {"w": [0.5, 1.2], "h": [0.8, 0.9], "d": [0.4, 0.6]},
+          "optional": false
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory/bathroom"],
+          "count": [0, 3],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-cabinet-bathroom-standard",
+          "name": "标准浴室柜",
+          "placement_mode": "deterministic",
+          "sequence": ["cabinet", "accessory"],
+          "placements": [],
+          "total_count": 4
+        }
+      ]
+    },
+    {
+      "id": "house-toilet-bathroom",
+      "name": "卫生间马桶组",
+      "code": 100601,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "toilet",
+      "roles": [
+        {
+          "name": "toilet",
+          "tier": "anchor",
+          "asset_types": ["toilet/floor-based"],
+          "count": [1, 1],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-toilet-standard",
+          "name": "标准马桶",
+          "placement_mode": "deterministic",
+          "sequence": ["toilet"],
+          "placements": [],
+          "total_count": 1
+        }
+      ]
+    },
+    {
+      "id": "house-toilet-master-bathroom",
+      "name": "主卫马桶组",
+      "code": 100602,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "toilet",
+      "roles": [
+        {
+          "name": "toilet",
+          "tier": "anchor",
+          "asset_types": ["toilet/floor-based"],
+          "count": [1, 1],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-toilet-master-standard",
+          "name": "标准主卫马桶",
+          "placement_mode": "deterministic",
+          "sequence": ["toilet"],
+          "placements": [],
+          "total_count": 1
+        }
+      ]
+    },
+    {
+      "id": "house-bath-bathroom",
+      "name": "卫生间洗浴组",
+      "code": 100701,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "bath",
+      "roles": [
+        {
+          "name": "bath",
+          "tier": "anchor",
+          "asset_types": ["bath/freestanding", "shower/floor-based"],
+          "count": [1, 1],
+          "optional": false
+        },
+        {
+          "name": "shower",
+          "tier": "support",
+          "asset_types": ["shower/wall-attached"],
+          "count": [0, 1],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-bath-standard",
+          "name": "标准洗浴",
+          "placement_mode": "deterministic",
+          "sequence": ["bath", "shower"],
+          "placements": [],
+          "total_count": 2
+        }
+      ]
+    },
+    {
+      "id": "house-bath-master-bathroom",
+      "name": "主卫洗浴组",
+      "code": 100702,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "bath",
+      "roles": [
+        {
+          "name": "bath",
+          "tier": "anchor",
+          "asset_types": ["bath/freestanding", "shower/floor-based"],
+          "count": [1, 1],
+          "optional": false
+        },
+        {
+          "name": "shower",
+          "tier": "support",
+          "asset_types": ["shower/wall-attached"],
+          "count": [0, 1],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-bath-master-standard",
+          "name": "标准主卫洗浴",
+          "placement_mode": "deterministic",
+          "sequence": ["bath", "shower"],
+          "placements": [],
+          "total_count": 2
+        }
+      ]
+    },
+    {
+      "id": "house-appliance-kitchen",
+      "name": "厨房电器组",
+      "code": 100801,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "appliance",
+      "roles": [
+        {
+          "name": "appliance",
+          "tier": "anchor",
+          "asset_types": [
+            "appliance/refrigerator",
+            "appliance/oven",
+            "appliance/dishwasher"
+          ],
+          "count": [1, 3],
+          "optional": false
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory/kitchen"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-appliance-kitchen-standard",
+          "name": "标准厨房电器",
+          "placement_mode": "deterministic",
+          "sequence": ["appliance", "accessory"],
+          "placements": [],
+          "total_count": 7
+        }
+      ]
+    },
+    {
+      "id": "house-appliance-balcony",
+      "name": "阳台电器组",
+      "code": 100802,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "appliance",
+      "roles": [
+        {
+          "name": "appliance",
+          "tier": "anchor",
+          "asset_types": ["appliance/washer", "appliance/dryer"],
+          "count": [1, 2],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-appliance-balcony-standard",
+          "name": "标准阳台电器",
+          "placement_mode": "deterministic",
+          "sequence": ["appliance"],
+          "placements": [],
+          "total_count": 2
+        }
+      ]
+    },
+    {
+      "id": "house-media-living",
+      "name": "客厅影视墙组",
+      "code": 100901,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "tv",
+      "roles": [
+        {
+          "name": "tv",
+          "tier": "anchor",
+          "asset_types": [
+            "electronics/tv/wall-attached",
+            "electronics/tv/floor-based"
+          ],
+          "count": [1, 1],
+          "optional": false
+        },
+        {
+          "name": "media_unit",
+          "tier": "support",
+          "asset_types": [
+            "house/room/furniture/cabinet/media",
+            "media_unit/floor-based"
+          ],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "side_plant",
+          "tier": "fill",
+          "asset_types": ["plants/floor-based"],
+          "count": [0, 2],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-media-living-standard",
+          "name": "标准客厅影视墙",
+          "placement_mode": "deterministic",
+          "sequence": ["tv", "media_unit", "side_plant", "accessory"],
+          "placements": [
+            {
+              "role": "media_unit",
+              "position": {"relative": [0.0, 0.0, 0.0], "range": [[-0.1, 0.1], [0.0, 0.0], [0.0, 0.1]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 1]
+            }
+          ],
+          "total_count": 8
+        }
+      ]
+    },
+    {
+      "id": "house-media-bedroom",
+      "name": "卧室影视墙组",
+      "code": 100902,
+      "category": "furniture",
+      "anchor_surface": null,
+      "scene_types": ["house"],
+      "anchor_role": "tv",
+      "roles": [
+        {
+          "name": "tv",
+          "tier": "anchor",
+          "asset_types": [
+            "electronics/tv/wall-attached",
+            "electronics/tv/floor-based"
+          ],
+          "count": [1, 1],
+          "optional": false
+        },
+        {
+          "name": "media_unit",
+          "tier": "support",
+          "asset_types": [
+            "house/room/furniture/cabinet/media",
+            "media_unit/floor-based"
+          ],
+          "count": [0, 1],
+          "optional": true
+        },
+        {
+          "name": "side_plant",
+          "tier": "fill",
+          "asset_types": ["plants/floor-based"],
+          "count": [0, 2],
+          "optional": true
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory"],
+          "count": [0, 4],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-media-bedroom-standard",
+          "name": "标准卧室影视墙",
+          "placement_mode": "deterministic",
+          "sequence": ["tv", "media_unit", "side_plant", "accessory"],
+          "placements": [
+            {
+              "role": "media_unit",
+              "position": {"relative": [0.0, 0.0, 0.0], "range": [[-0.1, 0.1], [0.0, 0.0], [0.0, 0.1]]},
+              "rotation": {"fixed": 0.0},
+              "count": [0, 1]
+            }
+          ],
+          "total_count": 8
+        }
+      ]
+    },
+    {
+      "id": "house-wall-art",
+      "name": "壁挂装饰组",
+      "code": 200001,
+      "category": "surface",
+      "anchor_surface": "wall",
+      "scene_types": ["house"],
+      "anchor_role": "wall_art",
+      "roles": [
+        {
+          "name": "wall_art",
+          "tier": "anchor",
+          "asset_types": [
+            "decor/wall/painting",
+            "decor/wall/frame",
+            "decor/wall/art"
+          ],
+          "count": [1, 3],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-wall-art-standard",
+          "name": "标准壁挂",
+          "placement_mode": "deterministic",
+          "sequence": ["wall_art"],
+          "placements": [],
+          "total_count": 3
+        }
+      ]
+    },
+    {
+      "id": "house-wall-lamp",
+      "name": "壁灯组",
+      "code": 200002,
+      "category": "surface",
+      "anchor_surface": "wall",
+      "scene_types": ["house"],
+      "anchor_role": "wall_lamp",
+      "roles": [
+        {
+          "name": "wall_lamp",
+          "tier": "anchor",
+          "asset_types": ["lighting/wall_lamp"],
+          "count": [1, 2],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-wall-lamp-standard",
+          "name": "标准壁灯",
+          "placement_mode": "deterministic",
+          "sequence": ["wall_lamp"],
+          "placements": [],
+          "total_count": 2
+        }
+      ]
+    },
+    {
+      "id": "house-ceiling-main-light",
+      "name": "主灯组",
+      "code": 200101,
+      "category": "surface",
+      "anchor_surface": "ceiling",
+      "scene_types": ["house"],
+      "anchor_role": "main_light",
+      "roles": [
+        {
+          "name": "main_light",
+          "tier": "anchor",
+          "asset_types": [
+            "lighting/ceiling/chandelier",
+            "lighting/ceiling/pendant",
+            "lighting/ceiling/flush"
+          ],
+          "count": [1, 1],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-ceiling-main-light-standard",
+          "name": "标准主灯",
+          "placement_mode": "deterministic",
+          "sequence": ["main_light"],
+          "placements": [],
+          "total_count": 1
+        }
+      ]
+    },
+    {
+      "id": "house-ceiling-spot-light",
+      "name": "筒灯/射灯组",
+      "code": 200102,
+      "category": "surface",
+      "anchor_surface": "ceiling",
+      "scene_types": ["house"],
+      "anchor_role": "spot_light",
+      "roles": [
+        {
+          "name": "spot_light",
+          "tier": "anchor",
+          "asset_types": [
+            "lighting/ceiling/spot",
+            "lighting/ceiling/track"
+          ],
+          "count": [1, 6],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-ceiling-spot-light-standard",
+          "name": "标准筒灯",
+          "placement_mode": "deterministic",
+          "sequence": ["spot_light"],
+          "placements": [],
+          "total_count": 6
+        }
+      ]
+    },
+    {
+      "id": "house-floor-plant",
+      "name": "落地绿植",
+      "code": 200201,
+      "category": "surface",
+      "anchor_surface": "floor",
+      "scene_types": ["house"],
+      "anchor_role": "plant",
+      "roles": [
+        {
+          "name": "plant",
+          "tier": "anchor",
+          "asset_types": ["plants/floor-based"],
+          "count": [1, 2],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-floor-plant-standard",
+          "name": "标准落地绿植",
+          "placement_mode": "deterministic",
+          "sequence": ["plant"],
+          "placements": [],
+          "total_count": 2
+        }
+      ]
+    },
+    {
+      "id": "house-floor-lamp",
+      "name": "落地灯",
+      "code": 200202,
+      "category": "surface",
+      "anchor_surface": "floor",
+      "scene_types": ["house"],
+      "anchor_role": "floor_lamp",
+      "roles": [
+        {
+          "name": "floor_lamp",
+          "tier": "anchor",
+          "asset_types": ["lighting/floor_lamp"],
+          "count": [1, 1],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-floor-lamp-standard",
+          "name": "标准落地灯",
+          "placement_mode": "deterministic",
+          "sequence": ["floor_lamp"],
+          "placements": [],
+          "total_count": 1
+        }
+      ]
+    },
+    {
+      "id": "house-window-curtain",
+      "name": "窗帘组",
+      "code": 200301,
+      "category": "surface",
+      "anchor_surface": "window",
+      "scene_types": ["house"],
+      "anchor_role": "curtain",
+      "roles": [
+        {
+          "name": "curtain",
+          "tier": "anchor",
+          "asset_types": [
+            "decor/window/curtain",
+            "decor/window/blind"
+          ],
+          "count": [1, 2],
+          "optional": false
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-window-curtain-standard",
+          "name": "标准窗帘",
+          "placement_mode": "deterministic",
+          "sequence": ["curtain"],
+          "placements": [],
+          "total_count": 2
+        }
+      ]
+    },
+    {
+      "id": "house-window-bay",
+      "name": "飘窗组",
+      "code": 200302,
+      "category": "surface",
+      "anchor_surface": "window",
+      "scene_types": ["house"],
+      "anchor_role": "bay_cushion",
+      "roles": [
+        {
+          "name": "bay_cushion",
+          "tier": "anchor",
+          "asset_types": [
+            "decor/window/bay_cushion",
+            "house/room/furniture/seat/window"
+          ],
+          "count": [1, 1],
+          "optional": false
+        },
+        {
+          "name": "accessory",
+          "tier": "accent",
+          "asset_types": ["house/room/accessory", "plants/small"],
+          "count": [0, 3],
+          "optional": true
+        }
+      ],
+      "templates": [
+        {
+          "id": "house-window-bay-standard",
+          "name": "标准飘窗",
+          "placement_mode": "deterministic",
+          "sequence": ["bay_cushion", "accessory"],
+          "placements": [],
+          "total_count": 4
         }
       ]
     }

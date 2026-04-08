@@ -33,6 +33,8 @@ class GroupDefinition(BaseModel):
     id: str
     name: str
     code: int
+    category: str = "furniture"      # "furniture" | "surface"
+    anchor_surface: Optional[str] = None  # surface groups: "wall"|"ceiling"|"floor"|"window"
     scene_types: list[str]
     anchor_role: str
     roles: list[RoleDefinition]

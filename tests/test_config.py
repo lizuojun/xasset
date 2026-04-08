@@ -14,7 +14,7 @@ def test_get_meeting_group():
     load_group_configs(DATA_DIR)
     group = get_group_by_code("house", 100001)
     assert group is not None
-    assert group.name == "会客组"
+    assert group.name == "客厅会客组"
     assert group.anchor_role == "sofa"
 
 def test_role_tiers():

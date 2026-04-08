@@ -7,9 +7,23 @@ from xasset.pipeline.stages.scene_understand import SceneUnderstandOutput, Scene
 from xasset.config.loader import load_group_configs, get_group_by_code
 from xasset.config.schemas import GroupDefinition
 
-# Region type → GroupDefinition code mapping
+# Region type → GroupDefinition code 映射
+# 每个区域类型对应一个主 Group（furniture 大类）
+# Surface 组（墙/顶/地/窗）由 StylizeStage 处理，不在此映射
 _REGION_TO_GROUP: dict[str, int] = {
-    "living_room": 100001,    # house-meeting (会客组)
+    "living_room":        100001,   # 客厅会客组
+    "living_dining_room": 100002,   # 客餐厅会客组
+    "dining_room":        100101,   # 餐厅餐桌组
+    "master_bedroom":     100201,   # 主卧床组
+    "bedroom":            100202,   # 次卧床组
+    "kids_room":          100203,   # 儿童房床组
+    "library":            100301,   # 书房工作组
+    "study":              100301,   # 书房工作组（别名）
+    "balcony":            100401,   # 阳台休闲组
+    "hallway":            100502,   # 玄关柜
+    "bathroom":           100601,   # 卫生间马桶组
+    "master_bathroom":    100602,   # 主卫马桶组
+    "kitchen":            100801,   # 厨房电器组
 }
 
 # GroupDefinition config directory

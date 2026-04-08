@@ -12,7 +12,7 @@ class LocalFileStorage:
         self.base_dir.mkdir(parents=True, exist_ok=True)
 
     def put(self, key: str, data: bytes) -> str:
-        path = self.base_dir / key
+        path = self._safe_path(key)
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(data)
         return f"{self.PREFIX}{key}"
@@ -28,4 +28,10 @@ class LocalFileStorage:
 
     def _path(self, url: str) -> Path:
         key = url.removeprefix(self.PREFIX)
-        return self.base_dir / key
+        return self._safe_path(key)
+
+    def _safe_path(self, key: str) -> Path:
+        path = (self.base_dir / key).resolve()
+        if not path.is_relative_to(self.base_dir.resolve()):
+            raise ValueError(f"Key '{key}' escapes storage base directory")
+        return path

@@ -57,11 +57,18 @@ class GenerationService:
         self,
         source_asset_id: uuid.UUID,
         variation: VariationInput,
+        scene_type: str = "house",
     ) -> str:
         """Run a partial pipeline to produce a variation of an existing asset.
 
         Which stages run is determined by the variation flags.
         Whether the result is saved as a new AssetDefinition is the caller's decision.
+
+        Args:
+            source_asset_id: The asset being varied.
+            variation: Flags controlling which pipeline stages run.
+            scene_type: Scene type of the source asset. Defaults to "house";
+                callers must pass the correct value for urban/wild assets.
         """
         stages: list[str] = []
         if variation.replace_models or variation.replace_accessories:
@@ -73,11 +80,11 @@ class GenerationService:
 
         inp = PipelineInput(
             input_type="text",
-            scene_type="house",
+            scene_type=scene_type,
             constraints={"source_asset_id": str(source_asset_id)},
             style=variation.style,
         )
-        config = PipelineConfig(scene_type="house", stages=stages)
+        config = PipelineConfig(scene_type=scene_type, stages=stages)
         return self.submit(inp, config=config)
 
     def get_status(self, job_id: str) -> JobStatus:

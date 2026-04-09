@@ -1,5 +1,70 @@
 {
   "scene_type": "house",
+  "region_groups": {
+    "living_room": [
+      {"code": 100001, "required": true,  "priority": 1},
+      {"code": 100901, "required": false, "priority": 2},
+      {"code": 200202, "required": false, "priority": 3}
+    ],
+    "living_dining_room": [
+      {"code": 100002, "required": true,  "priority": 1},
+      {"code": 100102, "required": true,  "priority": 2},
+      {"code": 100901, "required": false, "priority": 3}
+    ],
+    "dining_room": [
+      {"code": 100101, "required": true,  "priority": 1},
+      {"code": 100501, "required": false, "priority": 2}
+    ],
+    "master_bedroom": [
+      {"code": 100201, "required": true,  "priority": 1},
+      {"code": 100503, "required": false, "priority": 2},
+      {"code": 100302, "required": false, "priority": 3},
+      {"code": 100402, "required": false, "priority": 4},
+      {"code": 100902, "required": false, "priority": 5}
+    ],
+    "bedroom": [
+      {"code": 100202, "required": true,  "priority": 1},
+      {"code": 100503, "required": false, "priority": 2},
+      {"code": 100302, "required": false, "priority": 3},
+      {"code": 100902, "required": false, "priority": 4}
+    ],
+    "kids_room": [
+      {"code": 100203, "required": true,  "priority": 1},
+      {"code": 100503, "required": false, "priority": 2},
+      {"code": 100302, "required": false, "priority": 3}
+    ],
+    "library": [
+      {"code": 100301, "required": true,  "priority": 1},
+      {"code": 100504, "required": false, "priority": 2},
+      {"code": 100402, "required": false, "priority": 3}
+    ],
+    "study": [
+      {"code": 100301, "required": true,  "priority": 1},
+      {"code": 100504, "required": false, "priority": 2},
+      {"code": 100402, "required": false, "priority": 3}
+    ],
+    "balcony": [
+      {"code": 100401, "required": true,  "priority": 1},
+      {"code": 100802, "required": false, "priority": 2}
+    ],
+    "hallway": [
+      {"code": 100502, "required": true,  "priority": 1}
+    ],
+    "bathroom": [
+      {"code": 100601, "required": true,  "priority": 1},
+      {"code": 100701, "required": true,  "priority": 2},
+      {"code": 100505, "required": false, "priority": 3}
+    ],
+    "master_bathroom": [
+      {"code": 100602, "required": true,  "priority": 1},
+      {"code": 100702, "required": true,  "priority": 2},
+      {"code": 100505, "required": false, "priority": 3}
+    ],
+    "kitchen": [
+      {"code": 100801, "required": true,  "priority": 1},
+      {"code": 100501, "required": false, "priority": 2}
+    ]
+  },
   "groups": [
     {
       "id": "house-meeting-living",

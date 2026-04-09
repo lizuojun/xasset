@@ -4,27 +4,8 @@ from pathlib import Path
 
 from xasset.pipeline.context import PipelineContext
 from xasset.pipeline.stages.scene_understand import SceneUnderstandOutput, SceneRegion
-from xasset.config.loader import load_group_configs, get_group_by_code
+from xasset.config.loader import load_group_configs, get_group_by_code, get_region_groups
 from xasset.config.schemas import GroupDefinition
-
-# Region type → GroupDefinition code 映射
-# 每个区域类型对应一个主 Group（furniture 大类）
-# Surface 组（墙/顶/地/窗）由 StylizeStage 处理，不在此映射
-_REGION_TO_GROUP: dict[str, int] = {
-    "living_room":        100001,   # 客厅会客组
-    "living_dining_room": 100002,   # 客餐厅会客组
-    "dining_room":        100101,   # 餐厅餐桌组
-    "master_bedroom":     100201,   # 主卧床组
-    "bedroom":            100202,   # 次卧床组
-    "kids_room":          100203,   # 儿童房床组
-    "library":            100301,   # 书房工作组
-    "study":              100301,   # 书房工作组（别名）
-    "balcony":            100401,   # 阳台休闲组
-    "hallway":            100502,   # 玄关柜
-    "bathroom":           100601,   # 卫生间马桶组
-    "master_bathroom":    100602,   # 主卫马桶组
-    "kitchen":            100801,   # 厨房电器组
-}
 
 # GroupDefinition config directory
 _DATA_DIR = Path(__file__).parent.parent.parent / "data" / "groups"
@@ -59,16 +40,19 @@ class HouseLayoutComposeStage:
         scene_out: SceneUnderstandOutput | None = ctx.stage_outputs.get("scene_understand")
         placed_groups: list[PlacedGroup] = []
 
+        region_groups = get_region_groups("house")
         regions = scene_out.regions if scene_out else []
         for region in regions:
-            group_code = _REGION_TO_GROUP.get(region.region_type)
-            if group_code is None:
-                continue
-            group_def = get_group_by_code("house", group_code)
-            if group_def is None:
-                continue
-            placed = self._place_group(group_def, region)
-            placed_groups.append(placed)
+            entries = sorted(
+                region_groups.get(region.region_type, []),
+                key=lambda e: e.priority,
+            )
+            for entry in entries:
+                group_def = get_group_by_code("house", entry.code)
+                if group_def is None:
+                    continue
+                placed = self._place_group(group_def, region)
+                placed_groups.append(placed)
 
         ctx.stage_outputs["layout_compose"] = LayoutOutput(
             scene_type=ctx.input.scene_type,

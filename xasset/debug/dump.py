@@ -48,9 +48,6 @@ def debug_dump(ctx, output_dir: str = "debug/") -> list[str]:
         if out is None:
             continue
         for renderer in renderers:
-            try:
-                paths = renderer(out, ctx, output_dir)
-                generated.extend(paths)
-            except Exception as e:
-                print(f"[debug_dump] {stage_key} renderer failed: {e}")
+            paths = renderer(out, ctx, output_dir)
+            generated.extend(paths)
     return generated

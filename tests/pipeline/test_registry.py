@@ -7,6 +7,7 @@ from xasset.pipeline.registry import StageRegistry, StageNotFound
 
 class _EchoStage:
     name = "echo"
+    layer = "echo"
     scene_types = ["house"]
 
     def run(self, ctx: PipelineContext) -> None:
@@ -15,6 +16,7 @@ class _EchoStage:
 
 class _WildcardStage:
     name = "wildcard"
+    layer = "wildcard"
     scene_types = ["*"]
 
     def run(self, ctx: PipelineContext) -> None:
@@ -58,6 +60,7 @@ def test_specific_overrides_wildcard():
     """Scene-specific impl takes priority over wildcard."""
     class _HouseSpecific:
         name = "wildcard"
+        layer = "wildcard"
         scene_types = ["house"]
         def run(self, ctx): pass
 

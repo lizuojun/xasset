@@ -12,6 +12,7 @@ class StylizeOutput:
 
 class StylizeStage:
     name = "stylize"
+    layer = "stylize"
     scene_types = ["*"]
 
     def run(self, ctx: PipelineContext) -> None:

@@ -15,7 +15,7 @@ def test_scene_understand_stub_returns_output():
     stage = SceneUnderstandStage()
     ctx = _ctx(scene_type="house", style="现代简约")
     stage.run(ctx)
-    out: SceneUnderstandOutput = ctx.stage_outputs["scene_understand"]
+    out: SceneUnderstandOutput = ctx.stage_outputs["understand"]
     assert isinstance(out, SceneUnderstandOutput)
     assert out.scene_type == "house"
     assert len(out.regions) > 0
@@ -25,7 +25,7 @@ def test_scene_understand_stub_region_fields():
     stage = SceneUnderstandStage()
     ctx = _ctx()
     stage.run(ctx)
-    out: SceneUnderstandOutput = ctx.stage_outputs["scene_understand"]
+    out: SceneUnderstandOutput = ctx.stage_outputs["understand"]
     region: SceneRegion = out.regions[0]
     assert region.region_type in ("living_room", "bedroom", "dining_room")
     assert region.area > 0
@@ -36,7 +36,7 @@ def test_scene_understand_preserves_style():
     stage = SceneUnderstandStage()
     ctx = _ctx(style="北欧")
     stage.run(ctx)
-    out: SceneUnderstandOutput = ctx.stage_outputs["scene_understand"]
+    out: SceneUnderstandOutput = ctx.stage_outputs["understand"]
     assert out.style == "北欧"
 
 
@@ -50,6 +50,8 @@ def test_stylize_stub_returns_output():
 
 def test_stage_name_and_scene_types():
     assert SceneUnderstandStage.name == "scene_understand"
+    assert SceneUnderstandStage.layer == "understand"
     assert "*" in SceneUnderstandStage.scene_types
     assert StylizeStage.name == "stylize"
+    assert StylizeStage.layer == "stylize"
     assert "*" in StylizeStage.scene_types

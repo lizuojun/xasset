@@ -40,6 +40,13 @@ class GroupDefinition(BaseModel):
     roles: list[RoleDefinition]
     templates: list[Template]
 
+class RegionGroupEntry(BaseModel):
+    code: int
+    required: bool = True
+    priority: int = 1
+
+
 class GroupConfigFile(BaseModel):
     scene_type: str
+    region_groups: dict[str, list[RegionGroupEntry]] = {}
     groups: list[GroupDefinition]

@@ -12,6 +12,8 @@ class PipelineInput:
     image_url: str | None = None
     style: str | None = None
     constraints: dict = field(default_factory=dict)
+    scene_vector: dict | None = None   # SceneVector JSON（单区域，来自矢量输入）
+    region_type: str | None = None     # 覆盖 scene_vector 内的 type 字段
 
 
 @dataclass

@@ -2,12 +2,12 @@
 import pytest
 from xasset.pipeline.context import PipelineInput, VariationInput
 from xasset.services.generation import GenerationService
-from xasset.services.mesh import MeshService
 from xasset.services.sample_search import SampleSearchService
 from xasset.jobs.store import InMemoryJobStore
 from xasset.pipeline.registry import StageRegistry
 from xasset.pipeline.pipeline import Pipeline, PipelineConfig
 from xasset.pipeline.stages.scene_understand import SceneUnderstandStage
+from xasset.pipeline.stages.mesh_build import MeshBuildStage
 from xasset.pipeline.stages.layout_compose import HouseLayoutComposeStage
 from xasset.pipeline.stages.stylize import StylizeStage
 
@@ -15,8 +15,8 @@ from xasset.pipeline.stages.stylize import StylizeStage
 def _make_service():
     registry = StageRegistry()
     registry.register(SceneUnderstandStage())
+    registry.register(MeshBuildStage())
     registry.register(HouseLayoutComposeStage(
-        mesh_service=MeshService(),
         sample_search=SampleSearchService([]),
     ))
     registry.register(StylizeStage())
@@ -48,7 +48,7 @@ def test_get_result_has_stage_outputs():
     job_id = service.submit(inp)
     result = service.get_result(job_id)
     assert result.job_id == job_id
-    assert "layout_compose" in result.stage_outputs
+    assert "layout" in result.stage_outputs
 
 
 def test_get_status_unknown_job_raises():
@@ -60,11 +60,11 @@ def test_get_status_unknown_job_raises():
 def test_submit_with_custom_config():
     service = _make_service()
     inp = PipelineInput(input_type="text", scene_type="house")
-    config = PipelineConfig(scene_type="house", stages=["scene_understand"])
+    config = PipelineConfig(scene_type="house", stages=["understand"])
     job_id = service.submit(inp, config=config)
     result = service.get_result(job_id)
-    assert "scene_understand" in result.stage_outputs
-    assert "layout_compose" not in result.stage_outputs
+    assert "understand" in result.stage_outputs
+    assert "layout" not in result.stage_outputs
 
 
 def test_submit_variation_returns_job_id():

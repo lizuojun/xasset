@@ -37,3 +37,7 @@ class Region(Base):
     groups: Mapped[Optional[list]] = mapped_column(JSON)
     partition_vector: Mapped[Optional[list]] = mapped_column(JSON)
     distribution_vector: Mapped[Optional[dict]] = mapped_column(JSON)
+    doors: Mapped[Optional[list]] = mapped_column(JSON)
+    # [{"pts": [[x,z]*4], "normal": [nx,nz], "center": [x,z], "width": float}, ...]
+    windows: Mapped[Optional[list]] = mapped_column(JSON)
+    # [{"pts": [[x,z]*4], "sill_height": float, "height": float, "center": [x,z], "width": float}, ...]

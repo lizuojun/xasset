@@ -29,15 +29,15 @@ class LayoutOutput:
 
 class HouseLayoutComposeStage:
     name = "layout_compose"
+    layer = "layout"
     scene_types = ["house"]
 
-    def __init__(self, mesh_service, sample_search) -> None:
-        self._mesh = mesh_service
+    def __init__(self, sample_search) -> None:
         self._sample_search = sample_search
         load_group_configs(_DATA_DIR)
 
     def run(self, ctx: PipelineContext) -> None:
-        scene_out: SceneUnderstandOutput | None = ctx.stage_outputs.get("scene_understand")
+        scene_out: SceneUnderstandOutput | None = ctx.stage_outputs.get("understand")
         placed_groups: list[PlacedGroup] = []
 
         region_groups = get_region_groups("house")
@@ -54,7 +54,7 @@ class HouseLayoutComposeStage:
                 placed = self._place_group(group_def, region)
                 placed_groups.append(placed)
 
-        ctx.stage_outputs["layout_compose"] = LayoutOutput(
+        ctx.stage_outputs["layout"] = LayoutOutput(
             scene_type=ctx.input.scene_type,
             placed_groups=placed_groups,
         )

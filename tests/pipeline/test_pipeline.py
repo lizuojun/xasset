@@ -8,6 +8,7 @@ from xasset.pipeline.registry import StageRegistry
 class _WriteStage:
     def __init__(self, name, value):
         self.name = name
+        self.layer = name
         self.scene_types = ["*"]
         self._value = value
 
@@ -17,6 +18,7 @@ class _WriteStage:
 
 class _FailStage:
     name = "fail"
+    layer = "fail"
     scene_types = ["*"]
 
     def run(self, ctx):
@@ -25,6 +27,7 @@ class _FailStage:
 
 class _ReadPreviousStage:
     name = "reader"
+    layer = "reader"
     scene_types = ["*"]
 
     def run(self, ctx):

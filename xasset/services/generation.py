@@ -8,7 +8,7 @@ from xasset.jobs.job import Job, JobResult, JobStatus
 from xasset.jobs.store import InMemoryJobStore
 
 
-_DEFAULT_HOUSE_STAGES = ["scene_understand", "layout_compose", "stylize"]
+_DEFAULT_HOUSE_STAGES = ["understand", "geometry", "layout", "stylize"]
 
 
 class GenerationService:
@@ -72,7 +72,7 @@ class GenerationService:
         """
         stages: list[str] = []
         if variation.replace_models or variation.replace_accessories:
-            stages.append("layout_compose")
+            stages.append("layout")
         if variation.replace_materials or variation.replace_lights:
             stages.append("stylize")
         if not stages:

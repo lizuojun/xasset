@@ -10,27 +10,11 @@ import numpy as np
 
 from xasset.pipeline.stages.layout_compose import LayoutOutput
 from xasset.pipeline.stages.scene_understand import SceneUnderstandOutput
-
-REGION_COLORS = {
-    "living_room": "#E8F4E8",
-    "bedroom":     "#E8E8F4",
-    "dining_room": "#F4F0E8",
-    "kitchen":     "#F4E8E8",
-    "bathroom":    "#E8F4F4",
-    "balcony":     "#F0F4E8",
-}
-DEFAULT_REGION_COLOR = "#F5F5F5"
+from xasset.debug.renderers.region_2d import FLOOR_COLOR, WALL_COLOR, REGION_COLORS
 
 # Approximate footprint size for a placed group (meters)
 GROUP_HALF_W = 0.4
 GROUP_HALF_D = 0.4
-
-
-def _bnd_xz(pt):
-    """Return (x, z) from a 2D or 3D boundary point."""
-    if len(pt) >= 3:
-        return pt[0], pt[2]
-    return pt[0], pt[1]
 
 
 def render_layout_2d(
@@ -48,15 +32,14 @@ def render_layout_2d(
     # Draw room outlines
     for region in understand.regions:
         bnd = region.boundary
-        xz = [_bnd_xz(p) for p in bnd]
-        xs = [p[0] for p in xz] + [xz[0][0]]
-        zs = [p[1] for p in xz] + [xz[0][1]]
-        color = REGION_COLORS.get(region.region_type, DEFAULT_REGION_COLOR)
-        ax.fill(xs, zs, color=color, alpha=0.4, zorder=1)
-        ax.plot(xs, zs, color="#888888", linewidth=1.2, zorder=2)
+        xs = [p[0] for p in bnd] + [bnd[0][0]]
+        zs = [p[1] for p in bnd] + [bnd[0][1]]
+        color = REGION_COLORS.get(region.region_type, FLOOR_COLOR)
+        ax.fill(xs, zs, color=color, alpha=1.0, zorder=1)
+        ax.plot(xs, zs, color=WALL_COLOR, linewidth=2.0, zorder=2)
 
-        cx = sum(p[0] for p in xz) / len(xz)
-        cz = sum(p[1] for p in xz) / len(xz)
+        cx = sum(p[0] for p in bnd) / len(bnd)
+        cz = sum(p[1] for p in bnd) / len(bnd)
         ax.text(cx, cz, region.region_type, ha="center", va="center",
                 fontsize=7, color="#555555", zorder=3)
 

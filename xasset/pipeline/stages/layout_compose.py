@@ -62,7 +62,7 @@ class HouseLayoutComposeStage:
     def _place_group(self, group_def: GroupDefinition, region: SceneRegion) -> PlacedGroup:
         # Compute anchor position: center of region boundary at floor level
         xs = [v[0] for v in region.boundary]
-        zs = [v[2] for v in region.boundary]
+        zs = [v[1] for v in region.boundary]
         cx = (min(xs) + max(xs)) / 2
         cz = (min(zs) + max(zs)) / 2
 

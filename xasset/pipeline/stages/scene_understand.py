@@ -1,6 +1,7 @@
 # xasset/pipeline/stages/scene_understand.py
 from dataclasses import dataclass, field
 from xasset.pipeline.context import PipelineContext
+from xasset.pipeline.stages.vector_normalize import normalize_scene_vector
 
 HOUSE_DEFAULTS = {
     "room_height":            2.8,
@@ -205,8 +206,9 @@ class SceneUnderstandStage:
 
     def _parse_scene_vector(self, inp) -> SceneUnderstandOutput:
         """Parse SceneVector JSON into SceneUnderstandOutput."""
-        rv = inp.scene_vector
-        constraints = inp.constraints or {}
+        norm = normalize_scene_vector(inp.scene_vector)
+        rv = norm.scene_vector
+        constraints = dict(inp.constraints or {})
         regions = []
 
         for room_idx, room in enumerate(rv.get("rooms", [])):
@@ -310,6 +312,11 @@ class SceneUnderstandStage:
 
         # Second pass: resolve door connectivity and ownership across all regions
         _resolve_door_connectivity(regions)
+
+        if norm.excluded_room_ids:
+            constraints["_excluded_room_ids"] = norm.excluded_room_ids
+        if norm.excluded_opening_ids:
+            constraints["_excluded_opening_ids"] = norm.excluded_opening_ids
 
         return SceneUnderstandOutput(
             scene_type=inp.scene_type,

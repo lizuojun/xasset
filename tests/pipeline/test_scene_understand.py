@@ -36,7 +36,7 @@ def test_parse_door_geometry():
             "floor": [[0, 0], [4, 0], [4, 5], [0, 5]],
             "doors": [{
                 "id": "d1",
-                "pts": [[1, 0], [2, 0], [2, 0], [1, 0]],   # 1m 宽，沿 x 轴
+                "pts": [[1, 0], [2, 0], [2, 0.1], [1, 0.1]],   # 1m 宽，沿 x 轴
                 "height": 2.1, "to_room": None
             }],
             "windows": [], "holes": []
@@ -63,7 +63,7 @@ def test_parse_window_defaults():
             "doors": [],
             "windows": [{
                 "id": "w1", "window_type": "normal",
-                "pts": [[0.5, 0], [1.5, 0], [1.5, 0], [0.5, 0]],
+                "pts": [[0.5, 0], [1.5, 0], [1.5, 0.08], [0.5, 0.08]],
                 # 不提供 sill_height / height
             }],
             "holes": []

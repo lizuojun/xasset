@@ -11,6 +11,18 @@ HOUSE_DEFAULTS = {
     "bay_window_height":      1.5,
 }
 
+# Room importance for door-opens-into resolution.
+# Higher rank = less important = the door opens INTO this room.
+ROOM_IMPORTANCE: dict[str, int] = {
+    "living_room": 1,
+    "dining_room": 2,
+    "bedroom":     3,
+    "kitchen":     4,
+    "bathroom":    5,
+    "balcony":     6,
+}
+_DEFAULT_IMPORTANCE = 9
+
 
 @dataclass
 class DoorInfo:
@@ -21,10 +33,16 @@ class DoorInfo:
     width: float                # 宽度 m，由 pts 计算
     height: float               # 高度 m（输入值或默认值）
     to_room: "str | None"
-    to_room_type: "str | None" = None  # 连通房间类型，由调用方解算后传入；无全屋信息时为 None
+    to_room_type: "str | None" = None  # 连通房间类型，第二遍扫描填入
     thickness: "float | None" = None   # 门框厚度 m（可选，未提供时与墙厚一致）
     seg_start: "list[float] | None" = None  # 沿墙线段起点 [x, z]
     seg_end: "list[float] | None" = None    # 沿墙线段终点 [x, z]
+    opens_into: "str | None" = None
+    # None  → 外门（入户门等），只画门扇线，不画弧
+    # str   → 内门，值为应画弧线的那个房间的 region_id
+    door_type: str = "swing"
+    # "swing"   → 平开门（默认）
+    # "sliding" → 推拉门（通阳台，或宽度 > 1.2m）
 
 
 @dataclass
@@ -49,6 +67,8 @@ class SceneRegion:
     height: float = field(default=HOUSE_DEFAULTS["room_height"])
     doors: list = field(default_factory=list)
     windows: list = field(default_factory=list)
+    structural_edges: list = field(default_factory=list)  # boundary edge indices that are structural (承重墙)
+    region_id: str = ""          # room id from scene_vector; used by door ownership logic
 
 
 @dataclass
@@ -57,6 +77,7 @@ class SceneUnderstandOutput:
     regions: list[SceneRegion]
     style: str | None = None
     constraints: dict = field(default_factory=dict)
+
 
 
 def _shoelace_area(boundary: list[list[float]]) -> float:
@@ -88,6 +109,72 @@ def _window_width(pts):
     dx = p1[0] - p0[0]
     dz = p1[1] - p0[1]
     return (dx ** 2 + dz ** 2) ** 0.5
+
+
+def _door_pos_key(seg_start, seg_end) -> frozenset:
+    """Stable position key for a door — order-independent, rounded to 1mm."""
+    return frozenset([
+        (round(seg_start[0], 3), round(seg_start[1], 3)),
+        (round(seg_end[0],   3), round(seg_end[1],   3)),
+    ])
+
+
+_SLIDING_DOOR_WIDTH_THRESHOLD = 1.2  # m — wider than this → sliding
+
+
+def _detect_door_type(door: "DoorInfo") -> str:
+    """Return 'sliding' if door connects to balcony or is wider than threshold."""
+    if door.to_room_type == "balcony":
+        return "sliding"
+    if door.width > _SLIDING_DOOR_WIDTH_THRESHOLD:
+        return "sliding"
+    return "swing"
+
+
+def _resolve_door_connectivity(regions: list[SceneRegion]) -> None:
+    """
+    Second-pass post-processing over all regions:
+      1. Fill DoorInfo.to_room_type from the connected room's region_type.
+      2. Fill DoorInfo.opens_into:
+           None  → exterior door (to_room is None); no arc drawn by renderer
+           str   → region_id of the room whose side draws the arc (less important / smaller room)
+    Mutates DoorInfo objects in-place.
+    """
+    id_to_region: dict[str, SceneRegion] = {r.region_id: r for r in regions if r.region_id}
+
+    # Collect candidates per unique door position
+    # key → [(region_id, importance, area, door)]
+    candidates: dict[frozenset, list] = {}
+    for region in regions:
+        imp = ROOM_IMPORTANCE.get(region.region_type, _DEFAULT_IMPORTANCE)
+        for door in region.doors:
+            # 1. Resolve to_room_type
+            if door.to_room and door.to_room in id_to_region:
+                door.to_room_type = id_to_region[door.to_room].region_type
+
+            # 1b. Detect door_type (needs to_room_type resolved first)
+            door.door_type = _detect_door_type(door)
+
+            # 2. Collect for opens_into resolution
+            if door.seg_start and door.seg_end:
+                key = _door_pos_key(door.seg_start, door.seg_end)
+                candidates.setdefault(key, []).append(
+                    (region.region_id, imp, region.area, door)
+                )
+
+    # Decide opens_into for each unique door position
+    for key, cands in candidates.items():
+        is_exterior = any(c[3].to_room is None for c in cands)
+        if is_exterior:
+            # Exterior door (entrance etc.) — no arc, just panel line
+            for _, _, _, door in cands:
+                door.opens_into = None
+        else:
+            # Interior shared door — arc on the less-important / smaller room's side
+            winner = max(cands, key=lambda c: (c[1], -c[2]))
+            winner_id = winner[0]
+            for _, _, _, door in cands:
+                door.opens_into = winner_id
 
 
 class SceneUnderstandStage:
@@ -122,7 +209,7 @@ class SceneUnderstandStage:
         constraints = inp.constraints or {}
         regions = []
 
-        for room in rv.get("rooms", []):
+        for room_idx, room in enumerate(rv.get("rooms", [])):
             # boundary and area
             boundary = room.get("floor", [])
             area = _shoelace_area(boundary) if len(boundary) >= 3 else 0.0
@@ -211,13 +298,18 @@ class SceneUnderstandStage:
                 ))
 
             regions.append(SceneRegion(
+                region_id=room.get("id", f"room_{room_idx}"),
                 region_type=region_type,
                 boundary=boundary,
                 area=area,
                 height=height,
                 doors=doors,
                 windows=windows,
+                structural_edges=room.get("structural_walls", []),
             ))
+
+        # Second pass: resolve door connectivity and ownership across all regions
+        _resolve_door_connectivity(regions)
 
         return SceneUnderstandOutput(
             scene_type=inp.scene_type,

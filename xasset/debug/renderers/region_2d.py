@@ -70,6 +70,19 @@ def _lerp(p0, p1, t):
     return (p0[0] + t * (p1[0] - p0[0]), p0[1] + t * (p1[1] - p0[1]))
 
 
+_JAMB_DEPTH = 0.08   # m — 门套线伸入室内深度（模拟门框厚度）
+
+
+def _draw_door_jambs(ax, oa, ob, int_nx, int_nz):
+    """Draw two short perpendicular jamb lines at each end of the door opening."""
+    for pt in (oa, ob):
+        ax.plot(
+            [pt[0], pt[0] + int_nx * _JAMB_DEPTH],
+            [pt[1], pt[1] + int_nz * _JAMB_DEPTH],
+            color=DOOR_COLOR, linewidth=1.8, zorder=4,
+        )
+
+
 def _draw_door(ax, p_hinge, p_free, int_nx, int_nz):
     """Draw door panel line + 90° arc sweeping into the room interior."""
     ax.plot([p_hinge[0], p_free[0]], [p_hinge[1], p_free[1]],
@@ -231,20 +244,25 @@ def render_region_2d(output: SceneUnderstandOutput, path: str) -> None:
                     if door_type == "sliding":
                         # Sliding door: draw on whichever room first encounters it (or exterior)
                         if opens_into is None or opens_into == region.region_id:
+                            _draw_door_jambs(ax, oa, ob, int_nx, int_nz)
                             _draw_sliding_door(ax, oa, ob, int_nx, int_nz)
                     elif opens_into is None:
-                        # Exterior swing door — panel line only, no arc
+                        # Exterior swing door — jambs + panel line only, no arc
+                        _draw_door_jambs(ax, oa, ob, int_nx, int_nz)
                         ax.plot([oa[0], ob[0]], [oa[1], ob[1]],
                                 color=DOOR_COLOR, linewidth=2.0, zorder=4)
                     elif opens_into == region.region_id:
                         # This region owns the swing symbol — draw full sector
+                        _draw_door_jambs(ax, oa, ob, int_nx, int_nz)
                         da = min(math.hypot(oa[0] - v[0], oa[1] - v[1]) for v in bnd)
                         db = min(math.hypot(ob[0] - v[0], ob[1] - v[1]) for v in bnd)
                         if da >= db:
                             _draw_door(ax, oa, ob, int_nx, int_nz)
                         else:
                             _draw_door(ax, ob, oa, int_nx, int_nz)
-                    # else: shared swing door owned by the other room — wall gap only
+                    # else: shared swing door owned by the other room — jambs only (no arc)
+                    else:
+                        _draw_door_jambs(ax, oa, ob, int_nx, int_nz)
                 else:  # window
                     _draw_window(ax, oa, ob, int_nx, int_nz)
 

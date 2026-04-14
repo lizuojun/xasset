@@ -58,6 +58,7 @@ def normalize_polygon(
     min_seg_len: float = 0.05,
     angle_deg: float = 5.0,
     dev_dist: float = 0.05,
+    enforce_ccw: bool = True,
 ) -> list[list[float]] | None:
     """
     Clean a 2D polygon by removing noise vertices, then enforce CCW winding.
@@ -108,8 +109,10 @@ def normalize_polygon(
 
     if len(pts) < 3:
         return None
-    # Step C: enforce CCW winding
-    if check_poly_clock(pts):
+    # Step C: enforce CCW winding (skip for openings — door/window pts must keep
+    # original vertex order so that pts[0]/pts[1] remain the wall-face endpoints,
+    # which _door_pos_key relies on for cross-room deduplication)
+    if enforce_ccw and check_poly_clock(pts):
         pts = pts[::-1]
     return pts
 
@@ -142,7 +145,10 @@ def normalize_scene_vector(
         clean_doors = []
         for d in room.get("doors", []):
             pts = d.get("pts", [])
-            clean_pts = normalize_polygon(pts, min_seg_len, angle_deg, dev_dist) if len(pts) >= 3 else pts
+            # enforce_ccw=False: door pts are wall-opening rectangles, not room polygons.
+            # Reversing winding would change pts[0]/pts[1] to the interior side,
+            # breaking the _door_pos_key used for cross-room dedup in scene_understand.
+            clean_pts = normalize_polygon(pts, min_seg_len, angle_deg, dev_dist, enforce_ccw=False) if len(pts) >= 3 else pts
             if clean_pts is None:
                 excluded_openings.append(d.get("id", ""))
                 continue
@@ -153,7 +159,8 @@ def normalize_scene_vector(
         clean_windows = []
         for w in room.get("windows", []):
             pts = w.get("pts", [])
-            clean_pts = normalize_polygon(pts, min_seg_len, angle_deg, dev_dist) if len(pts) >= 3 else pts
+            # Same reasoning as doors: no CCW enforcement for window opening pts.
+            clean_pts = normalize_polygon(pts, min_seg_len, angle_deg, dev_dist, enforce_ccw=False) if len(pts) >= 3 else pts
             if clean_pts is None:
                 excluded_openings.append(w.get("id", ""))
                 continue

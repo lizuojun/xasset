@@ -16,8 +16,6 @@ import uuid
 from xasset.pipeline.context import PipelineInput, PipelineContext
 from xasset.pipeline.stages.scene_understand import SceneUnderstandStage
 from xasset.pipeline.stages.mesh_build import MeshBuildStage
-from xasset.pipeline.stages.layout_compose import HouseLayoutComposeStage
-from xasset.services.sample_search import SampleSearchService
 from xasset.debug import debug_dump
 
 # ── 测试场景：两室一厅一厨一卫，约 88m²  ─────────────────────────────────────
@@ -193,9 +191,6 @@ SceneUnderstandStage().run(ctx)
 
 print("[ 几何层 ]")
 MeshBuildStage().run(ctx)
-
-print("[ 布局层 ]")
-HouseLayoutComposeStage(sample_search=SampleSearchService([])).run(ctx)
 
 print("[ 输出文件 ]")
 files = debug_dump(ctx, output_dir=OUT_DIR)

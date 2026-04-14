@@ -260,9 +260,9 @@ def render_region_2d(output: SceneUnderstandOutput, path: str) -> None:
                             _draw_door(ax, oa, ob, int_nx, int_nz)
                         else:
                             _draw_door(ax, ob, oa, int_nx, int_nz)
-                    # else: shared swing door owned by the other room — jambs only (no arc)
+                    # else: shared swing door owned by the other room — gap only, no symbol
                     else:
-                        _draw_door_jambs(ax, oa, ob, int_nx, int_nz)
+                        pass
                 else:  # window
                     _draw_window(ax, oa, ob, int_nx, int_nz)
 

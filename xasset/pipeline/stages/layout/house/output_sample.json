@@ -1,0 +1,27 @@
+{
+  "scene_type": "house",
+  "placed_groups": [
+    {
+      "group_code": 100001,
+      "region_type": "living_room",
+      "position": [3.5, 0.0, 2.5],
+      "rotation": 0.0,
+      "role_assets": {
+        "sofa": null,
+        "coffee_table": null,
+        "rug": null
+      }
+    },
+    {
+      "group_code": 200001,
+      "region_type": "bedroom",
+      "position": [9.0, 0.0, 5.5],
+      "rotation": 180.0,
+      "role_assets": {
+        "bed": null,
+        "nightstand_left": null,
+        "nightstand_right": null
+      }
+    }
+  ]
+}

@@ -1,6 +1,19 @@
 # Pipeline Map — 管线阶段与模块全景
 
 > 最后更新: 2026-06-15
+> 
+> **本次 (2026-06-15) 完成:**
+> - 移除 DB 层，管线纯内存运行（3 依赖：pydantic/numpy/matplotlib）
+> - 按 `stages/<layer>/<scene>/` 重组目录，`utils/` 放共享工具
+> - 新增 surface/accessory 桩 Stage，六层全可跑通
+> - 新增 `products/cli/` 产品目录，引擎与产品分离
+> - 每个 stage 下放 `output_sample.json` 作为格式契约
+> - 重置仓库为干净起点，master / xasset-urban / xasset-outdoor 三分支并行
+> 
+> **下一步:**
+> - `xasset-urban` 分支：urban geometry/layout Stage 实现
+> - `xasset-outdoor` 分支：wild geometry/layout Stage 实现
+> - 各层 Stage output 协议化（同层不同场景产出统一格式）
 
 ---
 
@@ -110,14 +123,14 @@
 
 ## 缺项统计
 
-| 优先级 | 缺口 | 说明 |
-|--------|------|------|
-| P0 | geometry: urban + wild | 建筑/道路网格、地形网格 |
-| P0 | layout: urban + wild | 建筑排列、特征物散布 |
-| P1 | surface: 完善实现 | 三场景桩→实际逻辑 |
-| P1 | accessory: 完善实现 | 三场景桩→实际逻辑 |
-| P1 | stylize: 完善实现 | 从空桩→实际材质/灯光逻辑 |
-| P1 | 各层 Stage output 协议化 | 同层不同实现产出格式需统一 |
+| 优先级 | 缺口 | 分支 | 说明 |
+|--------|------|------|------|
+| P0 | geometry: urban + wild | xasset-urban / xasset-outdoor | 建筑/道路网格、地形网格 |
+| P0 | layout: urban + wild | xasset-urban / xasset-outdoor | 建筑排列、特征物散布 |
+| P1 | surface: 完善实现 | master | 三场景桩→实际逻辑 |
+| P1 | accessory: 完善实现 | master | 三场景桩→实际逻辑 |
+| P1 | stylize: 完善实现 | master | 从空桩→实际材质/灯光逻辑 |
+| P1 | 各层 Stage output 协议化 | master | 同层不同实现产出格式需统一 |
 
 ---
 

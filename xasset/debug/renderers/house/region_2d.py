@@ -4,32 +4,21 @@ import math
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
 
 from xasset.pipeline.stages.understand.scene_understand import SceneUnderstandOutput
+from xasset.debug.renderers.house.draw_utils import (
+    draw_window_symbol, draw_door_jambs, draw_door_swing, draw_sliding_door, draw_main_door,
+    FLOOR_COLOR, WALL_COLOR, STRUCT_COLOR, DOOR_COLOR, WINDOW_COLOR, REGION_COLORS,
+)
 
-FLOOR_COLOR  = "#F0EDE8"   # 地板填充（默认）
-WALL_COLOR   = "#555555"   # 普通隔墙
-STRUCT_COLOR = "#1A1A1A"   # 承重墙
-DOOR_COLOR   = "#C0392B"   # 门
-WINDOW_COLOR = "#2980B9"   # 窗
+FLOOR_COLOR  = FLOOR_COLOR
+WALL_COLOR   = WALL_COLOR
+STRUCT_COLOR = STRUCT_COLOR
+DOOR_COLOR   = DOOR_COLOR
+WINDOW_COLOR = WINDOW_COLOR
 
 # 按 region_type 定制填充色；当前 house 统一色，将来室外/城市可按需扩充
-REGION_COLORS: dict[str, str] = {
-    "living_room":  FLOOR_COLOR,
-    "bedroom":      FLOOR_COLOR,
-    "dining_room":  FLOOR_COLOR,
-    "kitchen":      FLOOR_COLOR,
-    "bathroom":     FLOOR_COLOR,
-    "balcony":      FLOOR_COLOR,
-    # outdoor（占位）
-    # "forest":     "#D4EDDA",
-    # "road":       "#D6D3C4",
-}
-
-# 窗符号的半宽偏移（模拟墙体厚度，三线间距）
-_WIN_HALF = 0.06   # m
-
+REGION_COLORS: dict[str, str] = REGION_COLORS
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 
@@ -70,111 +59,12 @@ def _lerp(p0, p1, t):
     return (p0[0] + t * (p1[0] - p0[0]), p0[1] + t * (p1[1] - p0[1]))
 
 
-_JAMB_DEPTH = 0.08   # m — 门套线伸入室内深度（模拟门框厚度）
-
-
-def _draw_door_jambs(ax, oa, ob, int_nx, int_nz):
-    """Draw two short perpendicular jamb lines at each end of the door opening."""
-    for pt in (oa, ob):
-        ax.plot(
-            [pt[0], pt[0] + int_nx * _JAMB_DEPTH],
-            [pt[1], pt[1] + int_nz * _JAMB_DEPTH],
-            color=DOOR_COLOR, linewidth=1.8, zorder=4,
-        )
-
-
-def _draw_door(ax, p_hinge, p_free, int_nx, int_nz):
-    """Draw door panel line + 90° arc sweeping into the room interior."""
-    ax.plot([p_hinge[0], p_free[0]], [p_hinge[1], p_free[1]],
-            color=DOOR_COLOR, linewidth=2.0, zorder=4)
-
-    door_len = math.hypot(p_free[0] - p_hinge[0], p_free[1] - p_hinge[1])
-    if door_len < 1e-6:
-        return
-
-    # Direction from hinge to free end
-    tx = (p_free[0] - p_hinge[0]) / door_len
-    tz = (p_free[1] - p_hinge[1]) / door_len
-    theta_free = math.degrees(math.atan2(tz, tx))
-
-    # cross(tangent, interior_normal) > 0 → normal is CCW from tangent → sweep CCW
-    cross = tx * int_nz - tz * int_nx
-    if cross > 0:
-        t1, t2 = theta_free, theta_free + 90
-    else:
-        t1, t2 = theta_free - 90, theta_free
-
-    arc = mpatches.Arc(
-        (p_hinge[0], p_hinge[1]), door_len * 2, door_len * 2,
-        angle=0, theta1=t1, theta2=t2,
-        color=DOOR_COLOR, linewidth=1.2, linestyle="--", zorder=4,
-    )
-    ax.add_patch(arc)
-
-    # Second radius: hinge → open position (completes the sector)
-    open_rad = math.radians(t2 if cross > 0 else t1)
-    open_x = p_hinge[0] + door_len * math.cos(open_rad)
-    open_z = p_hinge[1] + door_len * math.sin(open_rad)
-    ax.plot([p_hinge[0], open_x], [p_hinge[1], open_z],
-            color=DOOR_COLOR, linewidth=2.0, zorder=4)
-
-
-def _draw_sliding_door(ax, p0, p1, int_nx, int_nz):
-    """Draw sliding door symbol: two overlapping panel lines with slight depth offset."""
-    dx = p1[0] - p0[0]
-    dz = p1[1] - p0[1]
-    length = math.hypot(dx, dz)
-    if length < 1e-6:
-        return
-
-    tx, tz = dx / length, dz / length  # tangent along door opening
-    # Two panel lines: each covers ~60% of opening, offset toward each end
-    panel = length * 0.55
-    depth = 0.05  # perpendicular offset to show panel thickness
-
-    # Panel A: starts at p0, shifts inward along tangent slightly
-    a0 = (p0[0], p0[1])
-    a1 = (p0[0] + tx * panel, p0[1] + tz * panel)
-    ao = (int_nx * depth, int_nz * depth)  # interior offset
-
-    # Panel B: starts at p1, shifts inward along tangent
-    b0 = (p1[0], p1[1])
-    b1 = (p1[0] - tx * panel, p1[1] - tz * panel)
-
-    for q0, q1, off in [(a0, a1, ao), (b0, b1, (-ao[0], -ao[1]))]:
-        ax.plot([q0[0], q1[0]], [q0[1], q1[1]],
-                color=DOOR_COLOR, linewidth=2.0, zorder=4)
-        # small depth line at one end to suggest panel
-        ax.plot([q1[0], q1[0] + off[0]], [q1[1], q1[1] + off[1]],
-                color=DOOR_COLOR, linewidth=1.2, zorder=4)
-
-
-
-def _draw_window(ax, p0, p1, edge_int_nx, edge_int_nz):
-    """Draw 3-line window symbol: two frame lines + center glass line."""
-    dx = p1[0] - p0[0]
-    dz = p1[1] - p0[1]
-    length = math.hypot(dx, dz)
-    if length < 1e-9:
-        return
-
-    # Use the edge interior normal to orient lines symmetrically across wall
-    nx, nz = edge_int_nx, edge_int_nz
-
-    for t, lw in ((-1, 1.2), (0, 2.5), (1, 1.2)):
-        ox = t * _WIN_HALF * nx
-        oz = t * _WIN_HALF * nz
-        ax.plot([p0[0] + ox, p1[0] + ox], [p0[1] + oz, p1[1] + oz],
-                color=WINDOW_COLOR, linewidth=lw, zorder=4)
-
-
 # ── main renderer ─────────────────────────────────────────────────────────────
 
 def render_region_2d(output: SceneUnderstandOutput, path: str) -> None:
     """Render all regions (boundary + doors + windows) to a PNG file."""
     fig, ax = plt.subplots(figsize=(10, 8))
     ax.set_aspect("equal")
-    ax.set_title(f"Region Plan — {output.scene_type}", fontsize=12)
     ax.set_xlabel("X (m)")
     ax.set_ylabel("Z (m)")
 
@@ -241,30 +131,20 @@ def render_region_2d(output: SceneUnderstandOutput, path: str) -> None:
                 if otype == "door":
                     opens_into = obj.opens_into
                     door_type  = obj.door_type
-                    if door_type == "sliding":
-                        # Sliding door: draw on whichever room first encounters it (or exterior)
-                        if opens_into is None or opens_into == region.region_id:
-                            _draw_door_jambs(ax, oa, ob, int_nx, int_nz)
-                            _draw_sliding_door(ax, oa, ob, int_nx, int_nz)
-                    elif opens_into is None:
-                        # Exterior swing door — jambs + panel line only, no arc
-                        _draw_door_jambs(ax, oa, ob, int_nx, int_nz)
-                        ax.plot([oa[0], ob[0]], [oa[1], ob[1]],
-                                color=DOOR_COLOR, linewidth=2.0, zorder=4)
+                    if opens_into is None:
+                        draw_main_door(ax, oa, ob, int_nx, int_nz, bnd)
+                    elif door_type == "sliding":
+                        if opens_into == region.region_id:
+                            draw_door_jambs(ax, oa, ob, int_nx, int_nz)
+                            draw_sliding_door(ax, oa, ob, int_nx, int_nz)
                     elif opens_into == region.region_id:
-                        # This region owns the swing symbol — draw full sector
-                        _draw_door_jambs(ax, oa, ob, int_nx, int_nz)
-                        da = min(math.hypot(oa[0] - v[0], oa[1] - v[1]) for v in bnd)
-                        db = min(math.hypot(ob[0] - v[0], ob[1] - v[1]) for v in bnd)
-                        if da >= db:
-                            _draw_door(ax, oa, ob, int_nx, int_nz)
-                        else:
-                            _draw_door(ax, ob, oa, int_nx, int_nz)
+                        draw_door_jambs(ax, oa, ob, int_nx, int_nz)
+                        draw_door_swing(ax, oa, ob, int_nx, int_nz, bnd)
                     # else: shared swing door owned by the other room — gap only, no symbol
                     else:
                         pass
                 else:  # window
-                    _draw_window(ax, oa, ob, int_nx, int_nz)
+                    draw_window_symbol(ax, oa, ob, int_nx, int_nz)
 
                 cur = t1
 

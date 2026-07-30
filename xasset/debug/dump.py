@@ -12,18 +12,28 @@ def _run(fn, out, path):
 
 
 def _run_layout(layout_out, ctx, d):
-    path = os.path.join(d, "layout_plan.png")
+    generated: list[str] = []
     understand = ctx.stage_outputs.get("understand")
     if understand is None:
-        return []
-    render_layout_2d(layout_out, understand, path)
-    return [path]
+        return generated
+
+    zone_data = getattr(ctx, "_layout_debug", {})
+    walls_by_region = zone_data.get("walls", {})
+    curtains_by_region = zone_data.get("curtains", {})
+
+    path = os.path.join(d, "layout_plan.png")
+    render_layout_2d(layout_out, understand, path,
+                      walls_by_region=walls_by_region,
+                      curtains_by_region=curtains_by_region)
+    generated.append(path)
+
+    return generated
 
 
 STAGE_RENDERERS = {
     "understand": [
         lambda out, ctx, d: _run(render_region_2d, out,
-                                  os.path.join(d, "understand_regions.png")),
+                                  os.path.join(d, "scene_understand.png")),
     ],
     "geometry": [
         lambda out, ctx, d: _run(export_mesh_obj, out,

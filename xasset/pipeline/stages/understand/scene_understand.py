@@ -198,7 +198,7 @@ class SceneUnderstandStage:
             regions=[
                 SceneRegion(
                     region_type="living_room",
-                    boundary=[[0, 0, 0], [500, 0, 0], [500, 0, 400], [0, 0, 400]],
+                    boundary=[[0, 0], [5, 0], [5, 4], [0, 4]],
                     area=20.0,
                 )
             ],

@@ -1,18 +1,20 @@
 # xasset/debug/renderers/house/layout_2d.py
-"""Layout 2D renderer: LayoutOutput + SceneUnderstandOutput -> PNG via matplotlib."""
+"""Layout 2D renderer: LayoutOutput + SceneUnderstandOutput + WallSegments -> PNG via matplotlib.
+Reuses shared door/window/curtain symbols from draw_utils, then overlays placed groups."""
 import math
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import matplotlib.transforms as mtransforms
-import numpy as np
 
 from xasset.pipeline.stages.layout.house.compose import LayoutOutput
 from xasset.pipeline.stages.understand.scene_understand import SceneUnderstandOutput
-from xasset.debug.renderers.house.region_2d import FLOOR_COLOR, WALL_COLOR, REGION_COLORS
+from xasset.debug.renderers.house.draw_utils import (
+    draw_door_jambs, draw_door_swing, draw_window_symbol, draw_curtain_zone, draw_main_door,
+    FLOOR_COLOR, WALL_COLOR, REGION_COLORS,
+)
 
-# Approximate footprint size for a placed group (meters)
 GROUP_HALF_W = 0.4
 GROUP_HALF_D = 0.4
 
@@ -21,15 +23,20 @@ def render_layout_2d(
     layout: LayoutOutput,
     understand: SceneUnderstandOutput,
     path: str,
+    walls_by_region: dict | None = None,
+    curtains_by_region: dict | None = None,
 ) -> None:
-    """Render room outlines and placed group footprints to a PNG file."""
+    walls_by_region = walls_by_region or {}
+    curtains_by_region = curtains_by_region or {}
+
     fig, ax = plt.subplots(figsize=(12, 10))
     ax.set_aspect("equal")
-    ax.set_title(f"Layout Plan — {layout.scene_type}", fontsize=12)
     ax.set_xlabel("X (m)")
     ax.set_ylabel("Z (m)")
 
-    # Draw room outlines
+    id_to_region = {r.region_id: r for r in understand.regions}
+
+    # Draw rooms: floor + walls + doors + windows + curtains
     for region in understand.regions:
         bnd = region.boundary
         xs = [p[0] for p in bnd] + [bnd[0][0]]
@@ -40,17 +47,32 @@ def render_layout_2d(
 
         cx = sum(p[0] for p in bnd) / len(bnd)
         cz = sum(p[1] for p in bnd) / len(bnd)
-        ax.text(cx, cz, region.region_type, ha="center", va="center",
-                fontsize=7, color="#555555", zorder=3)
+        ax.text(cx, cz, f"{region.region_type}\n{region.area:.1f}m2",
+                ha="center", va="center", fontsize=7, color="#555555", zorder=3)
+
+        segs = walls_by_region.get(region.region_id, [])
+        for seg in segs:
+            p0, p1 = seg.p0, seg.p1
+            nx, nz = seg.inward_normal
+            if seg.seg_type == "door":
+                opens_into = seg.opens_into
+                if opens_into is None:
+                    draw_main_door(ax, p0, p1, nx, nz, bnd)
+                elif opens_into == region.region_id:
+                    draw_door_jambs(ax, p0, p1, nx, nz)
+                    draw_door_swing(ax, p0, p1, nx, nz, bnd)
+            elif seg.seg_type == "window":
+                draw_window_symbol(ax, p0, p1, nx, nz)
+
+        for cz in curtains_by_region.get(region.region_id, []):
+            draw_curtain_zone(ax, cz)
 
     # Draw placed groups as rotated rectangles + direction arrow + label
     for pg in layout.placed_groups:
-        # position is [x, y, z] in cm -> convert to meters for xz plane
-        px = pg.position[0] / 100.0
-        pz = pg.position[2] / 100.0
-        rot_deg = pg.rotation  # Y-axis rotation in degrees
+        px = pg.position[0]
+        pz = pg.position[2]
+        rot_deg = pg.rotation
 
-        # Draw rotated rectangle
         rect = mpatches.Rectangle(
             (-GROUP_HALF_W, -GROUP_HALF_D),
             GROUP_HALF_W * 2, GROUP_HALF_D * 2,
@@ -59,14 +81,13 @@ def render_layout_2d(
         )
         transform = (
             mtransforms.Affine2D()
-            .rotate_deg(-rot_deg)   # matplotlib Y-up, negate for XZ plane
+            .rotate_deg(-rot_deg)
             .translate(px, pz)
             + ax.transData
         )
         rect.set_transform(transform)
         ax.add_patch(rect)
 
-        # Direction arrow (points along +Z before rotation, i.e. "front")
         rad = math.radians(-rot_deg)
         arrow_len = GROUP_HALF_D * 0.8
         dx = math.sin(rad) * arrow_len
@@ -77,7 +98,6 @@ def render_layout_2d(
             zorder=6,
         )
 
-        # Label: group_code
         ax.text(px, pz, str(pg.group_code),
                 ha="center", va="center", fontsize=6, color="#222222",
                 fontweight="bold", zorder=7)

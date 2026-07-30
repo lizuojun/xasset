@@ -4,7 +4,7 @@ from xasset.pipeline.stages.understand.scene_understand import (
     SceneUnderstandOutput, SceneRegion,
 )
 from xasset.pipeline.stages.layout.house.compose import (
-    HouseLayoutComposeStage, LayoutOutput, PlacedGroup,
+    HouseLayoutComposeStage, LayoutOutput,
 )
 from xasset.services.sample_search import SampleSearchService
 
@@ -18,8 +18,9 @@ def _ctx_with_scene(region_type="living_room", style=None):
         regions=[
             SceneRegion(
                 region_type=region_type,
-                boundary=[[0, 0, 0], [500, 0, 0], [500, 0, 400], [0, 0, 400]],
+                boundary=[[0, 0], [5, 0], [5, 4], [0, 4]],
                 area=20.0,
+                region_id="test_room",
             )
         ],
     )
@@ -27,7 +28,7 @@ def _ctx_with_scene(region_type="living_room", style=None):
 
 
 def _make_stage():
-    return HouseLayoutComposeStage(sample_search=SampleSearchService([]))
+    return HouseLayoutComposeStage()
 
 
 def test_stage_name_and_scene_types():
@@ -45,25 +46,21 @@ def test_returns_layout_output():
     assert out.scene_type == "house"
 
 
-def test_living_room_gets_meeting_group():
+def test_living_room_placed_groups_is_stub_empty():
+    """Furniture group placement (zone planning) is not yet implemented — stub returns no groups."""
     stage = _make_stage()
     ctx = _ctx_with_scene(region_type="living_room")
     stage.run(ctx)
     out: LayoutOutput = ctx.stage_outputs["layout"]
-    assert len(out.placed_groups) > 0
-    group = out.placed_groups[0]
-    assert isinstance(group, PlacedGroup)
-    assert group.group_code == 100001   # house-meeting group code
-    assert group.region_type == "living_room"
+    assert out.placed_groups == []
 
 
-def test_placed_group_has_position():
+def test_region_type_corrected_to_living_dining_room():
     stage = _make_stage()
-    ctx = _ctx_with_scene()
+    ctx = _ctx_with_scene(region_type="living_room")
     stage.run(ctx)
-    out: LayoutOutput = ctx.stage_outputs["layout"]
-    group = out.placed_groups[0]
-    assert len(group.position) == 3
+    understand = ctx.stage_outputs["understand"]
+    assert understand.regions[0].region_type == "living_dining_room"
 
 
 def test_unknown_region_type_produces_no_groups():

@@ -23,19 +23,15 @@ import matplotlib.patches as mpatches
 from xasset.pipeline.stages.understand.scene_understand import SceneUnderstandOutput
 from xasset.pipeline.stages.layout.house.room_decompose import WallSegment, CurtainZone
 
-from xasset.debug.renderers.house.region_2d import (
-    WALL_COLOR, DOOR_COLOR, WINDOW_COLOR, FLOOR_COLOR,
+from xasset.debug.renderers.house.draw_utils import (
+    draw_door_jambs, draw_door_swing, draw_window_symbol, draw_curtain_zone, draw_main_door,
+    CURTAIN_COLOR, CURTAIN_ALPHA, WALL_COLOR, DOOR_COLOR, WINDOW_COLOR, FLOOR_COLOR,
 )
 
 _FLOOR_FILL       = FLOOR_COLOR
-_CURTAIN_COLOR    = "#C0392B"
-_CURTAIN_ALPHA    = 0.18
-_CURTAIN_DEPTH    = 0.15
 _GRID_ALPHA       = 0.25
 _DEPTH_BAR_COLOR  = "#4B9DCA"
 _LOG_DEPTH_SCALE  = 0.80
-_JAMB_DEPTH       = 0.08
-_WIN_HALF         = 0.06
 
 
 def _bar_h(depth: float) -> float:
@@ -44,60 +40,6 @@ def _bar_h(depth: float) -> float:
 
 def _lerp(p0, p1, t):
     return (p0[0] + t * (p1[0] - p0[0]), p0[1] + t * (p1[1] - p0[1]))
-
-
-def _draw_door_jambs(ax, p0, p1, nx, nz):
-    for pt in (p0, p1):
-        ax.plot(
-            [pt[0], pt[0] + nx * _JAMB_DEPTH],
-            [pt[1], pt[1] + nz * _JAMB_DEPTH],
-            color=DOOR_COLOR, linewidth=1.8, zorder=5,
-        )
-
-
-def _draw_door_swing(ax, p0, p1, nx, nz, bnd):
-    da = min(math.hypot(p0[0] - v[0], p0[1] - v[1]) for v in bnd)
-    db = min(math.hypot(p1[0] - v[0], p1[1] - v[1]) for v in bnd)
-    p_hinge = p0 if da <= db else p1
-    p_free  = p1 if da <= db else p0
-
-    door_len = math.hypot(p_free[0] - p_hinge[0], p_free[1] - p_hinge[1])
-    if door_len < 1e-6:
-        return
-
-    ax.plot([p_hinge[0], p_free[0]], [p_hinge[1], p_free[1]],
-            color=DOOR_COLOR, linewidth=2.0, zorder=5)
-
-    tx = (p_free[0] - p_hinge[0]) / door_len
-    tz = (p_free[1] - p_hinge[1]) / door_len
-    theta_free = math.degrees(math.atan2(tz, tx))
-
-    cross = tx * nz - tz * nx
-    if cross > 0:
-        t1, t2 = theta_free, theta_free + 90
-    else:
-        t1, t2 = theta_free - 90, theta_free
-
-    arc = mpatches.Arc(
-        (p_hinge[0], p_hinge[1]), door_len * 2, door_len * 2,
-        angle=0, theta1=t1, theta2=t2,
-        color=DOOR_COLOR, linewidth=1.2, linestyle="--", zorder=5,
-    )
-    ax.add_patch(arc)
-
-    open_rad = math.radians(t2 if cross > 0 else t1)
-    open_x = p_hinge[0] + door_len * math.cos(open_rad)
-    open_z = p_hinge[1] + door_len * math.sin(open_rad)
-    ax.plot([p_hinge[0], open_x], [p_hinge[1], open_z],
-            color=DOOR_COLOR, linewidth=2.0, zorder=5)
-
-
-def _draw_window_symbol(ax, p0, p1, nx, nz):
-    for t, lw in ((-1, 1.2), (0, 2.5), (1, 1.2)):
-        ox = t * _WIN_HALF * nx
-        oz = t * _WIN_HALF * nz
-        ax.plot([p0[0] + ox, p1[0] + ox], [p0[1] + oz, p1[1] + oz],
-                color=WINDOW_COLOR, linewidth=lw, zorder=5)
 
 
 def _prev_same_edge(segs: list, i: int):
@@ -190,25 +132,20 @@ def _render_rooms(ax, segs_by_region, curtains_by_region, understand_out, orient
                             fontsize=3.8, ha="center", va="center",
                             color="#333333", zorder=6)
 
+                if seg.seg_type == "window":
+                    draw_window_symbol(ax, p0, p1, nx, nz)
+
             elif seg.seg_type == "door":
                 opens_into = seg.opens_into
                 if opens_into is None:
-                    _draw_door_jambs(ax, p0, p1, nx, nz)
-                    ax.plot([p0[0], p1[0]], [p0[1], p1[1]],
-                            color=DOOR_COLOR, linewidth=2.0, zorder=5)
+                    draw_main_door(ax, p0, p1, nx, nz, bnd)
                 elif opens_into == region_id:
-                    _draw_door_jambs(ax, p0, p1, nx, nz)
-                    _draw_door_swing(ax, p0, p1, nx, nz, bnd)
+                    draw_door_jambs(ax, p0, p1, nx, nz)
+                    draw_door_swing(ax, p0, p1, nx, nz, bnd)
 
         curtains = curtains_by_region.get(region_id, [])
         for cz in curtains:
-            nx, nz = cz.inward_normal
-            d = _CURTAIN_DEPTH
-            poly_x = [cz.p0[0], cz.p1[0], cz.p1[0] + nx*d, cz.p0[0] + nx*d, cz.p0[0]]
-            poly_z = [cz.p0[1], cz.p1[1], cz.p1[1] + nz*d, cz.p0[1] + nz*d, cz.p0[1]]
-            ax.fill(poly_x, poly_z, color=_CURTAIN_COLOR, alpha=_CURTAIN_ALPHA, zorder=2)
-            ax.plot(poly_x, poly_z, color=_CURTAIN_COLOR, linewidth=0.6,
-                    linestyle="--", alpha=0.5, zorder=2)
+            draw_curtain_zone(ax, cz)
 
 
 def render_decompose_2d(
@@ -243,7 +180,7 @@ def render_decompose_2d(
     # Shared legend
     legend_elements = [
         mpatches.Patch(facecolor=WALL_COLOR, label="Wall"),
-        mpatches.Patch(facecolor=_CURTAIN_COLOR, alpha=_CURTAIN_ALPHA, label="Curtain zone"),
+        mpatches.Patch(facecolor=CURTAIN_COLOR, alpha=CURTAIN_ALPHA, label="Curtain zone"),
         mpatches.Patch(facecolor=_DEPTH_BAR_COLOR, alpha=0.5,
                        label=f"Depth (log1p x{_LOG_DEPTH_SCALE})"),
         mpatches.Patch(facecolor=DOOR_COLOR, label="Door"),
@@ -261,7 +198,7 @@ def render_decompose_2d(
 def _finalize(fig, ax, path):
     legend_elements = [
         mpatches.Patch(facecolor=WALL_COLOR, label="Wall"),
-        mpatches.Patch(facecolor=_CURTAIN_COLOR, alpha=_CURTAIN_ALPHA, label="Curtain zone"),
+        mpatches.Patch(facecolor=CURTAIN_COLOR, alpha=CURTAIN_ALPHA, label="Curtain zone"),
         mpatches.Patch(facecolor=_DEPTH_BAR_COLOR, alpha=0.5,
                        label=f"Depth (log1p x{_LOG_DEPTH_SCALE})"),
         mpatches.Patch(facecolor=DOOR_COLOR, label="Door"),

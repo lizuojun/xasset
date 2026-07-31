@@ -51,7 +51,8 @@ def test_scene_understand_output_structure():
     assert len(out.regions) > 0
 
 
-def test_layout_output_has_placed_groups():
+def test_layout_output_is_placed_groups_stub():
+    """Furniture group placement (zone planning) is not yet implemented — stub returns no groups."""
     service = _make_full_service()
     inp = PipelineInput(input_type="text", scene_type="house")
     job_id = service.submit(inp)
@@ -59,24 +60,7 @@ def test_layout_output_has_placed_groups():
 
     out: LayoutOutput = result.stage_outputs["layout"]
     assert isinstance(out, LayoutOutput)
-    assert len(out.placed_groups) > 0
-    group = out.placed_groups[0]
-    assert group.group_code == 100001
-    assert group.region_type == "living_room"
-    assert len(group.position) == 3
-
-
-def test_layout_group_has_all_roles():
-    """会客组 (100001) 应包含 sofa, coffee_table, rug, accessory 四个角色"""
-    service = _make_full_service()
-    inp = PipelineInput(input_type="text", scene_type="house")
-    job_id = service.submit(inp)
-    result = service.get_result(job_id)
-
-    out: LayoutOutput = result.stage_outputs["layout"]
-    group = out.placed_groups[0]
-    assert "sofa" in group.role_assets
-    assert "coffee_table" in group.role_assets
+    assert out.placed_groups == []
 
 
 def test_variation_pipeline_skips_scene_understand():

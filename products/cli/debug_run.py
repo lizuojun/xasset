@@ -5,7 +5,7 @@ Usage:
     uv run python -m products.cli.debug_run
 
 Output:
-    products/cli/debug/<case>/understand_regions.png
+    products/cli/debug/<case>/scene_understand.png
     products/cli/debug/<case>/room_decompose.png
     products/cli/debug/<case>/geometry_mesh.obj
 """
@@ -17,6 +17,7 @@ from xasset.pipeline.context import PipelineInput, PipelineContext
 from xasset.pipeline.stages.understand.scene_understand import SceneUnderstandStage
 from xasset.pipeline.stages.geometry.house.mesh_build import MeshBuildStage
 from xasset.pipeline.stages.layout.house.room_decompose import RoomDecomposer
+from xasset.pipeline.stages.layout.house.compose import HouseLayoutComposeStage
 from xasset.debug import debug_dump
 from xasset.debug.renderers.house.decompose_2d import render_decompose_2d
 
@@ -220,6 +221,7 @@ ctx = PipelineContext(
 )
 SceneUnderstandStage().run(ctx)
 MeshBuildStage().run(ctx)
+HouseLayoutComposeStage().run(ctx)
 
 print("[ output files ]")
 files_final = debug_dump(ctx, output_dir=out_dir_case)
@@ -248,6 +250,7 @@ files_final.append(decompose_path)
 
 if sys.platform == "win32":
     for f in files_final:
-        os.startfile(f)
+        if f.endswith(".png"):
+            os.startfile(f)
 
 print("Done.")

@@ -73,7 +73,7 @@
 | `pipeline/stages/layout/house/room_decompose.py` | 墙体分段+深度分析+墙面质量 (Step 2) |
 | `config/loader.py` | 加载 GroupDefinition JSON（glob 匹配 `groups*.json`） |
 | `config/schemas.py` | GroupDefinition / RoleDefinition / Template |
-| `pipeline/stages/layout/house/groups.json` | 32组 × 14区域类型的室内布局配置 |
+| `pipeline/stages/layout/house/groups.json` | 29组 × 11区域类型的室内布局配置 |
 
 **output** `LayoutOutput`: `scene_type` + `placed_groups[PlacedGroup]`
 

@@ -15,18 +15,12 @@
       {"code": 100101, "required": true,  "priority": 1},
       {"code": 100501, "required": false, "priority": 2}
     ],
-    "master_bedroom": [
+    "bedroom": [
       {"code": 100201, "required": true,  "priority": 1},
       {"code": 100503, "required": false, "priority": 2},
       {"code": 100302, "required": false, "priority": 3},
       {"code": 100402, "required": false, "priority": 4},
       {"code": 100902, "required": false, "priority": 5}
-    ],
-    "bedroom": [
-      {"code": 100202, "required": true,  "priority": 1},
-      {"code": 100503, "required": false, "priority": 2},
-      {"code": 100302, "required": false, "priority": 3},
-      {"code": 100902, "required": false, "priority": 4}
     ],
     "kids_room": [
       {"code": 100203, "required": true,  "priority": 1},
@@ -53,11 +47,6 @@
     "bathroom": [
       {"code": 100601, "required": true,  "priority": 1},
       {"code": 100701, "required": true,  "priority": 2},
-      {"code": 100505, "required": false, "priority": 3}
-    ],
-    "master_bathroom": [
-      {"code": 100602, "required": true,  "priority": 1},
-      {"code": 100702, "required": true,  "priority": 2},
       {"code": 100505, "required": false, "priority": 3}
     ],
     "kitchen": [
@@ -339,8 +328,8 @@
       "facing_group": null
     },
     {
-      "id": "house-bed-master",
-      "name": "主卧床组",
+      "id": "house-bed",
+      "name": "卧室床组",
       "code": 100201,
       "category": "furniture",
       "anchor_surface": null,
@@ -352,68 +341,6 @@
           "tier": "anchor",
           "asset_types": [
             "house/room/furniture/bed/king",
-            "house/room/furniture/bed/queen"
-          ],
-          "count": [1, 1],
-          "size_range": {"w": [1.5, 2.2], "h": [0.4, 1.2], "d": [2.0, 2.2]},
-          "optional": false
-        },
-        {
-          "name": "side_table",
-          "tier": "support",
-          "asset_types": ["house/room/furniture/table/night"],
-          "count": [0, 2],
-          "optional": true
-        },
-        {
-          "name": "rug",
-          "tier": "fill",
-          "asset_types": ["house/room/furniture/rug"],
-          "count": [0, 1],
-          "optional": true
-        },
-        {
-          "name": "accessory",
-          "tier": "accent",
-          "asset_types": ["house/room/accessory"],
-          "count": [0, 4],
-          "optional": true
-        }
-      ],
-      "templates": [
-        {
-          "id": "house-bed-master-standard",
-          "name": "标准主卧床组",
-          "placement_mode": "deterministic",
-          "sequence": ["bed", "side_table", "rug", "accessory"],
-          "placements": [
-            {
-              "role": "side_table",
-              "position": {"relative": [0.8, 0.0, 0.0], "range": [[0.7, 0.9], [0.0, 0.0], [-0.3, 0.3]]},
-              "rotation": {"fixed": 0.0},
-              "count": [0, 2]
-            }
-          ],
-          "total_count": 8
-        }
-      ],
-      "footprint_range": [[1.8, 2.2], [2.2, 2.4]],
-      "wall_offset_ratio": 0.0,
-      "facing_group": "100902"
-    },
-    {
-      "id": "house-bed-second",
-      "name": "次卧床组",
-      "code": 100202,
-      "category": "furniture",
-      "anchor_surface": null,
-      "scene_types": ["house"],
-      "anchor_role": "bed",
-      "roles": [
-        {
-          "name": "bed",
-          "tier": "anchor",
-          "asset_types": [
             "house/room/furniture/bed/queen",
             "house/room/furniture/bed/single"
           ],
@@ -445,8 +372,8 @@
       ],
       "templates": [
         {
-          "id": "house-bed-second-standard",
-          "name": "标准次卧床组",
+          "id": "house-bed-standard",
+          "name": "标准卧室床组",
           "placement_mode": "deterministic",
           "sequence": ["bed", "side_table", "rug", "accessory"],
           "placements": [
@@ -985,7 +912,7 @@
       "facing_group": null
     },
     {
-      "id": "house-toilet-bathroom",
+      "id": "house-toilet",
       "name": "卫生间马桶组",
       "code": 100601,
       "category": "furniture",
@@ -1016,38 +943,7 @@
       "facing_group": null
     },
     {
-      "id": "house-toilet-master-bathroom",
-      "name": "主卫马桶组",
-      "code": 100602,
-      "category": "furniture",
-      "anchor_surface": null,
-      "scene_types": ["house"],
-      "anchor_role": "toilet",
-      "roles": [
-        {
-          "name": "toilet",
-          "tier": "anchor",
-          "asset_types": ["toilet/floor-based"],
-          "count": [1, 1],
-          "optional": false
-        }
-      ],
-      "templates": [
-        {
-          "id": "house-toilet-master-standard",
-          "name": "标准主卫马桶",
-          "placement_mode": "deterministic",
-          "sequence": ["toilet"],
-          "placements": [],
-          "total_count": 1
-        }
-      ],
-      "footprint_range": [[0.4, 0.5], [0.6, 0.8]],
-      "wall_offset_ratio": 0.0,
-      "facing_group": null
-    },
-    {
-      "id": "house-bath-bathroom",
+      "id": "house-bath",
       "name": "卫生间洗浴组",
       "code": 100701,
       "category": "furniture",
@@ -1074,44 +970,6 @@
         {
           "id": "house-bath-standard",
           "name": "标准洗浴",
-          "placement_mode": "deterministic",
-          "sequence": ["bath", "shower"],
-          "placements": [],
-          "total_count": 2
-        }
-      ],
-      "footprint_range": [[0.8, 1.0], [0.8, 1.8]],
-      "wall_offset_ratio": 0.0,
-      "facing_group": null
-    },
-    {
-      "id": "house-bath-master-bathroom",
-      "name": "主卫洗浴组",
-      "code": 100702,
-      "category": "furniture",
-      "anchor_surface": null,
-      "scene_types": ["house"],
-      "anchor_role": "bath",
-      "roles": [
-        {
-          "name": "bath",
-          "tier": "anchor",
-          "asset_types": ["bath/freestanding", "shower/floor-based"],
-          "count": [1, 1],
-          "optional": false
-        },
-        {
-          "name": "shower",
-          "tier": "support",
-          "asset_types": ["shower/wall-attached"],
-          "count": [0, 1],
-          "optional": true
-        }
-      ],
-      "templates": [
-        {
-          "id": "house-bath-master-standard",
-          "name": "标准主卫洗浴",
           "placement_mode": "deterministic",
           "sequence": ["bath", "shower"],
           "placements": [],

@@ -24,6 +24,25 @@ ROOM_IMPORTANCE: dict[str, int] = {
 }
 _DEFAULT_IMPORTANCE = 9
 
+# 原始 room type → (纯功能类别 region_type, 主次 priority)。
+# 原始输入数据（scene_vector）里的 type 字符串本身不做改写，仅在解析为 SceneRegion
+# 时做一次规范化，把"主/次"这类排序语义从 region_type 拆到独立的 priority 字段。
+_ROOM_TYPE_PRIORITY_MAP: dict[str, tuple[str, int]] = {
+    "master_bedroom":  ("bedroom", 1),
+    "MasterBedroom":   ("bedroom", 1),
+    "second_bedroom":  ("bedroom", 2),
+    "SecondBedroom":   ("bedroom", 2),
+    "master_bathroom": ("bathroom", 1),
+    "MasterBathroom":  ("bathroom", 1),
+    "second_bathroom": ("bathroom", 2),
+    "SecondBathroom":  ("bathroom", 2),
+}
+
+
+def _normalize_region_type(raw_type: str) -> tuple[str, int]:
+    """把原始 room type 规范化成 (region_type, priority)，不改写原始输入。"""
+    return _ROOM_TYPE_PRIORITY_MAP.get(raw_type, (raw_type, 0))
+
 
 @dataclass
 class DoorInfo:
@@ -62,7 +81,7 @@ class WindowInfo:
 
 @dataclass
 class SceneRegion:
-    region_type: str             # "living_room" | "bedroom" | "dining_room" | etc.
+    region_type: str             # "living_room" | "bedroom" | "dining_room" | etc. (纯功能类别，不含主/次语义)
     boundary: list[list[float]]  # polygon vertices, XZ plane
     area: float                  # m²
     height: float = field(default=HOUSE_DEFAULTS["room_height"])
@@ -70,6 +89,7 @@ class SceneRegion:
     windows: list = field(default_factory=list)
     structural_edges: list = field(default_factory=list)  # boundary edge indices that are structural (承重墙)
     region_id: str = ""          # room id from scene_vector; used by door ownership logic
+    priority: int = 0            # 同类型房间的主次排序：0=无主次概念，1=主，2+=次（数字越大越次要）
 
 
 @dataclass
@@ -223,8 +243,9 @@ class SceneUnderstandStage:
                 or HOUSE_DEFAULTS["room_height"]
             )
 
-            # region_type
-            region_type = room.get("type") or inp.region_type or "living_room"
+            # region_type（原始 type 字符串规范化为纯类别 + priority，原始输入不改写）
+            raw_type = room.get("type") or inp.region_type or "living_room"
+            region_type, region_priority = _normalize_region_type(raw_type)
 
             # doors
             doors = []
@@ -308,6 +329,7 @@ class SceneUnderstandStage:
                 doors=doors,
                 windows=windows,
                 structural_edges=room.get("structural_walls", []),
+                priority=region_priority,
             ))
 
         # Second pass: resolve door connectivity and ownership across all regions

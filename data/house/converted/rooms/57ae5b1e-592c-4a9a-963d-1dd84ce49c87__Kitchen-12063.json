@@ -1,0 +1,744 @@
+{
+  "house_id": "57ae5b1e-592c-4a9a-963d-1dd84ce49c87",
+  "room_id": "Kitchen-12063",
+  "region_type": "kitchen",
+  "region_type_raw": "Kitchen",
+  "priority": 0,
+  "source_file": "house_data_more.json",
+  "coordinate_raw": "xyz",
+  "unit": "m",
+  "area": 4.884290403464,
+  "height": 2.8,
+  "boundary": [
+    [
+      -0.975118,
+      1.180069
+    ],
+    [
+      -2.35589,
+      1.180069
+    ],
+    [
+      -2.35589,
+      4.717431
+    ],
+    [
+      -0.975118,
+      4.717431
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Kitchen-12063__door_0",
+      "pts": [
+        [
+          -0.855118,
+          4.38366145
+        ],
+        [
+          -0.975118,
+          4.38366145
+        ],
+        [
+          -0.9751179999999999,
+          3.65908855
+        ],
+        [
+          -0.8551179999999999,
+          3.65908855
+        ]
+      ],
+      "to_room": "LivingDiningRoom-11343"
+    }
+  ],
+  "windows": [
+    {
+      "id": "Kitchen-12063__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -1.30862649562,
+          4.7174309999999995
+        ],
+        [
+          -1.30862649562,
+          4.957431
+        ],
+        [
+          -2.01445550438,
+          4.957431
+        ],
+        [
+          -2.01445550438,
+          4.7174309999999995
+        ]
+      ],
+      "height": 0.9,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "79dabeb7-d0d3-34f0-89ec-b195de881711",
+      "type": "cabinet/light board",
+      "size_m": [
+        0.02,
+        0.326,
+        0.7
+      ],
+      "position": [
+        -2.19289,
+        4.427431,
+        1.5
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "b4cba8ff-7e1f-4816-8f6d-417be3272c8e",
+      "type": "unknown",
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "b819854a-bc28-4a45-9910-c30f204c2adb",
+      "type": "unknown",
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "0cd366d1-28fc-4223-b160-7c9a1149b27c",
+      "type": "unknown",
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "33e7674a-ea87-4239-aa80-f886a2b93b1f",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.3954,
+        0.3062,
+        0.2166
+      ],
+      "position": [
+        -2.07789,
+        2.787431,
+        0.887
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "33314349-ef47-4ecb-9baf-3d2f94ac0c36",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.311,
+        0.4556,
+        0.1263
+      ],
+      "position": [
+        -2.07789,
+        3.147431,
+        0.887
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "51d16367-5ff5-4f05-aa7e-8a9311072c70",
+      "type": "accessory/kitchen decoration-wall attached",
+      "size_m": [
+        0.741,
+        0.1068,
+        0.4567
+      ],
+      "position": [
+        -2.30259,
+        2.116907,
+        0.917
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "b94f4af6-3e40-41b9-83fb-4d522f6b0147",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.0413,
+        0.0414,
+        0.1262
+      ],
+      "position": [
+        -2.090588,
+        1.291069,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "b94f4af6-3e40-41b9-83fb-4d522f6b0147",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.0413,
+        0.0414,
+        0.1262
+      ],
+      "position": [
+        -2.090588,
+        1.473069,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "b94f4af6-3e40-41b9-83fb-4d522f6b0147",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.0413,
+        0.0414,
+        0.1262
+      ],
+      "position": [
+        -2.090588,
+        1.655069,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "b94f4af6-3e40-41b9-83fb-4d522f6b0147",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.0413,
+        0.0414,
+        0.1262
+      ],
+      "position": [
+        -2.090588,
+        1.837069,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "b94f4af6-3e40-41b9-83fb-4d522f6b0147",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.0413,
+        0.0414,
+        0.1262
+      ],
+      "position": [
+        -2.090588,
+        2.019069,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "dc002151-6651-43ae-9ea0-1c6f7c225a31",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2274,
+        0.1725,
+        0.1558
+      ],
+      "position": [
+        -2.165635,
+        1.655069,
+        1.86
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "a17af374-842e-4090-8da8-47d011da88e0",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2682,
+        0.1869,
+        0.1406
+      ],
+      "position": [
+        -2.163357,
+        4.067431,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "95c3b225-d7ae-4cf2-9084-519085a10a42",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.267,
+        0.1604,
+        0.171
+      ],
+      "position": [
+        -2.159571,
+        4.067431,
+        1.746667
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "6158f5a5-9774-487f-b6eb-c5f403c622a1",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.1168,
+        0.1168,
+        0.061
+      ],
+      "position": [
+        -2.137768,
+        3.819931,
+        1.973333
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "6158f5a5-9774-487f-b6eb-c5f403c622a1",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.1168,
+        0.1168,
+        0.061
+      ],
+      "position": [
+        -2.137769,
+        3.984931,
+        1.973333
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "6158f5a5-9774-487f-b6eb-c5f403c622a1",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.1168,
+        0.1168,
+        0.061
+      ],
+      "position": [
+        -2.137769,
+        4.149931,
+        1.973333
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "6158f5a5-9774-487f-b6eb-c5f403c622a1",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.1168,
+        0.1168,
+        0.061
+      ],
+      "position": [
+        -2.137769,
+        4.314931,
+        1.973333
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "ea79fe92-ae52-4f29-958f-30f73728729f",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2245,
+        0.1495,
+        0.1657
+      ],
+      "position": [
+        -2.144642,
+        2.32375,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "853c63a3-d3e1-4a0b-a4f6-2878e4174ef4",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1531,
+        0.1517,
+        0.0802
+      ],
+      "position": [
+        -2.155257,
+        2.32375,
+        1.746667
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "081ddd27-50bc-4aaa-a81f-57598c8ed1cb",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2607,
+        0.2607,
+        0.1378
+      ],
+      "position": [
+        -2.19289,
+        2.32375,
+        1.973333
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "ec5dac51-36c1-49ad-af99-8c67c6b7c314",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1931,
+        0.1915,
+        0.1014
+      ],
+      "position": [
+        -2.165617,
+        3.567431,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "44735016-5740-4196-8626-f2033a8c9daa",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1006,
+        0.0595,
+        0.0841
+      ],
+      "position": [
+        -2.109122,
+        3.567431,
+        1.746667
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "66c77965-2d86-4163-b3ae-cfeb655001a4",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1365,
+        0.1365,
+        0.1414
+      ],
+      "position": [
+        -2.147627,
+        3.567431,
+        1.973333
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "151db382-dd86-4e8b-b115-d42d62571aed",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2738,
+        0.2601,
+        0.0409
+      ],
+      "position": [
+        -1.152504,
+        1.343069,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "3614752a-1d2c-412e-8a15-694360195586",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.2746,
+        0.104,
+        0.1078
+      ],
+      "position": [
+        -1.152504,
+        1.404587,
+        1.746667
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "8bbb01ed-7873-4634-919b-ea9efb649e43",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.3135,
+        0.0956,
+        0.1524
+      ],
+      "position": [
+        -1.152504,
+        1.408793,
+        1.973333
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "95c3b225-d7ae-4cf2-9084-519085a10a42",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.267,
+        0.1604,
+        0.171
+      ],
+      "position": [
+        -1.920071,
+        1.655069,
+        0.12
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "3614752a-1d2c-412e-8a15-694360195586",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.2746,
+        0.104,
+        0.1078
+      ],
+      "position": [
+        -1.901372,
+        1.655069,
+        0.46
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "8bbb01ed-7873-4634-919b-ea9efb649e43",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.3135,
+        0.0956,
+        0.1524
+      ],
+      "position": [
+        -1.887666,
+        2.32375,
+        0.12
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "90271f19-24fc-4eb4-8eff-acc86087d70f",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2659,
+        0.1115,
+        0.2211
+      ],
+      "position": [
+        -1.90515,
+        2.32375,
+        0.46
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "66c77965-2d86-4163-b3ae-cfeb655001a4",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1365,
+        0.1365,
+        0.1414
+      ],
+      "position": [
+        -1.908127,
+        4.367431,
+        0.12
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "5a04fb11-4584-424b-948b-b8c8484f3943",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.3422,
+        0.2389,
+        0.216
+      ],
+      "position": [
+        -1.968838,
+        4.367431,
+        0.46
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "9549b663-6e48-4a0d-ac17-5ee6febebfd8",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2967,
+        0.2967,
+        0.1539
+      ],
+      "position": [
+        -1.988253,
+        2.967431,
+        0.12
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "bfbdbec2-2675-46b8-bb63-dbe9bf60f7cb",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.3257,
+        0.325,
+        0.2203
+      ],
+      "position": [
+        -2.011879,
+        2.967431,
+        0.46
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "27ecca34-3be0-422a-8305-d5bad44c6b3a",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.1145,
+        0.0507,
+        0.0923
+      ],
+      "position": [
+        -2.095247,
+        2.617431,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "45c7f239-1af0-43ab-a81b-12a37b188a3c",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1211,
+        0.0585,
+        0.1008
+      ],
+      "position": [
+        -2.099142,
+        3.317431,
+        1.52
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "27ecca34-3be0-422a-8305-d5bad44c6b3a",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.1145,
+        0.0507,
+        0.0923
+      ],
+      "position": [
+        -2.104747,
+        2.617431,
+        1.746667
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "45c7f239-1af0-43ab-a81b-12a37b188a3c",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1211,
+        0.0585,
+        0.1008
+      ],
+      "position": [
+        -2.108642,
+        3.317431,
+        1.746667
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "27ecca34-3be0-422a-8305-d5bad44c6b3a",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.1145,
+        0.0507,
+        0.0923
+      ],
+      "position": [
+        -2.104747,
+        2.617431,
+        1.973333
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "45c7f239-1af0-43ab-a81b-12a37b188a3c",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1211,
+        0.0585,
+        0.1008
+      ],
+      "position": [
+        -2.108642,
+        3.317431,
+        1.973333
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "22c034d7-0224-4bc8-b92a-e1b3c99d3bef",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.222,
+        0.222,
+        0.2127
+      ],
+      "position": [
+        -1.387504,
+        1.585086,
+        0.12
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "58f6d73c-964a-42ea-b818-a698ff5b204e",
+      "type": "",
+      "size_m": [
+        0.7246,
+        0.12,
+        2.1
+      ],
+      "position": [
+        -0.915118,
+        4.021375,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

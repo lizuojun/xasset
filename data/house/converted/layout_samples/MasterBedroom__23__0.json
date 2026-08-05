@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "23",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -8.282707,
+        0,
+        3.6284580066833496
+      ],
+      "rotation_yaw_deg": 90.0,
+      "size": [
+        2.418019621566699,
+        1.0194906474,
+        2.01790950402
+      ],
+      "size_min": [
+        1.9510856082,
+        1.0194906474,
+        2.01790950402
+      ],
+      "offset": [
+        0.23346700668334952,
+        0,
+        -0.0
+      ],
+      "obj_main": "09f89147-cd78-453a-ba74-7ebc0984753c",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -8.301735,
+        0,
+        1.929003
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.0003199768066406,
+        2.4003199768066406,
+        0.4359629821777344
+      ],
+      "size_min": [
+        2.0003199768066406,
+        2.4003199768066406,
+        0.4359629821777344
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "954f0847-9a96-4dcd-bd8c-c60ab685acdf",
+      "obj_type": "storage unit/floor-based storage unit",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        -6.135,
+        0,
+        3.7568342590025
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        2.557686518005,
+        1.304645999145508,
+        0.7999733467800001
+      ],
+      "size_min": [
+        1.3551100158691407,
+        0.8476959991455079,
+        0.27904399871826174
+      ],
+      "offset": [
+        -0.3618432590024999,
+        0,
+        -0.10007400000000055
+      ],
+      "obj_main": "8fc8a17e-08c1-4b13-92d1-3afd2ba3a8d0",
+      "obj_type": "electronics/TV - on top of others",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "22",
+  "resolved": true,
+  "source_house": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "source_room": "MasterBedroom-27898",
+  "source_room_file": "49a72df4-f9a3-45af-85cb-8f3d310a9466__MasterBedroom-27898.json",
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -4.28863,
+        0,
+        5.64904
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        3.2196859741210937,
+        0.922677001953125,
+        2.502729949951172
+      ],
+      "size_min": [
+        2.21968994140625,
+        0.922677001953125,
+        2.502729949951172
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "ea537711-79b8-42dc-af9b-0ea6b77572c9",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -5.00749,
+        0,
+        1.3922
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.0650099945068359,
+        2.3999838000000002,
+        0.45000099182128905
+      ],
+      "size_min": [
+        1.0650099945068359,
+        2.3999838000000002,
+        0.45000099182128905
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "2ed062d3-ac09-4cb5-aedf-d7b1be51380b",
+      "obj_type": "cabinet/bookcase - L shaped",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -3.94249,
+        0,
+        1.3922
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.0650099945068359,
+        2.3999838000000002,
+        0.45000099182128905
+      ],
+      "size_min": [
+        1.0650099945068359,
+        2.3999838000000002,
+        0.45000099182128905
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "2ed062d3-ac09-4cb5-aedf-d7b1be51380b",
+      "obj_type": "cabinet/bookcase - L shaped",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        -2.24569,
+        0,
+        5.66678
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.175770034790039,
+        1.550990982055664,
+        0.01897220015525818
+      ],
+      "size_min": [
+        1.175770034790039,
+        0.700990982055664,
+        0.01897220015525818
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "1e9cf0e5-6769-4dbb-a8a2-121e04e3dca5",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        -4.935151149171792,
+        0,
+        2.739617452200092
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.4,
+        0.7499980163574219,
+        1.2096996853221893
+      ],
+      "size_min": [
+        1.4,
+        0.7499980163574219,
+        0.6500019836425781
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.27984885083980565
+      ],
+      "obj_main": "3e350f3b-31d9-449c-a4e4-efad2a7189dc",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

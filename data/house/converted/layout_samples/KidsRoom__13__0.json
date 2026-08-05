@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "KidsRoom",
+  "region_type": "kids_room",
+  "area_bucket": "13",
+  "resolved": true,
+  "source_house": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "source_room": "KidsRoom-30896",
+  "source_room_file": "92b2a56e-6694-4f5d-805a-71c7b2e636eb__KidsRoom-30896.json",
+  "placed_groups": [
+    {
+      "group_code": 100203,
+      "group_type_raw": "Bed",
+      "position": [
+        -3.92589,
+        0,
+        -1.10533
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        3.0056500244140625,
+        0.7965589904785156,
+        2.2669999694824217
+      ],
+      "size_min": [
+        2.0056500244140625,
+        0.7965589904785156,
+        2.2669999694824217
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "89aa06b9-013b-47dd-8575-83b26cb372a0",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -1.66286,
+        0,
+        -1.86192
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.999998,
+        2.293000030517578,
+        0.600002
+      ],
+      "size_min": [
+        1.999998,
+        2.293000030517578,
+        0.600002
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "0d6fcf95-b4eb-4fc8-aefa-6d497d3d6830",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        -3.52708,
+        0,
+        0.22444534665832516
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.1,
+        0.75,
+        0.9706506584373475
+      ],
+      "size_min": [
+        1.1,
+        0.75,
+        0.5500013517539979
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.21032465334167483
+      ],
+      "obj_main": "e0f8b4a1-6e60-4e14-8c05-ad8081018ae1",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

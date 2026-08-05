@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "14",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -1.7750599999999999,
+        0,
+        3.64664
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        2.50127072429657,
+        0.98,
+        1.9951136260986329
+      ],
+      "size_min": [
+        2.00127072429657,
+        0.98,
+        1.9951136260986329
+      ],
+      "offset": [
+        0.25,
+        0,
+        -0.0
+      ],
+      "obj_main": "cb260488-4cfd-4e4e-b262-3b1137211833",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        -0.37003,
+        0,
+        3.8415
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.576999969482422,
+        2.3349000549316408,
+        0.6000579833984375
+      ],
+      "size_min": [
+        1.576999969482422,
+        2.3349000549316408,
+        0.6000579833984375
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "9d175fc4-e3bb-45c4-a0f9-088035fd5618",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        -3.6,
+        0,
+        4.171086743850708
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.5,
+        2.025,
+        0.9178275041198732
+      ],
+      "size_min": [
+        1.5,
+        2.025,
+        0.4900009918212891
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.21391325614929207
+      ],
+      "obj_main": "db180c1c-298c-4fb4-a793-390fbd6f4013",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "SecondBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "6",
+  "resolved": true,
+  "source_house": "0d8edd78-6d9b-46c3-b3c9-296d17273da3",
+  "source_room": "SecondBedroom-10201",
+  "source_room_file": "0d8edd78-6d9b-46c3-b3c9-296d17273da3__SecondBedroom-10201.json",
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -1.3866,
+        0,
+        2.06276
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.2490799713134766,
+        0.7503710174560547,
+        1.96
+      ],
+      "size_min": [
+        1.2490799713134766,
+        0.7503710174560547,
+        1.96
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "2660d29e-5f23-4be2-818d-757f124e3fd1",
+      "obj_type": "bed/single bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        -2.48267,
+        0,
+        0.45715
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.036301210594177,
+        2.3349000549316408,
+        0.6000579833984375
+      ],
+      "size_min": [
+        2.036301210594177,
+        2.3349000549316408,
+        0.6000579833984375
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "79dd805b-731c-464d-849d-9e354e219601",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        -0.904596426093424,
+        0,
+        1.0029872869809375
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        0.945168,
+        0.75,
+        0.9959948522115478
+      ],
+      "size_min": [
+        0.945168,
+        0.75,
+        0.40000199999999997
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.2979964261057739
+      ],
+      "obj_main": "588bd46b-8026-42e8-bbb0-a609394355fb",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

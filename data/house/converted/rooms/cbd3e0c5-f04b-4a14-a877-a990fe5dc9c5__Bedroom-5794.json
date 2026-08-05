@@ -1,0 +1,279 @@
+{
+  "house_id": "cbd3e0c5-f04b-4a14-a877-a990fe5dc9c5",
+  "room_id": "Bedroom-5794",
+  "region_type": "bedroom",
+  "region_type_raw": "Bedroom",
+  "priority": 0,
+  "source_file": "house_data_more.json",
+  "coordinate_raw": "xyz",
+  "unit": "m",
+  "area": 10.470175323711999,
+  "height": 2.8,
+  "boundary": [
+    [
+      1.380137,
+      -0.728017
+    ],
+    [
+      1.380137,
+      -4.415571
+    ],
+    [
+      -1.459191,
+      -4.415571
+    ],
+    [
+      -1.459191,
+      -0.728017
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Bedroom-5794__door_0",
+      "pts": [
+        [
+          0.642317144611,
+          -0.608017
+        ],
+        [
+          0.6423171446110001,
+          -0.7280169999999999
+        ],
+        [
+          1.345506855389,
+          -0.7280169999999999
+        ],
+        [
+          1.345506855389,
+          -0.608017
+        ]
+      ],
+      "to_room": "LivingDiningRoom-12657"
+    }
+  ],
+  "windows": [
+    {
+      "id": "Bedroom-5794__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -1.0979533184599999,
+          -4.415571
+        ],
+        [
+          -1.0979533184599999,
+          -4.655571
+        ],
+        [
+          1.10325931846,
+          -4.655571
+        ],
+        [
+          1.10325931846,
+          -4.415571
+        ]
+      ],
+      "height": 0.75,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "e09c3668-5ff8-431f-8b53-9ef91af74c8c",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.4425,
+        0.4417,
+        0.13
+      ],
+      "position": [
+        -0.039527,
+        -2.846794,
+        2.669667
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "a06f1fda-96f6-4ec7-bbaa-f33dc08a3793",
+      "type": "bed/single bed",
+      "size_m": [
+        1.4176,
+        1.985,
+        1.1084
+      ],
+      "position": [
+        -0.462016,
+        -2.930974,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "f2fd4b33-6d1f-42cb-8942-02eb3614b95c",
+      "type": "table/night table",
+      "size_m": [
+        0.4499,
+        0.3799,
+        0.5852
+      ],
+      "position": [
+        -1.245872,
+        -1.960314,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "f2fd4b33-6d1f-42cb-8942-02eb3614b95c",
+      "type": "table/night table",
+      "size_m": [
+        0.4499,
+        0.3799,
+        0.5852
+      ],
+      "position": [
+        -1.245872,
+        -3.913027,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "198ceb56-13fe-4850-b0b6-41959e248044",
+      "type": "electric/switch - tandem switch",
+      "size_m": [
+        0.0965,
+        0.0156,
+        0.0941
+      ],
+      "position": [
+        0.512309,
+        -0.735818,
+        1.4
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "9db211f6-2e2f-423f-9661-4ed351ab06f3",
+      "type": "accessory/bedding",
+      "size_m": [
+        1.4147,
+        1.92,
+        0.42
+      ],
+      "position": [
+        -0.474139,
+        -2.924026,
+        0.267539
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "7ea0bbc4-9417-4540-96d5-e21ebcc97879",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.255,
+        0.255,
+        0.5353
+      ],
+      "position": [
+        -1.245872,
+        -1.960314,
+        0.585212
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "7ea0bbc4-9417-4540-96d5-e21ebcc97879",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.255,
+        0.255,
+        0.5353
+      ],
+      "position": [
+        -1.256643,
+        -3.949869,
+        0.585212
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "7710ba7a-3717-4619-bc3f-1ce1d1a02f87",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.1054,
+        0.0993,
+        0.1984
+      ],
+      "position": [
+        -1.171055,
+        -3.810015,
+        0.585213
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "c5b665bc-385b-4687-834e-94d91d88e873",
+      "type": "rug/rug",
+      "size_m": [
+        1.5,
+        1.497,
+        0.02
+      ],
+      "position": [
+        0.630137,
+        -3.667051,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "2d5ffe65-aef9-49c2-8566-93b7f22b757c",
+      "type": "chair/chair",
+      "size_m": [
+        0.336,
+        0.3243,
+        0.565
+      ],
+      "position": [
+        1.073439,
+        -4.02514,
+        0.019
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "2caab408-9906-4620-9d80-8e001f07aada",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        0.5,
+        0.03,
+        0.5
+      ],
+      "position": [
+        -1.44419,
+        -3.25781,
+        1.33
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "7646f8fd-fecf-4c56-b5ff-89a7cee1974f",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        0.5,
+        0.03,
+        0.5
+      ],
+      "position": [
+        -1.44419,
+        -2.638255,
+        1.33
+      ],
+      "rotation_yaw_deg": 0
+    }
+  ],
+  "furniture_placeholder_skipped": 3
+}

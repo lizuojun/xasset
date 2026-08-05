@@ -1,0 +1,35 @@
+{
+  "house_id": "2532a5a5-d631-4c09-8dbb-330a5e2a8b0e",
+  "room_id": "undefined-34249",
+  "region_type": "unknown",
+  "region_type_raw": "",
+  "priority": 0,
+  "source_file": "house_data_more.json",
+  "coordinate_raw": "xyz",
+  "unit": "m",
+  "area": 0.22791121569999986,
+  "height": 2.6,
+  "boundary": [
+    [
+      0.7103,
+      0.5233
+    ],
+    [
+      0.7103,
+      0.8922
+    ],
+    [
+      1.329332,
+      0.8922
+    ],
+    [
+      1.326894,
+      0.5233
+    ]
+  ],
+  "doors": [],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [],
+  "furniture_placeholder_skipped": 0
+}

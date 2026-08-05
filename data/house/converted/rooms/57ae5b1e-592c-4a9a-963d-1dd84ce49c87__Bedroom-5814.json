@@ -1,0 +1,257 @@
+{
+  "house_id": "57ae5b1e-592c-4a9a-963d-1dd84ce49c87",
+  "room_id": "Bedroom-5814",
+  "region_type": "bedroom",
+  "region_type_raw": "Bedroom",
+  "priority": 0,
+  "source_file": "house_data_more.json",
+  "coordinate_raw": "xyz",
+  "unit": "m",
+  "area": 11.732879904716004,
+  "height": 2.8,
+  "boundary": [
+    [
+      4.252093,
+      0.161527
+    ],
+    [
+      4.252093,
+      0.101527
+    ],
+    [
+      5.596758,
+      0.101527
+    ],
+    [
+      5.596758,
+      -4.406614
+    ],
+    [
+      3.010682,
+      -4.406614
+    ],
+    [
+      3.010682,
+      0.161527
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Bedroom-5814__door_0",
+      "pts": [
+        [
+          3.0847373499999997,
+          0.28152699999999997
+        ],
+        [
+          3.0847373499999997,
+          0.16152700000000003
+        ],
+        [
+          3.79859665,
+          0.16152700000000003
+        ],
+        [
+          3.79859665,
+          0.28152699999999997
+        ]
+      ],
+      "to_room": "LivingDiningRoom-11343"
+    }
+  ],
+  "windows": [
+    {
+      "id": "Bedroom-5814__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          3.3836097695999996,
+          -4.406614
+        ],
+        [
+          3.3836097695999996,
+          -4.6466140000000005
+        ],
+        [
+          5.3643042304,
+          -4.6466140000000005
+        ],
+        [
+          5.3643042304,
+          -4.406614
+        ]
+      ],
+      "height": 0.9,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        5.496758,
+        0.001527,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        4.152093,
+        0.061527,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        3.110682,
+        0.061527,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        3.110682,
+        -1.29452,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        3.110682,
+        -2.650567,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        3.110682,
+        -4.006614,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        4.30372,
+        -4.006614,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        5.496758,
+        -4.006614,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        5.496758,
+        -2.670567,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "91d7aa1f-7048-47f5-bbf7-d592e66c4207",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.1008,
+        0.1008,
+        0.0048
+      ],
+      "position": [
+        5.496758,
+        -1.33452,
+        2.645
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "58f6d73c-964a-42ea-b818-a698ff5b204e",
+      "type": "",
+      "size_m": [
+        0.7139,
+        0.12,
+        2.1
+      ],
+      "position": [
+        3.441667,
+        0.221527,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

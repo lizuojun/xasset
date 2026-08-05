@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "Aisle",
+  "region_type": "aisle",
+  "area_bucket": "4",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -3.38535,
+        0,
+        4.03004
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        2.1310933218521115,
+        0.8004209899902344,
+        0.5469248270858764
+      ],
+      "size_min": [
+        2.1310933218521115,
+        0.8004209899902344,
+        0.5469248270858764
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "9441ff10-7130-4dc3-9ec7-f35706fcc075",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    }
+  ]
+}

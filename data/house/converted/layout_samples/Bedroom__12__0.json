@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "Bedroom",
+  "region_type": "bedroom",
+  "area_bucket": "12",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -2.2690676465642654,
+        0,
+        1.6358200038039843
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.4365700076293946,
+        0.940759,
+        2.0404
+      ],
+      "size_min": [
+        1.91957,
+        0.940759,
+        2.0404
+      ],
+      "offset": [
+        0.25850000381469723,
+        0,
+        -0.0
+      ],
+      "obj_main": "e6ca53ee-eb77-4e45-86cd-0d0f9b97c5d6",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        -2.08927,
+        0,
+        -0.35519
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.3999942340000002,
+        2.6000004420000007,
+        0.60000080292
+      ],
+      "size_min": [
+        2.3999942340000002,
+        2.6000004420000007,
+        0.60000080292
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "a418959a-2e3c-41eb-b1b5-15156f0838e2",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -0.05877,
+        0,
+        0.79671
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        0.758346,
+        1.80502,
+        0.298122
+      ],
+      "size_min": [
+        0.758346,
+        1.80502,
+        0.298122
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "e809a8d4-a548-4851-905b-0f03a350c0ea",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        -0.47037729565944053,
+        0,
+        2.047717873647669
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.4,
+        1.01847,
+        1.0671145913382398
+      ],
+      "size_min": [
+        1.4,
+        1.01847,
+        0.6
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.2335572956691199
+      ],
+      "obj_main": "2351c167-c8e0-4fa4-a3f2-90fcd6eead01",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

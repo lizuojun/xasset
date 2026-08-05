@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "Kitchen",
+  "region_type": "kitchen",
+  "area_bucket": "6",
+  "resolved": true,
+  "source_house": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "source_room": "Kitchen-5569",
+  "source_room_file": "355ab8b3-1609-4346-8202-1546938d57f2__Kitchen-5569.json",
+  "placed_groups": [
+    {
+      "group_code": 100801,
+      "group_type_raw": "Appliance",
+      "position": [
+        -1.16248,
+        0,
+        -0.81102
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.522041015625,
+        1.6142799377441406,
+        0.5250490188598633
+      ],
+      "size_min": [
+        0.522041015625,
+        1.6142799377441406,
+        0.5250490188598633
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "03b5972a-0507-478e-9448-4028c37c774b",
+      "obj_type": "appliance/refrigerator",
+      "role_assets": {}
+    }
+  ]
+}

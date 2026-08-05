@@ -1,0 +1,74 @@
+{
+  "house_id": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "room_id": "StorageRoom-30060",
+  "region_type": "storage_room",
+  "region_type_raw": "StorageRoom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 2.9788,
+  "height": 2.6,
+  "boundary": [
+    [
+      -1.996,
+      -1.176
+    ],
+    [
+      0.014,
+      -1.176
+    ],
+    [
+      0.014,
+      -2.658
+    ],
+    [
+      -1.996,
+      -2.658
+    ]
+  ],
+  "doors": [
+    {
+      "id": "StorageRoom-30060__door_0",
+      "pts": [
+        [
+          -0.925,
+          -2.658
+        ],
+        [
+          -0.126,
+          -2.658
+        ],
+        [
+          -0.126,
+          -2.898
+        ],
+        [
+          -0.925,
+          -2.898
+        ]
+      ],
+      "to_room": "DiningRoom-34824"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "11540465-3529-4caf-9975-ea2bc3c7e4d7",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.475,
+        0.05,
+        0.475
+      ],
+      "position": [
+        -0.76229,
+        2.39999,
+        -2.14762
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 0
+}

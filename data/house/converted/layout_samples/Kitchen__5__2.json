@@ -1,0 +1,10 @@
+{
+  "legacy_room_type": "Kitchen",
+  "region_type": "kitchen",
+  "area_bucket": "5",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": []
+}

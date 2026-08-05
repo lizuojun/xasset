@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "Bathroom",
+  "region_type": "bathroom",
+  "area_bucket": "7",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100601,
+      "group_type_raw": "Toilet",
+      "position": [
+        6.17343,
+        0,
+        -2.697819
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        0.42003599999999996,
+        0.708727,
+        0.694713
+      ],
+      "size_min": [
+        0.42003599999999996,
+        0.708727,
+        0.694713
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "6c39fb60-0cc6-48f0-b002-41d4b37d019a",
+      "obj_type": "toilet/floor-based toilet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100505,
+      "group_type_raw": "Cabinet",
+      "position": [
+        4.445593,
+        0,
+        -2.151763
+      ],
+      "rotation_yaw_deg": 90.0,
+      "size": [
+        0.9069360000000001,
+        1.7491819999999998,
+        0.48855200000000004
+      ],
+      "size_min": [
+        0.9069360000000001,
+        1.35594,
+        0.48855200000000004
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "c14e68e1-40d3-4eb7-94b3-63a17b0c1282",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100701,
+      "group_type_raw": "Bath",
+      "position": [
+        5.361050942015838,
+        0,
+        -3.4201861489181513
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        0.6179407021636965,
+        2.22438,
+        2.3194691159683227
+      ],
+      "size_min": [
+        0.38116700000000003,
+        1.5243799999999998,
+        0.598463
+      ],
+      "offset": [
+        -0.11838685108184821,
+        0,
+        -0.8605030579841615
+      ],
+      "obj_main": "d5a6eaf3-c611-48d8-8fa4-d6426e18e950",
+      "obj_type": "shower/wall-attached shower head",
+      "role_assets": {}
+    }
+  ]
+}

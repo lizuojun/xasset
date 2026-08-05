@@ -1,0 +1,194 @@
+{
+  "house_id": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b",
+  "room_id": "MasterBathroom-464",
+  "region_type": "bathroom",
+  "region_type_raw": "MasterBathroom",
+  "priority": 1,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 5.9907,
+  "height": 2.4,
+  "boundary": [
+    [
+      2.546,
+      2.042
+    ],
+    [
+      4.799,
+      2.042
+    ],
+    [
+      4.799,
+      -0.617
+    ],
+    [
+      2.546,
+      -0.617
+    ]
+  ],
+  "doors": [
+    {
+      "id": "MasterBathroom-464__door_0",
+      "pts": [
+        [
+          2.546,
+          1.942
+        ],
+        [
+          2.546,
+          1.192
+        ],
+        [
+          2.426,
+          1.192
+        ],
+        [
+          2.426,
+          1.942
+        ]
+      ],
+      "to_room": "MasterBedroom-684"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "ef900b0e-e5d9-4558-8cfe-a34d0b048f9f",
+      "type": "shower/wall-attached shower head",
+      "size_m": [
+        0.1754,
+        0.9363,
+        0.4268
+      ],
+      "position": [
+        3.65852,
+        0.79909,
+        -0.35368
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "538ea008-47bf-4643-bec9-dbe982cede2e",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2713,
+        0.2927,
+        0.1959
+      ],
+      "position": [
+        4.60392,
+        0,
+        0.38152
+      ],
+      "rotation_yaw_deg": -162.473
+    },
+    {
+      "id": "726f3baa-cc64-49ba-bb06-37d672dc69c8",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.6,
+        0.0403,
+        0.3
+      ],
+      "position": [
+        3.74918,
+        2.35967,
+        1.3018
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "14171ad5-4284-4a1e-92bf-62e4685868a3",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.3,
+        0.0474,
+        0.3
+      ],
+      "position": [
+        3.59736,
+        2.35265,
+        -0.06147
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0eaa6458-1ed0-45ea-8318-7935016cd201",
+      "type": "toilet/floor-based toilet",
+      "size_m": [
+        0.3771,
+        0.7341,
+        0.7181
+      ],
+      "position": [
+        4.43974,
+        0,
+        0.81987
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "f9fb9f8a-d53e-443d-8c1d-16a9c23dfbb9",
+      "type": "shower/floor based shower room",
+      "size_m": [
+        1.4142,
+        2.06,
+        0.4325
+      ],
+      "position": [
+        3.67251,
+        0,
+        0.13961
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "9e156d74-85b6-40d2-bd69-32996e04e0a6",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.3,
+        0.2822,
+        0.18
+      ],
+      "position": [
+        3.7945,
+        1.151,
+        1.95173
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "aa658fae-b431-4496-a8eb-1b8d0d59add6",
+      "type": "lighting/wall lamp",
+      "size_m": [
+        0.096,
+        0.096,
+        0.1468
+      ],
+      "position": [
+        3.42781,
+        1.44732,
+        1.96831
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "0266a66d-e124-44cd-8d1b-ca2994531d40",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.0,
+        1.9351,
+        0.51
+      ],
+      "position": [
+        4.1487,
+        0,
+        1.77094
+      ],
+      "rotation_yaw_deg": 180.0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

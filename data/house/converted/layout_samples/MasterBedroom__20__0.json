@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "20",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        3.72666,
+        0,
+        3.88064
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.39447,
+        2.6,
+        0.600001
+      ],
+      "size_min": [
+        2.39447,
+        2.6,
+        0.600001
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "9a10a697-f5b6-41c1-8bbd-faaec7997bce",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        1.25819834645676,
+        0,
+        6.1269500000150545
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.0,
+        1.601459,
+        0.459
+      ],
+      "size_min": [
+        1.29988,
+        0.751459,
+        0.0377028
+      ],
+      "offset": [
+        -0.027848082199115665,
+        0,
+        -0.2106486
+      ],
+      "obj_main": "0c5efde1-79b5-4c77-bf81-efa976963813",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100402,
+      "group_type_raw": "Rest",
+      "position": [
+        4.71256,
+        0,
+        4.80649
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        0.52,
+        0.5,
+        0.42266700744628904
+      ],
+      "size_min": [
+        0.52,
+        0.5,
+        0.42266700744628904
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "897ee579-95d7-46bb-b109-7a4193c045ef",
+      "obj_type": "table/night table",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100402,
+      "group_type_raw": "Rest",
+      "position": [
+        4.71256,
+        0,
+        7.39846
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        0.52,
+        0.5,
+        0.42266700744628904
+      ],
+      "size_min": [
+        0.52,
+        0.5,
+        0.42266700744628904
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "897ee579-95d7-46bb-b109-7a4193c045ef",
+      "obj_type": "table/night table",
+      "role_assets": {}
+    }
+  ]
+}

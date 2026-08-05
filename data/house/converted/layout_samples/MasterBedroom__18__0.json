@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "18",
+  "resolved": true,
+  "source_house": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "source_room": "MasterBedroom-5852",
+  "source_room_file": "355ab8b3-1609-4346-8202-1546938d57f2__MasterBedroom-5852.json",
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        5.32957,
+        0,
+        -3.15
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        3.401092120887756,
+        0.9500033453933716,
+        2.000178910217285
+      ],
+      "size_min": [
+        2.401092120887756,
+        0.9500033453933716,
+        2.000178910217285
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "2e6700b1-0d55-40cf-8357-198edf41537d",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        5.30528,
+        0,
+        -0.7501142921638488
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.4502900695800782,
+        1.6452960089111328,
+        0.40023498535156254
+      ],
+      "size_min": [
+        1.0885399627685546,
+        0.7567060089111328,
+        0.07004640102386475
+      ],
+      "offset": [
+        -0.01034999999999986,
+        0,
+        -0.16509429216384885
+      ],
+      "obj_main": "9a66d2b9-2c62-4d65-8e6a-8b10569c25fb",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        3.275,
+        0,
+        -3.0
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.2999938086853025,
+        2.168000030517578,
+        0.6
+      ],
+      "size_min": [
+        2.2999938086853025,
+        2.168000030517578,
+        0.6
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "876012cc-b9d5-4cc5-8e0a-729e11b53b0b",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        0.97334,
+        0,
+        -1.15
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.1999975584083555,
+        2.2999965172729495,
+        0.5966780090332031
+      ],
+      "size_min": [
+        1.1999975584083555,
+        2.2999965172729495,
+        0.5966780090332031
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "6f070bb5-1047-4aa3-bb8f-e8e50555cdb0",
+      "obj_type": "storage unit/armoire - L shaped",
+      "role_assets": {}
+    }
+  ]
+}

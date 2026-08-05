@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "OtherRoom",
+  "region_type": "other_room",
+  "area_bucket": "4",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        0.80285,
+        0,
+        2.13352
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.7439999999999998,
+        2.294,
+        0.64
+      ],
+      "size_min": [
+        2.7439999999999998,
+        2.294,
+        0.64
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "dadc1daa-37e1-4576-a617-014a7032826e",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    }
+  ]
+}

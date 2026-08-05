@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "LivingDiningRoom",
+  "region_type": "living_dining_room",
+  "area_bucket": "18",
+  "resolved": true,
+  "source_house": "ed27412e-7018-4289-b764-2904e93288ab",
+  "source_room": "LivingDiningRoom-164",
+  "source_room_file": "ed27412e-7018-4289-b764-2904e93288ab__LivingDiningRoom-164.json",
+  "placed_groups": [
+    {
+      "group_code": 100002,
+      "group_type_raw": "Meeting",
+      "position": [
+        -1.2307439386182346,
+        0,
+        -0.7624469029088983
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        3.2435227969302023,
+        0.827301025390625,
+        2.3277912277515393
+      ],
+      "size_min": [
+        2.13802001953125,
+        0.827301025390625,
+        0.8254250335693359
+      ],
+      "offset": [
+        -0.14306606138176525,
+        0,
+        -0.7511830970911018
+      ],
+      "obj_main": "99e36bc4-6160-43cb-9ed6-dd971bebe942",
+      "obj_type": "sofa/ multi seat sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        -1.3932,
+        0,
+        1.2919974995422363
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        2.05,
+        1.6223060089111327,
+        0.42000000000000004
+      ],
+      "size_min": [
+        1.5565199279785156,
+        0.8917060089111328,
+        0.09583499908447266
+      ],
+      "offset": [
+        0.006289999999999907,
+        0,
+        -0.16208250045776368
+      ],
+      "obj_main": "e5e6d90f-58c5-4293-8dc0-0a701af93bd5",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100102,
+      "group_type_raw": "Dining",
+      "position": [
+        2.221729999954857,
+        0,
+        -0.16075495848484742
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.727026890177272,
+        1.1409399999999998,
+        1.7127661516587245
+      ],
+      "size_min": [
+        1.49961,
+        1.1409399999999998,
+        0.7996089999999999
+      ],
+      "offset": [
+        -4.95848484760586e-06,
+        0,
+        -0.0
+      ],
+      "obj_main": "4ce7edc5-a29e-4463-922b-bca198358658",
+      "obj_type": "table/dining table - square",
+      "role_assets": {}
+    }
+  ]
+}

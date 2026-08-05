@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "DiningRoom",
+  "region_type": "dining_room",
+  "area_bucket": "18",
+  "resolved": true,
+  "source_house": "dd6e39f6-6816-4477-b54e-168bb54c3e45",
+  "source_room": "DiningRoom-264",
+  "source_room_file": "dd6e39f6-6816-4477-b54e-168bb54c3e45__DiningRoom-264.json",
+  "placed_groups": [
+    {
+      "group_code": 100101,
+      "group_type_raw": "Dining",
+      "position": [
+        -0.010409253728726033,
+        0,
+        -1.338490000006794
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.7998300170898438,
+        0.7496549987792969,
+        2.373947566138045
+      ],
+      "size_min": [
+        1.7998300170898438,
+        0.7496549987792969,
+        0.9998249816894531
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -7.462712739991773e-07
+      ],
+      "obj_main": "2567b13a-372d-4be9-9851-bb7e8839612f",
+      "obj_type": "table/dining table - square",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100501,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -0.39594,
+        0,
+        -2.79144
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.60288,
+        1.93341,
+        0.49296999999999996
+      ],
+      "size_min": [
+        1.60288,
+        1.93341,
+        0.49296999999999996
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "87343296-7724-4a3a-b1a1-7d12b00611f2",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100501,
+      "group_type_raw": "Cabinet",
+      "position": [
+        1.20694,
+        0,
+        -2.79144
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.60288,
+        1.93341,
+        0.49296999999999996
+      ],
+      "size_min": [
+        1.60288,
+        1.93341,
+        0.49296999999999996
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "87343296-7724-4a3a-b1a1-7d12b00611f2",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100501,
+      "group_type_raw": "Cabinet",
+      "position": [
+        3.01706,
+        0,
+        -0.59637
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        2.3388267960845948,
+        2.1,
+        0.3890000152587891
+      ],
+      "size_min": [
+        2.3388267960845948,
+        2.1,
+        0.3890000152587891
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "bcc62e52-2900-4d55-8dbb-20a9cc5570e6",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    }
+  ]
+}

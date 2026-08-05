@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "Library",
+  "region_type": "library",
+  "area_bucket": "9",
+  "resolved": true,
+  "source_house": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "source_room": "Library-1109",
+  "source_room_file": "aa745ebf-dabd-469e-a947-23375f8b7d45__Library-1109.json",
+  "placed_groups": [
+    {
+      "group_code": 100301,
+      "group_type_raw": "Work",
+      "position": [
+        -4.5987,
+        0,
+        1.2783332017382414
+      ],
+      "rotation_yaw_deg": -179.547,
+      "size": [
+        1.9677736866638185,
+        0.7503600311279297,
+        1.8016272204966004
+      ],
+      "size_min": [
+        1.9677736866638185,
+        0.7503600311279297,
+        0.8433336239730835
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.4791467982617585
+      ],
+      "obj_main": "d48cc175-b4b4-47c1-9b1a-e321da7931bb",
+      "obj_type": "table/table",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100504,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -3.71229,
+        0,
+        -0.2181
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.3487794235183717,
+        2.4499909752441407,
+        0.34999966599121096
+      ],
+      "size_min": [
+        1.3487794235183717,
+        2.4499909752441407,
+        0.34999966599121096
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "4f1dd641-ac49-4291-96b5-458b8f77919e",
+      "obj_type": "cabinet/bookcase - L shaped",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100504,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -5.03821,
+        0,
+        -0.2181
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.303075512625122,
+        2.4499909752441407,
+        0.34999966599121096
+      ],
+      "size_min": [
+        1.303075512625122,
+        2.4499909752441407,
+        0.34999966599121096
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "4f1dd641-ac49-4291-96b5-458b8f77919e",
+      "obj_type": "cabinet/bookcase - L shaped",
+      "role_assets": {}
+    }
+  ]
+}

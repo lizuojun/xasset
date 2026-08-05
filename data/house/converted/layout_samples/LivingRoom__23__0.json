@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "LivingRoom",
+  "region_type": "living_room",
+  "area_bucket": "23",
+  "resolved": true,
+  "source_house": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b",
+  "source_room": "LivingRoom-3016",
+  "source_room_file": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b__LivingRoom-3016.json",
+  "placed_groups": [
+    {
+      "group_code": 100001,
+      "group_type_raw": "Meeting",
+      "position": [
+        -1.7755213559874146,
+        0,
+        3.383938226787311
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        3.1834100341796874,
+        0.8671489715576172,
+        2.042707301469049
+      ],
+      "size_min": [
+        3.1834100341796874,
+        0.8671489715576172,
+        1.6531700134277343
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.1947686440206574
+      ],
+      "obj_main": "99c14c44-4a9b-45b2-a732-352eb2f873b0",
+      "obj_type": "sofa/right corner sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        0.8901590147869803,
+        0,
+        3.08932999999103
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        2.0,
+        1.8730380102539064,
+        0.46599998474121096
+      ],
+      "size_min": [
+        1.5608900451660157,
+        0.9188980102539063,
+        0.1131980037689209
+      ],
+      "offset": [
+        0.0005783940190962067,
+        0,
+        -0.17640099048614505
+      ],
+      "obj_main": "0974e8e1-9ee6-4bb0-b447-51c734a079a9",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -3.37568,
+        0,
+        1.34171
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.0600399780273437,
+        2.0999943167114257,
+        0.4201530075073242
+      ],
+      "size_min": [
+        1.0600399780273437,
+        2.0999943167114257,
+        0.4201530075073242
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "4c0d8b5d-cb09-4ce5-95c2-f8473a7bc38c",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

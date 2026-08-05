@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "SecondBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "8",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -5.6709,
+        0,
+        3.68449
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.3809300231933594,
+        0.7568360137939453,
+        1.9580799865722656
+      ],
+      "size_min": [
+        1.3809300231933594,
+        0.7568360137939453,
+        1.9580799865722656
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "7bd5950b-d360-4f54-a767-beb0983deb83",
+      "obj_type": "bed/single bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        -7.6325,
+        0,
+        3.5535
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.4999930000000001,
+        2.4499901770935057,
+        0.6000019836425782
+      ],
+      "size_min": [
+        1.4999930000000001,
+        2.4499901770935057,
+        0.6000019836425782
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "2baea5dd-220c-4f00-b37e-e4f39fad81f6",
+      "obj_type": "storage unit/armoire - L shaped",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        -7.338966332883521,
+        0,
+        2.203497327610788
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.199996,
+        0.7499980163574219,
+        1.1870646652982444
+      ],
+      "size_min": [
+        1.199996,
+        0.7499980163574219,
+        0.5999973310409545
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.29353366712864487
+      ],
+      "obj_main": "3e350f3b-31d9-449c-a4e4-efad2a7189dc",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

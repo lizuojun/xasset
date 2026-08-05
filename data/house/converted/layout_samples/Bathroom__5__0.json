@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "Bathroom",
+  "region_type": "bathroom",
+  "area_bucket": "5",
+  "resolved": true,
+  "source_house": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "source_room": "MasterBathroom-6265",
+  "source_room_file": "355ab8b3-1609-4346-8202-1546938d57f2__MasterBathroom-6265.json",
+  "placed_groups": [
+    {
+      "group_code": 100601,
+      "group_type_raw": "Toilet",
+      "position": [
+        1.01495,
+        0,
+        -2.92775
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.40548099517822267,
+        0.510630989074707,
+        0.6802269744873047
+      ],
+      "size_min": [
+        0.40548099517822267,
+        0.510630989074707,
+        0.6802269744873047
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "a139fc4c-62f8-4f9b-8cf8-3c846efdc206",
+      "obj_type": "toilet/floor-based toilet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100701,
+      "group_type_raw": "Bath",
+      "position": [
+        1.525,
+        0,
+        -3.75
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.8000154771068457,
+        2.071120062255859,
+        1.7000072832895468
+      ],
+      "size_min": [
+        0.18829099655151368,
+        1.4932200622558593,
+        0.5335269927978515
+      ],
+      "offset": [
+        -0.12112469379409385,
+        0,
+        -0.5828311027675916
+      ],
+      "obj_main": "0e5c2e67-d457-494a-8a98-ef8439f8b0f3",
+      "obj_type": "shower/wall-attached shower head",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Appliance",
+      "position": [
+        1.03473,
+        0,
+        -2.30001
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.6449669647216797,
+        0.9157250213623047,
+        0.719469985961914
+      ],
+      "size_min": [
+        0.6449669647216797,
+        0.9157250213623047,
+        0.719469985961914
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "f91400ab-0f89-4a05-881e-57ef8fc7f92a",
+      "obj_type": "appliance/washer",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100505,
+      "group_type_raw": "Cabinet",
+      "position": [
+        2.57164,
+        0,
+        -2.38113
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.0,
+        1.6170399475097657,
+        0.5222069931030273
+      ],
+      "size_min": [
+        1.0,
+        1.6170399475097657,
+        0.5222069931030273
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "50eb2a18-0a0c-4531-b83e-0b0fe224b67c",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

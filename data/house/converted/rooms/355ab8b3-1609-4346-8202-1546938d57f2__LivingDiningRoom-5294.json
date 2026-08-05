@@ -1,0 +1,1405 @@
+{
+  "house_id": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "room_id": "LivingDiningRoom-5294",
+  "region_type": "living_dining_room",
+  "region_type_raw": "LivingDiningRoom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 39.303,
+  "height": 2.6,
+  "boundary": [
+    [
+      1.675,
+      4.15
+    ],
+    [
+      7.375,
+      4.15
+    ],
+    [
+      7.375,
+      -0.35
+    ],
+    [
+      -3.725,
+      -0.35
+    ],
+    [
+      -3.725,
+      1.65
+    ],
+    [
+      -2.325,
+      1.65
+    ],
+    [
+      -2.325,
+      1.2
+    ],
+    [
+      -2.225,
+      1.2
+    ],
+    [
+      -2.225,
+      1.65
+    ],
+    [
+      -0.425,
+      1.65
+    ],
+    [
+      -0.425,
+      3.03
+    ],
+    [
+      1.675,
+      3.03
+    ]
+  ],
+  "doors": [
+    {
+      "id": "LivingDiningRoom-5294__door_0",
+      "pts": [
+        [
+          -0.953,
+          1.65
+        ],
+        [
+          -1.913,
+          1.65
+        ],
+        [
+          -1.913,
+          1.89
+        ],
+        [
+          -0.953,
+          1.89
+        ]
+      ],
+      "to_room": null
+    },
+    {
+      "id": "LivingDiningRoom-5294__door_1",
+      "pts": [
+        [
+          -0.462,
+          -0.35
+        ],
+        [
+          0.339,
+          -0.35
+        ],
+        [
+          0.339,
+          -0.55
+        ],
+        [
+          -0.462,
+          -0.55
+        ]
+      ],
+      "to_room": "Kitchen-5569"
+    },
+    {
+      "id": "LivingDiningRoom-5294__door_2",
+      "pts": [
+        [
+          1.489,
+          -0.35
+        ],
+        [
+          2.29,
+          -0.35
+        ],
+        [
+          2.29,
+          -0.55
+        ],
+        [
+          1.489,
+          -0.55
+        ]
+      ],
+      "to_room": "MasterBedroom-5852"
+    },
+    {
+      "id": "LivingDiningRoom-5294__door_3",
+      "pts": [
+        [
+          -3.725,
+          0.64
+        ],
+        [
+          -3.725,
+          -0.161
+        ],
+        [
+          -3.825,
+          -0.161
+        ],
+        [
+          -3.825,
+          0.64
+        ]
+      ],
+      "to_room": "KidsRoom-4832"
+    }
+  ],
+  "windows": [
+    {
+      "id": "LivingDiningRoom-5294__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          7.375,
+          0.486
+        ],
+        [
+          7.375,
+          3.323
+        ],
+        [
+          7.575,
+          3.323
+        ],
+        [
+          7.575,
+          0.486
+        ]
+      ],
+      "height": 0.0,
+      "to_room": null
+    }
+  ],
+  "holes": [
+    {
+      "id": "LivingDiningRoom-5294__hole_0",
+      "pts": [
+        [
+          -3.649,
+          -0.35
+        ],
+        [
+          -2.261,
+          -0.35
+        ],
+        [
+          -2.261,
+          -0.55
+        ],
+        [
+          -3.649,
+          -0.55
+        ]
+      ],
+      "to_room": "SecondBathroom-7498"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "98ae662c-e0ca-4da9-ad60-0efe07400989",
+      "type": "sofa/double seat sofa",
+      "size_m": [
+        1.8077,
+        0.6856,
+        0.7802
+      ],
+      "position": [
+        4.58966,
+        0,
+        3.57665
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "ad98c113-55bd-403b-b2ad-7df2191e6567",
+      "type": "electronics/TV - on top of others",
+      "size_m": [
+        1.4544,
+        0.879,
+        0.0987
+      ],
+      "position": [
+        4.74912,
+        0.74219,
+        -0.30853
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "98ae662c-e0ca-4da9-ad60-0efe07400989",
+      "type": "sofa/double seat sofa",
+      "size_m": [
+        1.8077,
+        0.6856,
+        0.7802
+      ],
+      "position": [
+        6.33079,
+        0,
+        2.13112
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "a3bcd02c-a527-4781-b2d3-0c43cd99b3d5",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.4868,
+        0.4856,
+        0.2038
+      ],
+      "position": [
+        4.5893,
+        0.36308,
+        3.44642
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "8570be4e-8e98-43ae-89b7-3463c165bffd",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.4616,
+        0.4496,
+        0.1736
+      ],
+      "position": [
+        3.6643,
+        0.37442,
+        3.70759
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "491f40e9-653d-459a-83ab-32a5ea411256",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.61,
+        0.2584,
+        0.3121
+      ],
+      "position": [
+        3.75683,
+        0.36442,
+        3.37258
+      ],
+      "rotation_yaw_deg": 93.268
+    },
+    {
+      "id": "544ea017-ea7c-4d01-8ee2-9662fea93ac2",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.6906,
+        0.5569,
+        0.3212
+      ],
+      "position": [
+        4.93507,
+        0.3721,
+        3.66184
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "8570be4e-8e98-43ae-89b7-3463c165bffd",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.4616,
+        0.4496,
+        0.1736
+      ],
+      "position": [
+        5.41762,
+        0.35339,
+        3.77203
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "491f40e9-653d-459a-83ab-32a5ea411256",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.61,
+        0.2584,
+        0.3121
+      ],
+      "position": [
+        5.45497,
+        0.38259,
+        3.39164
+      ],
+      "rotation_yaw_deg": -125.626
+    },
+    {
+      "id": "544ea017-ea7c-4d01-8ee2-9662fea93ac2",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.6906,
+        0.5569,
+        0.3212
+      ],
+      "position": [
+        4.17066,
+        0.38244,
+        3.57638
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "491f40e9-653d-459a-83ab-32a5ea411256",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.61,
+        0.2584,
+        0.3121
+      ],
+      "position": [
+        6.21544,
+        0.32449,
+        2.3799
+      ],
+      "rotation_yaw_deg": -168.877
+    },
+    {
+      "id": "a3bcd02c-a527-4781-b2d3-0c43cd99b3d5",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.4868,
+        0.4856,
+        0.2038
+      ],
+      "position": [
+        6.53832,
+        0.28383,
+        2.13785
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "aec967ca-9327-45f4-aa03-3f432ae9003b",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.4051,
+        1.4967,
+        0.35
+      ],
+      "position": [
+        2.77202,
+        0.00788,
+        3.50723
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "8d92bf1e-29bb-4f9a-b4eb-8cb6d435c5b9",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.7524,
+        0.7757,
+        0.4758
+      ],
+      "position": [
+        4.61561,
+        0.42,
+        2.11359
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "6d189483-a069-4e59-906d-9a100c6a2ce9",
+      "type": "lighting/floor lamp",
+      "size_m": [
+        0.3786,
+        1.6504,
+        0.3786
+      ],
+      "position": [
+        6.27652,
+        0,
+        -0.00226
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "db9ad90c-3da7-4dfd-91a5-4b0f35207b2b",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.4314,
+        0.6623,
+        0.4212
+      ],
+      "position": [
+        6.23848,
+        0,
+        1.32388
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "d9b857f3-b2a2-4f60-8065-5b30b753c73c",
+      "type": "rug/rug",
+      "size_m": [
+        3.3998,
+        0.0093,
+        2.4012
+      ],
+      "position": [
+        4.87276,
+        0,
+        2.11836
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "918be658-3b0a-4fa9-895b-ed5810a300bc",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.3292,
+        0.4099,
+        0.1972
+      ],
+      "position": [
+        4.36028,
+        0.42,
+        2.01893
+      ],
+      "rotation_yaw_deg": 65.887
+    },
+    {
+      "id": "23a5c7be-ee3b-4154-94f0-5856c90f2193",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        0.7997,
+        1.1998,
+        0.0548
+      ],
+      "position": [
+        0.6634,
+        0.95106,
+        3.02262
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "b5f1843a-551e-4e80-9b8c-d3013bd44866",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.4677,
+        0.5397,
+        0.3954
+      ],
+      "position": [
+        -0.87977,
+        0.75124,
+        -0.17832
+      ],
+      "rotation_yaw_deg": 5.445
+    },
+    {
+      "id": "4d341646-80d1-4f05-94d2-78e827441c38",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.9415,
+        0.659,
+        0.937
+      ],
+      "position": [
+        4.65404,
+        1.94624,
+        1.96745
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        2.23413,
+        2.43,
+        3.79869
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        3.26925,
+        2.43,
+        3.79869
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        4.18437,
+        2.43,
+        3.79869
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        5.17794,
+        2.43,
+        3.79869
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        6.11372,
+        2.43,
+        3.79869
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        6.88083,
+        2.43,
+        3.02044
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        6.89715,
+        2.43,
+        1.96745
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        6.88083,
+        2.43,
+        0.92039
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        6.88627,
+        2.43,
+        -0.0045
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        6.11372,
+        2.43,
+        -0.0045
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        5.17794,
+        2.43,
+        -0.0045
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        4.18437,
+        2.43,
+        -0.0045
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        3.26925,
+        2.43,
+        -0.0045
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        2.23413,
+        2.43,
+        -0.0045
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        2.23413,
+        2.43,
+        0.92097
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        2.23413,
+        2.43,
+        1.96745
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        2.23413,
+        2.43,
+        2.94415
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        1.28421,
+        2.43,
+        -0.01281
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        0.22445,
+        2.43,
+        -0.01281
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        -0.70192,
+        2.43,
+        -0.01281
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        -1.57641,
+        2.43,
+        -0.01281
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        -2.33974,
+        2.43,
+        -0.01281
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        -3.16976,
+        2.43,
+        -0.01281
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        -3.16976,
+        2.43,
+        0.90615
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        -2.33974,
+        2.43,
+        0.90615
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        -1.57641,
+        2.43,
+        0.90615
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        -0.70192,
+        2.43,
+        0.90615
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        0.22445,
+        2.43,
+        0.90615
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        1.28421,
+        2.43,
+        0.90615
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "806895a7-42eb-4a99-a978-c2c192db9572",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.9703,
+        0.1529,
+        0.9695
+      ],
+      "position": [
+        0.70234,
+        2.3,
+        2.33535
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0838e045-b406-4335-8958-9d235fdbd0db",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2796,
+        0.085,
+        0.2785
+      ],
+      "position": [
+        0.82348,
+        0.75192,
+        1.98602
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "0838e045-b406-4335-8958-9d235fdbd0db",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2796,
+        0.085,
+        0.2785
+      ],
+      "position": [
+        0.80566,
+        0.75499,
+        2.57264
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "0838e045-b406-4335-8958-9d235fdbd0db",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2796,
+        0.085,
+        0.2785
+      ],
+      "position": [
+        0.46025,
+        0.75192,
+        2.58238
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "0838e045-b406-4335-8958-9d235fdbd0db",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2796,
+        0.085,
+        0.2785
+      ],
+      "position": [
+        0.47807,
+        0.75499,
+        1.99576
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "38805d9f-6714-47b2-99e5-fb73ce7d1582",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.9469,
+        0.9659,
+        0.7569
+      ],
+      "position": [
+        0.4995,
+        0.744,
+        2.39121
+      ],
+      "rotation_yaw_deg": 27.79
+    },
+    {
+      "id": "8e675f6e-bad3-40bd-834f-edc6316030d4",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.4183,
+        0.2868,
+        0.1471
+      ],
+      "position": [
+        5.27179,
+        0.4338,
+        -0.05252
+      ],
+      "rotation_yaw_deg": -38.515
+    },
+    {
+      "id": "35ba9dc9-ea2d-42dc-8f5b-1f554757e5f0",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.2137,
+        0.3308,
+        0.2601
+      ],
+      "position": [
+        4.16054,
+        0.43182,
+        2.05296
+      ],
+      "rotation_yaw_deg": -114.71
+    },
+    {
+      "id": "35ba9dc9-ea2d-42dc-8f5b-1f554757e5f0",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.2137,
+        0.3308,
+        0.2601
+      ],
+      "position": [
+        4.19418,
+        0.43182,
+        1.96765
+      ],
+      "rotation_yaw_deg": -114.71
+    },
+    {
+      "id": "feb90f54-e9c2-435b-88e1-2816e7a5af72",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.5511,
+        0.4683,
+        0.1327
+      ],
+      "position": [
+        4.8753,
+        0.42,
+        1.99508
+      ],
+      "rotation_yaw_deg": 45.0
+    },
+    {
+      "id": "eab4a5ae-fad1-455e-b213-8160cab00314",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        1.4756,
+        2.4861,
+        1.1255
+      ],
+      "position": [
+        6.56253,
+        0,
+        3.47944
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "74e60f3d-bd78-414f-8fdc-75f153673860",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.305,
+        0.1191,
+        0.2211
+      ],
+      "position": [
+        -3.57248,
+        0.98059,
+        1.41053
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0d2850b8-c41d-40fe-9aa9-6ac8aebd27dd",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1896,
+        0.2191,
+        0.1697
+      ],
+      "position": [
+        -2.51358,
+        0.98408,
+        1.38337
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "2aacdf3b-b089-4852-ae4e-e43ddaff7c1e",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1809,
+        0.1792,
+        0.2586
+      ],
+      "position": [
+        -3.5284,
+        1.09613,
+        1.52075
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "6164d67e-42b6-4347-b7d4-c81998ad2bf3",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.361,
+        0.2246,
+        0.3506
+      ],
+      "position": [
+        -3.19186,
+        0.98768,
+        1.42168
+      ],
+      "rotation_yaw_deg": 76.424
+    },
+    {
+      "id": "b7e277d2-2fae-44ab-8153-91587c706d68",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.6286,
+        0.3651,
+        0.5228
+      ],
+      "position": [
+        -2.81201,
+        0.98408,
+        1.41397
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "06e61aac-7177-4283-9f5c-3daf08d18cd7",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1503,
+        0.2576,
+        0.1445
+      ],
+      "position": [
+        -1.74408,
+        0.77,
+        -0.21538
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "11eef4db-d032-44ef-bece-5a662903909d",
+      "type": "chair/armchair",
+      "size_m": [
+        0.6784,
+        0.84,
+        0.5563
+      ],
+      "position": [
+        1.30863,
+        0,
+        2.02403
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "11eef4db-d032-44ef-bece-5a662903909d",
+      "type": "chair/armchair",
+      "size_m": [
+        0.6784,
+        0.84,
+        0.5563
+      ],
+      "position": [
+        1.29775,
+        0,
+        2.65194
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "11eef4db-d032-44ef-bece-5a662903909d",
+      "type": "chair/armchair",
+      "size_m": [
+        0.6784,
+        0.84,
+        0.5563
+      ],
+      "position": [
+        -0.05452,
+        0,
+        2.02403
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "11eef4db-d032-44ef-bece-5a662903909d",
+      "type": "chair/armchair",
+      "size_m": [
+        0.6784,
+        0.84,
+        0.5563
+      ],
+      "position": [
+        -0.04456,
+        0,
+        2.6936
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "ff28509a-0137-4635-b418-e2c0f3b95722",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.5208,
+        0.2621,
+        0.4424
+      ],
+      "position": [
+        6.39859,
+        0.51,
+        3.20424
+      ],
+      "rotation_yaw_deg": -123.643
+    },
+    {
+      "id": "1c5c737c-7c34-4233-a0c5-3bdc492cff30",
+      "type": "media unit/floor-based media unit",
+      "size_m": [
+        2.194,
+        0.45,
+        0.45
+      ],
+      "position": [
+        4.74315,
+        0,
+        -0.12498
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "d2088a0e-aca6-4fb0-9e62-9e75951572b3",
+      "type": "table/coffee table - rectangular",
+      "size_m": [
+        1.6,
+        0.42,
+        0.9
+      ],
+      "position": [
+        4.61786,
+        0,
+        2.13832
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "a94fc683-0027-4dc0-bfb7-a8fdb256726e",
+      "type": "table/side table",
+      "size_m": [
+        0.4,
+        0.51,
+        0.55
+      ],
+      "position": [
+        6.43622,
+        0,
+        3.16988
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "6f8c1ba5-0ac8-4b8d-b052-93ace231da0c",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.6705,
+        0.418,
+        0.6688
+      ],
+      "position": [
+        6.5002,
+        0,
+        3.58468
+      ],
+      "rotation_yaw_deg": 31.151
+    },
+    {
+      "id": "3870d473-09ca-43b9-ad3c-67488a7d06d1",
+      "type": "table/dining table - square",
+      "size_m": [
+        1.3992,
+        0.7502,
+        0.7986
+      ],
+      "position": [
+        0.6385,
+        0,
+        2.35038
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "47d4a314-5c19-4c19-b8ca-9ed48555495f",
+      "type": "cabinet/hutch&buffet",
+      "size_m": [
+        1.8,
+        0.87,
+        0.448
+      ],
+      "position": [
+        -1.36173,
+        0,
+        -0.126
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "9add9e3d-4244-4960-8ed8-848fdd5d7b84",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        0.918,
+        1.721,
+        0.368
+      ],
+      "position": [
+        -3.025,
+        0,
+        1.466
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "ab5a6d83-c613-4b7c-84c3-82dc527847ce",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        0.899,
+        0.5999,
+        0.047
+      ],
+      "position": [
+        -1.33767,
+        1.16597,
+        -0.3265
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 6
+}

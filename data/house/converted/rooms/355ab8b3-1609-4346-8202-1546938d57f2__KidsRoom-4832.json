@@ -1,0 +1,272 @@
+{
+  "house_id": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "room_id": "KidsRoom-4832",
+  "region_type": "kids_room",
+  "region_type_raw": "KidsRoom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 11.9582,
+  "height": 2.6,
+  "boundary": [
+    [
+      -7.375,
+      2.95
+    ],
+    [
+      -3.325,
+      2.95
+    ],
+    [
+      -3.328,
+      1.75
+    ],
+    [
+      -3.825,
+      1.75
+    ],
+    [
+      -3.825,
+      -0.25
+    ],
+    [
+      -7.375,
+      -0.25
+    ]
+  ],
+  "doors": [
+    {
+      "id": "KidsRoom-4832__door_0",
+      "pts": [
+        [
+          -3.825,
+          -0.161
+        ],
+        [
+          -3.825,
+          0.64
+        ],
+        [
+          -3.725,
+          0.64
+        ],
+        [
+          -3.725,
+          -0.161
+        ]
+      ],
+      "to_room": "LivingDiningRoom-5294"
+    }
+  ],
+  "windows": [
+    {
+      "id": "KidsRoom-4832__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -7.375,
+          2.206
+        ],
+        [
+          -7.375,
+          0.487
+        ],
+        [
+          -7.575,
+          0.487
+        ],
+        [
+          -7.575,
+          2.206
+        ]
+      ],
+      "height": 0.8,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "4c58fa82-90f0-4c81-849d-52346957f66d",
+      "type": "lighting/pendant light",
+      "size_m": [
+        0.6,
+        1.2,
+        0.6
+      ],
+      "position": [
+        -5.31494,
+        2.4,
+        1.27293
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "5acf0bda-d924-4c17-95b4-4ac9489f455f",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.404,
+        0.2815,
+        0.3377
+      ],
+      "position": [
+        -6.46351,
+        0.75153,
+        2.57218
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "de351704-dde2-43ee-839a-48d22d6aef6e",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.3918,
+        1.2411,
+        0.3925
+      ],
+      "position": [
+        -6.89277,
+        0,
+        -0.05373
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "c3e1fe9d-92df-483a-9b0d-c5454e5af829",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        1.0,
+        0.4995,
+        0.0541
+      ],
+      "position": [
+        -4.97198,
+        1.34725,
+        2.93532
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "f3b64f34-4b7b-4ba1-9934-b4a39e69d7c9",
+      "type": "chair/armchair",
+      "size_m": [
+        0.63,
+        0.76,
+        0.55
+      ],
+      "position": [
+        -6.52737,
+        0,
+        1.93468
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "a1119a16-f174-4dc5-8eb8-dce25df792e7",
+      "type": "bed/king-size bed",
+      "size_m": [
+        2.0429,
+        1.1,
+        2.1055
+      ],
+      "position": [
+        -4.85946,
+        0,
+        1.84523
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "dc66b6a9-c518-48bc-bd5b-4207a4adb405",
+      "type": "rug/rug",
+      "size_m": [
+        2.3005,
+        0.0081,
+        1.6001
+      ],
+      "position": [
+        -5.50454,
+        0,
+        1.81152
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "2e14fd51-1486-4a3c-b332-aee275110ec6",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.4907,
+        0.3948,
+        0.2247
+      ],
+      "position": [
+        -4.55634,
+        0.6099,
+        2.72675
+      ],
+      "rotation_yaw_deg": 171.102
+    },
+    {
+      "id": "a3bcd02c-a527-4781-b2d3-0c43cd99b3d5",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.4868,
+        0.4856,
+        0.2038
+      ],
+      "position": [
+        -4.97167,
+        0.59013,
+        2.72526
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "2e14fd51-1486-4a3c-b332-aee275110ec6",
+      "type": "accessory/pillow",
+      "size_m": [
+        0.4907,
+        0.3948,
+        0.2247
+      ],
+      "position": [
+        -5.40708,
+        0.59013,
+        2.69951
+      ],
+      "rotation_yaw_deg": -165.139
+    },
+    {
+      "id": "4cc49d54-5bb2-41c1-b710-ea62977741e1",
+      "type": "table/table",
+      "size_m": [
+        1.2012,
+        0.7703,
+        0.5804
+      ],
+      "position": [
+        -6.52004,
+        0,
+        2.6598
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "876012cc-b9d5-4cc5-8e0a-729e11b53b0b",
+      "type": "storage unit/armoire",
+      "size_m": [
+        1.9758,
+        2.168,
+        0.6
+      ],
+      "position": [
+        -3.58851,
+        0,
+        2.34999
+      ],
+      "rotation_yaw_deg": -89.992
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

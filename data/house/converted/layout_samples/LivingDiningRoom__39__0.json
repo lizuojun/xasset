@@ -1,0 +1,151 @@
+{
+  "legacy_room_type": "LivingDiningRoom",
+  "region_type": "living_dining_room",
+  "area_bucket": "39",
+  "resolved": true,
+  "source_house": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "source_room": "LivingDiningRoom-5294",
+  "source_room_file": "355ab8b3-1609-4346-8202-1546938d57f2__LivingDiningRoom-5294.json",
+  "placed_groups": [
+    {
+      "group_code": 100002,
+      "group_type_raw": "Meeting",
+      "position": [
+        4.690340117804236,
+        0,
+        2.869984210516739
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        4.2417672268804445,
+        0.6855709838867188,
+        2.3633284210334775
+      ],
+      "size_min": [
+        2.5999968944503786,
+        0.6855709838867188,
+        0.9499968420669557
+      ],
+      "offset": [
+        0.10068011780423558,
+        0,
+        -0.7066657894832609
+      ],
+      "obj_main": "98ae662c-e0ca-4da9-ad60-0efe07400989",
+      "obj_type": "sofa/double seat sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        4.74315,
+        0,
+        -0.12497999999999998
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.193999938964844,
+        1.6212290014648438,
+        0.4500450134277344
+      ],
+      "size_min": [
+        1.0999929738464356,
+        0.8790390014648437,
+        0.05000038829193115
+      ],
+      "offset": [
+        0.005969999999999587,
+        0,
+        -0.18355000000000005
+      ],
+      "obj_main": "ad98c113-55bd-403b-b2ad-7df2191e6567",
+      "obj_type": "electronics/TV - on top of others",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100102,
+      "group_type_raw": "Dining",
+      "position": [
+        0.6270579711566185,
+        0,
+        2.350380104170519
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.3992399597167968,
+        0.7502050018310547,
+        1.863160418300593
+      ],
+      "size_min": [
+        1.3992399597167968,
+        0.7502050018310547,
+        0.7985900115966796
+      ],
+      "offset": [
+        -0.0,
+        0,
+        0.011442028843855645
+      ],
+      "obj_main": "3870d473-09ca-43b9-ad3c-67488a7d06d1",
+      "obj_type": "table/dining table - square",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -1.36173,
+        0,
+        -0.126
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.6500059999999999,
+        0.7700022,
+        0.44799999237060545
+      ],
+      "size_min": [
+        1.6500059999999999,
+        0.7700022,
+        0.44799999237060545
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "47d4a314-5c19-4c19-b8ca-9ed48555495f",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -3.025,
+        0,
+        1.466
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.3999959465408327,
+        2.299996111569214,
+        0.3679999923706055
+      ],
+      "size_min": [
+        1.3999959465408327,
+        2.299996111569214,
+        0.3679999923706055
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "9add9e3d-4244-4960-8ed8-848fdd5d7b84",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

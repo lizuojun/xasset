@@ -1,0 +1,234 @@
+{
+  "house_id": "cbd3e0c5-f04b-4a14-a877-a990fe5dc9c5",
+  "room_id": "Kitchen-7444",
+  "region_type": "kitchen",
+  "region_type_raw": "Kitchen",
+  "priority": 0,
+  "source_file": "house_data_more.json",
+  "coordinate_raw": "xyz",
+  "unit": "m",
+  "area": 3.8112735917459997,
+  "height": 2.8,
+  "boundary": [
+    [
+      3.044352,
+      3.25671
+    ],
+    [
+      0.79975,
+      3.25671
+    ],
+    [
+      0.79975,
+      4.954683
+    ],
+    [
+      3.044352,
+      4.954683
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Kitchen-7444__door_0",
+      "pts": [
+        [
+          0.79975,
+          4.1204004
+        ],
+        [
+          0.55975,
+          4.1204004
+        ],
+        [
+          0.55975,
+          3.3937716
+        ],
+        [
+          0.79975,
+          3.3937716
+        ]
+      ],
+      "to_room": "OtherRoom-6579"
+    },
+    {
+      "id": "Kitchen-7444__door_1",
+      "pts": [
+        [
+          -2.620637,
+          0.33175985538900005
+        ],
+        [
+          -2.860637,
+          0.33175985538900005
+        ],
+        [
+          -2.860637,
+          -0.37142985538900003
+        ],
+        [
+          -2.620637,
+          -0.37142985538900003
+        ]
+      ],
+      "to_room": null
+    }
+  ],
+  "windows": [
+    {
+      "id": "Kitchen-7444__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -0.11671668947199998,
+          3.25671
+        ],
+        [
+          -0.11671668947199998,
+          3.13671
+        ],
+        [
+          0.48548468947199996,
+          3.13671
+        ],
+        [
+          0.48548468947199996,
+          3.25671
+        ]
+      ],
+      "height": 0.8,
+      "to_room": "OtherRoom-6579"
+    }
+  ],
+  "holes": [
+    {
+      "id": "Kitchen-7444__hole_0",
+      "pts": [
+        [
+          1.7240915,
+          3.25671
+        ],
+        [
+          1.7240915,
+          3.13671
+        ],
+        [
+          2.4283225,
+          3.13671
+        ],
+        [
+          2.4283225,
+          3.25671
+        ]
+      ],
+      "to_room": "LivingDiningRoom-12657"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "b4cba8ff-7e1f-4816-8f6d-417be3272c8e",
+      "type": "attachment/countertop",
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "b76ab66d-7284-4b4b-807b-3c3fba24d7ae",
+      "type": "appliance/refrigerator",
+      "size_m": [
+        0.6343,
+        0.5973,
+        1.9065
+      ],
+      "position": [
+        1.141732,
+        4.631168,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "ac62ae4a-f1e0-4594-819c-76e2fbc16835",
+      "type": "accessory/kitchen decoration-wall attached",
+      "size_m": [
+        0.5013,
+        0.1485,
+        0.1303
+      ],
+      "position": [
+        2.686909,
+        4.880448,
+        1.050413
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "2ab0246b-6245-482b-8262-db1781b16a9d",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.152,
+        0.152,
+        0.1016
+      ],
+      "position": [
+        2.737843,
+        4.645582,
+        0.858937
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "a2deb6c7-abf0-49d2-b8dc-feb8726ba4cb",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.426,
+        0.1328,
+        0.3496
+      ],
+      "position": [
+        2.736522,
+        3.323129,
+        1.021243
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "720693f0-797f-42b9-bd7d-4d56bee20e9b",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.098,
+        0.098,
+        0.1328
+      ],
+      "position": [
+        2.717238,
+        3.449575,
+        0.860871
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "693c1a28-e7c6-4a19-b149-9c798463ab88",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.3,
+        0.2998,
+        0.04
+      ],
+      "position": [
+        1.922051,
+        4.105697,
+        2.244
+      ],
+      "rotation_yaw_deg": 0
+    }
+  ],
+  "furniture_placeholder_skipped": 3
+}

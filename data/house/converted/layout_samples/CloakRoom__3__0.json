@@ -1,0 +1,10 @@
+{
+  "legacy_room_type": "CloakRoom",
+  "region_type": "cloak_room",
+  "area_bucket": "3",
+  "resolved": true,
+  "source_house": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "source_room": "CloakRoom-30518",
+  "source_room_file": "49a72df4-f9a3-45af-85cb-8f3d310a9466__CloakRoom-30518.json",
+  "placed_groups": []
+}

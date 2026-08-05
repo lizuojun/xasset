@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "CloakRoom",
+  "region_type": "cloak_room",
+  "area_bucket": "5",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        8.024283,
+        0,
+        -1.56961
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.52699465672,
+        2.04507,
+        0.610742
+      ],
+      "size_min": [
+        2.52699465672,
+        2.04507,
+        0.610742
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "4b5fe2a7-7c61-4788-90c4-f4583cf37b9d",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    }
+  ]
+}

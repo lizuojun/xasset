@@ -1,0 +1,632 @@
+{
+  "house_id": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "room_id": "MasterBedroom-5852",
+  "region_type": "bedroom",
+  "region_type_raw": "MasterBedroom",
+  "priority": 1,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 18.54,
+  "height": 2.6,
+  "boundary": [
+    [
+      0.675,
+      -0.55
+    ],
+    [
+      7.375,
+      -0.55
+    ],
+    [
+      7.375,
+      -4.15
+    ],
+    [
+      2.975,
+      -4.15
+    ],
+    [
+      2.975,
+      -1.85
+    ],
+    [
+      3.575,
+      -1.85
+    ],
+    [
+      3.575,
+      -1.75
+    ],
+    [
+      0.675,
+      -1.75
+    ]
+  ],
+  "doors": [
+    {
+      "id": "MasterBedroom-5852__door_0",
+      "pts": [
+        [
+          1.498,
+          -1.75
+        ],
+        [
+          2.299,
+          -1.75
+        ],
+        [
+          2.299,
+          -1.85
+        ],
+        [
+          1.498,
+          -1.85
+        ]
+      ],
+      "to_room": "MasterBathroom-6265"
+    },
+    {
+      "id": "MasterBedroom-5852__door_1",
+      "pts": [
+        [
+          2.29,
+          -0.55
+        ],
+        [
+          1.489,
+          -0.55
+        ],
+        [
+          1.489,
+          -0.35
+        ],
+        [
+          2.29,
+          -0.35
+        ]
+      ],
+      "to_room": "LivingDiningRoom-5294"
+    }
+  ],
+  "windows": [
+    {
+      "id": "MasterBedroom-5852__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          7.375,
+          -3.409
+        ],
+        [
+          7.375,
+          -1.277
+        ],
+        [
+          7.575,
+          -1.277
+        ],
+        [
+          7.575,
+          -3.409
+        ]
+      ],
+      "height": 0.6,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "2e6700b1-0d55-40cf-8357-198edf41537d",
+      "type": "bed/king-size bed",
+      "size_m": [
+        2.517,
+        0.9794,
+        2.3897
+      ],
+      "position": [
+        5.32957,
+        0,
+        -3.15
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "d839ab86-33a2-4902-9b5f-b71c22f03063",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1237,
+        0.0601,
+        0.2712
+      ],
+      "position": [
+        4.22096,
+        0.452,
+        -3.8272
+      ],
+      "rotation_yaw_deg": 36.787
+    },
+    {
+      "id": "4c6f2cd9-bce6-40f1-aba8-23cbcd43ad66",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1714,
+        0.228,
+        0.0618
+      ],
+      "position": [
+        3.86995,
+        0.434,
+        -3.67685
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "3cbdcd64-3458-4e35-8cd5-8f2bea6ddfa4",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.3517,
+        0.6222,
+        0.3464
+      ],
+      "position": [
+        3.95375,
+        0.434,
+        -3.75682
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "3cbdcd64-3458-4e35-8cd5-8f2bea6ddfa4",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.3517,
+        0.6222,
+        0.3464
+      ],
+      "position": [
+        6.51608,
+        0.434,
+        -3.91955
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "9a66d2b9-2c62-4d65-8e6a-8b10569c25fb",
+      "type": "electronics/TV - wall-attached",
+      "size_m": [
+        1.0885,
+        0.7567,
+        0.07
+      ],
+      "position": [
+        5.31563,
+        0.88859,
+        -0.58502
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "aec967ca-9327-45f4-aa03-3f432ae9003b",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.4051,
+        1.4967,
+        0.35
+      ],
+      "position": [
+        6.73543,
+        0,
+        -0.86589
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "8d92bf1e-29bb-4f9a-b4eb-8cb6d435c5b9",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.7524,
+        0.7757,
+        0.4758
+      ],
+      "position": [
+        4.7357,
+        0.75478,
+        -0.85697
+      ],
+      "rotation_yaw_deg": -165.588
+    },
+    {
+      "id": "0d2850b8-c41d-40fe-9aa9-6ac8aebd27dd",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1896,
+        0.2191,
+        0.1697
+      ],
+      "position": [
+        4.15327,
+        0.434,
+        -3.98936
+      ],
+      "rotation_yaw_deg": -31.198
+    },
+    {
+      "id": "8e675f6e-bad3-40bd-834f-edc6316030d4",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.4183,
+        0.2868,
+        0.1471
+      ],
+      "position": [
+        6.8192,
+        0.434,
+        -3.83373
+      ],
+      "rotation_yaw_deg": 148.931
+    },
+    {
+      "id": "a36b945e-dcf4-46bc-bf82-7553fd89013e",
+      "type": "lighting/pendant light",
+      "size_m": [
+        0.8505,
+        0.56,
+        0.8505
+      ],
+      "position": [
+        5.38011,
+        2.13505,
+        -2.38564
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        4.05997,
+        2.38,
+        -3.95999
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        5.02569,
+        2.38,
+        -3.95999
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        5.88704,
+        2.38,
+        -3.95999
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        6.69709,
+        2.38,
+        -3.95999
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        6.98454,
+        2.38,
+        -3.44467
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        6.99309,
+        2.38,
+        -2.62875
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        7.00481,
+        2.38,
+        -1.85552
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        7.02638,
+        2.38,
+        -1.01113
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        3.67321,
+        2.38,
+        -3.42621
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        3.67321,
+        2.38,
+        -2.62875
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        3.67321,
+        2.51325,
+        -1.85552
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        3.76715,
+        2.38,
+        -1.01113
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        4.70176,
+        2.38,
+        -0.73203
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        5.39525,
+        2.38,
+        -0.73203
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "229e1f9e-26c6-48ef-9dbe-db104c8ff22e",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.1393,
+        0.0868,
+        0.118
+      ],
+      "position": [
+        5.92794,
+        2.38,
+        -0.73203
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "6a96ffb4-3018-4e1b-b43d-a4ad3f9f9788",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        1.0,
+        1.0,
+        0.054
+      ],
+      "position": [
+        2.97814,
+        1,
+        -1.72302
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "12946c17-4489-4dc0-b49d-17d43d332a09",
+      "type": "rug/rug",
+      "size_m": [
+        3.4017,
+        0.0093,
+        2.4008
+      ],
+      "position": [
+        5.46785,
+        0.015,
+        -2.59535
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0d2850b8-c41d-40fe-9aa9-6ac8aebd27dd",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1896,
+        0.2191,
+        0.1697
+      ],
+      "position": [
+        5.82321,
+        0.74509,
+        -0.75294
+      ],
+      "rotation_yaw_deg": -166.502
+    },
+    {
+      "id": "876012cc-b9d5-4cc5-8e0a-729e11b53b0b",
+      "type": "storage unit/armoire",
+      "size_m": [
+        1.9758,
+        2.168,
+        0.6
+      ],
+      "position": [
+        3.275,
+        0,
+        -3
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9444a5c6-6c3e-4bbd-bd7e-f1544e396995",
+      "type": "storage unit/dresser",
+      "size_m": [
+        1.4503,
+        0.7505,
+        0.4002
+      ],
+      "position": [
+        5.30528,
+        0,
+        -0.75012
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "6f070bb5-1047-4aa3-bb8f-e8e50555cdb0",
+      "type": "storage unit/armoire - L shaped",
+      "size_m": [
+        1.0006,
+        2.0989,
+        0.5967
+      ],
+      "position": [
+        0.97334,
+        0,
+        -1.15
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "51d87303-5ac1-4cec-8332-abb94fe88d8a",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        0.5,
+        0.434,
+        0.416
+      ],
+      "position": [
+        4.00379,
+        0,
+        -3.8604
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "51d87303-5ac1-4cec-8332-abb94fe88d8a",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        0.5,
+        0.434,
+        0.416
+      ],
+      "position": [
+        6.65789,
+        0,
+        -3.87231
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 3
+}

@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "Library",
+  "region_type": "library",
+  "area_bucket": "12",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100301,
+      "group_type_raw": "Work",
+      "position": [
+        -4.43619,
+        0,
+        5.37638
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.2225599670410157,
+        1.1941400146484376,
+        1.18875
+      ],
+      "size_min": [
+        2.2225599670410157,
+        1.1941400146484376,
+        1.18875
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "97c635ff-5e29-4648-ab6a-b035a1a430aa",
+      "obj_type": "table/table",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100402,
+      "group_type_raw": "Rest",
+      "position": [
+        -2.60553,
+        0,
+        5.61246
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        1.8693929925537112,
+        0.5490282049194337,
+        0.6233829879760745
+      ],
+      "size_min": [
+        0.3502170181274414,
+        0.5490282049194337,
+        0.3502170181274414
+      ],
+      "offset": [
+        0.012280000000000069,
+        0,
+        0.08021000000000011
+      ],
+      "obj_main": "7859e7bb-a4cc-4115-a329-5ab58dc9442f",
+      "obj_type": "table/side table",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100504,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -5.57538,
+        0,
+        4.11469
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.8540609741210937,
+        2.600006251402283,
+        0.3911339950561523
+      ],
+      "size_min": [
+        0.8540609741210937,
+        2.600006251402283,
+        0.3911339950561523
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "8d0d5d5d-0d16-46a0-b141-90ad4993cf37",
+      "obj_type": "cabinet/bookcase - L shaped",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100504,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -5.57538,
+        0,
+        6.68426
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.8540609741210937,
+        2.600006251402283,
+        0.3911339950561523
+      ],
+      "size_min": [
+        0.8540609741210937,
+        2.600006251402283,
+        0.3911339950561523
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "8d0d5d5d-0d16-46a0-b141-90ad4993cf37",
+      "obj_type": "cabinet/bookcase - L shaped",
+      "role_assets": {}
+    }
+  ]
+}

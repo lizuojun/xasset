@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "Bathroom",
+  "region_type": "bathroom",
+  "area_bucket": "6",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100601,
+      "group_type_raw": "Toilet",
+      "position": [
+        2.87401,
+        0,
+        1.09171
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        0.41504800000000003,
+        0.507787,
+        0.664666
+      ],
+      "size_min": [
+        0.41504800000000003,
+        0.507787,
+        0.664666
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "aee16fb3-e345-496d-9def-8873039c7c14",
+      "obj_type": "toilet/floor-based toilet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100505,
+      "group_type_raw": "Cabinet",
+      "position": [
+        4.62431,
+        0,
+        2.57611
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.7690415210000001,
+        1.93452,
+        0.599155
+      ],
+      "size_min": [
+        1.7690415210000001,
+        1.93452,
+        0.599155
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "2e7ae9a8-41a5-41fb-8bb8-e8d75aad5bd3",
+      "obj_type": "basin/floor-based single basin with cabinet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100701,
+      "group_type_raw": "Bath",
+      "position": [
+        4.313892593900961,
+        0,
+        1.2193700000236154
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        0.92,
+        2.2584,
+        1.2200051878019234
+      ],
+      "size_min": [
+        0.260935,
+        1.5584,
+        0.493271
+      ],
+      "offset": [
+        -0.034293308191733096,
+        0,
+        -0.36336709390096167
+      ],
+      "obj_main": "75255aeb-a3af-4e2c-b2cd-82e78e3851a7",
+      "obj_type": "shower/wall-attached shower head",
+      "role_assets": {}
+    }
+  ]
+}

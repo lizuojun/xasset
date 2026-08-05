@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "SecondBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "11",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -0.1659279230543641,
+        0,
+        7.122759506845392
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        2.661730986328125,
+        1.15017,
+        2.1492500000000003
+      ],
+      "size_min": [
+        2.20547,
+        1.15017,
+        2.1492500000000003
+      ],
+      "offset": [
+        0.22813049316406242,
+        0,
+        -0.0
+      ],
+      "obj_main": "907a1529-17ee-4e75-9208-3b029df0f80c",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        0.15316,
+        0,
+        5.14784
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.51107,
+        2.6000062721999995,
+        0.5952729999999999
+      ],
+      "size_min": [
+        1.51107,
+        2.6000062721999995,
+        0.5952729999999999
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "f513fa6b-890e-4604-883e-871b5523ee3c",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        -2.15499,
+        0,
+        7.28884
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.29988,
+        1.601459,
+        0.0377028
+      ],
+      "size_min": [
+        1.29988,
+        0.751459,
+        0.0377028
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "0c5efde1-79b5-4c77-bf81-efa976963813",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "house_id": "cbd3e0c5-f04b-4a14-a877-a990fe5dc9c5",
+  "room_id": "OtherRoom-6579",
+  "region_type": "other_room",
+  "region_type_raw": "OtherRoom",
+  "priority": 0,
+  "source_file": "house_data_more.json",
+  "coordinate_raw": "xyz",
+  "unit": "m",
+  "area": 1.455434636565,
+  "height": 2.8,
+  "boundary": [
+    [
+      -0.268155,
+      3.25671
+    ],
+    [
+      -0.268155,
+      5.014683
+    ],
+    [
+      0.55975,
+      5.014683
+    ],
+    [
+      0.55975,
+      3.25671
+    ]
+  ],
+  "doors": [
+    {
+      "id": "OtherRoom-6579__door_0",
+      "pts": [
+        [
+          0.79975,
+          4.1204004
+        ],
+        [
+          0.55975,
+          4.1204004
+        ],
+        [
+          0.55975,
+          3.3937716
+        ],
+        [
+          0.79975,
+          3.3937716
+        ]
+      ],
+      "to_room": "Kitchen-7444"
+    }
+  ],
+  "windows": [
+    {
+      "id": "OtherRoom-6579__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -0.11671668947199998,
+          3.25671
+        ],
+        [
+          -0.11671668947199998,
+          3.13671
+        ],
+        [
+          0.48548468947199996,
+          3.13671
+        ],
+        [
+          0.48548468947199996,
+          3.25671
+        ]
+      ],
+      "height": 0.8,
+      "to_room": "Bathroom-5355"
+    }
+  ],
+  "holes": [
+    {
+      "id": "OtherRoom-6579__hole_0",
+      "pts": [
+        [
+          1.7240915,
+          3.25671
+        ],
+        [
+          1.7240915,
+          3.13671
+        ],
+        [
+          2.4283225,
+          3.13671
+        ],
+        [
+          2.4283225,
+          3.25671
+        ]
+      ],
+      "to_room": "Kitchen-7444"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "3a419f6e-b0d4-46e8-b5fe-d031008fee39",
+      "type": "appliance/washer",
+      "size_m": [
+        0.6882,
+        0.6164,
+        0.957
+      ],
+      "position": [
+        0.139983,
+        4.670448,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "e52afc46-ca92-46e1-92ae-ad0333c7fdc3",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.4,
+        0.3997,
+        0.04
+      ],
+      "position": [
+        0.115797,
+        4.135696,
+        2.76
+      ],
+      "rotation_yaw_deg": 0
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

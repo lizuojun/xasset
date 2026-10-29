@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "LivingRoom",
+  "region_type": "living_room",
+  "area_bucket": "28",
+  "resolved": true,
+  "source_house": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "source_room": "LivingRoom-8225",
+  "source_room_file": "92b2a56e-6694-4f5d-805a-71c7b2e636eb__LivingRoom-8225.json",
+  "placed_groups": [
+    {
+      "group_code": 100001,
+      "group_type_raw": "Meeting",
+      "position": [
+        1.620061743148192,
+        0,
+        4.02942094506391
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        3.2080558356264315,
+        1.031050033569336,
+        2.3555340042895834
+      ],
+      "size_min": [
+        2.384629974365234,
+        1.031050033569336,
+        1.0101499938964844
+      ],
+      "offset": [
+        0.41171293063059866,
+        0,
+        -0.6726920051965495
+      ],
+      "obj_main": "d148c7ee-0208-4bb7-a5cb-f9265edb0795",
+      "obj_type": "sofa/ multi seat sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        -1.0148575820915267,
+        0,
+        4.347029999977987
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.0,
+        1.76199370369339,
+        0.46599998474121096
+      ],
+      "size_min": [
+        1.5999935295669556,
+        1.00000370369339,
+        0.09583499908447266
+      ],
+      "offset": [
+        -0.008228314994323027,
+        0,
+        -0.18508249282836914
+      ],
+      "obj_main": "e5e6d90f-58c5-4293-8dc0-0a701af93bd5",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        2.46786,
+        0,
+        0.99443
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.266435,
+        1.058000030517578,
+        0.32931840625
+      ],
+      "size_min": [
+        1.266435,
+        1.058000030517578,
+        0.32931840625
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "524b8e54-3267-4df7-8948-d7e3f257c647",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    }
+  ]
+}

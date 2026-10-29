@@ -1,0 +1,67 @@
+{
+  "legacy_room_type": "LivingRoom",
+  "region_type": "living_room",
+  "area_bucket": "28",
+  "resolved": true,
+  "source_house": "dd6e39f6-6816-4477-b54e-168bb54c3e45",
+  "source_room": "LivingRoom-749",
+  "source_room_file": "dd6e39f6-6816-4477-b54e-168bb54c3e45__LivingRoom-749.json",
+  "placed_groups": [
+    {
+      "group_code": 100001,
+      "group_type_raw": "Meeting",
+      "position": [
+        0.038359284433322594,
+        0,
+        4.575010028687744
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        3.845398725183111,
+        0.9369249725341797,
+        2.47206540701447
+      ],
+      "size_min": [
+        2.018489990234375,
+        0.9369249725341797,
+        0.9404859924316407
+      ],
+      "offset": [
+        -0.046442999411527075,
+        0,
+        -0.7657897072914146
+      ],
+      "obj_main": "299257d6-43ac-479e-86ab-f51a93cc1b31",
+      "obj_type": "sofa/ multi seat sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        2.8261165240666637,
+        0,
+        4.441200058690445
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        3.0762600708007812,
+        1.4217799890136718,
+        0.49089304050446697
+      ],
+      "size_min": [
+        1.5608900451660157,
+        0.9375199890136718,
+        0.32370601654052733
+      ],
+      "offset": [
+        0.003959180257667061,
+        0,
+        -0.08359351198196982
+      ],
+      "obj_main": "195812ba-4372-41cd-8ac8-8b8e10d19e9e",
+      "obj_type": "electronics/TV - on top of others",
+      "role_assets": {}
+    }
+  ]
+}

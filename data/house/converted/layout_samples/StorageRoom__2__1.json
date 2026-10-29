@@ -1,0 +1,10 @@
+{
+  "legacy_room_type": "StorageRoom",
+  "region_type": "storage_room",
+  "area_bucket": "2",
+  "resolved": true,
+  "source_house": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "source_room": "StorageRoom-30060",
+  "source_room_file": "49a72df4-f9a3-45af-85cb-8f3d310a9466__StorageRoom-30060.json",
+  "placed_groups": []
+}

@@ -1,0 +1,54 @@
+{
+  "_comment": "legacy (group.type, region_type) -> xasset group_code 映射表。region_type 已经过 region_type_map.json / xasset _normalize_region_type() 规范化（如 MasterBedroom/SecondBedroom -> bedroom）。code 为 null 表示 xasset 当前 groups.json 的 region_groups 里该房间类型没有对应的 Group 定义——这是转换过程暴露出的真实覆盖缺口，不是脚本 bug，记录在 conversion_report.json 里供后续决定是否要给 groups.json 补充。",
+  "pairs": [
+    {"type": "Appliance", "region_type": "balcony",           "code": 100802, "note": null},
+    {"type": "Appliance", "region_type": "bathroom",          "code": null,   "note": "gap: groups.json bathroom 无 appliance code（浴霸/换气扇等目前没有对应 Group）"},
+    {"type": "Appliance", "region_type": "kitchen",            "code": 100801, "note": null},
+    {"type": "Appliance", "region_type": "laundry_room",       "code": null,   "note": "gap: laundry_room 本身在 xasset 无 region_type"},
+    {"type": "Appliance", "region_type": "living_dining_room",  "code": null,   "note": "gap: groups.json living_dining_room 无 appliance code"},
+
+    {"type": "Armoire", "region_type": "bedroom",   "code": 100503, "note": null},
+    {"type": "Armoire", "region_type": "kids_room", "code": 100503, "note": null},
+
+    {"type": "Bath", "region_type": "bathroom", "code": 100701, "note": null},
+
+    {"type": "Bed", "region_type": "bedroom",   "code": 100201, "note": null},
+    {"type": "Bed", "region_type": "kids_room", "code": 100203, "note": null},
+
+    {"type": "Cabinet", "region_type": "aisle",             "code": null,   "note": "gap: aisle 在 xasset 无 region_type"},
+    {"type": "Cabinet", "region_type": "balcony",           "code": null,   "note": "gap: groups.json balcony 无 cabinet code"},
+    {"type": "Cabinet", "region_type": "bathroom",          "code": 100505, "note": null},
+    {"type": "Cabinet", "region_type": "bedroom",           "code": null,   "note": "gap: bedroom 唯一柜类 code 是 100503(armoire)，legacy 数据里 Cabinet 与 Armoire 是两种不同 type 但 xasset 未区分出第二个卧室柜类 code"},
+    {"type": "Cabinet", "region_type": "cloak_room",        "code": null,   "note": "gap: cloak_room 在 xasset 无 region_type"},
+    {"type": "Cabinet", "region_type": "dining_room",       "code": 100501, "note": null},
+    {"type": "Cabinet", "region_type": "hallway",           "code": 100502, "note": null},
+    {"type": "Cabinet", "region_type": "kids_room",         "code": 100503, "note": "与 Armoire 共用同一 code，可能存在语义重叠，需人工复核"},
+    {"type": "Cabinet", "region_type": "library",           "code": 100504, "note": null},
+    {"type": "Cabinet", "region_type": "living_dining_room", "code": null,  "note": "gap: groups.json living_dining_room 无 cabinet code"},
+    {"type": "Cabinet", "region_type": "living_room",       "code": null,  "note": "gap: groups.json living_room 无 cabinet code"},
+    {"type": "Cabinet", "region_type": "other_room",        "code": null,  "note": "gap: other_room 在 xasset 无 region_type"},
+    {"type": "Cabinet", "region_type": "storage_room",      "code": null,  "note": "gap: storage_room 在 xasset 无 region_type"},
+
+    {"type": "Dining", "region_type": "dining_room",        "code": 100101, "note": null},
+    {"type": "Dining", "region_type": "living_dining_room",  "code": 100102, "note": null},
+
+    {"type": "Media", "region_type": "bedroom",           "code": 100902, "note": null},
+    {"type": "Media", "region_type": "living_dining_room",  "code": 100901, "note": null},
+    {"type": "Media", "region_type": "living_room",        "code": 100901, "note": null},
+
+    {"type": "Meeting", "region_type": "living_dining_room", "code": 100002, "note": null},
+    {"type": "Meeting", "region_type": "living_room",       "code": 100001, "note": null},
+
+    {"type": "Rest", "region_type": "balcony",           "code": 100401, "note": null},
+    {"type": "Rest", "region_type": "bedroom",           "code": 100402, "note": null},
+    {"type": "Rest", "region_type": "library",           "code": 100402, "note": "复用卧室休闲角 code，library 场景下语义近似"},
+    {"type": "Rest", "region_type": "living_dining_room",  "code": null,  "note": "gap: groups.json living_dining_room 无 rest code"},
+
+    {"type": "Toilet", "region_type": "bathroom", "code": 100601, "note": null},
+
+    {"type": "Work", "region_type": "bedroom",           "code": 100302, "note": null},
+    {"type": "Work", "region_type": "kids_room",         "code": 100302, "note": null},
+    {"type": "Work", "region_type": "library",           "code": 100301, "note": null},
+    {"type": "Work", "region_type": "living_dining_room",  "code": null,  "note": "gap: groups.json living_dining_room 无 work code"}
+  ]
+}

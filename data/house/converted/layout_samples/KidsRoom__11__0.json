@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "KidsRoom",
+  "region_type": "kids_room",
+  "area_bucket": "11",
+  "resolved": true,
+  "source_house": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "source_room": "KidsRoom-4832",
+  "source_room_file": "355ab8b3-1609-4346-8202-1546938d57f2__KidsRoom-4832.json",
+  "placed_groups": [
+    {
+      "group_code": 100203,
+      "group_type_raw": "Bed",
+      "position": [
+        -4.85946,
+        0,
+        1.84523
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        2.042949981689453,
+        1.1,
+        2.1054600524902343
+      ],
+      "size_min": [
+        2.042949981689453,
+        1.1,
+        2.1054600524902343
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "a1119a16-f174-4dc5-8eb8-dce25df792e7",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        -3.58851,
+        0,
+        2.34999
+      ],
+      "rotation_yaw_deg": -89.992,
+      "size": [
+        1.1998850957946776,
+        2.3000095523757937,
+        0.520116
+      ],
+      "size_min": [
+        1.1998850957946776,
+        2.3000095523757937,
+        0.520116
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "876012cc-b9d5-4cc5-8e0a-729e11b53b0b",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        -6.52004,
+        0,
+        2.3048487474823
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.2011699676513672,
+        0.7703050231933594,
+        1.2903374949646
+      ],
+      "size_min": [
+        1.2011699676513672,
+        0.7703050231933594,
+        0.5804349899291992
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.3549512525177004
+      ],
+      "obj_main": "4cc49d54-5bb2-41c1-b710-ea62977741e1",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "house_id": "dd6e39f6-6816-4477-b54e-168bb54c3e45",
+  "room_id": "Balcony-384",
+  "region_type": "balcony",
+  "region_type_raw": "Balcony",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 5.3275,
+  "height": 2.6,
+  "boundary": [
+    [
+      -1.197,
+      8.196
+    ],
+    [
+      3.152,
+      8.196
+    ],
+    [
+      3.152,
+      6.971
+    ],
+    [
+      -1.197,
+      6.971
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Balcony-384__door_0",
+      "pts": [
+        [
+          -1.113,
+          6.971
+        ],
+        [
+          1.599,
+          6.971
+        ],
+        [
+          1.599,
+          6.851
+        ],
+        [
+          -1.113,
+          6.851
+        ]
+      ],
+      "to_room": "LivingRoom-749"
+    }
+  ],
+  "windows": [
+    {
+      "id": "Balcony-384__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          3.085,
+          8.196
+        ],
+        [
+          -1.071,
+          8.196
+        ],
+        [
+          -1.071,
+          8.436
+        ],
+        [
+          3.085,
+          8.436
+        ]
+      ],
+      "height": 0.2,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "165bb166-9b82-4b4d-9d44-29e789a31cb2",
+      "type": "table/coffee table - rectangular",
+      "size_m": [
+        0.5416,
+        0.5097,
+        0.5406
+      ],
+      "position": [
+        0.90703,
+        0,
+        7.68193
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "653c6aba-5a6c-4ca7-8ab8-c703ce51a348",
+      "type": "chair/chair",
+      "size_m": [
+        0.73,
+        0.75,
+        0.78
+      ],
+      "position": [
+        0.09178,
+        0,
+        7.72425
+      ],
+      "rotation_yaw_deg": 135.0
+    },
+    {
+      "id": "653c6aba-5a6c-4ca7-8ab8-c703ce51a348",
+      "type": "chair/chair",
+      "size_m": [
+        0.73,
+        0.75,
+        0.78
+      ],
+      "position": [
+        1.77088,
+        0,
+        7.69664
+      ],
+      "rotation_yaw_deg": -135.0
+    },
+    {
+      "id": "909c8022-3017-4c09-8616-33c4e4c18cdb",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.35,
+        0.1855,
+        0.35
+      ],
+      "position": [
+        0.91164,
+        0.49378,
+        7.69644
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "11540465-3529-4caf-9975-ea2bc3c7e4d7",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.475,
+        0.05,
+        0.475
+      ],
+      "position": [
+        0.91261,
+        2.54999,
+        7.60578
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

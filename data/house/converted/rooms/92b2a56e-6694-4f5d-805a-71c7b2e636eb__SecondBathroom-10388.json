@@ -1,0 +1,134 @@
+{
+  "house_id": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "room_id": "SecondBathroom-10388",
+  "region_type": "bathroom",
+  "region_type_raw": "SecondBathroom",
+  "priority": 2,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 4.1979,
+  "height": 2.6,
+  "boundary": [
+    [
+      3.281,
+      0.65
+    ],
+    [
+      5.059,
+      0.65
+    ],
+    [
+      5.059,
+      -1.711
+    ],
+    [
+      3.281,
+      -1.711
+    ]
+  ],
+  "doors": [
+    {
+      "id": "SecondBathroom-10388__door_0",
+      "pts": [
+        [
+          4.081,
+          -1.711
+        ],
+        [
+          4.84,
+          -1.711
+        ],
+        [
+          4.84,
+          -1.831
+        ],
+        [
+          4.081,
+          -1.831
+        ]
+      ],
+      "to_room": "DiningRoom-31322"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "ef19772e-c0f3-42c8-b83d-2956752d5a6a",
+      "type": "toilet/floor-based toilet",
+      "size_m": [
+        0.3656,
+        0.7394,
+        0.6902
+      ],
+      "position": [
+        3.62616,
+        0,
+        -0.47567
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "08069d57-ba9d-4cf3-911f-a1cb93c1c4ea",
+      "type": "shower/wall-attached shower head",
+      "size_m": [
+        0.3379,
+        1.2836,
+        0.5698
+      ],
+      "position": [
+        3.56592,
+        1,
+        0.18448
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "14171ad5-4284-4a1e-92bf-62e4685868a3",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.3,
+        0.0474,
+        0.3
+      ],
+      "position": [
+        4.33124,
+        2.55265,
+        0.20087
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "726f3baa-cc64-49ba-bb06-37d672dc69c8",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.6,
+        0.0403,
+        0.3
+      ],
+      "position": [
+        4.20034,
+        2.55967,
+        -0.69767
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "1eb04b17-4417-4efa-9ece-34db6b22d57e",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.2404,
+        1.6625,
+        0.5239
+      ],
+      "position": [
+        3.54302,
+        0.23,
+        -1.09102
+      ],
+      "rotation_yaw_deg": 90.001
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

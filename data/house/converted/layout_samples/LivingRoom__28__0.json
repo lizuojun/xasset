@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "LivingRoom",
+  "region_type": "living_room",
+  "area_bucket": "28",
+  "resolved": true,
+  "source_house": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "source_room": "LivingRoom-28250",
+  "source_room_file": "49a72df4-f9a3-45af-85cb-8f3d310a9466__LivingRoom-28250.json",
+  "placed_groups": [
+    {
+      "group_code": 100001,
+      "group_type_raw": "Meeting",
+      "position": [
+        -0.6969043561919396,
+        0,
+        5.38944003354906
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        4.894689642249807,
+        0.8667330169677734,
+        2.5985532592546976
+      ],
+      "size_min": [
+        2.6780599975585937,
+        0.8667330169677734,
+        1.1366600036621093
+      ],
+      "offset": [
+        0.07955599985253126,
+        0,
+        -0.6553349195414858
+      ],
+      "obj_main": "f03f2827-174d-4191-83e1-4a40f357a3fd",
+      "obj_type": "sofa/ multi seat sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        2.149893740924018,
+        0,
+        5.282425000034058
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        3.599500060960568,
+        1.6664780102539063,
+        0.30000999450683596
+      ],
+      "size_min": [
+        1.5608900451660157,
+        0.9188980102539063,
+        0.1131980037689209
+      ],
+      "offset": [
+        -0.028965850422121853,
+        0,
+        -0.09340599536895752
+      ],
+      "obj_main": "0974e8e1-9ee6-4bb0-b447-51c734a079a9",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -0.39869,
+        0,
+        1.3922
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.0650099945068359,
+        2.3999838000000002,
+        0.45000099182128905
+      ],
+      "size_min": [
+        1.0650099945068359,
+        2.3999838000000002,
+        0.45000099182128905
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "2ed062d3-ac09-4cb5-aedf-d7b1be51380b",
+      "obj_type": "cabinet/bookcase - L shaped",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -1.4637,
+        0,
+        1.3922
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.0650099945068359,
+        2.3999838000000002,
+        0.45000099182128905
+      ],
+      "size_min": [
+        1.0650099945068359,
+        2.3999838000000002,
+        0.45000099182128905
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "2ed062d3-ac09-4cb5-aedf-d7b1be51380b",
+      "obj_type": "cabinet/bookcase - L shaped",
+      "role_assets": {}
+    }
+  ]
+}

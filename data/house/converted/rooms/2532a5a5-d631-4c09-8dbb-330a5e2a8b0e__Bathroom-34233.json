@@ -1,0 +1,259 @@
+{
+  "house_id": "2532a5a5-d631-4c09-8dbb-330a5e2a8b0e",
+  "room_id": "Bathroom-34233",
+  "region_type": "bathroom",
+  "region_type_raw": "Bathroom",
+  "priority": 0,
+  "source_file": "house_data_more.json",
+  "coordinate_raw": "xyz",
+  "unit": "m",
+  "area": 3.7333161740225007,
+  "height": 2.6,
+  "boundary": [
+    [
+      1.577034,
+      2.0327
+    ],
+    [
+      1.9012,
+      2.0327
+    ],
+    [
+      1.9012,
+      2.2913
+    ],
+    [
+      3.8092,
+      2.2913
+    ],
+    [
+      3.8092,
+      0.9162
+    ],
+    [
+      3.4605,
+      0.9162
+    ],
+    [
+      3.4605,
+      0.5233
+    ],
+    [
+      1.566899,
+      0.5233
+    ],
+    [
+      1.569497,
+      0.916407
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Bathroom-34233__door_0",
+      "pts": [
+        [
+          1.6784999859000003,
+          0.5233
+        ],
+        [
+          1.6784999859000003,
+          0.4033
+        ],
+        [
+          2.3991000141,
+          0.4033
+        ],
+        [
+          2.3991000141,
+          0.5233
+        ]
+      ],
+      "to_room": "LivingDiningRoom-34133"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "5e9c76c5-d4fe-4bf1-82cb-cd2709db642b",
+      "type": "toilet/floor-based toilet",
+      "size_m": [
+        0.4042,
+        0.6858,
+        0.5289
+      ],
+      "position": [
+        3.0943,
+        0.8662,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "cd8f2c5f-37dd-434e-88c4-cc3d3adb460a",
+      "type": "shower/floor based shower room",
+      "size_m": [
+        0.9216,
+        0.9216,
+        1.85
+      ],
+      "position": [
+        3.3484,
+        1.8305,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "6be72d8b-0bc6-42a0-8104-2677a60029fd",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        0.9606,
+        0.517,
+        1.969
+      ],
+      "position": [
+        2.3815,
+        2.0328,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "11b78ada-7ddf-4db7-9e3d-47a971f872a2",
+      "type": "shower/wall-attached shower head",
+      "size_m": [
+        0.2761,
+        0.5733,
+        1.4412
+      ],
+      "position": [
+        3.4029,
+        2.0047,
+        0.7
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "1035a994-9999-4b5f-ae39-2b43297d1968",
+      "type": "accessory/bathroom accessory - wall-attached",
+      "size_m": [
+        0.1592,
+        0.0943,
+        0.0733
+      ],
+      "position": [
+        2.7745,
+        0.5704,
+        0.6
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "2ea59b6e-3ef2-4477-8f82-98d833263e4c",
+      "type": "accessory/bathroom accessory - wall-attached",
+      "size_m": [
+        0.6703,
+        0.1482,
+        0.1027
+      ],
+      "position": [
+        1.6488,
+        1.6957,
+        1.4
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "760552ac-c6ae-4bcb-bf54-862f3f6947d0",
+      "type": "electric/waterproof panel",
+      "size_m": [
+        0.0939,
+        0.04,
+        0.11
+      ],
+      "position": [
+        3.361,
+        0.5433,
+        0.3
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "760552ac-c6ae-4bcb-bf54-862f3f6947d0",
+      "type": "electric/waterproof panel",
+      "size_m": [
+        0.0939,
+        0.04,
+        0.11
+      ],
+      "position": [
+        1.5959,
+        1.8656,
+        1.3
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "3f2f1eec-dceb-4c5c-9a65-f04d6102ecf6",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.3,
+        0.3,
+        0.0449
+      ],
+      "position": [
+        3.2178,
+        1.8719,
+        2.5551
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "66d0c1df-ba1c-4a8e-a67b-a846c138de31",
+      "type": "appliance/appliance - ceiling-attached",
+      "size_m": [
+        0.3,
+        0.3,
+        0.015
+      ],
+      "position": [
+        2.6167,
+        1.2729,
+        2.585
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "68b5ba96-97af-47c9-baee-26bde945f30a",
+      "type": "electric/switch - single switch",
+      "size_m": [
+        0.086,
+        0.0089,
+        0.086
+      ],
+      "position": [
+        2.6519,
+        0.5283,
+        1.2659
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "86208920-2467-4f42-8619-ed7261efe1c7",
+      "type": "electric/switch - yuba switch",
+      "size_m": [
+        0.086,
+        0.005,
+        0.086
+      ],
+      "position": [
+        2.5659,
+        0.5283,
+        1.2659
+      ],
+      "rotation_yaw_deg": 0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

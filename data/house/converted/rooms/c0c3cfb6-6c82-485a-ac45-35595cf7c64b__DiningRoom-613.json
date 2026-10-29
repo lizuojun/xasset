@@ -1,0 +1,292 @@
+{
+  "house_id": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b",
+  "room_id": "DiningRoom-613",
+  "region_type": "dining_room",
+  "region_type_raw": "DiningRoom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 7.1275,
+  "height": 2.6,
+  "boundary": [
+    [
+      -2.049,
+      -0.678
+    ],
+    [
+      1.123,
+      -0.678
+    ],
+    [
+      1.123,
+      -2.925
+    ],
+    [
+      -2.049,
+      -2.925
+    ]
+  ],
+  "doors": [
+    {
+      "id": "DiningRoom-613__door_0",
+      "pts": [
+        [
+          -1.242,
+          -2.925
+        ],
+        [
+          0.61,
+          -2.925
+        ],
+        [
+          0.61,
+          -3.045
+        ],
+        [
+          -1.242,
+          -3.045
+        ]
+      ],
+      "to_room": "Kitchen-763"
+    }
+  ],
+  "windows": [],
+  "holes": [
+    {
+      "id": "DiningRoom-613__hole_0",
+      "pts": [
+        [
+          0.657,
+          -0.678
+        ],
+        [
+          -1.957,
+          -0.678
+        ],
+        [
+          -1.957,
+          -0.558
+        ],
+        [
+          0.657,
+          -0.558
+        ]
+      ],
+      "to_room": "LivingRoom-3016"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "6be2e461-71dd-472b-829f-c54e57a6491f",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.5466,
+        0.2203,
+        0.3547
+      ],
+      "position": [
+        -1.6157,
+        0.74,
+        -2.02897
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "6be2e461-71dd-472b-829f-c54e57a6491f",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.5466,
+        0.2203,
+        0.3547
+      ],
+      "position": [
+        -0.95918,
+        0.74,
+        -2.02081
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "6be2e461-71dd-472b-829f-c54e57a6491f",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.5466,
+        0.2203,
+        0.3547
+      ],
+      "position": [
+        -0.95996,
+        0.74,
+        -1.59965
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "6be2e461-71dd-472b-829f-c54e57a6491f",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.5466,
+        0.2203,
+        0.3547
+      ],
+      "position": [
+        -1.62531,
+        0.74,
+        -1.61368
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "9791244d-a5dc-4678-95aa-653696cfa754",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        0.77459,
+        2.43333,
+        -1.67776
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "a717aa21-c287-4dde-b380-aacf40402056",
+      "type": "cabinet/hutch&buffet",
+      "size_m": [
+        2.464,
+        2.1,
+        0.3696
+      ],
+      "position": [
+        0.93836,
+        0,
+        -1.8014
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "2dc99cd1-a0e4-4ed7-a791-59cc9ea8fe33",
+      "type": "chair/armchair",
+      "size_m": [
+        0.5167,
+        0.7865,
+        0.6138
+      ],
+      "position": [
+        -1.61742,
+        0,
+        -1.2464
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "2dc99cd1-a0e4-4ed7-a791-59cc9ea8fe33",
+      "type": "chair/armchair",
+      "size_m": [
+        0.5167,
+        0.7865,
+        0.6138
+      ],
+      "position": [
+        -0.96044,
+        0,
+        -1.25319
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "2dc99cd1-a0e4-4ed7-a791-59cc9ea8fe33",
+      "type": "chair/armchair",
+      "size_m": [
+        0.5167,
+        0.7865,
+        0.6138
+      ],
+      "position": [
+        -1.59951,
+        0,
+        -2.40897
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "2dc99cd1-a0e4-4ed7-a791-59cc9ea8fe33",
+      "type": "chair/armchair",
+      "size_m": [
+        0.5167,
+        0.7865,
+        0.6138
+      ],
+      "position": [
+        -0.96639,
+        0,
+        -2.39194
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "07e8587a-5096-4030-8cac-4c5ff75b6a29",
+      "type": "table/dining table - square",
+      "size_m": [
+        1.5998,
+        0.74,
+        0.9003
+      ],
+      "position": [
+        -1.24937,
+        0,
+        -1.80426
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "c74cabfc-8131-4778-bede-c494bd546be3",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.5106,
+        0.4025,
+        0.3594
+      ],
+      "position": [
+        0.93312,
+        0.10733,
+        -1.85815
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "d58db2fe-6a6d-4be6-8105-24dc84cddc09",
+      "type": "lighting/pendant light",
+      "size_m": [
+        0.1299,
+        1.167,
+        0.1299
+      ],
+      "position": [
+        -1.64672,
+        1.283,
+        -1.76881
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "d58db2fe-6a6d-4be6-8105-24dc84cddc09",
+      "type": "lighting/pendant light",
+      "size_m": [
+        0.1299,
+        1.167,
+        0.1299
+      ],
+      "position": [
+        -1.13746,
+        1.283,
+        -1.76881
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

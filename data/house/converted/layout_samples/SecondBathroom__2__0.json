@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "SecondBathroom",
+  "region_type": "bathroom",
+  "area_bucket": "2",
+  "resolved": true,
+  "source_house": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "source_room": "SecondBathroom-7498",
+  "source_room_file": "355ab8b3-1609-4346-8202-1546938d57f2__SecondBathroom-7498.json",
+  "placed_groups": [
+    {
+      "group_code": 100505,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -1.8861,
+        0,
+        -1.05
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.0,
+        1.6170399475097657,
+        0.5222069931030273
+      ],
+      "size_min": [
+        1.0,
+        1.6170399475097657,
+        0.5222069931030273
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "50eb2a18-0a0c-4531-b83e-0b0fe224b67c",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_comment": "legacy room[\"type\"] -> xasset region_type 映射。master_bedroom/second_bedroom/master_bathroom/second_bathroom 这类主次前缀已由 xasset 自身的 _normalize_region_type()（scene_understand.py）处理，不在这里重复；本表只处理该函数不认识的字符串（大小写/命名差异 + 完全没有 xasset 对应项的类型）。",
+  "mapped": {
+    "LivingRoom":        "living_room",
+    "LivingDiningRoom":  "living_dining_room",
+    "DiningRoom":        "dining_room",
+    "Bedroom":           "bedroom",
+    "Bathroom":          "bathroom",
+    "KidsRoom":          "kids_room",
+    "Library":           "library",
+    "Balcony":           "balcony",
+    "Hallway":           "hallway",
+    "Kitchen":           "kitchen"
+  },
+  "unmapped": {
+    "_comment": "xasset groups.json 的 region_groups 里没有对应 key；几何仍转换，region_type 保留 snake_case 化后的原名，group_code 一律为 null。",
+    "Aisle":       "aisle",
+    "CloakRoom":   "cloak_room",
+    "Corridor":    "corridor",
+    "LaundryRoom": "laundry_room",
+    "OtherRoom":   "other_room",
+    "StorageRoom": "storage_room",
+    "":            "unknown"
+  }
+}

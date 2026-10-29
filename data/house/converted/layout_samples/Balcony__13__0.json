@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "Balcony",
+  "region_type": "balcony",
+  "area_bucket": "13",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100802,
+      "group_type_raw": "Appliance",
+      "position": [
+        1.874039,
+        0,
+        4.052647
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        0.599928,
+        0.850135,
+        0.612313
+      ],
+      "size_min": [
+        0.599928,
+        0.850135,
+        0.612313
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "bc6c355e-0b93-47cf-a784-de72ec978327",
+      "obj_type": "appliance/washer",
+      "role_assets": {}
+    }
+  ]
+}

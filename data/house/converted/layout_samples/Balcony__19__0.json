@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "Balcony",
+  "region_type": "balcony",
+  "area_bucket": "19",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100401,
+      "group_type_raw": "Rest",
+      "position": [
+        -1.098625,
+        0,
+        -7.734955
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        2.5537692884005283,
+        0.553948,
+        0.9249460771801634
+      ],
+      "size_min": [
+        0.5522509999999999,
+        0.553948,
+        0.551939
+      ],
+      "offset": [
+        0.014044999999999974,
+        0,
+        -0.011535000000000295
+      ],
+      "obj_main": "0a65127b-5620-49d8-8c0d-82799b96ab33",
+      "obj_type": "table/side table",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        2.93563,
+        0,
+        -7.03224
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.07918,
+        1.5902699999999999,
+        0.531615
+      ],
+      "size_min": [
+        1.07918,
+        1.5902699999999999,
+        0.531615
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "3776ada1-2da0-494b-a020-c06ca71690b2",
+      "obj_type": "shelf/decorative shelf",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -3.95177,
+        0,
+        -7.69118
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.849485663230896,
+        1.9366400146484375,
+        0.6500599670410157
+      ],
+      "size_min": [
+        1.849485663230896,
+        1.9366400146484375,
+        0.6500599670410157
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "415cafe1-3f54-49a2-8ec7-497f630b1cb9",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

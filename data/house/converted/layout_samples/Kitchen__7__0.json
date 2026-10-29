@@ -1,0 +1,67 @@
+{
+  "legacy_room_type": "Kitchen",
+  "region_type": "kitchen",
+  "area_bucket": "7",
+  "resolved": true,
+  "source_house": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "source_room": "Kitchen-4131",
+  "source_room_file": "92b2a56e-6694-4f5d-805a-71c7b2e636eb__Kitchen-4131.json",
+  "placed_groups": [
+    {
+      "group_code": 100801,
+      "group_type_raw": "Appliance",
+      "position": [
+        3.60858,
+        0,
+        -6.68015
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.6020002318916321,
+        1.8497599792480468,
+        0.6000017872558594
+      ],
+      "size_min": [
+        0.6020002318916321,
+        1.8497599792480468,
+        0.6000017872558594
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "dcb111b5-dc2c-4998-b7f1-f27703e39eea",
+      "obj_type": "appliance/refrigerator",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100801,
+      "group_type_raw": "Appliance",
+      "position": [
+        3.52827,
+        0,
+        -5.44342
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.6029999923706054,
+        0.8200029754638671,
+        0.49439498901367185
+      ],
+      "size_min": [
+        0.6029999923706054,
+        0.8200029754638671,
+        0.49439498901367185
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "6aa683c8-d8d2-438f-90af-a5ba4482d148",
+      "obj_type": "appliance/washer",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "house_id": "cbd3e0c5-f04b-4a14-a877-a990fe5dc9c5",
+  "room_id": "MasterBedroom-72265",
+  "region_type": "bedroom",
+  "region_type_raw": "MasterBedroom",
+  "priority": 1,
+  "source_file": "house_data_more.json",
+  "coordinate_raw": "xyz",
+  "unit": "m",
+  "area": 13.007902649114005,
+  "height": 2.8,
+  "boundary": [
+    [
+      -1.579191,
+      -4.415571
+    ],
+    [
+      -1.819191,
+      -4.415571
+    ],
+    [
+      -1.819191,
+      -4.975321
+    ],
+    [
+      -5.033143,
+      -4.975321
+    ],
+    [
+      -5.033143,
+      -4.094388
+    ],
+    [
+      -4.450731,
+      -4.094388
+    ],
+    [
+      -4.450731,
+      -1.241901
+    ],
+    [
+      -2.680637,
+      -1.241901
+    ],
+    [
+      -2.680637,
+      0.490832
+    ],
+    [
+      -1.579191,
+      0.490832
+    ]
+  ],
+  "doors": [
+    {
+      "id": "MasterBedroom-72265__door_0",
+      "pts": [
+        [
+          -2.680637,
+          -0.2943451446109999
+        ],
+        [
+          -2.800637,
+          -0.2943451446109999
+        ],
+        [
+          -2.800637,
+          -0.997534855389
+        ],
+        [
+          -2.680637,
+          -0.997534855389
+        ]
+      ],
+      "to_room": "MasterBathroom-3779"
+    },
+    {
+      "id": "MasterBedroom-72265__door_1",
+      "pts": [
+        [
+          -1.459191,
+          0.363128855389
+        ],
+        [
+          -1.579191,
+          0.363128855389
+        ],
+        [
+          -1.579191,
+          -0.34006085538900005
+        ],
+        [
+          -1.459191,
+          -0.34006085538900005
+        ]
+      ],
+      "to_room": "LivingDiningRoom-12657"
+    }
+  ],
+  "windows": [
+    {
+      "id": "MasterBedroom-72265__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -4.6572598272,
+          -4.975321
+        ],
+        [
+          -4.6572598272,
+          -5.215321
+        ],
+        [
+          -2.1033881728,
+          -5.215321
+        ],
+        [
+          -2.1033881728,
+          -4.975321
+        ]
+      ],
+      "height": 0.75,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "e09c3668-5ff8-431f-8b53-9ef91af74c8c",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.4425,
+        0.4417,
+        0.13
+      ],
+      "position": [
+        -3.131086,
+        -3.040716,
+        2.67
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "f4a20d2e-5e3e-4cd5-9159-6f29bea26b60",
+      "type": "bed/queen-size bed",
+      "size_m": [
+        1.6399,
+        2.1329,
+        1.3494
+      ],
+      "position": [
+        -3.352766,
+        -3.255202,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "fae94ef1-ce6c-4971-a87c-b7507a262b61",
+      "type": "table/table",
+      "size_m": [
+        0.71,
+        0.55,
+        0.76
+      ],
+      "position": [
+        -4.739381,
+        -4.472242,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "6106daa8-54bf-40c3-b51f-66b76ea46af7",
+      "type": "chair/chair",
+      "size_m": [
+        0.433,
+        0.4815,
+        0.9704
+      ],
+      "position": [
+        -4.428909,
+        -4.472242,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "f7ee8372-fc7f-4659-b895-9945c7fee091",
+      "type": "mirror/floor-based mirror",
+      "size_m": [
+        0.65,
+        0.1,
+        0.65
+      ],
+      "position": [
+        -4.942595,
+        -4.472242,
+        0.76
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "0369c9a9-6dd9-421f-b8c0-3311437a73b7",
+      "type": "table/night table",
+      "size_m": [
+        0.5108,
+        0.4286,
+        0.6098
+      ],
+      "position": [
+        -4.198645,
+        -2.147261,
+        0
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "258fd611-62ce-4ea0-9de2-0451b3286782",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.2371,
+        0.1891,
+        0.16
+      ],
+      "position": [
+        -4.804721,
+        -4.30093,
+        0.759909
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "717f0cd8-164f-4b2c-846d-d73780098777",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.1796,
+        0.1407,
+        0.2311
+      ],
+      "position": [
+        -4.790861,
+        -4.666475,
+        0.759909
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "90b400f3-1377-49cf-8a89-f6ab4d95ee0d",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.2824,
+        0.2824,
+        0.5535
+      ],
+      "position": [
+        -4.222992,
+        -2.1052,
+        0.609779
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "48c5cd21-f5fc-4f46-a582-e6f2cefad177",
+      "type": "300 - on top of others",
+      "size_m": [
+        0.1573,
+        0.1554,
+        0.0918
+      ],
+      "position": [
+        -4.10543,
+        -2.267916,
+        0.61
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "e7951383-7968-4268-8876-852d16955812",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        1.1,
+        0.032,
+        0.65
+      ],
+      "position": [
+        -4.434715,
+        -3.255875,
+        1.526063
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "d6658d93-3adc-4659-a3f8-cfb2677280a0",
+      "type": "accessory/bedding",
+      "size_m": [
+        1.9032,
+        2.127,
+        0.7366
+      ],
+      "position": [
+        -3.407736,
+        -3.237901,
+        0.117477
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "198ceb56-13fe-4850-b0b6-41959e248044",
+      "type": "electric/switch - tandem switch",
+      "size_m": [
+        0.0965,
+        0.0156,
+        0.0941
+      ],
+      "position": [
+        -1.586992,
+        -0.528998,
+        1.4
+      ],
+      "rotation_yaw_deg": 0
+    },
+    {
+      "id": "d6b759dd-adf0-4aaa-bae8-f6aff7c78bdd",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.1441,
+        0.1441,
+        0.1801
+      ],
+      "position": [
+        -2.14665,
+        -0.058592,
+        2.3199
+      ],
+      "rotation_yaw_deg": 0
+    }
+  ],
+  "furniture_placeholder_skipped": 4
+}

@@ -1,0 +1,207 @@
+{
+  "legacy_room_type": "LivingDiningRoom",
+  "region_type": "living_dining_room",
+  "area_bucket": "61",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100002,
+      "group_type_raw": "Meeting",
+      "position": [
+        -0.5512782834481191,
+        0,
+        1.8662940000000001
+      ],
+      "rotation_yaw_deg": 90.0,
+      "size": [
+        3.366042022705078,
+        0.8671489715576172,
+        1.8985424275495633
+      ],
+      "size_min": [
+        2.386300048828125,
+        0.8671489715576172,
+        0.9400460052490235
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.4751507165518809
+      ],
+      "obj_main": "1d2f1378-a07f-4173-adfd-a9bf3ae9abb2",
+      "obj_type": "sofa/ multi seat sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100102,
+      "group_type_raw": "Dining",
+      "position": [
+        -3.821968,
+        0,
+        1.866294
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        2.2075199999999997,
+        0.7165419769287109,
+        1.5076380126953133
+      ],
+      "size_min": [
+        2.2075199999999997,
+        0.7165419769287109,
+        0.8
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.000750000000000195
+      ],
+      "obj_main": "ccbd1606-a343-4d81-be60-26161f12049c",
+      "obj_type": "table/dining table - square",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        1.9495370518310549,
+        0,
+        1.619326
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        1.8494000244140625,
+        1.644647,
+        0.4264649963378907
+      ],
+      "size_min": [
+        1.28694,
+        0.7946469999999999,
+        0.040195100000000004
+      ],
+      "offset": [
+        0.0023560000000000247,
+        0,
+        -0.19313494816894533
+      ],
+      "obj_main": "f8f79784-3720-4a75-bd79-aa86bb9cb96e",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        2.00377,
+        0,
+        -3.183921
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        3.648,
+        0.946,
+        0.318
+      ],
+      "size_min": [
+        3.648,
+        0.946,
+        0.318
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "13ad5fff-dcdd-4996-901c-d8831dca67db",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -5.38204,
+        0,
+        2.450179
+      ],
+      "rotation_yaw_deg": 90.0,
+      "size": [
+        2.123000030517578,
+        2.5,
+        0.4097710037231445
+      ],
+      "size_min": [
+        2.123000030517578,
+        2.5,
+        0.4097710037231445
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "e68da1e0-4f07-4809-a419-0ea42875a147",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -1.712078,
+        0,
+        1.866294
+      ],
+      "rotation_yaw_deg": 90.0,
+      "size": [
+        2.7679497183731083,
+        0.9000050354003907,
+        0.42305601924884795
+      ],
+      "size_min": [
+        2.7679497183731083,
+        0.9000050354003907,
+        0.42305601924884795
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "db0ca2ab-af19-4312-84aa-3c7fe6269ff8",
+      "obj_type": "table/table",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Work",
+      "position": [
+        0.7859296700508117,
+        0,
+        -3.279889
+      ],
+      "rotation_yaw_deg": 90.0,
+      "size": [
+        1.1951699829101563,
+        0.7830819702148437,
+        1.034482341505432
+      ],
+      "size_min": [
+        1.1951699829101563,
+        0.7830819702148437,
+        0.4753030014038086
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.2795896700508117
+      ],
+      "obj_main": "b9706600-5325-4c31-9d35-74b4df6bf50d",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

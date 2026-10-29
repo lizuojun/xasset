@@ -1,0 +1,168 @@
+{
+  "house_id": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "room_id": "Balcony-285",
+  "region_type": "balcony",
+  "region_type_raw": "Balcony",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 2.3678,
+  "height": 2.6,
+  "boundary": [
+    [
+      -7.802,
+      1.049
+    ],
+    [
+      -6.16,
+      1.049
+    ],
+    [
+      -6.16,
+      -0.393
+    ],
+    [
+      -7.802,
+      -0.393
+    ]
+  ],
+  "doors": [],
+  "windows": [
+    {
+      "id": "Balcony-285__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -7.743,
+          -0.393
+        ],
+        [
+          -6.29,
+          -0.393
+        ],
+        [
+          -6.29,
+          -0.633
+        ],
+        [
+          -7.743,
+          -0.633
+        ]
+      ],
+      "height": 0.2,
+      "to_room": null
+    },
+    {
+      "id": "Balcony-285__window_1",
+      "window_type": "normal",
+      "pts": [
+        [
+          -6.16,
+          -0.331
+        ],
+        [
+          -6.16,
+          0.989
+        ],
+        [
+          -5.92,
+          0.989
+        ],
+        [
+          -5.92,
+          -0.331
+        ]
+      ],
+      "height": 0,
+      "to_room": "Library-1109"
+    }
+  ],
+  "holes": [
+    {
+      "id": "Balcony-285__hole_0",
+      "pts": [
+        [
+          -6.27,
+          1.049
+        ],
+        [
+          -7.23,
+          1.049
+        ],
+        [
+          -7.23,
+          1.289
+        ],
+        [
+          -6.27,
+          1.289
+        ]
+      ],
+      "to_room": "Kitchen-3935"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.2344,
+        0.1015,
+        0.00556
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.20751,
+        0.76039,
+        0.00556
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "6aa683c8-d8d2-438f-90af-a5ba4482d148",
+      "type": "appliance/washer",
+      "size_m": [
+        0.603,
+        0.82,
+        0.4944
+      ],
+      "position": [
+        -7.39768,
+        0,
+        0.70572
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "0fbde68a-8209-48e7-be66-7b8fc34e0f1f",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        -6.90942,
+        2.38333,
+        0.30498
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

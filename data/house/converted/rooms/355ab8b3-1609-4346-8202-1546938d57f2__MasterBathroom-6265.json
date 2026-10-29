@@ -1,0 +1,294 @@
+{
+  "house_id": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "room_id": "MasterBathroom-6265",
+  "region_type": "bathroom",
+  "region_type_raw": "MasterBathroom",
+  "priority": 1,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 5.06,
+  "height": 2.6,
+  "boundary": [
+    [
+      0.675,
+      -1.85
+    ],
+    [
+      2.875,
+      -1.85
+    ],
+    [
+      2.875,
+      -4.15
+    ],
+    [
+      0.675,
+      -4.15
+    ]
+  ],
+  "doors": [
+    {
+      "id": "MasterBathroom-6265__door_0",
+      "pts": [
+        [
+          2.299,
+          -1.85
+        ],
+        [
+          1.498,
+          -1.85
+        ],
+        [
+          1.498,
+          -1.75
+        ],
+        [
+          2.299,
+          -1.75
+        ]
+      ],
+      "to_room": "MasterBedroom-5852"
+    }
+  ],
+  "windows": [
+    {
+      "id": "MasterBathroom-6265__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          1.191,
+          -4.15
+        ],
+        [
+          2.245,
+          -4.15
+        ],
+        [
+          2.245,
+          -4.35
+        ],
+        [
+          1.191,
+          -4.35
+        ]
+      ],
+      "height": 0.9,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "a139fc4c-62f8-4f9b-8cf8-3c846efdc206",
+      "type": "toilet/floor-based toilet",
+      "size_m": [
+        0.4055,
+        0.5106,
+        0.6802
+      ],
+      "position": [
+        1.01495,
+        0,
+        -2.92775
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "1e8b68f7-73c7-45e1-b087-922a201d2cfe",
+      "type": "bath/freestanding bath",
+      "size_m": [
+        1.7,
+        0.7966,
+        0.8
+      ],
+      "position": [
+        1.525,
+        0,
+        -3.75
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0e5c2e67-d457-494a-8a98-ef8439f8b0f3",
+      "type": "shower/wall-attached shower head",
+      "size_m": [
+        0.1883,
+        1.4932,
+        0.5335
+      ],
+      "position": [
+        0.94217,
+        0.5779,
+        -3.62887
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "f91400ab-0f89-4a05-881e-57ef8fc7f92a",
+      "type": "appliance/washer",
+      "size_m": [
+        0.645,
+        0.9157,
+        0.7195
+      ],
+      "position": [
+        1.03473,
+        0,
+        -2.30001
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "50eb2a18-0a0c-4531-b83e-0b0fe224b67c",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.0,
+        1.617,
+        0.5222
+      ],
+      "position": [
+        2.57164,
+        0,
+        -2.38113
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "6487568d-f97a-4657-9ced-11a33cab164f",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1407,
+        0.1082,
+        0.1345
+      ],
+      "position": [
+        1.11037,
+        0.9137,
+        -2.20191
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "74e60f3d-bd78-414f-8fdc-75f153673860",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.305,
+        0.1191,
+        0.2211
+      ],
+      "position": [
+        0.87284,
+        0.9137,
+        -2.3968
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "3cdea851-8fe1-4a17-a6d9-8c785141f6a6",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.2356,
+        0.3982,
+        0.1491
+      ],
+      "position": [
+        0.87115,
+        0.90211,
+        -2.14244
+      ],
+      "rotation_yaw_deg": -87.349
+    },
+    {
+      "id": "65b1f4f5-c261-43f9-a55b-e0828cd75d5f",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1908,
+        0.2213,
+        0.226
+      ],
+      "position": [
+        2.51867,
+        0.578,
+        -1.97769
+      ],
+      "rotation_yaw_deg": -105.288
+    },
+    {
+      "id": "9e156d74-85b6-40d2-bd69-32996e04e0a6",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.3,
+        0.2822,
+        0.18
+      ],
+      "position": [
+        2.63122,
+        0.57743,
+        -2.74964
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "310e7757-a6a4-4d59-b3c7-49cbc95e8a5c",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.17,
+        0.156,
+        0.17
+      ],
+      "position": [
+        2.74932,
+        0.834,
+        -2.58463
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "4c6f2cd9-bce6-40f1-aba8-23cbcd43ad66",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1714,
+        0.228,
+        0.0618
+      ],
+      "position": [
+        2.47081,
+        1.10037,
+        -3.88539
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "06e61aac-7177-4283-9f5c-3daf08d18cd7",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1503,
+        0.2576,
+        0.1445
+      ],
+      "position": [
+        2.48345,
+        1.10037,
+        -3.64764
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "d8f64687-a97f-4cee-9f15-7ab3d8c46c25",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.45,
+        0.0549,
+        0.45
+      ],
+      "position": [
+        1.88374,
+        2.38,
+        -2.79787
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

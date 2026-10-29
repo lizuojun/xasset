@@ -1,0 +1,114 @@
+{
+  "house_id": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b",
+  "room_id": "LaundryRoom-873",
+  "region_type": "laundry_room",
+  "region_type_raw": "LaundryRoom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 2.0445,
+  "height": 2.4,
+  "boundary": [
+    [
+      -2.049,
+      -4.331
+    ],
+    [
+      -0.958,
+      -4.331
+    ],
+    [
+      -0.958,
+      -6.205
+    ],
+    [
+      -2.049,
+      -6.205
+    ]
+  ],
+  "doors": [],
+  "windows": [
+    {
+      "id": "LaundryRoom-873__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -1.671,
+          -6.205
+        ],
+        [
+          -1.111,
+          -6.205
+        ],
+        [
+          -1.111,
+          -6.445
+        ],
+        [
+          -1.671,
+          -6.445
+        ]
+      ],
+      "height": 0.5,
+      "to_room": null
+    }
+  ],
+  "holes": [
+    {
+      "id": "LaundryRoom-873__hole_0",
+      "pts": [
+        [
+          -0.958,
+          -5.354
+        ],
+        [
+          -0.958,
+          -4.637
+        ],
+        [
+          -0.718,
+          -4.637
+        ],
+        [
+          -0.718,
+          -5.354
+        ]
+      ],
+      "to_room": "Kitchen-763"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "601387fc-5539-425d-8e25-3ed7620d0c57",
+      "type": "appliance/washer",
+      "size_m": [
+        0.6379,
+        0.9036,
+        0.621
+      ],
+      "position": [
+        -1.70295,
+        0,
+        -5.59693
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "14171ad5-4284-4a1e-92bf-62e4685868a3",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.3,
+        0.0474,
+        0.3
+      ],
+      "position": [
+        -1.63102,
+        2.35265,
+        -5.08489
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

@@ -1,0 +1,149 @@
+{
+  "house_id": "dd6e39f6-6816-4477-b54e-168bb54c3e45",
+  "room_id": "MasterBathroom-582",
+  "region_type": "bathroom",
+  "region_type_raw": "MasterBathroom",
+  "priority": 1,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 5.885,
+  "height": 2.4,
+  "boundary": [
+    [
+      -5.009,
+      3.009
+    ],
+    [
+      -2.468,
+      3.009
+    ],
+    [
+      -2.468,
+      0.693
+    ],
+    [
+      -5.009,
+      0.693
+    ]
+  ],
+  "doors": [
+    {
+      "id": "MasterBathroom-582__door_0",
+      "pts": [
+        [
+          -2.468,
+          2.054
+        ],
+        [
+          -2.468,
+          2.889
+        ],
+        [
+          -2.348,
+          2.889
+        ],
+        [
+          -2.348,
+          2.054
+        ]
+      ],
+      "to_room": "MasterBedroom-674"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "0eaa6458-1ed0-45ea-8318-7935016cd201",
+      "type": "toilet/floor-based toilet",
+      "size_m": [
+        0.3771,
+        0.7341,
+        0.7181
+      ],
+      "position": [
+        -4.6497,
+        0,
+        2.49145
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "0266a66d-e124-44cd-8d1b-ca2994531d40",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.0,
+        1.9351,
+        0.51
+      ],
+      "position": [
+        -2.9683,
+        0,
+        0.94804
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "acc0123a-be37-4233-96e0-210e56a21568",
+      "type": "shower/wall-attached shower head",
+      "size_m": [
+        0.2565,
+        1.3046,
+        0.5612
+      ],
+      "position": [
+        -4.50071,
+        1,
+        0.97365
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "116a426e-f14b-4ca3-9588-75632b4bdbed",
+      "type": "shower/shower screen",
+      "size_m": [
+        1.4136,
+        1.902,
+        0.5216
+      ],
+      "position": [
+        -4.17945,
+        0,
+        1.53385
+      ],
+      "rotation_yaw_deg": 45.0
+    },
+    {
+      "id": "aa73300e-dbad-47d3-a6f1-983e48b9cc2a",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        0.67,
+        0.87,
+        0.0458
+      ],
+      "position": [
+        -4.98573,
+        1.10418,
+        2.47223
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "726f3baa-cc64-49ba-bb06-37d672dc69c8",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.6,
+        0.0403,
+        0.3
+      ],
+      "position": [
+        -3.55893,
+        2.35967,
+        1.96243
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 0
+}

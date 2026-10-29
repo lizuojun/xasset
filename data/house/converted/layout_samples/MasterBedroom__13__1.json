@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "13",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -4.23481,
+        0,
+        -2.11323
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        3.0054400634765623,
+        1.374720001220703,
+        2.2634599304199217
+      ],
+      "size_min": [
+        1.9974400329589843,
+        1.374720001220703,
+        2.2634599304199217
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "ab27a936-af0c-4c4c-ae42-ff1a8dd113b4",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        -4.2663,
+        0,
+        -0.22853
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        2.1999938074264525,
+        2.3349000549316408,
+        0.6000579833984375
+      ],
+      "size_min": [
+        2.1999938074264525,
+        2.3349000549316408,
+        0.6000579833984375
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "5b5bf64e-4d12-49c6-8b95-783bcf0b383e",
+      "obj_type": "storage unit/armoire - L shaped",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        -2.1063,
+        0,
+        -2.22101
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.5608900451660157,
+        1.6188980102539063,
+        0.1131980037689209
+      ],
+      "size_min": [
+        1.5608900451660157,
+        0.9188980102539063,
+        0.1131980037689209
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "4f2345b3-6cc7-4d59-b8aa-52503e6a3da7",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    }
+  ]
+}

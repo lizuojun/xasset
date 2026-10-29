@@ -1,0 +1,10 @@
+{
+  "legacy_room_type": "Balcony",
+  "region_type": "balcony",
+  "area_bucket": "3",
+  "resolved": true,
+  "source_house": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b",
+  "source_room": "Balcony-344",
+  "source_room_file": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b__Balcony-344.json",
+  "placed_groups": []
+}

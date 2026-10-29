@@ -1,0 +1,67 @@
+{
+  "legacy_room_type": "SecondBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "12",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        4.065024,
+        0,
+        2.593844999786377
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        2.100437999572754,
+        1.20182,
+        2.14453
+      ],
+      "size_min": [
+        1.6003399999999999,
+        1.20182,
+        2.14453
+      ],
+      "offset": [
+        -0.2500489997863769,
+        0,
+        -0.0
+      ],
+      "obj_main": "0318687d-1934-4844-a526-b624456ef19f",
+      "obj_type": "bed/single bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        4.387289,
+        0,
+        0.4122720028381348
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.5,
+        2.025,
+        0.7920689974975587
+      ],
+      "size_min": [
+        1.5,
+        2.025,
+        0.4900009918212891
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.15103400283813478
+      ],
+      "obj_main": "db180c1c-298c-4fb4-a793-390fbd6f4013",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

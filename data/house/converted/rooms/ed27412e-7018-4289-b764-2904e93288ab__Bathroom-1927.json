@@ -1,0 +1,384 @@
+{
+  "house_id": "ed27412e-7018-4289-b764-2904e93288ab",
+  "room_id": "Bathroom-1927",
+  "region_type": "bathroom",
+  "region_type_raw": "Bathroom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 4.6447,
+  "height": 2.4,
+  "boundary": [
+    [
+      0.902,
+      -2.046
+    ],
+    [
+      2.621,
+      -2.046
+    ],
+    [
+      2.621,
+      -4.748
+    ],
+    [
+      0.902,
+      -4.748
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Bathroom-1927__door_0",
+      "pts": [
+        [
+          1.885,
+          -2.046
+        ],
+        [
+          1.062,
+          -2.046
+        ],
+        [
+          1.062,
+          -1.926
+        ],
+        [
+          1.885,
+          -1.926
+        ]
+      ],
+      "to_room": "LivingDiningRoom-164"
+    }
+  ],
+  "windows": [
+    {
+      "id": "Bathroom-1927__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          0.959,
+          -4.748
+        ],
+        [
+          1.409,
+          -4.748
+        ],
+        [
+          1.409,
+          -4.988
+        ],
+        [
+          0.959,
+          -4.988
+        ]
+      ],
+      "height": 0.8,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "14171ad5-4284-4a1e-92bf-62e4685868a3",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.3,
+        0.0474,
+        0.3
+      ],
+      "position": [
+        1.64939,
+        2.35265,
+        -3.48764
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0266a66d-e124-44cd-8d1b-ca2994531d40",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.0,
+        1.9351,
+        0.51
+      ],
+      "position": [
+        2.36634,
+        0,
+        -2.54609
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "ef900b0e-e5d9-4558-8cfe-a34d0b048f9f",
+      "type": "shower/wall-attached shower head",
+      "size_m": [
+        0.1754,
+        0.9363,
+        0.4268
+      ],
+      "position": [
+        2.35787,
+        0.7,
+        -4.22588
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "51322724-187d-4e1b-969d-e62026d1f1ca",
+      "type": "toilet/floor-based toilet",
+      "size_m": [
+        0.3656,
+        0.7394,
+        0.6902
+      ],
+      "position": [
+        1.32001,
+        0,
+        -4.40278
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "6aa683c8-d8d2-438f-90af-a5ba4482d148",
+      "type": "appliance/washer",
+      "size_m": [
+        0.603,
+        0.82,
+        0.4944
+      ],
+      "position": [
+        2.37414,
+        0,
+        -3.34759
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "da764653-8a75-4880-99ec-b5d268813e16",
+      "type": "accessory/bathroom accessory - ceiling-attached",
+      "size_m": [
+        1.2842,
+        1.8074,
+        0.1368
+      ],
+      "position": [
+        2.10235,
+        0.3,
+        -3.78773
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "da764653-8a75-4880-99ec-b5d268813e16",
+      "type": "accessory/bathroom accessory - ceiling-attached",
+      "size_m": [
+        1.2842,
+        1.8074,
+        0.1368
+      ],
+      "position": [
+        1.62172,
+        0.3,
+        -4.2635
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "09514a0d-e407-461d-862a-60a4f93c9983",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.6107,
+        0.5724,
+        0.9193
+      ],
+      "position": [
+        2.31605,
+        0.83809,
+        -3.25973
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "68b5ba96-97af-47c9-baee-26bde945f30a",
+      "type": "electric/switch - single switch",
+      "size_m": [
+        0.086,
+        0.086,
+        0.0089
+      ],
+      "position": [
+        2.08513,
+        1.3,
+        -2.05109
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "86208920-2467-4f42-8619-ed7261efe1c7",
+      "type": "electric/switch - yuba switch",
+      "size_m": [
+        0.086,
+        0.086,
+        0.005
+      ],
+      "position": [
+        2.17513,
+        1.3,
+        -2.05109
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "4286554a-5117-474b-b1f9-fb430484b983",
+      "type": "water/cold water",
+      "size_m": [
+        0.03,
+        0.03,
+        0.0087
+      ],
+      "position": [
+        2.61634,
+        0.45,
+        -2.49609
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "e2a240b7-8172-4946-8f44-06ee2c762a00",
+      "type": "water/hot water",
+      "size_m": [
+        0.03,
+        0.03,
+        0.0087
+      ],
+      "position": [
+        2.61634,
+        0.45,
+        -2.59609
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "4286554a-5117-474b-b1f9-fb430484b983",
+      "type": "water/cold water",
+      "size_m": [
+        0.03,
+        0.03,
+        0.0087
+      ],
+      "position": [
+        2.61634,
+        1.15,
+        -4.17588
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "e2a240b7-8172-4946-8f44-06ee2c762a00",
+      "type": "water/hot water",
+      "size_m": [
+        0.03,
+        0.03,
+        0.0087
+      ],
+      "position": [
+        2.61634,
+        1.15,
+        -4.27588
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "da9386d0-93e4-4ffe-b81a-7d2d58f9302d",
+      "type": "electric/socket strong - five-hole socket",
+      "size_m": [
+        0.086,
+        0.086,
+        0.0053
+      ],
+      "position": [
+        1.55198,
+        0.35619,
+        -4.72287
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "760552ac-c6ae-4bcb-bf54-862f3f6947d0",
+      "type": "electric/waterproof panel",
+      "size_m": [
+        0.0939,
+        0.11,
+        0.04
+      ],
+      "position": [
+        1.55281,
+        0.35,
+        -4.72787
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "4286554a-5117-474b-b1f9-fb430484b983",
+      "type": "water/cold water",
+      "size_m": [
+        0.03,
+        0.03,
+        0.0087
+      ],
+      "position": [
+        1.32001,
+        0.15,
+        -4.74287
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "da9386d0-93e4-4ffe-b81a-7d2d58f9302d",
+      "type": "electric/socket strong - five-hole socket",
+      "size_m": [
+        0.086,
+        0.086,
+        0.0053
+      ],
+      "position": [
+        2.59634,
+        1.30619,
+        -3.14691
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "760552ac-c6ae-4bcb-bf54-862f3f6947d0",
+      "type": "electric/waterproof panel",
+      "size_m": [
+        0.0939,
+        0.11,
+        0.04
+      ],
+      "position": [
+        2.60134,
+        1.3,
+        -3.14609
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "4286554a-5117-474b-b1f9-fb430484b983",
+      "type": "water/cold water",
+      "size_m": [
+        0.03,
+        0.03,
+        0.0087
+      ],
+      "position": [
+        2.61634,
+        0.95,
+        -3.34759
+      ],
+      "rotation_yaw_deg": -90.001
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

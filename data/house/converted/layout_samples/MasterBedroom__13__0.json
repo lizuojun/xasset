@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "13",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -3.035,
+        0,
+        3.11117
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        3.000000712408448,
+        0.8119090270996092,
+        2.1000044
+      ],
+      "size_min": [
+        3.000000712408448,
+        0.8119090270996092,
+        2.1000044
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "f2daf2ca-5b52-4660-9f8f-9a56ed745137",
+      "obj_type": "bed/queen-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -3.04048,
+        0,
+        1.255
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.089023635,
+        2.60416,
+        0.60000028614
+      ],
+      "size_min": [
+        2.089023635,
+        2.60416,
+        0.60000028614
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "b5080db8-cb9b-4659-9948-c95808bd6c4d",
+      "obj_type": "storage unit/wall-attached storage unit",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        -0.64,
+        0,
+        1.67
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.429992,
+        2.5999935,
+        0.6
+      ],
+      "size_min": [
+        1.429992,
+        2.5999935,
+        0.6
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "7c8a6ef3-4f81-42f3-a5a6-f804aea35531",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        -1.0266,
+        0,
+        3.23515
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.5608900451660157,
+        1.7688980102539062,
+        0.1131980037689209
+      ],
+      "size_min": [
+        1.5608900451660157,
+        0.9188980102539063,
+        0.1131980037689209
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "f52acfbb-b484-4d8e-a247-dc5e052d6874",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    }
+  ]
+}

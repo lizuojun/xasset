@@ -1,0 +1,67 @@
+{
+  "legacy_room_type": "Library",
+  "region_type": "library",
+  "area_bucket": "10",
+  "resolved": true,
+  "source_house": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "source_room": "Library-4117",
+  "source_room_file": "355ab8b3-1609-4346-8202-1546938d57f2__Library-4117.json",
+  "placed_groups": [
+    {
+      "group_code": 100301,
+      "group_type_raw": "Work",
+      "position": [
+        -6.5383938915336,
+        0,
+        -1.679066742370585
+      ],
+      "rotation_yaw_deg": 89.999,
+      "size": [
+        2.5401000000000002,
+        0.76,
+        1.275632216962458
+      ],
+      "size_min": [
+        2.5401000000000002,
+        0.76,
+        0.56
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.357816108481229
+      ],
+      "obj_main": "d379e40f-bd45-4a85-a42e-8d141751fa1d",
+      "obj_type": "table/table",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100504,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -5.4511,
+        0,
+        -3.14956
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        3.148627219683838,
+        2.099969940185547,
+        0.40087898254394533
+      ],
+      "size_min": [
+        3.148627219683838,
+        2.099969940185547,
+        0.40087898254394533
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "64ead52d-2995-4cdf-a8b9-55c2116ffaa6",
+      "obj_type": "cabinet/bookcase - L shaped",
+      "role_assets": {}
+    }
+  ]
+}

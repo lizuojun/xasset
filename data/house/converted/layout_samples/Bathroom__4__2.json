@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "Bathroom",
+  "region_type": "bathroom",
+  "area_bucket": "4",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100601,
+      "group_type_raw": "Toilet",
+      "position": [
+        2.03461,
+        0,
+        3.77654
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        0.3632720184326172,
+        0.7909210205078125,
+        0.6855879974365234
+      ],
+      "size_min": [
+        0.3632720184326172,
+        0.7909210205078125,
+        0.6855879974365234
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "2488d381-8ac5-4ca4-9cab-a859a96f6172",
+      "obj_type": "toilet/floor-based toilet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100505,
+      "group_type_raw": "Cabinet",
+      "position": [
+        0.47046,
+        0,
+        2.50665
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        0.8385209655761718,
+        1.8321499633789062,
+        0.518499984741211
+      ],
+      "size_min": [
+        0.8385209655761718,
+        1.8321499633789062,
+        0.518499984741211
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "a7c91146-c11d-4c5e-bb9a-47f9a0f3af2c",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100701,
+      "group_type_raw": "Bath",
+      "position": [
+        1.71053,
+        0,
+        2.52801
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        0.2565329933166504,
+        2.2046299743652344,
+        0.5612260055541992
+      ],
+      "size_min": [
+        0.2565329933166504,
+        1.3046299743652343,
+        0.5612260055541992
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "acc0123a-be37-4233-96e0-210e56a21568",
+      "obj_type": "shower/wall-attached shower head",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Appliance",
+      "position": [
+        0.41094,
+        0,
+        3.98102
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.6449669647216797,
+        0.9157250213623047,
+        0.719469985961914
+      ],
+      "size_min": [
+        0.6449669647216797,
+        0.9157250213623047,
+        0.719469985961914
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "f91400ab-0f89-4a05-881e-57ef8fc7f92a",
+      "obj_type": "appliance/washer",
+      "role_assets": {}
+    }
+  ]
+}

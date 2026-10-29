@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "19",
+  "resolved": true,
+  "source_house": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "source_room": "MasterBedroom-7201",
+  "source_room_file": "92b2a56e-6694-4f5d-805a-71c7b2e636eb__MasterBedroom-7201.json",
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -3.92589,
+        0,
+        6.08568
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        3.005646057128906,
+        0.7965589904785156,
+        2.2669999694824217
+      ],
+      "size_min": [
+        2.0056500244140625,
+        0.7965589904785156,
+        2.2669999694824217
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "89aa06b9-013b-47dd-8575-83b26cb372a0",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        -1.5778599983384052,
+        0,
+        6.011890000000015
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        2.538747,
+        1.6790390014648438,
+        0.42000198696576807
+      ],
+      "size_min": [
+        1.6516620667724609,
+        0.8790390014648437,
+        0.09872329711914063
+      ],
+      "offset": [
+        -0.07177146249571353,
+        0,
+        -0.16063934492331372
+      ],
+      "obj_main": "ad98c113-55bd-403b-b2ad-7df2191e6567",
+      "obj_type": "electronics/TV - on top of others",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        -3.72663,
+        0,
+        3.57118
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.665004595240784,
+        2.6000060895904538,
+        0.6101010131835938
+      ],
+      "size_min": [
+        2.665004595240784,
+        2.6000060895904538,
+        0.6101010131835938
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "13cd8aa8-9dc4-44ce-b496-c9f3032fee8b",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "Bathroom",
+  "region_type": "bathroom",
+  "area_bucket": "4",
+  "resolved": true,
+  "source_house": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "source_room": "SecondBathroom-10388",
+  "source_room_file": "92b2a56e-6694-4f5d-805a-71c7b2e636eb__SecondBathroom-10388.json",
+  "placed_groups": [
+    {
+      "group_code": 100601,
+      "group_type_raw": "Toilet",
+      "position": [
+        3.62616,
+        0,
+        -0.47567
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.3656010055541992,
+        0.7394329833984375,
+        0.690177001953125
+      ],
+      "size_min": [
+        0.3656010055541992,
+        0.7394329833984375,
+        0.690177001953125
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "ef19772e-c0f3-42c8-b83d-2956752d5a6a",
+      "obj_type": "toilet/floor-based toilet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100701,
+      "group_type_raw": "Bath",
+      "position": [
+        3.56592,
+        0,
+        0.18448
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.33792701721191404,
+        2.283560028076172,
+        0.5697999954223633
+      ],
+      "size_min": [
+        0.33792701721191404,
+        1.2835600280761719,
+        0.5697999954223633
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "08069d57-ba9d-4cf3-911f-a1cb93c1c4ea",
+      "obj_type": "shower/wall-attached shower head",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100505,
+      "group_type_raw": "Cabinet",
+      "position": [
+        3.54302,
+        0,
+        -1.09102
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.24039,
+        1.66249,
+        0.5238929999999999
+      ],
+      "size_min": [
+        1.24039,
+        1.66249,
+        0.5238929999999999
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "1eb04b17-4417-4efa-9ece-34db6b22d57e",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

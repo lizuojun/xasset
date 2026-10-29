@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "SecondBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "11",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -3.084997723951793,
+        0,
+        -2.770290196970361
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.99999357848,
+        0.9936849999999999,
+        2.0000032724
+      ],
+      "size_min": [
+        1.4999939724,
+        0.9936849999999999,
+        2.0000032724
+      ],
+      "offset": [
+        0.24999980304000002,
+        0,
+        -0.0
+      ],
+      "obj_main": "4ecae428-075c-4a3c-aadd-9d76a1f0a905",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -3.04048,
+        0,
+        -1.455
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        2.089023635,
+        2.60416,
+        0.60000028614
+      ],
+      "size_min": [
+        2.089023635,
+        2.60416,
+        0.60000028614
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "b5080db8-cb9b-4659-9948-c95808bd6c4d",
+      "obj_type": "storage unit/wall-attached storage unit",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        -1.0516,
+        0,
+        -2.96936
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.5608900451660157,
+        1.7688980102539062,
+        0.1131980037689209
+      ],
+      "size_min": [
+        1.5608900451660157,
+        0.9188980102539063,
+        0.1131980037689209
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "4e3542fd-930a-4d07-bb37-dab0012d11b2",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        -3.4002096780262074,
+        0,
+        -4.237503491281547
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.214992062,
+        2.338,
+        1.3695886439793705
+      ],
+      "size_min": [
+        1.214992062,
+        2.338,
+        0.6026279999999999
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.38348032198968524
+      ],
+      "obj_main": "d6dbecb7-dcc5-4ea9-a7fd-76deb779fe96",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "house_id": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "room_id": "Bathroom-4190",
+  "region_type": "bathroom",
+  "region_type_raw": "Bathroom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 2.9171,
+  "height": 2.6,
+  "boundary": [
+    [
+      -5.92,
+      5.647
+    ],
+    [
+      -4.138,
+      5.647
+    ],
+    [
+      -4.138,
+      4.01
+    ],
+    [
+      -5.92,
+      4.01
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Bathroom-4190__door_0",
+      "pts": [
+        [
+          -4.138,
+          4.335
+        ],
+        [
+          -4.138,
+          5.019
+        ],
+        [
+          -4.038,
+          5.019
+        ],
+        [
+          -4.038,
+          4.335
+        ]
+      ],
+      "to_room": "Bathroom-6351"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "e807f023-57d9-4401-9baf-9bbc25712362",
+      "type": "shower/shower screen",
+      "size_m": [
+        1.6003,
+        2.0001,
+        0.1372
+      ],
+      "position": [
+        -5.00151,
+        0,
+        4.82835
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "08069d57-ba9d-4cf3-911f-a1cb93c1c4ea",
+      "type": "shower/wall-attached shower head",
+      "size_m": [
+        0.3379,
+        1.2836,
+        0.5698
+      ],
+      "position": [
+        -5.52554,
+        1,
+        5.36206
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "14171ad5-4284-4a1e-92bf-62e4685868a3",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.3,
+        0.0474,
+        0.3
+      ],
+      "position": [
+        -5.07073,
+        2.35265,
+        4.82721
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "eefcd526-50e2-4de9-9f81-349ac1cc0351",
+      "type": "toilet/floor-based toilet",
+      "size_m": [
+        0.3662,
+        0.7765,
+        0.7107
+      ],
+      "position": [
+        -4.62439,
+        0,
+        5.29156
+      ],
+      "rotation_yaw_deg": 180.0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

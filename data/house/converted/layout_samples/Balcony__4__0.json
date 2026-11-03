@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "Balcony",
+  "region_type": "balcony",
+  "area_bucket": "4",
+  "resolved": true,
+  "source_house": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "source_room": "Balcony-3317",
+  "source_room_file": "aa745ebf-dabd-469e-a947-23375f8b7d45__Balcony-3317.json",
+  "placed_groups": [
+    {
+      "group_code": 100401,
+      "group_type_raw": "Rest",
+      "position": [
+        -1.5002329902310452,
+        0,
+        -5.2146
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.4480619804620907,
+        1.6005099999999999,
+        1.2155738733778818
+      ],
+      "size_min": [
+        0.429456,
+        1.6005099999999999,
+        0.42943800000000004
+      ],
+      "offset": [
+        0.5093029902310453,
+        0,
+        -0.3012600000000001
+      ],
+      "obj_main": "099ed087-2fed-4ff7-98df-15e0e073015f",
+      "obj_type": "lighting/floor lamp",
+      "role_assets": {}
+    }
+  ]
+}

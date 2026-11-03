@@ -1,0 +1,10 @@
+{
+  "legacy_room_type": "Aisle",
+  "region_type": "aisle",
+  "area_bucket": "3",
+  "resolved": true,
+  "source_house": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b",
+  "source_room": "Aisle-2935",
+  "source_room_file": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b__Aisle-2935.json",
+  "placed_groups": []
+}

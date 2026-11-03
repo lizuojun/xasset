@@ -1,0 +1,186 @@
+{
+  "_comment": "室内场景（house）软规则清单 —— 定义'什么样的结果算好'（偏好，可让步）。",
+  "_boundary": "本文件只放'偏好类'规则。绝对不合法的检查（多边形自交、开口悬空、越界等）在 xasset/tools/constraint/builtin.py 里实现为硬约束，不写在这里。判断标准：如果违反了结果就是'非法'而非'不够好'，就不该放本文件。",
+  "_editing": "领域专家可直接编辑本文件；改这里不需要改 Python 代码。",
+  "_thresholds": "面积区间依据 data/house/converted/rooms/ 的 99 个真实户型统计（2026-09）。",
+  "_fields": {
+    "id": "规则标识，代码里按 id 查实现（xasset/tools/quality/builtin.py）",
+    "level": "一律 preferred —— 本文件不放 required（那是硬约束的职责）",
+    "weight": "冲突消解时的排序依据（越大越重要）",
+    "params": "规则参数（阈值等）"
+  },
+
+  "scene": "house",
+  "version": 2,
+
+  "_scene_rules_comment": "一、场景通用软规则（所有 region_type 都适用）",
+  "scene_rules": [
+    {
+      "id": "area_within_typical",
+      "level": "preferred",
+      "weight": 3,
+      "desc": "区域面积落在该 region_type 的常见区间内（见 region_rules 各段 typical_area_m2）。偏离越多越不理想，但不非法",
+      "params": {}
+    },
+    {
+      "id": "aspect_ratio_comfortable",
+      "level": "preferred",
+      "weight": 2,
+      "desc": "区域长宽比不过分狭长（过于狭长会降低使用舒适度，但仍可使用）",
+      "params": { "max_ratio": 2.5, "hard_max_ratio": 4.0 }
+    },
+    {
+      "id": "passage_width_comfortable",
+      "level": "preferred",
+      "weight": 2,
+      "desc": "门洞与通行净宽达到人体舒适阈值（低于此值仍合法，但舒适度差）",
+      "params": { "comfort_width_m": 0.8 }
+    }
+  ],
+
+  "_region_rules_comment": "二、按 region_type 的专属软规则。面积区间来自 99 个真实户型的观测范围（留一定外扩余量）",
+  "region_rules": {
+    "living_room": {
+      "typical_area_m2": [18.0, 45.0],
+      "rules": [
+        {
+          "id": "living_media_faces_seating",
+          "level": "preferred",
+          "weight": 3,
+          "desc": "电视/媒体内容与主要座位的朝向相对（相对更好，非必须）",
+          "params": { "angle_tolerance_deg": 30 }
+        },
+        {
+          "id": "living_seating_has_wall_backing",
+          "level": "preferred",
+          "weight": 2,
+          "desc": "主要座位有墙面依靠，不悬在房间中央",
+          "params": { "min_wall_distance_m": 0.3 }
+        }
+      ]
+    },
+
+    "living_dining_room": {
+      "typical_area_m2": [18.0, 45.0],
+      "rules": [
+        {
+          "id": "ldr_dining_not_in_passage",
+          "level": "preferred",
+          "weight": 3,
+          "desc": "就餐区尽量不占用主通行带",
+          "params": { "min_clear_width_m": 0.6 }
+        }
+      ]
+    },
+
+    "bedroom": {
+      "typical_area_m2": [8.0, 25.0],
+      "rules": [
+        {
+          "id": "bed_not_facing_door",
+          "level": "preferred",
+          "weight": 3,
+          "desc": "床头不宜正对房门（隐私与心理舒适，非非法）",
+          "params": { "angle_tolerance_deg": 30 }
+        },
+        {
+          "id": "bed_has_side_clearance",
+          "level": "preferred",
+          "weight": 2,
+          "desc": "床的一侧或两侧留有通行净宽",
+          "params": { "min_side_clearance_m": 0.5, "at_least_one_side": true }
+        },
+        {
+          "id": "bed_not_under_window",
+          "level": "preferred",
+          "weight": 1,
+          "desc": "床头不宜紧贴窗下",
+          "params": {}
+        }
+      ]
+    },
+
+    "kitchen": {
+      "typical_area_m2": [4.0, 15.0],
+      "rules": [
+        {
+          "id": "kitchen_work_triangle",
+          "level": "preferred",
+          "weight": 2,
+          "desc": "洗-切-炒构成的三角动线边长在合理范围（过长过短都降低效率）",
+          "params": { "min_leg_m": 1.2, "max_leg_m": 6.0 }
+        }
+      ]
+    },
+
+    "bathroom": {
+      "typical_area_m2": [2.0, 8.0],
+      "rules": [
+        {
+          "id": "bathroom_door_clearance",
+          "level": "preferred",
+          "weight": 3,
+          "desc": "卫生间门内留有开门与站立空间（不足仍可使用，但体验差）",
+          "params": { "min_clear_depth_m": 0.6 }
+        }
+      ]
+    },
+
+    "balcony": {
+      "typical_area_m2": [2.0, 10.0],
+      "rules": []
+    },
+
+    "dining_room": {
+      "typical_area_m2": [6.0, 26.0],
+      "rules": [
+        {
+          "id": "dining_chair_clearance",
+          "level": "preferred",
+          "weight": 2,
+          "desc": "餐桌各边留有拉椅空间",
+          "params": { "min_chair_clearance_m": 0.75 }
+        }
+      ]
+    },
+
+    "library": {
+      "typical_area_m2": [5.0, 15.0],
+      "rules": [
+        {
+          "id": "library_desk_natural_light",
+          "level": "preferred",
+          "weight": 2,
+          "desc": "书桌靠近可采光的一侧",
+          "params": { "max_distance_to_opening_m": 3.0 }
+        }
+      ]
+    },
+
+    "kids_room": {
+      "typical_area_m2": [8.0, 16.0],
+      "rules": [
+        {
+          "id": "kids_play_area",
+          "level": "preferred",
+          "weight": 1,
+          "desc": "宜保留一块连续活动空地",
+          "params": { "min_free_area_m2": 2.0 }
+        }
+      ]
+    },
+
+    "hallway": {
+      "typical_area_m2": [1.5, 8.0],
+      "rules": [
+        {
+          "id": "hallway_not_cluttered",
+          "level": "preferred",
+          "weight": 2,
+          "desc": "走廊内不宜布置大件内容（影响通行感）",
+          "params": { "max_occupancy_ratio": 0.3 }
+        }
+      ]
+    }
+  }
+}

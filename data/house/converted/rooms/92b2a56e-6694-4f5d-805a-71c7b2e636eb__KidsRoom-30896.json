@@ -1,0 +1,322 @@
+{
+  "house_id": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "room_id": "KidsRoom-30896",
+  "region_type": "kids_room",
+  "region_type_raw": "KidsRoom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 13.2248,
+  "height": 2.6,
+  "boundary": [
+    [
+      -5.059,
+      0.71
+    ],
+    [
+      -1.363,
+      0.71
+    ],
+    [
+      -1.363,
+      -2.922
+    ],
+    [
+      -1.741,
+      -2.922
+    ],
+    [
+      -1.741,
+      -2.862
+    ],
+    [
+      -5.059,
+      -2.862
+    ]
+  ],
+  "doors": [
+    {
+      "id": "KidsRoom-30896__door_0",
+      "pts": [
+        [
+          -1.507,
+          0.71
+        ],
+        [
+          -2.307,
+          0.71
+        ],
+        [
+          -2.307,
+          0.83
+        ],
+        [
+          -1.507,
+          0.83
+        ]
+      ],
+      "to_room": "LivingRoom-8225"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "0d6fcf95-b4eb-4fc8-aefa-6d497d3d6830",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.8,
+        2.293,
+        0.65
+      ],
+      "position": [
+        -1.66286,
+        0,
+        -1.86192
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "fc1a2e6d-7917-4973-bf99-98b1d7e1b20d",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.8994,
+        0.2996,
+        0.8994
+      ],
+      "position": [
+        -3.14457,
+        2.30045,
+        -1.12197
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "dfacb810-2a1d-4528-81f9-96c6ef6c3bf2",
+      "type": "chair/chair",
+      "size_m": [
+        0.7017,
+        1.2483,
+        0.8676
+      ],
+      "position": [
+        -3.33638,
+        0,
+        0.01412
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "e0f8b4a1-6e60-4e14-8c05-ad8081018ae1",
+      "type": "table/table",
+      "size_m": [
+        1.6,
+        0.75,
+        0.714
+      ],
+      "position": [
+        -3.52708,
+        0,
+        0.43477
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "10b39040-317e-46f6-82fd-65cb7ab24b40",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1587,
+        0.397,
+        0.1147
+      ],
+      "position": [
+        -3.67058,
+        0.75,
+        0.56701
+      ],
+      "rotation_yaw_deg": 135.0
+    },
+    {
+      "id": "97e159a2-5a41-401f-92d3-956893104307",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.068,
+        0.0741,
+        0.0687
+      ],
+      "position": [
+        -3.74823,
+        0.75,
+        0.32348
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "c29c0c7e-1143-415f-9eb0-cf5de17ef03d",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.454,
+        0.2963,
+        0.1715
+      ],
+      "position": [
+        -3.93636,
+        0.75,
+        0.62401
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "6c433649-8b52-4d0c-b02d-956c9a34f26a",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        1.3013,
+        0.9538,
+        0.7212
+      ],
+      "position": [
+        -2.47213,
+        0.00834,
+        -2.13283
+      ],
+      "rotation_yaw_deg": -38.211
+    },
+    {
+      "id": "ee66fa7c-9983-46ed-8eff-ac2c11dbe010",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1079,
+        0.0756,
+        0.2482
+      ],
+      "position": [
+        -3.10006,
+        0,
+        -0.61417
+      ],
+      "rotation_yaw_deg": 45.0
+    },
+    {
+      "id": "139886ed-5394-4e7c-a0ac-09b79a5f5f1b",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.2674,
+        0.2346,
+        0.0888
+      ],
+      "position": [
+        -3.4442,
+        0.75,
+        0.55641
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "460a3fa9-1cfb-4f54-8696-047c463b303a",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        1.2715,
+        0.7301,
+        0.035
+      ],
+      "position": [
+        -2.80822,
+        0.98996,
+        -2.84441
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "ab8c0eb3-4ee7-4ceb-9c5d-609bdabc17c2",
+      "type": "accessory/accessory - wall-attached",
+      "size_m": [
+        1.3822,
+        0.6998,
+        0.0982
+      ],
+      "position": [
+        -3.8446,
+        1.17494,
+        0.66067
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "584c0af5-de65-4c15-9c04-881ffa2dad1f",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.3832,
+        0.4582,
+        0.204
+      ],
+      "position": [
+        -3.19779,
+        0.75,
+        0.58468
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "89aa06b9-013b-47dd-8575-83b26cb372a0",
+      "type": "bed/king-size bed",
+      "size_m": [
+        2.0057,
+        0.7966,
+        2.267
+      ],
+      "position": [
+        -3.92589,
+        0,
+        -1.10533
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "b36271be-65af-484b-9ef1-5c82a40d8021",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        0.5,
+        0.434,
+        0.416
+      ],
+      "position": [
+        -4.85113,
+        0,
+        -2.25473
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "b36271be-65af-484b-9ef1-5c82a40d8021",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        0.5,
+        0.434,
+        0.416
+      ],
+      "position": [
+        -4.85113,
+        0,
+        0.03312
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "efd38baf-f5f9-4d98-9ca5-cff99d7791da",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        2.0734,
+        0.8154,
+        0.0388
+      ],
+      "position": [
+        -5.01693,
+        1.28141,
+        -1.05917
+      ],
+      "rotation_yaw_deg": 90.001
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

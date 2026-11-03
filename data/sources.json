@@ -1,0 +1,132 @@
+{
+  "_comment": "数据源声明清单 —— 声明式记录所有外部数据来源。代码从这里读，不再在脚本里硬编码 URL。",
+  "_why": "解决'每次临时找 URL、失败要重试一遍'的重复劳动。失败经验和镜像都记在这里。",
+  "_usage": "fetch 脚本读本文件按 name 获取；新增数据源只需在这里加一条。",
+
+  "version": 1,
+  "updated": "2026-09",
+
+  "sources": {
+
+    "cubicasa5k": {
+      "kind": "dataset",
+      "scene": "house",
+      "purpose": "室内户型图 + SVG 多边形标注，用于验证轮廓识别",
+      "license": "待核实（原为学术研究用途）",
+      "requires_approval": false,
+      "size_estimate": "数 GB",
+      "primary_url": "https://zenodo.org/record/2613548",
+      "mirrors": [],
+      "status": "not_fetched",
+      "notes": "Zenodo 可达（已验证 HTTP 200）。体积大，建议先只取少量样例。",
+      "verified_at": "2026-09"
+    },
+
+    "rplan": {
+      "kind": "dataset",
+      "scene": "house",
+      "purpose": "中国户型统计先验（面积/尺寸分布）",
+      "license": "学术研究用途",
+      "requires_approval": true,
+      "approval_url": "https://docs.google.com/forms/d/e/1FAIpQLSfwteilXzURRKDI5QopWCyOGkeb_CFFbRwtQ0SOPhEg0KGSfw/viewform",
+      "size_estimate": "数 GB",
+      "primary_url": null,
+      "mirrors": [],
+      "status": "not_applied",
+      "notes": "需填表申请，审批后给下载链接。价值最高（中国户型）。",
+      "verified_at": "2026-09"
+    },
+
+    "structured3d": {
+      "kind": "dataset",
+      "scene": "house",
+      "purpose": "3D 结构 + floorplan 标注，用于验证 geometry 层",
+      "license": "Structured3D Terms of Use",
+      "requires_approval": true,
+      "approval_url": "https://forms.gle/LXg4bcjC2aEjrL9o8",
+      "size_estimate": "数十 GB",
+      "primary_url": null,
+      "mirrors": [],
+      "status": "not_applied",
+      "notes": "需填协议表单。中国设计师制作，有完整 3D 结构。",
+      "verified_at": "2026-09"
+    },
+
+    "osm": {
+      "kind": "dataset",
+      "scene": "urban",
+      "purpose": "城市地块/道路矢量（GeoJSON）",
+      "license": "ODbL（可商用，需署名）",
+      "requires_approval": false,
+      "size_estimate": "按 bbox 决定",
+      "primary_url": "https://overpass-api.de/api/interpreter",
+      "mirrors": [
+        "https://overpass.kumi.systems/api/interpreter"
+      ],
+      "status": "not_fetched",
+      "notes": "按区域拉取，不是整体下载。",
+      "verified_at": "2026-09"
+    }
+  },
+
+  "_test_images_comment": "测试用图片 —— 单张即可，用于跑通 understand 链路。",
+  "test_images": {
+
+    "wikipedia_sample_floorplan": {
+      "kind": "image",
+      "purpose": "测试用户型图样例（已成功获取）",
+      "license": "Wikipedia Commons（逐图确认）",
+      "status": "fetched",
+      "fetched_at": "2026-09",
+      "local_path": "data/test_images/sample_floorplan.jpg",
+      "size": "842 x 569",
+      "how_to_reproduce": [
+        "1. GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=floor%20plan&format=json",
+        "2. GET https://en.wikipedia.org/w/api.php?action=query&titles=Floor%20plan&prop=images&format=json",
+        "3. GET https://en.wikipedia.org/w/api.php?action=query&titles=File:Sample%20Floorplan.jpg&prop=imageinfo&iiprop=url&format=json",
+        "4. 从第3步结果取 url，下载时必须带 User-Agent 头"
+      ],
+      "verified_at": "2026-09",
+      "notes": "这是一张含房间标注（Eat-in Kitchen/Formal Living/Entrance 等）的真实户型图，灰度高对比，适合阈值分割。"
+    },
+
+    "wikipedia_floorplans": {
+      "kind": "image",
+      "purpose": "测试用户型图样例（失败记录，保留备查）",
+      "license": "多为 CC / 公有领域（逐图确认）",
+      "candidates": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Floor_plan_%28PSF%29.svg/800px-Floor_plan_%28PSF%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/House_floor_plan.png/800px-House_floor_plan.png"
+      ],
+      "status": "unreachable",
+      "failure_notes": "2026-09 实测：这些是盲猜的 thumb URL，哈希前缀猜不中，直接请求与加 User-Agent 均返回 HTTP 400。",
+      "root_cause": "Wikimedia 的 thumb 路径含精确哈希前缀（如 9/9a/），无法猜出。正确做法是走 API 取真实 URL —— 见 wikipedia_sample_floorplan 的 how_to_reproduce。"
+    },
+
+    "github_raw": {
+      "kind": "image",
+      "purpose": "测试用图片备选来源",
+      "license": "依仓库而定",
+      "status": "partially_verified",
+      "success_example": "https://raw.githubusercontent.com/<owner>/<repo>/master/README.md 可达",
+      "failure_notes": "2026-09 实测：raw.githubusercontent.com 可达；但盲猜文件路径返回 404；GitHub API 有速率限制（403）。",
+      "workaround": "需知道确切文件名（从仓库网页或已知文档获取）；或用 GitHub 网页找到文件后复制 raw 链接"
+    }
+  },
+
+  "_policy": {
+    "fetch_order": [
+      "1. 读本清单找 source",
+      "2. 若 requires_approval=true 且未申请 → 提示用户先申请",
+      "3. 按 primary_url 尝试，失败则依次试 mirrors",
+      "4. 成功后记录 fetched_at 与本机路径",
+      "5. 失败则把失败原因写回 failure_notes —— **下次不用重试**"
+    ],
+    "storage": "原始数据落 external/<name>/，内化结果落 data/<scene>/converted/",
+    "do_not": [
+      "不要在脚本里硬编码 URL —— 改本文件",
+      "不要把数据集放进 git（external/ 已 gitignore）",
+      "不要跳过许可核实就商用"
+    ]
+  }
+}

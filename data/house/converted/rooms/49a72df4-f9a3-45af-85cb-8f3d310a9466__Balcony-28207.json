@@ -1,0 +1,147 @@
+{
+  "house_id": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "room_id": "Balcony-28207",
+  "region_type": "balcony",
+  "region_type_raw": "Balcony",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 5.4645,
+  "height": 2.6,
+  "boundary": [
+    [
+      -1.996,
+      9.385
+    ],
+    [
+      2.3,
+      9.385
+    ],
+    [
+      2.3,
+      8.113
+    ],
+    [
+      -1.996,
+      8.113
+    ]
+  ],
+  "doors": [],
+  "windows": [
+    {
+      "id": "Balcony-28207__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -1.996,
+          9.288
+        ],
+        [
+          -1.996,
+          8.347
+        ],
+        [
+          -2.236,
+          8.347
+        ],
+        [
+          -2.236,
+          9.288
+        ]
+      ],
+      "height": 0.2,
+      "to_room": null
+    },
+    {
+      "id": "Balcony-28207__window_1",
+      "window_type": "normal",
+      "pts": [
+        [
+          2.3,
+          8.326
+        ],
+        [
+          2.3,
+          9.224
+        ],
+        [
+          2.54,
+          9.224
+        ],
+        [
+          2.54,
+          8.326
+        ]
+      ],
+      "height": 0.2,
+      "to_room": null
+    },
+    {
+      "id": "Balcony-28207__window_2",
+      "window_type": "normal",
+      "pts": [
+        [
+          2.074,
+          9.385
+        ],
+        [
+          -1.617,
+          9.385
+        ],
+        [
+          -1.617,
+          9.625
+        ],
+        [
+          2.074,
+          9.625
+        ]
+      ],
+      "height": 0.2,
+      "to_room": null
+    }
+  ],
+  "holes": [
+    {
+      "id": "Balcony-28207__hole_0",
+      "pts": [
+        [
+          -0.884,
+          8.113
+        ],
+        [
+          1.786,
+          8.113
+        ],
+        [
+          1.786,
+          7.873
+        ],
+        [
+          -0.884,
+          7.873
+        ]
+      ],
+      "to_room": "LivingRoom-28250"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "a442fcf5-4766-421c-8192-1d8fc7a1c6d7",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.585,
+        0.055,
+        0.585
+      ],
+      "position": [
+        0.13964,
+        2.54498,
+        8.72431
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 4
+}

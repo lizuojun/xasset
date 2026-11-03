@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "Hallway",
+  "region_type": "hallway",
+  "area_bucket": "4",
+  "resolved": true,
+  "source_house": "ed27412e-7018-4289-b764-2904e93288ab",
+  "source_room": "Hallway-2080",
+  "source_room_file": "ed27412e-7018-4289-b764-2904e93288ab__Hallway-2080.json",
+  "placed_groups": [
+    {
+      "group_code": 100502,
+      "group_type_raw": "Cabinet",
+      "position": [
+        0.50546,
+        0,
+        4.41214
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.2999975000000001,
+        2.3999985,
+        0.5898260116577149
+      ],
+      "size_min": [
+        1.2999975000000001,
+        2.3999985,
+        0.5898260116577149
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "9c5de47e-4204-4d97-97ae-e4dfd62b677a",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    }
+  ]
+}

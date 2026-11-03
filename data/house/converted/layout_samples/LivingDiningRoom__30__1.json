@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "LivingDiningRoom",
+  "region_type": "living_dining_room",
+  "area_bucket": "30",
+  "resolved": true,
+  "source_house": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "source_room": "LivingDiningRoom-7316",
+  "source_room_file": "aa745ebf-dabd-469e-a947-23375f8b7d45__LivingDiningRoom-7316.json",
+  "placed_groups": [
+    {
+      "group_code": 100002,
+      "group_type_raw": "Meeting",
+      "position": [
+        -1.6930325637149393,
+        0,
+        -2.586460231268864
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        3.2496358795820757,
+        0.7986716473976135,
+        2.210012322250702
+      ],
+      "size_min": [
+        1.8999913167907716,
+        0.7986716473976135,
+        0.7807406826370239
+      ],
+      "offset": [
+        0.1775562749259254,
+        0,
+        -0.7146358198068391
+      ],
+      "obj_main": "5086d9ec-c06c-47db-a750-c7c3a4ac9e25",
+      "obj_type": "sofa/ multi seat sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Appliance",
+      "position": [
+        -2.32997,
+        0,
+        4.22335
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        0.8993650054931641,
+        1.78875,
+        0.6729058282287598
+      ],
+      "size_min": [
+        0.8993650054931641,
+        1.78875,
+        0.6729058282287598
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "7ad71445-44b8-4050-affe-1184b27d9514",
+      "obj_type": "appliance/refrigerator",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100102,
+      "group_type_raw": "Dining",
+      "position": [
+        -0.948585,
+        0,
+        1.4170541349952845
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.3952651787309813,
+        0.7481939697265625,
+        2.4504733536721997
+      ],
+      "size_min": [
+        1.3321200561523439,
+        0.7481939697265625,
+        1.33218994140625
+      ],
+      "offset": [
+        -0.03811500000000001,
+        0,
+        0.0029758650047154722
+      ],
+      "obj_main": "e826123a-8806-4625-9f0a-8e835893a468",
+      "obj_type": "table/dining table - round",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        0.6108638602645102,
+        0,
+        -2.8269000021498636
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.7545325935089113,
+        1.839212321861267,
+        0.4504710707015991
+      ],
+      "size_min": [
+        1.5095711476669311,
+        0.900002321861267,
+        0.024358407779335976
+      ],
+      "offset": [
+        0.021058062443283454,
+        0,
+        -0.21305633146113157
+      ],
+      "obj_main": "1e9cf0e5-6769-4dbb-a8a2-121e04e3dca5",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    }
+  ]
+}

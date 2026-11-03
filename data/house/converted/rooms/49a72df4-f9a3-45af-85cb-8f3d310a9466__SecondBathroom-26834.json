@@ -1,0 +1,119 @@
+{
+  "house_id": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "room_id": "SecondBathroom-26834",
+  "region_type": "bathroom",
+  "region_type_raw": "SecondBathroom",
+  "priority": 2,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 3.0433,
+  "height": 2.6,
+  "boundary": [
+    [
+      3.863,
+      2.912
+    ],
+    [
+      5.607,
+      2.912
+    ],
+    [
+      5.607,
+      1.167
+    ],
+    [
+      3.863,
+      1.167
+    ]
+  ],
+  "doors": [
+    {
+      "id": "SecondBathroom-26834__door_0",
+      "pts": [
+        [
+          3.863,
+          2.13
+        ],
+        [
+          3.863,
+          1.33
+        ],
+        [
+          3.623,
+          1.33
+        ],
+        [
+          3.623,
+          2.13
+        ]
+      ],
+      "to_room": "SecondBedroom-26887"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "a139fc4c-62f8-4f9b-8cf8-3c846efdc206",
+      "type": "toilet/floor-based toilet",
+      "size_m": [
+        0.4055,
+        0.5106,
+        0.6802
+      ],
+      "position": [
+        4.96016,
+        0,
+        2.57175
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "cbaddddf-fc00-40b2-87a1-4499d5fc5fec",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        0.5972,
+        1.7988,
+        0.476
+      ],
+      "position": [
+        4.16152,
+        0,
+        2.6614
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "14171ad5-4284-4a1e-92bf-62e4685868a3",
+      "type": "appliance/bathroom heater with light",
+      "size_m": [
+        0.3,
+        0.0474,
+        0.3
+      ],
+      "position": [
+        4.83082,
+        2.40265,
+        2.03813
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "1756a5a6-1cd0-4aec-9a25-ce0621bbc217",
+      "type": "shower/wall-attached shower head",
+      "size_m": [
+        0.23,
+        1.5399,
+        0.5864
+      ],
+      "position": [
+        5.13286,
+        0.7,
+        1.46013
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

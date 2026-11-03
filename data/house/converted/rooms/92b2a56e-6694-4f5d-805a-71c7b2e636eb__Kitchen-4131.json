@@ -1,0 +1,292 @@
+{
+  "house_id": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "room_id": "Kitchen-4131",
+  "region_type": "kitchen",
+  "region_type_raw": "Kitchen",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 7.0142,
+  "height": 2.6,
+  "boundary": [
+    [
+      3.281,
+      -3.042
+    ],
+    [
+      5.059,
+      -3.042
+    ],
+    [
+      5.059,
+      -6.987
+    ],
+    [
+      3.281,
+      -6.987
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Kitchen-4131__door_0",
+      "pts": [
+        [
+          4.838,
+          -3.042
+        ],
+        [
+          4.077,
+          -3.042
+        ],
+        [
+          4.077,
+          -2.922
+        ],
+        [
+          4.838,
+          -2.922
+        ]
+      ],
+      "to_room": "DiningRoom-31322"
+    }
+  ],
+  "windows": [],
+  "holes": [
+    {
+      "id": "Kitchen-4131__hole_0",
+      "pts": [
+        [
+          3.663,
+          -6.987
+        ],
+        [
+          4.508,
+          -6.987
+        ],
+        [
+          4.508,
+          -7.107
+        ],
+        [
+          3.663,
+          -7.107
+        ]
+      ],
+      "to_room": "Balcony-2169"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "3f1b637c-4f42-4c29-93ef-0a799c0bb295",
+      "type": "appliance/range & cooktop",
+      "size_m": [
+        0.75,
+        0.069,
+        0.43
+      ],
+      "position": [
+        3.55908,
+        0.837,
+        -4.69179
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "4253b7c0-cc00-4a79-8528-ed32e5327fd1",
+      "type": "sink/drop-in single kitchen sink",
+      "size_m": [
+        0.54,
+        0.4656,
+        0.5
+      ],
+      "position": [
+        3.55908,
+        0.64248,
+        -6.04192
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "dcb111b5-dc2c-4998-b7f1-f27703e39eea",
+      "type": "appliance/refrigerator",
+      "size_m": [
+        0.6015,
+        1.8498,
+        0.6682
+      ],
+      "position": [
+        3.60858,
+        0,
+        -6.68015
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "726f3baa-cc64-49ba-bb06-37d672dc69c8",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.6,
+        0.0403,
+        0.3
+      ],
+      "position": [
+        4.32357,
+        2.55967,
+        -4.60467
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "726f3baa-cc64-49ba-bb06-37d672dc69c8",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.6,
+        0.0403,
+        0.3
+      ],
+      "position": [
+        4.32357,
+        2.55967,
+        -5.78778
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "d234d060-5d23-417b-a8cf-349f321c6717",
+      "type": "appliance/ventilation - ceiling-attached",
+      "size_m": [
+        0.9,
+        0.6204,
+        0.506
+      ],
+      "position": [
+        3.53408,
+        1.439,
+        -4.69173
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "6aa683c8-d8d2-438f-90af-a5ba4482d148",
+      "type": "appliance/washer",
+      "size_m": [
+        0.603,
+        0.82,
+        0.4944
+      ],
+      "position": [
+        3.52827,
+        0,
+        -5.44342
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "a31115ec-a5ce-4ab7-9e0a-a87b2d29c8c0",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.2771,
+        0.2014,
+        0.1424
+      ],
+      "position": [
+        3.35223,
+        0.837,
+        -3.38619
+      ],
+      "rotation_yaw_deg": 92.178
+    },
+    {
+      "id": "1aecb25e-dc2d-4193-b29d-db1ccf8baf57",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.5344,
+        0.4958,
+        0.1321
+      ],
+      "position": [
+        3.34678,
+        0.837,
+        -3.86674
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "34d707ef-cf9a-4c65-b0db-eb1cb7d12b45",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.3346,
+        0.3204,
+        0.2301
+      ],
+      "position": [
+        3.54824,
+        0.837,
+        -3.15694
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "54fd1c83-5d11-4f2d-ae89-a0d7f4aaba53",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.3342,
+        0.0515,
+        0.2109
+      ],
+      "position": [
+        3.6821,
+        0.837,
+        -5.37681
+      ],
+      "rotation_yaw_deg": -89.643
+    },
+    {
+      "id": "7256ae8b-24c7-4f82-9fc3-1c592ad2f200",
+      "type": "accessory/kitchen decoration-horizontal",
+      "size_m": [
+        0.1006,
+        0.2906,
+        0.1094
+      ],
+      "position": [
+        3.33574,
+        0.837,
+        -5.63716
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "8b176c56-910c-4026-83e9-4544c81d8822",
+      "type": "accessory/kitchen decoration-wall attached",
+      "size_m": [
+        1.1487,
+        0.3235,
+        0.1095
+      ],
+      "position": [
+        3.41058,
+        1.02737,
+        -5.52916
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "5d820780-04cf-4116-85a3-6f249ba1d426",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.4581,
+        0.0893,
+        0.3855
+      ],
+      "position": [
+        3.62777,
+        0.837,
+        -3.62826
+      ],
+      "rotation_yaw_deg": -10.076
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

@@ -1,0 +1,67 @@
+{
+  "legacy_room_type": "Bathroom",
+  "region_type": "bathroom",
+  "area_bucket": "3",
+  "resolved": true,
+  "source_house": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "source_room": "SecondBathroom-3030",
+  "source_room_file": "355ab8b3-1609-4346-8202-1546938d57f2__SecondBathroom-3030.json",
+  "placed_groups": [
+    {
+      "group_code": 100601,
+      "group_type_raw": "Toilet",
+      "position": [
+        -1.96495,
+        0,
+        -2.29805
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        0.40548099517822267,
+        0.510630989074707,
+        0.6802269744873047
+      ],
+      "size_min": [
+        0.40548099517822267,
+        0.510630989074707,
+        0.6802269744873047
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "a139fc4c-62f8-4f9b-8cf8-3c846efdc206",
+      "obj_type": "toilet/floor-based toilet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100701,
+      "group_type_raw": "Bath",
+      "position": [
+        -2.65953,
+        0,
+        -3.04633
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        0.18829099655151368,
+        2.037890062255859,
+        0.5335269927978515
+      ],
+      "size_min": [
+        0.18829099655151368,
+        1.4932200622558593,
+        0.5335269927978515
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "0e5c2e67-d457-494a-8a98-ef8439f8b0f3",
+      "obj_type": "shower/wall-attached shower head",
+      "role_assets": {}
+    }
+  ]
+}

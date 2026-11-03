@@ -1,0 +1,67 @@
+{
+  "legacy_room_type": "Balcony",
+  "region_type": "balcony",
+  "area_bucket": "5",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100401,
+      "group_type_raw": "Rest",
+      "position": [
+        -4.029873140709615,
+        0,
+        7.96458949233427
+      ],
+      "rotation_yaw_deg": 159.102,
+      "size": [
+        1.9976835974994749,
+        0.5,
+        1.5951429130334316
+      ],
+      "size_min": [
+        0.599605,
+        0.5,
+        0.5995940000000001
+      ],
+      "offset": [
+        0.0013524631321654157,
+        0,
+        -0.0035140101521691225
+      ],
+      "obj_main": "9dc03134-d54d-47a7-b88a-ee4254877160",
+      "obj_type": "table/coffee table - irregular shape",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -2.46592,
+        0,
+        7.90638
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        0.8435410308837891,
+        1.953280029296875,
+        0.28975500106811525
+      ],
+      "size_min": [
+        0.8435410308837891,
+        1.953280029296875,
+        0.28975500106811525
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "54d234ba-844a-4cdd-8e74-aeb9134ff353",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

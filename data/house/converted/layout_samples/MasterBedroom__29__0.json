@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "29",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        8.213911,
+        0,
+        1.963496
+      ],
+      "rotation_yaw_deg": -90.0,
+      "size": [
+        3.075651973876953,
+        1.03946,
+        2.14774
+      ],
+      "size_min": [
+        2.09591,
+        1.03946,
+        2.14774
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "3a864d11-d7d2-4233-8e76-64bac96bf39d",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        5.57752495,
+        0,
+        1.926959
+      ],
+      "rotation_yaw_deg": 90.0,
+      "size": [
+        1.79854,
+        1.644647,
+        0.400471
+      ],
+      "size_min": [
+        1.28694,
+        0.7946469999999999,
+        0.040195100000000004
+      ],
+      "offset": [
+        0.006204000000000098,
+        0,
+        -0.18013795
+      ],
+      "obj_main": "f8f79784-3720-4a75-bd79-aa86bb9cb96e",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100402,
+      "group_type_raw": "Rest",
+      "position": [
+        7.189094628729333,
+        0,
+        3.5465564985382416
+      ],
+      "rotation_yaw_deg": 89.999,
+      "size": [
+        0.764532480892554,
+        0.4502949905395508,
+        1.2836552038416622
+      ],
+      "size_min": [
+        0.5063710021972656,
+        0.4502949905395508,
+        0.5408580017089843
+      ],
+      "offset": [
+        0.08454088221278844,
+        0,
+        0.371398601066339
+      ],
+      "obj_main": "dc3bbc2a-c35f-4e8c-8064-8b28680d5894",
+      "obj_type": "table/side table",
+      "role_assets": {}
+    }
+  ]
+}

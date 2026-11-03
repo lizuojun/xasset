@@ -1,0 +1,67 @@
+{
+  "legacy_room_type": "KidsRoom",
+  "region_type": "kids_room",
+  "area_bucket": "11",
+  "resolved": true,
+  "source_house": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b",
+  "source_room": "KidsRoom-130",
+  "source_room_file": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b__KidsRoom-130.json",
+  "placed_groups": [
+    {
+      "group_code": 100203,
+      "group_type_raw": "Bed",
+      "position": [
+        3.73633,
+        0,
+        -3.4767
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        2.125529937744141,
+        2.083240061035156,
+        1.5152299499511719
+      ],
+      "size_min": [
+        2.125529937744141,
+        2.022250061035156,
+        1.5152299499511719
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "ecb5c017-0f2a-49bc-99bf-d773d3ce5174",
+      "obj_type": "bed/crib",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        4.22244,
+        0,
+        -5.07394
+      ],
+      "rotation_yaw_deg": -90.166,
+      "size": [
+        1.5392400000000002,
+        1.2784400000000002,
+        1.14768
+      ],
+      "size_min": [
+        1.5392400000000002,
+        1.2174500000000001,
+        1.14768
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "1b51dd12-0f5e-4d3d-bf6f-1e9e73dc14cb",
+      "obj_type": "accessory/accessory - on top of others",
+      "role_assets": {}
+    }
+  ]
+}

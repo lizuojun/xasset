@@ -1,0 +1,204 @@
+{
+  "house_id": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "room_id": "MasterBedroom-3055",
+  "region_type": "bedroom",
+  "region_type_raw": "MasterBedroom",
+  "priority": 1,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 17.297,
+  "height": 2.6,
+  "boundary": [
+    [
+      1.076,
+      -0.467
+    ],
+    [
+      5.484,
+      -0.467
+    ],
+    [
+      5.484,
+      -4.391
+    ],
+    [
+      1.076,
+      -4.391
+    ]
+  ],
+  "doors": [
+    {
+      "id": "MasterBedroom-3055__door_0",
+      "pts": [
+        [
+          1.076,
+          -0.601
+        ],
+        [
+          1.076,
+          -1.461
+        ],
+        [
+          0.836,
+          -1.461
+        ],
+        [
+          0.836,
+          -0.601
+        ]
+      ],
+      "to_room": "LivingDiningRoom-7316"
+    }
+  ],
+  "windows": [
+    {
+      "id": "MasterBedroom-3055__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          2.481,
+          -4.391
+        ],
+        [
+          4.068,
+          -4.391
+        ],
+        [
+          4.068,
+          -4.631
+        ],
+        [
+          2.481,
+          -4.631
+        ]
+      ],
+      "height": 0.85,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "e3114fee-0471-4e04-b1fc-06390f00dc64",
+      "type": "bed/king-size bed",
+      "size_m": [
+        2.0405,
+        1.2123,
+        2.191
+      ],
+      "position": [
+        4.37909,
+        0,
+        -2.392
+      ],
+      "rotation_yaw_deg": -89.688
+    },
+    {
+      "id": "3cbdcd64-3458-4e35-8cd5-8f2bea6ddfa4",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.3517,
+        0.6222,
+        0.3464
+      ],
+      "position": [
+        5.2652,
+        0.5,
+        -3.73991
+      ],
+      "rotation_yaw_deg": -179.688
+    },
+    {
+      "id": "b0bdca7f-ea1d-4db7-9e6c-da7aeda941ae",
+      "type": "table/night table",
+      "size_m": [
+        0.6,
+        0.5,
+        0.4592
+      ],
+      "position": [
+        5.23748,
+        0,
+        -3.73115
+      ],
+      "rotation_yaw_deg": -89.688
+    },
+    {
+      "id": "b0bdca7f-ea1d-4db7-9e6c-da7aeda941ae",
+      "type": "table/night table",
+      "size_m": [
+        0.6,
+        0.5,
+        0.4592
+      ],
+      "position": [
+        5.25182,
+        0,
+        -1.09968
+      ],
+      "rotation_yaw_deg": -89.688
+    },
+    {
+      "id": "3cbdcd64-3458-4e35-8cd5-8f2bea6ddfa4",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.3517,
+        0.6222,
+        0.3464
+      ],
+      "position": [
+        5.27955,
+        0.5,
+        -1.10585
+      ],
+      "rotation_yaw_deg": -179.688
+    },
+    {
+      "id": "0d6fcf95-b4eb-4fc8-aefa-6d497d3d6830",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.8,
+        2.293,
+        0.65
+      ],
+      "position": [
+        1.3761,
+        0,
+        -3.10655
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "f2d28334-ebc2-4879-82a5-f29a23ed086e",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        1.2,
+        0.9999,
+        0.0428
+      ],
+      "position": [
+        5.46218,
+        1.29291,
+        -2.42451
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "df458d49-98d9-4c5b-b9e8-7c75af52a650",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.19,
+        0.07,
+        0.1905
+      ],
+      "position": [
+        3.41846,
+        2.37893,
+        -2.38044
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

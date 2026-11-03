@@ -1,0 +1,174 @@
+{
+  "house_id": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "room_id": "SecondBedroom-801",
+  "region_type": "bedroom",
+  "region_type_raw": "SecondBedroom",
+  "priority": 2,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 10.8306,
+  "height": 2.6,
+  "boundary": [
+    [
+      -5.92,
+      -0.633
+    ],
+    [
+      -3.038,
+      -0.633
+    ],
+    [
+      -3.038,
+      -4.391
+    ],
+    [
+      -5.92,
+      -4.391
+    ]
+  ],
+  "doors": [
+    {
+      "id": "SecondBedroom-801__door_0",
+      "pts": [
+        [
+          -3.038,
+          -1.626
+        ],
+        [
+          -3.038,
+          -0.766
+        ],
+        [
+          -2.798,
+          -0.766
+        ],
+        [
+          -2.798,
+          -1.626
+        ]
+      ],
+      "to_room": "LivingDiningRoom-7316"
+    }
+  ],
+  "windows": [
+    {
+      "id": "SecondBedroom-801__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -5.92,
+          -2.788
+        ],
+        [
+          -5.92,
+          -4.285
+        ],
+        [
+          -6.16,
+          -4.285
+        ],
+        [
+          -6.16,
+          -2.788
+        ]
+      ],
+      "height": 0.85,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "3f16e938-5d67-4899-bb26-47325eccbdfa",
+      "type": "table/night table",
+      "size_m": [
+        0.53,
+        0.611,
+        0.433
+      ],
+      "position": [
+        -5.43052,
+        0,
+        -4.1744
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "e5c3bb99-604a-4297-80bb-ce7ae472dcf7",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.3297,
+        0.6036,
+        0.3297
+      ],
+      "position": [
+        -5.44995,
+        0.611,
+        -4.18248
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0d6fcf95-b4eb-4fc8-aefa-6d497d3d6830",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.8,
+        2.293,
+        0.65
+      ],
+      "position": [
+        -4.98734,
+        0,
+        -0.9331
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "df458d49-98d9-4c5b-b9e8-7c75af52a650",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.19,
+        0.07,
+        0.1905
+      ],
+      "position": [
+        -4.49296,
+        2.37893,
+        -2.64727
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "3c31f82d-cd77-4c43-90a6-3079cd36d134",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        0.7996,
+        0.7998,
+        0.054
+      ],
+      "position": [
+        -4.1564,
+        1.37778,
+        -4.36392
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "e3114fee-0471-4e04-b1fc-06390f00dc64",
+      "type": "bed/king-size bed",
+      "size_m": [
+        2.0405,
+        1.2123,
+        2.191
+      ],
+      "position": [
+        -4.05816,
+        0,
+        -3.29563
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

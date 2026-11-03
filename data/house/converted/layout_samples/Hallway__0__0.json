@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "Hallway",
+  "region_type": "hallway",
+  "area_bucket": "0",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100502,
+      "group_type_raw": "Cabinet",
+      "position": [
+        0.79854,
+        0,
+        -3.5548
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        0.16065399169921876,
+        0.562769012451172,
+        0.46760799407958986
+      ],
+      "size_min": [
+        0.16065399169921876,
+        0.4227690124511719,
+        0.46760799407958986
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "d4092411-9b50-4b68-bc33-f11ecbf3aad5",
+      "obj_type": "kitchen cabinet/cbnt component",
+      "role_assets": {}
+    }
+  ]
+}

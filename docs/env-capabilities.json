@@ -1,0 +1,120 @@
+// 本地环境能力清单 —— 一次探测，长期复用。
+// 以后要问"本地能不能跑 X"，先读这里，不要重新探测。
+{
+  "updated": "2026-09",
+  "probed_by": "agent",
+  "note": "数值为实测值；硬件会变，重要决策前可重新运行 scripts/probe_env.py 校验",
+
+  "hardware": {
+    "cpu": {
+      "logical_cores": 16,
+      "architecture": "AMD64",
+      "verdict": "足够跑轻量推理与全部几何计算"
+    },
+    "memory_gb": {
+      "total": 63.7,
+      "available_at_probe": 36.3,
+      "verdict": "充裕。可跑 7B~13B 量化模型，也可同时跑视觉模型"
+    },
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 2060 SUPER",
+      "vram_gb": 8,
+      "cuda": "可用（nvidia-smi 存在）",
+      "verdict": "8GB 显存是主要约束，见下方能力判断"
+    },
+    "disk": {
+      "free_gb": {"C": 425, "D": 1335, "E": 869, "F": 107, "G": 1060, "K": 3700},
+      "verdict": "空间充裕，下载数据集和模型权重不是问题"
+    }
+  },
+
+  "llm_resources": {
+    "anthropic_proxy": {
+      "base_url_env": "ANTHROPIC_BASE_URL",
+      "value": "http://127.0.0.1:15721",
+      "reachable": true,
+      "http_status_on_root": 404,
+      "auth_token_set": false,
+      "verdict": "端点存在（404 是根路径正常响应），但**未配置 auth token**。要用需先配 key"
+    },
+    "ollama": {
+      "installed": true,
+      "cli_path": "C:\\Users\\lizuojun01\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+      "version": "0.40.13",
+      "models_dir": "D:\\Projects\\XEditor-Infra\\ollama-models\\models",
+      "models_dir_size_gb": 4.36,
+      "models_available": [
+        "llama3.2:3b (2.0 GB)",
+        "nomic-embed-text:latest (274 MB)"
+      ],
+      "service_running": false,
+      "verdict": "可用。需 `ollama serve` 启动。现有 3B 语言模型 + 嵌入模型"
+    }
+  },
+
+  "python_env": {
+    "interpreter": ".venv (Python 3.11.15)",
+    "package_manager": "uv 0.11.1",
+    "note": "venv 内没有 pip，用 uv 管理",
+    "installed_ai_deps": {
+      "torch": false,
+      "transformers": false,
+      "opencv": false,
+      "onnxruntime": false,
+      "anthropic_sdk": false,
+      "openai_sdk": false
+    },
+    "installed_general": ["numpy 1.26.4", "pillow 12.2.0", "matplotlib 3.10.8", "pydantic 2.12.5"],
+    "constraint": "numpy 被 pin 在 <2，与部分新库可能冲突"
+  },
+
+  "capability_verdicts": {
+    "几何算法与约束求解": {
+      "supported": true,
+      "reason": "纯 Python + numpy，已实现并通过测试"
+    },
+    "阈值分割（图纸类）": {
+      "supported": true,
+      "reason": "已实现，在真实户型图上验证成功"
+    },
+    "本地小语言模型（3B 级）": {
+      "supported": true,
+      "reason": "Ollama 有 llama3.2:3b，8GB 显存够跑",
+      "limitation": "3B 模型的语义判断质量有限，做 region_type 分类可能不够准"
+    },
+    "本地 7B~13B 量化模型": {
+      "supported": true,
+      "reason": "8GB 显存 + 64GB 内存，可跑 7B Q4 量化；13B 需较慢的 offload",
+      "caveat": "速度较慢，交互式场景可能不够快"
+    },
+    "云端 LLM API（Anthropic 代理）": {
+      "supported": "需配置",
+      "reason": "端点存在但未配 token",
+      "action": "设置 ANTHROPIC_AUTH_TOKEN 后可用"
+    },
+    "本地视觉分割模型（SAM 类）": {
+      "supported": "有条件",
+      "reason": "8GB 显存可跑 SAM ViT-B（约 375MB 权重）；SAM ViT-H 需 16GB+",
+      "requires": ["torch", "segment-anything 权重下载"],
+      "caveat": "引入 torch 会显著增大依赖体积，与'零依赖'原则冲突"
+    },
+    "本地多模态大模型（看图）": {
+      "supported": "受限",
+      "reason": "8GB 显存跑 7B 视觉模型很勉强（如 Qwen2-VL-7B 需更多显存）",
+      "recommendation": "看图优先用云端 API；本地只跑 3B 语言模型做轻量任务"
+    }
+  },
+
+  "recommended_choices": {
+    "语义标注（④ region_type）": {
+      "first_choice": "云端 LLM API（配好 token 后）",
+      "fallback": "Ollama llama3.2:3b（质量有限，可接受用于粗分类）",
+      "reason": "语义判断是 LLM 强项，但 3B 模型对'卧室vs书房'这种细分可能不准"
+    },
+    "图片分割（② mask）": {
+      "first_choice": "继续用阈值分割（图纸类已够用）",
+      "second_choice": "SAM ViT-B（需装 torch，仅当实景照片成为需求时）",
+      "reason": "避免过早引入重型依赖"
+    }
+  }
+}

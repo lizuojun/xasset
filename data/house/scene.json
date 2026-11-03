@@ -1,0 +1,57 @@
+{
+  "_comment": "室内场景（house）定义 —— 场景知识的唯一权威来源。代码不得硬编码这些值。",
+  "_purpose": "解决'面积先验散落在代码和配置两处'的重复问题；新增场景只需加一份 scene.json，代码不用改。",
+  "_thresholds": "面积区间来自 data/house/converted/rooms/ 的 99 个真实户型统计（2026-09）",
+
+  "scene": "house",
+  "version": 1,
+  "display_name": "室内",
+
+  "region_types": {
+    "living_room": {
+      "display_name": "客厅",
+      "typical_area_m2": [18.0, 45.0]
+    },
+    "living_dining_room": {
+      "display_name": "客餐厅",
+      "typical_area_m2": [18.0, 45.0]
+    },
+    "bedroom": {
+      "display_name": "卧室",
+      "typical_area_m2": [8.0, 25.0]
+    },
+    "kids_room": {
+      "display_name": "儿童房",
+      "typical_area_m2": [8.0, 16.0]
+    },
+    "kitchen": {
+      "display_name": "厨房",
+      "typical_area_m2": [4.0, 15.0]
+    },
+    "bathroom": {
+      "display_name": "卫生间",
+      "typical_area_m2": [2.0, 8.0]
+    },
+    "balcony": {
+      "display_name": "阳台",
+      "typical_area_m2": [2.0, 10.0]
+    },
+    "dining_room": {
+      "display_name": "餐厅",
+      "typical_area_m2": [6.0, 26.0]
+    },
+    "library": {
+      "display_name": "书房",
+      "typical_area_m2": [5.0, 15.0]
+    },
+    "hallway": {
+      "display_name": "走廊",
+      "typical_area_m2": [1.5, 8.0]
+    }
+  },
+
+  "_fallback_comment": "遇到未知 region_type 时用的兜底面积区间（避免代码里再写一份默认值）",
+  "fallback_typical_area_m2": [8.0, 25.0],
+
+  "rules_file": "rules.json"
+}

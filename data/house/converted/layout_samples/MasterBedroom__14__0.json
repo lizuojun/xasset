@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "14",
+  "resolved": true,
+  "source_house": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b",
+  "source_room": "MasterBedroom-684",
+  "source_room_file": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b__MasterBedroom-684.json",
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        3.726079474779473,
+        0,
+        4.286329915299123
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        2.9932658779663086,
+        0.9699549865722656,
+        2.1456300354003908
+      ],
+      "size_min": [
+        1.8824600219726562,
+        0.9699549865722656,
+        2.1456300354003908
+      ],
+      "offset": [
+        -0.05768991530151368,
+        0,
+        -0.0
+      ],
+      "obj_main": "0cb64333-a3e3-4213-8cf8-3218a75501bd",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        3.58977,
+        0,
+        2.41173
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.3178026045410154,
+        2.3500016911743162,
+        0.4999988433746338
+      ],
+      "size_min": [
+        2.3178026045410154,
+        2.3500016911743162,
+        0.4999988433746338
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "46d6ad75-21ec-4089-9a02-0b9fddd864c6",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        1.62596,
+        0,
+        5.09015
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.9000489807128906,
+        0.7298809814453125,
+        0.4500149917602539
+      ],
+      "size_min": [
+        0.9000489807128906,
+        0.7298809814453125,
+        0.4500149917602539
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "ef304a3a-09b4-4772-975b-bb4cb155aa00",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

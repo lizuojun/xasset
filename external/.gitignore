@@ -1,0 +1,10 @@
+# 外部数据集不进版本控制
+#
+# 只有本文件与 README.md 被跟踪，其余全部忽略。
+# 数据集通过 tools/datasets/ 下的脚本重新下载。
+#
+# 转换后的结果应写入 data/<scene>/converted/，不要留在本目录。
+
+*
+!.gitignore
+!README.md

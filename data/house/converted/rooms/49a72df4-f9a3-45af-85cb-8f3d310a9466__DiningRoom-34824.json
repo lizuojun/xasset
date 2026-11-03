@@ -1,0 +1,620 @@
+{
+  "house_id": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "room_id": "DiningRoom-34824",
+  "region_type": "dining_room",
+  "region_type_raw": "DiningRoom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 23.9784,
+  "height": 2.6,
+  "boundary": [
+    [
+      0.254,
+      0.927
+    ],
+    [
+      2.3,
+      0.927
+    ],
+    [
+      2.3,
+      -7.716
+    ],
+    [
+      -0.909,
+      -7.716
+    ],
+    [
+      -0.909,
+      -3.983
+    ],
+    [
+      -1.996,
+      -3.983
+    ],
+    [
+      -1.996,
+      -2.898
+    ],
+    [
+      2.287,
+      -2.898
+    ],
+    [
+      2.287,
+      -2.658
+    ],
+    [
+      0.254,
+      -2.658
+    ]
+  ],
+  "doors": [
+    {
+      "id": "DiningRoom-34824__door_0",
+      "pts": [
+        [
+          2.3,
+          -0.417
+        ],
+        [
+          2.3,
+          0.382
+        ],
+        [
+          2.54,
+          0.382
+        ],
+        [
+          2.54,
+          -0.417
+        ]
+      ],
+      "to_room": "Bathroom-26409"
+    },
+    {
+      "id": "DiningRoom-34824__door_1",
+      "pts": [
+        [
+          -0.126,
+          -2.898
+        ],
+        [
+          -0.925,
+          -2.898
+        ],
+        [
+          -0.925,
+          -2.658
+        ],
+        [
+          -0.126,
+          -2.658
+        ]
+      ],
+      "to_room": "StorageRoom-30060"
+    },
+    {
+      "id": "DiningRoom-34824__door_2",
+      "pts": [
+        [
+          -1.923,
+          -3.983
+        ],
+        [
+          -1.236,
+          -3.983
+        ],
+        [
+          -1.236,
+          -4.223
+        ],
+        [
+          -1.923,
+          -4.223
+        ]
+      ],
+      "to_room": "Bedroom-27725"
+    },
+    {
+      "id": "DiningRoom-34824__door_3",
+      "pts": [
+        [
+          2.3,
+          -6.361
+        ],
+        [
+          2.3,
+          -3.375
+        ],
+        [
+          2.54,
+          -3.375
+        ],
+        [
+          2.54,
+          -6.361
+        ]
+      ],
+      "to_room": "Kitchen-26097"
+    },
+    {
+      "id": "DiningRoom-34824__door_4",
+      "pts": [
+        [
+          -1.996,
+          -3.03
+        ],
+        [
+          -1.996,
+          -3.831
+        ],
+        [
+          -2.236,
+          -3.831
+        ],
+        [
+          -2.236,
+          -3.03
+        ]
+      ],
+      "to_room": "Library-36922"
+    },
+    {
+      "id": "DiningRoom-34824__door_5",
+      "pts": [
+        [
+          2.3,
+          -1.907
+        ],
+        [
+          2.3,
+          -0.825
+        ],
+        [
+          2.54,
+          -0.825
+        ],
+        [
+          2.54,
+          -1.907
+        ]
+      ],
+      "to_room": null
+    }
+  ],
+  "windows": [],
+  "holes": [
+    {
+      "id": "DiningRoom-34824__hole_0",
+      "pts": [
+        [
+          1.925,
+          0.927
+        ],
+        [
+          0.812,
+          0.927
+        ],
+        [
+          0.812,
+          1.167
+        ],
+        [
+          1.925,
+          1.167
+        ]
+      ],
+      "to_room": "LivingRoom-28250"
+    },
+    {
+      "id": "DiningRoom-34824__hole_1",
+      "pts": [
+        [
+          2.115,
+          -2.898
+        ],
+        [
+          0.851,
+          -2.898
+        ],
+        [
+          0.851,
+          -2.658
+        ],
+        [
+          2.115,
+          -2.658
+        ]
+      ],
+      "to_room": null
+    },
+    {
+      "id": "DiningRoom-34824__hole_2",
+      "pts": [
+        [
+          -0.53,
+          -7.716
+        ],
+        [
+          1.986,
+          -7.716
+        ],
+        [
+          1.986,
+          -7.956
+        ],
+        [
+          -0.53,
+          -7.956
+        ]
+      ],
+      "to_room": "Balcony-31270"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "07e8587a-5096-4030-8cac-4c5ff75b6a29",
+      "type": "table/dining table - square",
+      "size_m": [
+        1.5998,
+        0.74,
+        0.9003
+      ],
+      "position": [
+        0.71641,
+        0,
+        -5.47291
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "04b759dc-c39b-4a99-ab84-27d38824d3ff",
+      "type": "chair/armchair",
+      "size_m": [
+        0.5131,
+        0.8809,
+        0.63
+      ],
+      "position": [
+        -0.04857,
+        0,
+        -5.13507
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        1.80509,
+        2.397,
+        -3.50885
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        1.80509,
+        2.397,
+        -4.69189
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        1.80509,
+        2.397,
+        -5.81276
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        1.80509,
+        2.397,
+        -7.06297
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        0.52016,
+        2.397,
+        -3.50885
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -1.12882,
+        2.397,
+        -3.50885
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -0.52527,
+        2.397,
+        -4.69189
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -0.52527,
+        2.397,
+        -5.81276
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -0.52527,
+        2.397,
+        -7.06297
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "64e55e7e-544e-45a3-9176-4744a4bbe2b5",
+      "type": "lighting/pendant light",
+      "size_m": [
+        1.5,
+        1.2,
+        0.024
+      ],
+      "position": [
+        0.70908,
+        1.6,
+        -5.47845
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "776fe925-e976-43d9-83a6-4a17d32d73e1",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        1.82,
+        0.92,
+        0.056
+      ],
+      "position": [
+        -0.8814,
+        1,
+        -5.79453
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        1.4999,
+        2.397,
+        0.3272
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        1.4999,
+        2.397,
+        -0.8628
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        1.4999,
+        2.397,
+        -2.0582
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "55725405-52ea-41ea-b608-bd81c3c3ee16",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.2901,
+        1.5977,
+        0.2562
+      ],
+      "position": [
+        -0.76436,
+        0,
+        -4.28131
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "36127b20-ffe8-4ebe-987a-27a8609b5fd9",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.2762,
+        0.3335,
+        0.2822
+      ],
+      "position": [
+        0.70434,
+        0.74,
+        -5.47063
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "55725405-52ea-41ea-b608-bd81c3c3ee16",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.2901,
+        1.5977,
+        0.2562
+      ],
+      "position": [
+        -0.78135,
+        0,
+        -7.41857
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "04b759dc-c39b-4a99-ab84-27d38824d3ff",
+      "type": "chair/armchair",
+      "size_m": [
+        0.5131,
+        0.8809,
+        0.63
+      ],
+      "position": [
+        -0.04857,
+        0,
+        -5.82182
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "04b759dc-c39b-4a99-ab84-27d38824d3ff",
+      "type": "chair/armchair",
+      "size_m": [
+        0.5131,
+        0.8809,
+        0.63
+      ],
+      "position": [
+        1.48139,
+        0,
+        -5.19252
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "04b759dc-c39b-4a99-ab84-27d38824d3ff",
+      "type": "chair/armchair",
+      "size_m": [
+        0.5131,
+        0.8809,
+        0.63
+      ],
+      "position": [
+        1.48139,
+        0,
+        -5.84912
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "bac64efc-9665-4b83-b002-131aa87869d1",
+      "type": "storage unit/armoire - L shaped",
+      "size_m": [
+        2.1046,
+        2.2,
+        0.6051
+      ],
+      "position": [
+        0.51689,
+        0,
+        0.04865
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "bac64efc-9665-4b83-b002-131aa87869d1",
+      "type": "storage unit/armoire - L shaped",
+      "size_m": [
+        2.1046,
+        2.2,
+        0.6051
+      ],
+      "position": [
+        0.5188,
+        0,
+        -1.74405
+      ],
+      "rotation_yaw_deg": 90.001
+    }
+  ],
+  "furniture_placeholder_skipped": 6
+}

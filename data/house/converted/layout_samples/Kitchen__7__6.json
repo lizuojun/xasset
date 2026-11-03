@@ -1,0 +1,10 @@
+{
+  "legacy_room_type": "Kitchen",
+  "region_type": "kitchen",
+  "area_bucket": "7",
+  "resolved": true,
+  "source_house": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "source_room": "Kitchen-3935",
+  "source_room_file": "aa745ebf-dabd-469e-a947-23375f8b7d45__Kitchen-3935.json",
+  "placed_groups": []
+}

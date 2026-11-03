@@ -1,0 +1,129 @@
+{
+  "house_id": "c0c3cfb6-6c82-485a-ac45-35595cf7c64b",
+  "room_id": "Balcony-344",
+  "region_type": "balcony",
+  "region_type_raw": "Balcony",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 3.383,
+  "height": 2.6,
+  "boundary": [
+    [
+      -2.797,
+      6.078
+    ],
+    [
+      1.123,
+      6.078
+    ],
+    [
+      1.123,
+      5.215
+    ],
+    [
+      -2.797,
+      5.215
+    ]
+  ],
+  "doors": [],
+  "windows": [
+    {
+      "id": "Balcony-344__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          0.589,
+          6.078
+        ],
+        [
+          -2.36,
+          6.078
+        ],
+        [
+          -2.36,
+          6.318
+        ],
+        [
+          0.589,
+          6.318
+        ]
+      ],
+      "height": 0.2,
+      "to_room": null
+    }
+  ],
+  "holes": [
+    {
+      "id": "Balcony-344__hole_0",
+      "pts": [
+        [
+          -2.192,
+          5.215
+        ],
+        [
+          0.281,
+          5.215
+        ],
+        [
+          0.281,
+          4.975
+        ],
+        [
+          -2.192,
+          4.975
+        ]
+      ],
+      "to_room": "LivingRoom-3016"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "5bddf882-4a75-4990-8a2d-6cd2a38ff40b",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.3701,
+        0.1383,
+        0.3404
+      ],
+      "position": [
+        -1.48005,
+        0,
+        5.54106
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "8f19fd85-b8bb-46a9-958a-334154c6401b",
+      "type": "rug/rug",
+      "size_m": [
+        1.5007,
+        0.0093,
+        0.8003
+      ],
+      "position": [
+        -1.26157,
+        0,
+        5.51157
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "8ed63329-0edd-4bd0-9a8c-a8a20e9968c3",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        1.1741,
+        0.4916,
+        0.257
+      ],
+      "position": [
+        -0.80647,
+        0,
+        5.60206
+      ],
+      "rotation_yaw_deg": 155.019
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

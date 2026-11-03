@@ -1,0 +1,149 @@
+{
+  "house_id": "0d8edd78-6d9b-46c3-b3c9-296d17273da3",
+  "room_id": "Bathroom-10378",
+  "region_type": "bathroom",
+  "region_type_raw": "Bathroom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 3.6415,
+  "height": 2.6,
+  "boundary": [
+    [
+      -3.668,
+      -2.072
+    ],
+    [
+      -2.061,
+      -2.072
+    ],
+    [
+      -2.061,
+      -4.338
+    ],
+    [
+      -3.668,
+      -4.338
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Bathroom-10378__door_0",
+      "pts": [
+        [
+          -2.116,
+          -2.072
+        ],
+        [
+          -2.816,
+          -2.072
+        ],
+        [
+          -2.816,
+          -1.952
+        ],
+        [
+          -2.116,
+          -1.952
+        ]
+      ],
+      "to_room": "LivingDiningRoom-10878"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "15e72d8d-6af7-40cf-9758-2d721e3a5c17",
+      "type": "toilet/floor-based toilet",
+      "size_m": [
+        0.3662,
+        0.7765,
+        0.7107
+      ],
+      "position": [
+        -2.51663,
+        0,
+        -3.98276
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "1756a5a6-1cd0-4aec-9a25-ce0621bbc217",
+      "type": "shower/wall-attached shower head",
+      "size_m": [
+        0.23,
+        1.5399,
+        0.5864
+      ],
+      "position": [
+        -3.37487,
+        0.7,
+        -3.84621
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "726f3baa-cc64-49ba-bb06-37d672dc69c8",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.6,
+        0.0403,
+        0.3
+      ],
+      "position": [
+        -2.7607,
+        2.55967,
+        -2.87591
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "726f3baa-cc64-49ba-bb06-37d672dc69c8",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.6,
+        0.0403,
+        0.3
+      ],
+      "position": [
+        -2.7607,
+        2.55967,
+        -3.73108
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0266a66d-e124-44cd-8d1b-ca2994531d40",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.0,
+        1.9351,
+        0.51
+      ],
+      "position": [
+        -3.4128,
+        0,
+        -2.572
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "4b238cb7-bab1-4c5f-acf6-3f9993156596",
+      "type": "accessory/bathroom accessory - ceiling-attached",
+      "size_m": [
+        1.2842,
+        1.8074,
+        0.1368
+      ],
+      "position": [
+        -3.57839,
+        0.79274,
+        -3.41352
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 0
+}

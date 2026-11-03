@@ -1,0 +1,177 @@
+{
+  "house_id": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "room_id": "Balcony-3317",
+  "region_type": "balcony",
+  "region_type_raw": "Balcony",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 4.7424,
+  "height": 2.6,
+  "boundary": [
+    [
+      -2.798,
+      -4.631
+    ],
+    [
+      0.836,
+      -4.631
+    ],
+    [
+      0.836,
+      -5.936
+    ],
+    [
+      -2.798,
+      -5.936
+    ]
+  ],
+  "doors": [],
+  "windows": [
+    {
+      "id": "Balcony-3317__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -2.798,
+          -4.713
+        ],
+        [
+          -2.798,
+          -5.827
+        ],
+        [
+          -3.038,
+          -5.827
+        ],
+        [
+          -3.038,
+          -4.713
+        ]
+      ],
+      "height": 0.2,
+      "to_room": null
+    },
+    {
+      "id": "Balcony-3317__window_1",
+      "window_type": "normal",
+      "pts": [
+        [
+          0.836,
+          -5.864
+        ],
+        [
+          0.836,
+          -4.75
+        ],
+        [
+          1.076,
+          -4.75
+        ],
+        [
+          1.076,
+          -5.864
+        ]
+      ],
+      "height": 0.2,
+      "to_room": null
+    },
+    {
+      "id": "Balcony-3317__window_2",
+      "window_type": "normal",
+      "pts": [
+        [
+          -2.741,
+          -5.936
+        ],
+        [
+          0.821,
+          -5.936
+        ],
+        [
+          0.821,
+          -6.176
+        ],
+        [
+          -2.741,
+          -6.176
+        ]
+      ],
+      "height": 0.2,
+      "to_room": null
+    }
+  ],
+  "holes": [
+    {
+      "id": "Balcony-3317__hole_0",
+      "pts": [
+        [
+          0.715,
+          -4.631
+        ],
+        [
+          -2.62,
+          -4.631
+        ],
+        [
+          -2.62,
+          -4.391
+        ],
+        [
+          0.715,
+          -4.391
+        ]
+      ],
+      "to_room": "LivingDiningRoom-7316"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "03a2c66d-e79c-4ade-b047-97480275f04d",
+      "type": "sofa/single seat sofa",
+      "size_m": [
+        1.1715,
+        0.7471,
+        1.0606
+      ],
+      "position": [
+        -1.60373,
+        0,
+        -5.2146
+      ],
+      "rotation_yaw_deg": 33.199
+    },
+    {
+      "id": "099ed087-2fed-4ff7-98df-15e0e073015f",
+      "type": "lighting/floor lamp",
+      "size_m": [
+        0.4295,
+        1.6005,
+        0.4294
+      ],
+      "position": [
+        -0.99093,
+        0,
+        -5.51586
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "df458d49-98d9-4c5b-b9e8-7c75af52a650",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.19,
+        0.07,
+        0.1905
+      ],
+      "position": [
+        -0.97185,
+        2.37893,
+        -5.25157
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 3
+}

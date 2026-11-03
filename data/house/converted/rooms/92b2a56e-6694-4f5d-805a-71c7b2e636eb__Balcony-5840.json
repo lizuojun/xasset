@@ -1,0 +1,104 @@
+{
+  "house_id": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "room_id": "Balcony-5840",
+  "region_type": "balcony",
+  "region_type_raw": "Balcony",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 5.3319,
+  "height": 2.6,
+  "boundary": [
+    [
+      -1.248,
+      8.333
+    ],
+    [
+      3.101,
+      8.333
+    ],
+    [
+      3.101,
+      7.107
+    ],
+    [
+      -1.248,
+      7.107
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Balcony-5840__door_0",
+      "pts": [
+        [
+          -1.127,
+          7.107
+        ],
+        [
+          1.583,
+          7.107
+        ],
+        [
+          1.583,
+          6.987
+        ],
+        [
+          -1.127,
+          6.987
+        ]
+      ],
+      "to_room": "LivingRoom-8225"
+    }
+  ],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "84bc299d-5d1a-4ba8-901d-31559b71b4af",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.6066,
+        1.1743,
+        0.6931
+      ],
+      "position": [
+        1.71644,
+        0,
+        7.45368
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "8a47cb01-2d49-4eb7-94f2-f719f5709230",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.6004,
+        0.08,
+        0.9006
+      ],
+      "position": [
+        0.84828,
+        2.52,
+        7.72401
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "3b6bd618-2cf3-4bdf-8d1d-6a815bc4ea25",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        1.0712,
+        1.7141,
+        1.054
+      ],
+      "position": [
+        0.64069,
+        0,
+        7.72399
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 0
+}

@@ -1,0 +1,862 @@
+{
+  "house_id": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "room_id": "Kitchen-3935",
+  "region_type": "kitchen",
+  "region_type_raw": "Kitchen",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 7.1558,
+  "height": 2.6,
+  "boundary": [
+    [
+      -7.802,
+      5.647
+    ],
+    [
+      -6.16,
+      5.647
+    ],
+    [
+      -6.16,
+      1.289
+    ],
+    [
+      -7.802,
+      1.289
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Kitchen-3935__door_0",
+      "pts": [
+        [
+          -6.16,
+          3.249
+        ],
+        [
+          -6.16,
+          3.82
+        ],
+        [
+          -5.92,
+          3.82
+        ],
+        [
+          -5.92,
+          3.249
+        ]
+      ],
+      "to_room": "Corridor-2257"
+    }
+  ],
+  "windows": [],
+  "holes": [
+    {
+      "id": "Kitchen-3935__hole_0",
+      "pts": [
+        [
+          -7.23,
+          1.289
+        ],
+        [
+          -6.27,
+          1.289
+        ],
+        [
+          -6.27,
+          1.049
+        ],
+        [
+          -7.23,
+          1.049
+        ]
+      ],
+      "to_room": "Balcony-285"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.4724,
+        1.5015,
+        5.11075
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "f6ade194-3b3f-475e-8bc8-0ab91eafce07",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.45,
+        0.53,
+        0.02
+      ],
+      "position": [
+        -7.26625,
+        1.5015,
+        5.3169
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.4704,
+        1.5015,
+        4.6796
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.4704,
+        1.5015,
+        4.2296
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -6.3851,
+        1.5015,
+        5.3149
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -6.8351,
+        1.5015,
+        5.3149
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -6.3851,
+        0.1015,
+        5.0789
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -6.8351,
+        0.1015,
+        5.0789
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.14825,
+        0.1015,
+        5.0809
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "f6ade194-3b3f-475e-8bc8-0ab91eafce07",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.45,
+        0.53,
+        0.02
+      ],
+      "position": [
+        -7.2364,
+        0.1015,
+        4.99425
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.2344,
+        0.1015,
+        3.7796
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.2344,
+        0.1015,
+        3.3296
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.2344,
+        0.1015,
+        2.3643
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.2344,
+        0.1015,
+        1.9143
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.2344,
+        0.1015,
+        4.6796
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.2344,
+        0.1015,
+        4.2296
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.2344,
+        0.1015,
+        2.84695
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.2344,
+        0.1015,
+        1.4893
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.4644,
+        1.5015,
+        2.3643
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.4644,
+        1.5015,
+        1.9143
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.4644,
+        1.5015,
+        2.84695
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.4704,
+        1.5015,
+        3.7796
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9b8fb18f-5b2d-4b57-9965-178a582abd1b",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.4512,
+        0.6962,
+        0.018
+      ],
+      "position": [
+        -7.4704,
+        1.5015,
+        3.3296
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.44551,
+        1.53961,
+        5.11075
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.44351,
+        1.53961,
+        4.6796
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.44351,
+        1.53961,
+        4.2296
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -6.3851,
+        1.53961,
+        5.28801
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -6.8351,
+        1.53961,
+        5.28801
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -6.3851,
+        0.76039,
+        5.05201
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -6.8351,
+        0.76039,
+        5.05201
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.14825,
+        0.76039,
+        5.05401
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.20751,
+        0.76039,
+        3.7796
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.20751,
+        0.76039,
+        3.3296
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "e6c32836-013b-4164-8d06-b0d6551ba1b0",
+      "type": "sink/drop-in single kitchen sink",
+      "size_m": [
+        0.78,
+        0.5855,
+        0.48
+      ],
+      "position": [
+        -7.5244,
+        0.58655,
+        3.5546
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.20751,
+        0.76039,
+        2.3643
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.20751,
+        0.76039,
+        1.9143
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "3f1b637c-4f42-4c29-93ef-0a799c0bb295",
+      "type": "appliance/range & cooktop",
+      "size_m": [
+        0.75,
+        0.069,
+        0.43
+      ],
+      "position": [
+        -7.5244,
+        0.837,
+        2.1393
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.20751,
+        0.76039,
+        4.6796
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.20751,
+        0.76039,
+        4.2296
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.20751,
+        0.76039,
+        2.84695
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.20751,
+        0.76039,
+        1.4893
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.43751,
+        1.53961,
+        2.3643
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.43751,
+        1.53961,
+        1.9143
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "d234d060-5d23-417b-a8cf-349f321c6717",
+      "type": "appliance/ventilation - ceiling-attached",
+      "size_m": [
+        0.9,
+        0.6204,
+        0.506
+      ],
+      "position": [
+        -7.5494,
+        1.439,
+        2.1393
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.43751,
+        1.53961,
+        2.84695
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.44351,
+        1.53961,
+        3.7796
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "37498169-bad6-4317-a96f-02a00421ef9e",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.1401,
+        0.0181,
+        0.0338
+      ],
+      "position": [
+        -7.44351,
+        1.53961,
+        3.3296
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "0fbde68a-8209-48e7-be66-7b8fc34e0f1f",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        -6.93032,
+        2.38333,
+        4.99662
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0fbde68a-8209-48e7-be66-7b8fc34e0f1f",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        -6.93032,
+        2.38333,
+        4.22339
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0fbde68a-8209-48e7-be66-7b8fc34e0f1f",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        -6.93032,
+        2.38333,
+        3.57554
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0fbde68a-8209-48e7-be66-7b8fc34e0f1f",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        -6.93032,
+        2.38333,
+        2.77096
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0fbde68a-8209-48e7-be66-7b8fc34e0f1f",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        -6.93032,
+        2.38333,
+        1.94549
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

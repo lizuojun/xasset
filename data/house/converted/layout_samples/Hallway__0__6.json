@@ -1,0 +1,10 @@
+{
+  "legacy_room_type": "Hallway",
+  "region_type": "hallway",
+  "area_bucket": "0",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": []
+}

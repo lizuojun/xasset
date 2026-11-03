@@ -1,0 +1,51 @@
+{
+  "house_id": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "room_id": "CloakRoom-30518",
+  "region_type": "cloak_room",
+  "region_type_raw": "CloakRoom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 3.7446,
+  "height": 2.6,
+  "boundary": [
+    [
+      -1.996,
+      0.927
+    ],
+    [
+      0.014,
+      0.927
+    ],
+    [
+      0.014,
+      -0.936
+    ],
+    [
+      -1.996,
+      -0.936
+    ]
+  ],
+  "doors": [],
+  "windows": [],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "11540465-3529-4caf-9975-ea2bc3c7e4d7",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.475,
+        0.05,
+        0.475
+      ],
+      "position": [
+        -1.31404,
+        2.39999,
+        0.33677
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 1
+}

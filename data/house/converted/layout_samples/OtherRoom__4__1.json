@@ -1,0 +1,10 @@
+{
+  "legacy_room_type": "OtherRoom",
+  "region_type": "other_room",
+  "area_bucket": "4",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": []
+}

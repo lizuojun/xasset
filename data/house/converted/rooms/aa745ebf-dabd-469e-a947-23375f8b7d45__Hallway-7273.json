@@ -1,0 +1,179 @@
+{
+  "house_id": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "room_id": "Hallway-7273",
+  "region_type": "hallway",
+  "region_type_raw": "Hallway",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 2.4244,
+  "height": 2.6,
+  "boundary": [
+    [
+      -0.645,
+      5.647
+    ],
+    [
+      0.836,
+      5.647
+    ],
+    [
+      0.836,
+      4.01
+    ],
+    [
+      -0.645,
+      4.01
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Hallway-7273__door_0",
+      "pts": [
+        [
+          0.39,
+          5.647
+        ],
+        [
+          -0.51,
+          5.647
+        ],
+        [
+          -0.51,
+          5.887
+        ],
+        [
+          0.39,
+          5.887
+        ]
+      ],
+      "to_room": null
+    },
+    {
+      "id": "Hallway-7273__door_1",
+      "pts": [
+        [
+          -0.645,
+          5.564
+        ],
+        [
+          -0.645,
+          4.784
+        ],
+        [
+          -0.745,
+          4.784
+        ],
+        [
+          -0.745,
+          5.564
+        ]
+      ],
+      "to_room": "StorageRoom-5773"
+    }
+  ],
+  "windows": [],
+  "holes": [
+    {
+      "id": "Hallway-7273__hole_0",
+      "pts": [
+        [
+          -0.545,
+          4.01
+        ],
+        [
+          0.455,
+          4.01
+        ],
+        [
+          0.455,
+          3.91
+        ],
+        [
+          -0.545,
+          3.91
+        ]
+      ],
+      "to_room": "LivingDiningRoom-7316"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "b21ea272-54d3-4e1f-b8eb-092901948e98",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.8176,
+        0.3913,
+        0.3276
+      ],
+      "position": [
+        0.66636,
+        0.84,
+        4.87473
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "0adf3a4a-a8e4-44f5-941e-61bb674cca66",
+      "type": "accessory/accessory - wall-attached",
+      "size_m": [
+        1.0089,
+        0.7072,
+        0.2738
+      ],
+      "position": [
+        0.66575,
+        0,
+        4.8635
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "f2d28334-ebc2-4879-82a5-f29a23ed086e",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        1.2,
+        0.9999,
+        0.0428
+      ],
+      "position": [
+        0.81468,
+        1.16368,
+        4.83802
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "0fbde68a-8209-48e7-be66-7b8fc34e0f1f",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        0.7421,
+        2.48333,
+        4.5363
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0fbde68a-8209-48e7-be66-7b8fc34e0f1f",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        0.7421,
+        2.48333,
+        5.07249
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

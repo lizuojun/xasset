@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "DiningRoom",
+  "region_type": "dining_room",
+  "area_bucket": "17",
+  "resolved": true,
+  "source_house": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "source_room": "DiningRoom-31322",
+  "source_room_file": "92b2a56e-6694-4f5d-805a-71c7b2e636eb__DiningRoom-31322.json",
+  "placed_groups": [
+    {
+      "group_code": 100101,
+      "group_type_raw": "Dining",
+      "position": [
+        1.08169,
+        0,
+        -0.9738199999999999
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.499999735525513,
+        0.7500050354003907,
+        1.9798229812622072
+      ],
+      "size_min": [
+        2.499999735525513,
+        0.7500050354003907,
+        0.900002751803589
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -1.1102230246251565e-16
+      ],
+      "obj_main": "4c3b97e1-075e-46e0-976f-de8889ecc229",
+      "obj_type": "table/table",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100501,
+      "group_type_raw": "Cabinet",
+      "position": [
+        0.79339,
+        0,
+        -2.65392
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.8039999389648438,
+        0.9999967199432374,
+        0.4159999847412109
+      ],
+      "size_min": [
+        1.8039999389648438,
+        0.9999967199432374,
+        0.4159999847412109
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "d425e70e-78d4-42a0-be79-22d3f9ac6252",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100501,
+      "group_type_raw": "Cabinet",
+      "position": [
+        2.95307,
+        0,
+        -0.4289
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.8039999389648438,
+        0.8569539642333984,
+        0.4159999847412109
+      ],
+      "size_min": [
+        1.8039999389648438,
+        0.8569539642333984,
+        0.4159999847412109
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "27a5fb9d-ec93-457c-b413-335e8fae7954",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

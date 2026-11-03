@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "SecondBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "18",
+  "resolved": true,
+  "source_house": "dd6e39f6-6816-4477-b54e-168bb54c3e45",
+  "source_room": "SecondBedroom-314",
+  "source_room_file": "dd6e39f6-6816-4477-b54e-168bb54c3e45__SecondBedroom-314.json",
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -0.4906825673844695,
+        0,
+        -5.524080007617707
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.543949966430664,
+        1.1515899658203126,
+        2.161000061035156
+      ],
+      "size_min": [
+        1.979949951171875,
+        1.1515899658203126,
+        2.161000061035156
+      ],
+      "offset": [
+        -0.2820000076293945,
+        0,
+        -0.0
+      ],
+      "obj_main": "7fd324ff-5114-4b8e-9662-259249aa40fa",
+      "obj_type": "bed/queen-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        0.03303,
+        0,
+        -3.47891
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        3.2077293786590575,
+        2.1,
+        0.6005450057983398
+      ],
+      "size_min": [
+        3.2077293786590575,
+        2.1,
+        0.6005450057983398
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "53fb0348-bc8d-4e04-9f01-ec0c1ec920a3",
+      "obj_type": "storage unit/armoire",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        3.16364,
+        0,
+        -5.04481
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.5565199279785156,
+        1.741706008911133,
+        0.09583499908447266
+      ],
+      "size_min": [
+        1.5565199279785156,
+        0.8917060089111328,
+        0.09583499908447266
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "e5e6d90f-58c5-4293-8dc0-0a701af93bd5",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    }
+  ]
+}

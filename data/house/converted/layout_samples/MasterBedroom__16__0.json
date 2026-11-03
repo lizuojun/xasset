@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "MasterBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "16",
+  "resolved": true,
+  "source_house": "0d8edd78-6d9b-46c3-b3c9-296d17273da3",
+  "source_room": "MasterBedroom-10697",
+  "source_room_file": "0d8edd78-6d9b-46c3-b3c9-296d17273da3__MasterBedroom-10697.json",
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        1.79702,
+        0,
+        1.59515
+      ],
+      "rotation_yaw_deg": 179.652,
+      "size": [
+        1.8999899291992188,
+        1.050780029296875,
+        2.1703500366210937
+      ],
+      "size_min": [
+        1.8999899291992188,
+        1.050780029296875,
+        2.1703500366210937
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "30de4338-fc19-4c05-8f5b-7852c2153d09",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100503,
+      "group_type_raw": "Armoire",
+      "position": [
+        -0.0116,
+        0,
+        1.6873
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.000001634368896,
+        2.3999884,
+        0.55000136097641
+      ],
+      "size_min": [
+        2.000001634368896,
+        2.3999884,
+        0.55000136097641
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "82e94fd0-8a6e-4cf5-ae80-9181e47973d8",
+      "obj_type": "storage unit/armoire - L shaped",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        3.55636,
+        0,
+        2.019169451028061
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.000002064956665,
+        0.7510220336914063,
+        1.3362560918403625
+      ],
+      "size_min": [
+        1.000002064956665,
+        0.7510220336914063,
+        0.5307749938964844
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.4027405489719391
+      ],
+      "obj_main": "f8797ecf-d978-4ede-b90a-d837989f5592",
+      "obj_type": "table/table",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        3.51758,
+        0,
+        -0.326
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.0612000000000001,
+        0.8097570037841797,
+        0.3500002285812378
+      ],
+      "size_min": [
+        1.0612000000000001,
+        0.8097570037841797,
+        0.3500002285812378
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "0ad33770-aa76-4cd3-b62a-009fc83fa8dd",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "rooms": {
+    "total": 99,
+    "region_type_mapped_counts": {
+      "LivingDiningRoom": 7,
+      "Kitchen": 11,
+      "Bathroom": 9,
+      "Balcony": 12,
+      "Library": 7,
+      "LivingRoom": 4,
+      "DiningRoom": 4,
+      "KidsRoom": 3,
+      "Hallway": 2,
+      "Bedroom": 5
+    },
+    "region_type_unmapped_counts": {
+      "LaundryRoom": 1,
+      "Aisle": 1,
+      "Corridor": 1,
+      "StorageRoom": 2,
+      "CloakRoom": 1,
+      "": 3,
+      "OtherRoom": 1
+    }
+  },
+  "layout_samples": {
+    "total": 128,
+    "resolved": 73,
+    "unresolved": 55,
+    "group_code_gaps": {
+      "(Cabinet, living_dining_room)": 14,
+      "(Appliance, living_dining_room)": 3,
+      "(Rest, living_dining_room)": 1,
+      "(Work, living_dining_room)": 1,
+      "(Cabinet, bedroom)": 9,
+      "(Appliance, bathroom)": 5,
+      "(Cabinet, balcony)": 4,
+      "(Cabinet, other_room)": 1,
+      "(Cabinet, living_room)": 4,
+      "(Cabinet, cloak_room)": 1,
+      "(Cabinet, storage_room)": 3,
+      "(Appliance, laundry_room)": 1,
+      "(Cabinet, aisle)": 1
+    }
+  }
+}

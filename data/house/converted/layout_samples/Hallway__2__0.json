@@ -1,0 +1,10 @@
+{
+  "legacy_room_type": "Hallway",
+  "region_type": "hallway",
+  "area_bucket": "2",
+  "resolved": true,
+  "source_house": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "source_room": "Hallway-7273",
+  "source_room_file": "aa745ebf-dabd-469e-a947-23375f8b7d45__Hallway-7273.json",
+  "placed_groups": []
+}

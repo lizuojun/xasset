@@ -1,0 +1,123 @@
+{
+  "legacy_room_type": "LivingDiningRoom",
+  "region_type": "living_dining_room",
+  "area_bucket": "56",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": 100002,
+      "group_type_raw": "Meeting",
+      "position": [
+        -1.3960313329247134,
+        0,
+        -4.272079682823201
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        4.111128156381149,
+        0.8941960144042969,
+        2.615235495243013
+      ],
+      "size_min": [
+        2.379709930419922,
+        0.8941960144042969,
+        0.8546330261230469
+      ],
+      "offset": [
+        -0.010808331615745681,
+        0,
+        -0.8803012345599831
+      ],
+      "obj_main": "a371732f-5205-4111-814d-5b899bb51cf0",
+      "obj_type": "sofa/ multi seat sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100102,
+      "group_type_raw": "Dining",
+      "position": [
+        3.10534,
+        0,
+        -4.26134
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        2.82119,
+        0.759796,
+        2.17854
+      ],
+      "size_min": [
+        2.82119,
+        0.759796,
+        2.17854
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "8186ee93-bc53-4976-ab5d-724753e2b01f",
+      "obj_type": "table/dining table - square",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        -4.027697614209869,
+        0,
+        -4.28288001823012
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        2.60422,
+        1.601459,
+        0.494207
+      ],
+      "size_min": [
+        1.29988,
+        0.751459,
+        0.0377028
+      ],
+      "offset": [
+        0.031392059823949214,
+        0,
+        -0.22825209999999999
+      ],
+      "obj_main": "0c5efde1-79b5-4c77-bf81-efa976963813",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        3.10534,
+        0,
+        -6.4159
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.54,
+        0.8984320068359375,
+        0.46108299255371094
+      ],
+      "size_min": [
+        1.54,
+        0.8984320068359375,
+        0.46108299255371094
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "83782893-8a14-4f92-ac63-a685c523b623",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    }
+  ]
+}

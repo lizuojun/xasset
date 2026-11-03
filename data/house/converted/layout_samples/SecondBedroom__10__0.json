@@ -1,0 +1,67 @@
+{
+  "legacy_room_type": "SecondBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "10",
+  "resolved": true,
+  "source_house": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "source_room": "SecondBedroom-801",
+  "source_room_file": "aa745ebf-dabd-469e-a947-23375f8b7d45__SecondBedroom-801.json",
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        -4.32316,
+        0,
+        -3.29563
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        2.570509948730469,
+        1.2123300170898437,
+        2.1910299682617187
+      ],
+      "size_min": [
+        2.0405099487304685,
+        1.2123300170898437,
+        2.1910299682617187
+      ],
+      "offset": [
+        0.2650000000000001,
+        0,
+        -0.0
+      ],
+      "obj_main": "e3114fee-0471-4e04-b1fc-06390f00dc64",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -4.98734,
+        0,
+        -0.9331
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.8655199999999998,
+        2.4500017426071166,
+        0.600002
+      ],
+      "size_min": [
+        1.8655199999999998,
+        2.4500017426071166,
+        0.600002
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "0d6fcf95-b4eb-4fc8-aefa-6d497d3d6830",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "house_id": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "room_id": "MasterBedroom-27898",
+  "region_type": "bedroom",
+  "region_type_raw": "MasterBedroom",
+  "priority": 1,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 22.1566,
+  "height": 2.6,
+  "boundary": [
+    [
+      -5.54,
+      7.873
+    ],
+    [
+      -2.236,
+      7.873
+    ],
+    [
+      -2.236,
+      1.167
+    ],
+    [
+      -5.54,
+      1.167
+    ]
+  ],
+  "doors": [
+    {
+      "id": "MasterBedroom-27898__door_0",
+      "pts": [
+        [
+          -3.099,
+          1.167
+        ],
+        [
+          -2.411,
+          1.167
+        ],
+        [
+          -2.411,
+          0.927
+        ],
+        [
+          -3.099,
+          0.927
+        ]
+      ],
+      "to_room": "MasterBathroom-30561"
+    },
+    {
+      "id": "MasterBedroom-27898__door_1",
+      "pts": [
+        [
+          -2.236,
+          1.761
+        ],
+        [
+          -2.236,
+          2.561
+        ],
+        [
+          -1.996,
+          2.561
+        ],
+        [
+          -1.996,
+          1.761
+        ]
+      ],
+      "to_room": "LivingRoom-28250"
+    }
+  ],
+  "windows": [
+    {
+      "id": "MasterBedroom-27898__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -3.276,
+          7.873
+        ],
+        [
+          -5.013,
+          7.873
+        ],
+        [
+          -5.013,
+          8.113
+        ],
+        [
+          -3.276,
+          8.113
+        ]
+      ],
+      "height": 0.85,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "ea537711-79b8-42dc-af9b-0ea6b77572c9",
+      "type": "bed/king-size bed",
+      "size_m": [
+        2.2197,
+        0.9227,
+        2.5027
+      ],
+      "position": [
+        -4.28863,
+        0,
+        5.64904
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "51679019-9fca-4423-b49c-b0d4b0d4ed21",
+      "type": "table/night table",
+      "size_m": [
+        0.5,
+        0.5,
+        0.4
+      ],
+      "position": [
+        -5.26094,
+        0,
+        4.28922
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "51679019-9fca-4423-b49c-b0d4b0d4ed21",
+      "type": "table/night table",
+      "size_m": [
+        0.5,
+        0.5,
+        0.4
+      ],
+      "position": [
+        -5.25916,
+        0,
+        7.00886
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "3e350f3b-31d9-449c-a4e4-efad2a7189dc",
+      "type": "table/table",
+      "size_m": [
+        1.4,
+        0.75,
+        0.65
+      ],
+      "position": [
+        -5.215,
+        0,
+        2.73962
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "0d039cc2-6c45-461a-8718-ff2082d32656",
+      "type": "chair/armchair",
+      "size_m": [
+        0.6606,
+        0.7277,
+        0.5601
+      ],
+      "position": [
+        -4.61035,
+        0,
+        2.82773
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "2ed062d3-ac09-4cb5-aedf-d7b1be51380b",
+      "type": "cabinet/bookcase - L shaped",
+      "size_m": [
+        1.065,
+        2.18,
+        0.45
+      ],
+      "position": [
+        -5.00749,
+        0,
+        1.3922
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "2ed062d3-ac09-4cb5-aedf-d7b1be51380b",
+      "type": "cabinet/bookcase - L shaped",
+      "size_m": [
+        1.065,
+        2.18,
+        0.45
+      ],
+      "position": [
+        -3.94249,
+        0,
+        1.3922
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "1e9cf0e5-6769-4dbb-a8a2-121e04e3dca5",
+      "type": "electronics/TV - wall-attached",
+      "size_m": [
+        1.1758,
+        0.701,
+        0.019
+      ],
+      "position": [
+        -2.24569,
+        0.85,
+        5.66678
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "caf6847d-5124-4049-94fb-57ae2039e690",
+      "type": "rug/rug",
+      "size_m": [
+        2.8992,
+        0.0093,
+        2.0005
+      ],
+      "position": [
+        -3.55359,
+        0,
+        5.66662
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "23a5c7be-ee3b-4154-94f0-5856c90f2193",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        0.7997,
+        1.1998,
+        0.0548
+      ],
+      "position": [
+        -5.51262,
+        1.1,
+        2.64282
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -2.7862,
+        2.397,
+        7.0731
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -2.7862,
+        2.397,
+        5.5731
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -2.7862,
+        2.397,
+        4.0731
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -2.7862,
+        2.397,
+        2.5731
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -4.99,
+        2.397,
+        7.0731
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -4.99,
+        2.397,
+        5.5731
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -4.99,
+        2.397,
+        4.0731
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -4.99,
+        2.397,
+        2.5731
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "984a2e31-a99f-4409-bac7-c24f5d00306e",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.22,
+        0.003,
+        0.12
+      ],
+      "position": [
+        -3.89669,
+        2.397,
+        1.92831
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "5ca1580b-1bc8-4d75-916f-54e5c4cb89bf",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.2,
+        0.915,
+        0.2
+      ],
+      "position": [
+        -5.25403,
+        0.5,
+        7.01487
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "5ca1580b-1bc8-4d75-916f-54e5c4cb89bf",
+      "type": "lighting/desk lamp",
+      "size_m": [
+        0.2,
+        0.915,
+        0.2
+      ],
+      "position": [
+        -5.27599,
+        0.5,
+        4.29631
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "7b39c69b-1609-4e3d-bcb8-40644db81eae",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.248,
+        0.1241,
+        0.2189
+      ],
+      "position": [
+        -5.28271,
+        0.75,
+        3.24594
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "651e207f-09ed-4689-b2bf-5d143531e171",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.4785,
+        0.1991,
+        0.2701
+      ],
+      "position": [
+        -5.30077,
+        0.75,
+        2.65203
+      ],
+      "rotation_yaw_deg": 90.001
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

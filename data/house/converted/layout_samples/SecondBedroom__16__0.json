@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "SecondBedroom",
+  "region_type": "bedroom",
+  "area_bucket": "16",
+  "resolved": true,
+  "source_house": "49a72df4-f9a3-45af-85cb-8f3d310a9466",
+  "source_room": "SecondBedroom-26887",
+  "source_room_file": "49a72df4-f9a3-45af-85cb-8f3d310a9466__SecondBedroom-26887.json",
+  "placed_groups": [
+    {
+      "group_code": 100201,
+      "group_type_raw": "Bed",
+      "position": [
+        4.587737864382244,
+        0,
+        6.213015004567915
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        2.301830062866211,
+        0.8755400085449219,
+        2.0072200012207033
+      ],
+      "size_min": [
+        1.8326800537109376,
+        0.8755400085449219,
+        2.0072200012207033
+      ],
+      "offset": [
+        -0.23457500457763675,
+        0,
+        -0.0
+      ],
+      "obj_main": "3b135c3b-b547-4ae8-9b1b-d31aadcc867b",
+      "obj_type": "bed/king-size bed",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100902,
+      "group_type_raw": "Media",
+      "position": [
+        2.54939,
+        0,
+        5.97233
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.175770034790039,
+        1.550990982055664,
+        0.01897220015525818
+      ],
+      "size_min": [
+        1.175770034790039,
+        0.700990982055664,
+        0.01897220015525818
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "1e9cf0e5-6769-4dbb-a8a2-121e04e3dca5",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100302,
+      "group_type_raw": "Work",
+      "position": [
+        4.874439926483254,
+        0,
+        4.0817964131266145
+      ],
+      "rotation_yaw_deg": -90.001,
+      "size": [
+        1.860489959716797,
+        0.7805709838867188,
+        1.4661121551227871
+      ],
+      "size_min": [
+        1.860489959716797,
+        0.7805709838867188,
+        0.6781520080566407
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.3939800735330733
+      ],
+      "obj_main": "b0c4a694-20a7-42f7-8eaf-84023b9480a1",
+      "obj_type": "table/table",
+      "role_assets": {}
+    }
+  ]
+}

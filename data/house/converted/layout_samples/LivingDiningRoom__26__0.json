@@ -1,0 +1,151 @@
+{
+  "legacy_room_type": "LivingDiningRoom",
+  "region_type": "living_dining_room",
+  "area_bucket": "26",
+  "resolved": true,
+  "source_house": "0d8edd78-6d9b-46c3-b3c9-296d17273da3",
+  "source_room": "LivingDiningRoom-10878",
+  "source_room_file": "0d8edd78-6d9b-46c3-b3c9-296d17273da3__LivingDiningRoom-10878.json",
+  "placed_groups": [
+    {
+      "group_code": 100002,
+      "group_type_raw": "Meeting",
+      "position": [
+        2.4740502554719126,
+        0,
+        -3.286437004852295
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        3.3631470329073263,
+        0.786095962524414,
+        2.105152980041504
+      ],
+      "size_min": [
+        2.150919952392578,
+        0.786095962524414,
+        0.8642269897460938
+      ],
+      "offset": [
+        -0.0861702554719127,
+        0,
+        -0.6204629951477051
+      ],
+      "obj_main": "d7ab9ef0-41f0-4e46-befa-a580aea346ba",
+      "obj_type": "sofa/ multi seat sofa",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100102,
+      "group_type_raw": "Dining",
+      "position": [
+        -0.7045134443011942,
+        0,
+        -3.5881400274633264
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.4999299621582032,
+        0.7651909637451172,
+        1.9367704171115916
+      ],
+      "size_min": [
+        1.4999299621582032,
+        0.7651909637451172,
+        0.8999259948730469
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.003016555698930834
+      ],
+      "obj_main": "25e8d104-12d4-46ac-9f03-7edbf55a4cbe",
+      "obj_type": "table/dining table - square",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100901,
+      "group_type_raw": "Media",
+      "position": [
+        2.57243,
+        0,
+        -0.8134130464935303
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.79906005859375,
+        1.5361980114746094,
+        0.384827995300293
+      ],
+      "size_min": [
+        1.3051699829101562,
+        0.7361180114746094,
+        0.05678190231323242
+      ],
+      "offset": [
+        -0.0028399999999999537,
+        0,
+        -0.16402304649353028
+      ],
+      "obj_main": "60ae9583-629f-476f-bb05-900200abf53d",
+      "obj_type": "electronics/TV - wall-attached",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -3.2678,
+        0,
+        -1.802
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        0.8000152415542603,
+        0.999999,
+        0.29999779672164917
+      ],
+      "size_min": [
+        0.8000152415542603,
+        0.999999,
+        0.29999779672164917
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "ed18696f-84ec-4923-9b24-fe9d97f0bdd4",
+      "obj_type": "cabinet/hutch&buffet",
+      "role_assets": {}
+    },
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        0.6315,
+        0,
+        -0.82187
+      ],
+      "rotation_yaw_deg": 180.0,
+      "size": [
+        1.3559700012207032,
+        0.7601249694824219,
+        0.4017340087890625
+      ],
+      "size_min": [
+        1.3559700012207032,
+        0.7601249694824219,
+        0.4017340087890625
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "c0008c5f-b35c-4e38-bc87-37908ab66007",
+      "obj_type": "storage unit/dresser",
+      "role_assets": {}
+    }
+  ]
+}

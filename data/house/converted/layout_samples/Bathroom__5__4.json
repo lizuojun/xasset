@@ -1,0 +1,95 @@
+{
+  "legacy_room_type": "Bathroom",
+  "region_type": "bathroom",
+  "area_bucket": "5",
+  "resolved": true,
+  "source_house": "dd6e39f6-6816-4477-b54e-168bb54c3e45",
+  "source_room": "MasterBathroom-582",
+  "source_room_file": "dd6e39f6-6816-4477-b54e-168bb54c3e45__MasterBathroom-582.json",
+  "placed_groups": [
+    {
+      "group_code": 100601,
+      "group_type_raw": "Toilet",
+      "position": [
+        -4.6497,
+        0,
+        2.49145
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        0.3771110153198242,
+        0.7340789794921875,
+        0.7180960083007812
+      ],
+      "size_min": [
+        0.3771110153198242,
+        0.7340789794921875,
+        0.7180960083007812
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "0eaa6458-1ed0-45ea-8318-7935016cd201",
+      "obj_type": "toilet/floor-based toilet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100505,
+      "group_type_raw": "Cabinet",
+      "position": [
+        -2.9683,
+        0,
+        0.94804
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.0,
+        1.9351400756835937,
+        0.51
+      ],
+      "size_min": [
+        1.0,
+        1.9351400756835937,
+        0.51
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "0266a66d-e124-44cd-8d1b-ca2994531d40",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    },
+    {
+      "group_code": 100701,
+      "group_type_raw": "Bath",
+      "position": [
+        -4.17945,
+        0,
+        1.5819185044593866
+      ],
+      "rotation_yaw_deg": 0.0,
+      "size": [
+        1.7488919516766646,
+        2.304629974365234,
+        1.7777630144729724
+      ],
+      "size_min": [
+        0.2565329933166504,
+        1.3046299743652343,
+        0.5612260055541992
+      ],
+      "offset": [
+        -0.32125999999999966,
+        0,
+        -0.6082685044593865
+      ],
+      "obj_main": "acc0123a-be37-4233-96e0-210e56a21568",
+      "obj_type": "shower/wall-attached shower head",
+      "role_assets": {}
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "house_id": "355ab8b3-1609-4346-8202-1546938d57f2",
+  "room_id": "Library-4117",
+  "region_type": "library",
+  "region_type_raw": "Library",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 10.65,
+  "height": 2.6,
+  "boundary": [
+    [
+      -7.375,
+      -0.35
+    ],
+    [
+      -3.825,
+      -0.35
+    ],
+    [
+      -3.825,
+      -3.35
+    ],
+    [
+      -7.375,
+      -3.35
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Library-4117__door_0",
+      "pts": [
+        [
+          -3.825,
+          -1.401
+        ],
+        [
+          -3.825,
+          -0.6
+        ],
+        [
+          -3.725,
+          -0.6
+        ],
+        [
+          -3.725,
+          -1.401
+        ]
+      ],
+      "to_room": "SecondBathroom-7498"
+    }
+  ],
+  "windows": [
+    {
+      "id": "Library-4117__window_0",
+      "window_type": "normal",
+      "pts": [
+        [
+          -7.375,
+          -0.998
+        ],
+        [
+          -7.375,
+          -2.689
+        ],
+        [
+          -7.575,
+          -2.689
+        ],
+        [
+          -7.575,
+          -0.998
+        ]
+      ],
+      "height": 0.9,
+      "to_room": null
+    }
+  ],
+  "holes": [],
+  "furniture_reference": [
+    {
+      "id": "447f4c9a-604f-4f06-9770-1dc64b873068",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.2942,
+        0.0303,
+        0.2256
+      ],
+      "position": [
+        -6.84423,
+        0.75,
+        -1.67465
+      ],
+      "rotation_yaw_deg": 103.547
+    },
+    {
+      "id": "111030f2-a815-4538-8ef4-be506bdbcf01",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1659,
+        0.2724,
+        0.2042
+      ],
+      "position": [
+        -4.52825,
+        0.74476,
+        -3.24792
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "111030f2-a815-4538-8ef4-be506bdbcf01",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1659,
+        0.2724,
+        0.2042
+      ],
+      "position": [
+        -4.70555,
+        0.74476,
+        -3.24792
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "111030f2-a815-4538-8ef4-be506bdbcf01",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1659,
+        0.2724,
+        0.2042
+      ],
+      "position": [
+        -4.05765,
+        1.12166,
+        -3.24792
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "111030f2-a815-4538-8ef4-be506bdbcf01",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1659,
+        0.2724,
+        0.2042
+      ],
+      "position": [
+        -3.90797,
+        1.12166,
+        -3.24792
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "111030f2-a815-4538-8ef4-be506bdbcf01",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1659,
+        0.2724,
+        0.2042
+      ],
+      "position": [
+        -5.946,
+        0.58714,
+        -3.24792
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "1caba296-fd83-4d6d-9ad4-1d520604810c",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1836,
+        0.161,
+        0.1615
+      ],
+      "position": [
+        -4.35767,
+        0.65753,
+        -3.20017
+      ],
+      "rotation_yaw_deg": -50.552
+    },
+    {
+      "id": "5acf0bda-d924-4c17-95b4-4ac9489f455f",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.404,
+        0.2815,
+        0.3377
+      ],
+      "position": [
+        -6.96765,
+        0.75,
+        -1.15466
+      ],
+      "rotation_yaw_deg": 117.275
+    },
+    {
+      "id": "918be658-3b0a-4fa9-895b-ed5810a300bc",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.3292,
+        0.4099,
+        0.1972
+      ],
+      "position": [
+        -6.21618,
+        1.14087,
+        -3.24779
+      ],
+      "rotation_yaw_deg": -15.538
+    },
+    {
+      "id": "017ce7f5-da1b-4a87-9be2-a8b7dd51efc4",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.172,
+        0.2493,
+        0.0957
+      ],
+      "position": [
+        -4.69089,
+        1.4119,
+        -3.13837
+      ],
+      "rotation_yaw_deg": -28.058
+    },
+    {
+      "id": "dbcc2367-a23e-49f8-b873-bc7790268125",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1714,
+        0.228,
+        0.0623
+      ],
+      "position": [
+        -4.90297,
+        0.60043,
+        -3.10681
+      ],
+      "rotation_yaw_deg": 29.004
+    },
+    {
+      "id": "5bf055c2-7082-415d-82c0-a5da9ccf3d19",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.315,
+        0.064,
+        0.2098
+      ],
+      "position": [
+        -4.56164,
+        0.22265,
+        -3.14249
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "111030f2-a815-4538-8ef4-be506bdbcf01",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1659,
+        0.2724,
+        0.2042
+      ],
+      "position": [
+        -4.23067,
+        0.21676,
+        -3.24792
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "039266b7-226a-4976-9baa-6be1a047db5c",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.3649,
+        0.6371,
+        0.2368
+      ],
+      "position": [
+        -6.26829,
+        0.21626,
+        -3.19449
+      ],
+      "rotation_yaw_deg": 14.586
+    },
+    {
+      "id": "5bf055c2-7082-415d-82c0-a5da9ccf3d19",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.315,
+        0.064,
+        0.2098
+      ],
+      "position": [
+        -4.48137,
+        2.09996,
+        -3.22
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "111030f2-a815-4538-8ef4-be506bdbcf01",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1659,
+        0.2724,
+        0.2042
+      ],
+      "position": [
+        -6.7391,
+        1.44936,
+        -3.22881
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "111030f2-a815-4538-8ef4-be506bdbcf01",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1659,
+        0.2724,
+        0.2042
+      ],
+      "position": [
+        -6.90544,
+        1.44936,
+        -3.24792
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0d2850b8-c41d-40fe-9aa9-6ac8aebd27dd",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1896,
+        0.2191,
+        0.1697
+      ],
+      "position": [
+        -5.63232,
+        2.09996,
+        -3.24
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "0d2850b8-c41d-40fe-9aa9-6ac8aebd27dd",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1896,
+        0.2191,
+        0.1697
+      ],
+      "position": [
+        -4.51662,
+        1.42772,
+        -3.19179
+      ],
+      "rotation_yaw_deg": -48.262
+    },
+    {
+      "id": "5bf055c2-7082-415d-82c0-a5da9ccf3d19",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.315,
+        0.064,
+        0.2098
+      ],
+      "position": [
+        -4.90682,
+        2.17947,
+        -3.22
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "4123bd31-885d-44de-bb4d-12516d495a9a",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.0697,
+        0.098,
+        0.0422
+      ],
+      "position": [
+        -6.00861,
+        2.17006,
+        -3.20478
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "06e61aac-7177-4283-9f5c-3daf08d18cd7",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1503,
+        0.2576,
+        0.1445
+      ],
+      "position": [
+        -6.44527,
+        2.16985,
+        -3.18925
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "4123bd31-885d-44de-bb4d-12516d495a9a",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.0697,
+        0.098,
+        0.0422
+      ],
+      "position": [
+        -5.85181,
+        2.16992,
+        -3.20706
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "4825bc13-5495-43ea-b830-cdcd5e798b58",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.0541,
+        0.2116,
+        0.0541
+      ],
+      "position": [
+        -4.73029,
+        2.17947,
+        -3.12155
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "8e675f6e-bad3-40bd-834f-edc6316030d4",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.4183,
+        0.2868,
+        0.1471
+      ],
+      "position": [
+        -5.22074,
+        2.09997,
+        -3.12877
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "d839ab86-33a2-4902-9b5f-b71c22f03063",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1237,
+        0.0601,
+        0.2712
+      ],
+      "position": [
+        -5.95545,
+        1.73859,
+        -3.17992
+      ],
+      "rotation_yaw_deg": 133.351
+    },
+    {
+      "id": "442617dc-3fe0-4c5a-bc1a-7fbb2d9fd5d5",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.442,
+        0.3979,
+        0.1832
+      ],
+      "position": [
+        -7.03801,
+        0.75,
+        -2.69135
+      ],
+      "rotation_yaw_deg": -130.578
+    },
+    {
+      "id": "4c58fa82-90f0-4c81-849d-52346957f66d",
+      "type": "lighting/pendant light",
+      "size_m": [
+        0.6,
+        1.2,
+        0.6
+      ],
+      "position": [
+        -5.64928,
+        2.1,
+        -1.75749
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "d32ab760-b899-4a41-aae1-f705f988432d",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        1.1672,
+        1.8658,
+        1.0975
+      ],
+      "position": [
+        -7.05807,
+        0.75,
+        -0.65127
+      ],
+      "rotation_yaw_deg": 100.24
+    },
+    {
+      "id": "11eef4db-d032-44ef-bece-5a662903909d",
+      "type": "chair/armchair",
+      "size_m": [
+        0.6784,
+        0.84,
+        0.5563
+      ],
+      "position": [
+        -6.17875,
+        0,
+        -1.76595
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "6a96ffb4-3018-4e1b-b43d-a4ad3f9f9788",
+      "type": "art/art - wall-attached",
+      "size_m": [
+        1.0,
+        1.0,
+        0.054
+      ],
+      "position": [
+        -3.85198,
+        1.1,
+        -2.18572
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "d379e40f-bd45-4a85-a42e-8d141751fa1d",
+      "type": "table/table",
+      "size_m": [
+        1.2,
+        0.76,
+        0.56
+      ],
+      "position": [
+        -6.89621,
+        0,
+        -1.67907
+      ],
+      "rotation_yaw_deg": -90.001
+    },
+    {
+      "id": "64ead52d-2995-4cdf-a8b9-55c2116ffaa6",
+      "type": "cabinet/bookcase - L shaped",
+      "size_m": [
+        3.2004,
+        2.1,
+        0.4009
+      ],
+      "position": [
+        -5.4511,
+        0,
+        -3.14956
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "db621547-7c64-4eac-9223-5414c0dce892",
+      "type": "rug/rug",
+      "size_m": [
+        2.8,
+        0.0081,
+        2.0
+      ],
+      "position": [
+        -6.48261,
+        0,
+        -1.85064
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "9260c285-84bd-430b-a557-bdf100b4e678",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.2842,
+        0.3016,
+        0.2842
+      ],
+      "position": [
+        -5.67594,
+        0.75125,
+        -3.20792
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 2
+}

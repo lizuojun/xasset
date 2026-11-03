@@ -1,0 +1,112 @@
+{
+  "house_id": "aa745ebf-dabd-469e-a947-23375f8b7d45",
+  "room_id": "Bathroom-6351",
+  "region_type": "bathroom",
+  "region_type_raw": "Bathroom",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 1.637,
+  "height": 2.6,
+  "boundary": [
+    [
+      -4.038,
+      5.647
+    ],
+    [
+      -3.038,
+      5.647
+    ],
+    [
+      -3.038,
+      4.01
+    ],
+    [
+      -4.038,
+      4.01
+    ]
+  ],
+  "doors": [
+    {
+      "id": "Bathroom-6351__door_0",
+      "pts": [
+        [
+          -4.038,
+          5.019
+        ],
+        [
+          -4.038,
+          4.335
+        ],
+        [
+          -4.138,
+          4.335
+        ],
+        [
+          -4.138,
+          5.019
+        ]
+      ],
+      "to_room": "Bathroom-4190"
+    }
+  ],
+  "windows": [],
+  "holes": [
+    {
+      "id": "Bathroom-6351__hole_0",
+      "pts": [
+        [
+          -3.978,
+          4.01
+        ],
+        [
+          -3.078,
+          4.01
+        ],
+        [
+          -3.078,
+          3.89
+        ],
+        [
+          -3.978,
+          3.89
+        ]
+      ],
+      "to_room": "Corridor-2257"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "0266a66d-e124-44cd-8d1b-ca2994531d40",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        1.0,
+        1.9351,
+        0.51
+      ],
+      "position": [
+        -3.5379,
+        0,
+        5.3919
+      ],
+      "rotation_yaw_deg": 180.0
+    },
+    {
+      "id": "0fbde68a-8209-48e7-be66-7b8fc34e0f1f",
+      "type": "lighting/downlight",
+      "size_m": [
+        0.108,
+        0.0167,
+        0.1078
+      ],
+      "position": [
+        -3.54679,
+        2.38333,
+        4.8426
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 0
+}

@@ -1,0 +1,209 @@
+{
+  "house_id": "92b2a56e-6694-4f5d-805a-71c7b2e636eb",
+  "room_id": "Balcony-2169",
+  "region_type": "balcony",
+  "region_type_raw": "Balcony",
+  "priority": 0,
+  "source_file": "house_data_dict.json",
+  "coordinate_raw": "xzy",
+  "unit": "m",
+  "area": 2.1063,
+  "height": 2.6,
+  "boundary": [
+    [
+      3.341,
+      -7.107
+    ],
+    [
+      5.059,
+      -7.107
+    ],
+    [
+      5.059,
+      -8.333
+    ],
+    [
+      3.341,
+      -8.333
+    ]
+  ],
+  "doors": [],
+  "windows": [],
+  "holes": [
+    {
+      "id": "Balcony-2169__hole_0",
+      "pts": [
+        [
+          4.508,
+          -7.107
+        ],
+        [
+          3.663,
+          -7.107
+        ],
+        [
+          3.663,
+          -6.987
+        ],
+        [
+          4.508,
+          -6.987
+        ]
+      ],
+      "to_room": "Kitchen-4131"
+    }
+  ],
+  "furniture_reference": [
+    {
+      "id": "f6ade194-3b3f-475e-8bc8-0ab91eafce07",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.45,
+        0.53,
+        0.02
+      ],
+      "position": [
+        3.66208,
+        1.5315,
+        -7.405
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "f6ade194-3b3f-475e-8bc8-0ab91eafce07",
+      "type": "kitchen cabinet/cbnt door",
+      "size_m": [
+        0.45,
+        0.53,
+        0.02
+      ],
+      "position": [
+        3.66208,
+        1.5315,
+        -8
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "feced6e3-ed33-4334-a8e9-9a31f0eb5f59",
+      "type": "cabinet/floor-based cabinet",
+      "size_m": [
+        0.45,
+        1.531,
+        0.33
+      ],
+      "position": [
+        3.50607,
+        0,
+        -7.70098
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "4310e4b4-3fa9-42ba-bf3c-f08c4fe01c53",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.2202,
+        0.0098,
+        0.0335
+      ],
+      "position": [
+        3.68785,
+        1.56127,
+        -7.405
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "4310e4b4-3fa9-42ba-bf3c-f08c4fe01c53",
+      "type": "kitchen cabinet/cbnt handle type 1",
+      "size_m": [
+        0.2202,
+        0.0098,
+        0.0335
+      ],
+      "position": [
+        3.68785,
+        1.56127,
+        -8
+      ],
+      "rotation_yaw_deg": 90.001
+    },
+    {
+      "id": "00cb476a-37b0-4306-bb71-d32a69a223fb",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.4509,
+        0.337,
+        0.468
+      ],
+      "position": [
+        3.56653,
+        1.152,
+        -7.45161
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "523d6ac3-139c-492b-a03d-ca10972f1aaf",
+      "type": "plants/plants - on top of others",
+      "size_m": [
+        0.2602,
+        0.3348,
+        0.2582
+      ],
+      "position": [
+        3.47119,
+        1.152,
+        -7.91806
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "a0454294-f7b4-4a5b-ae89-e187078193c0",
+      "type": "accessory/accessory - floor-based",
+      "size_m": [
+        0.2381,
+        0.1177,
+        0.2902
+      ],
+      "position": [
+        3.4955,
+        0.77,
+        -7.36386
+      ],
+      "rotation_yaw_deg": -88.406
+    },
+    {
+      "id": "5fad1b78-57d3-422c-ac80-6cc811bfd2b2",
+      "type": "accessory/accessory - on top of others",
+      "size_m": [
+        0.1699,
+        0.245,
+        0.1699
+      ],
+      "position": [
+        3.48889,
+        0.777,
+        -7.90501
+      ],
+      "rotation_yaw_deg": 0.0
+    },
+    {
+      "id": "df458d49-98d9-4c5b-b9e8-7c75af52a650",
+      "type": "lighting/ceiling light",
+      "size_m": [
+        0.19,
+        0.07,
+        0.1905
+      ],
+      "position": [
+        4.21142,
+        2.53,
+        -7.72221
+      ],
+      "rotation_yaw_deg": 0.0
+    }
+  ],
+  "furniture_placeholder_skipped": 0
+}

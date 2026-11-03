@@ -1,0 +1,39 @@
+{
+  "legacy_room_type": "StorageRoom",
+  "region_type": "storage_room",
+  "area_bucket": "3",
+  "resolved": false,
+  "source_house": null,
+  "source_room": null,
+  "source_room_file": null,
+  "placed_groups": [
+    {
+      "group_code": null,
+      "group_type_raw": "Cabinet",
+      "position": [
+        0.66493,
+        0,
+        -0.28555
+      ],
+      "rotation_yaw_deg": 90.001,
+      "size": [
+        1.8498500061035157,
+        2.336649932861328,
+        0.3641510009765625
+      ],
+      "size_min": [
+        1.8498500061035157,
+        2.336649932861328,
+        0.3641510009765625
+      ],
+      "offset": [
+        -0.0,
+        0,
+        -0.0
+      ],
+      "obj_main": "532e34e7-5c6a-4ad2-905e-2ac81380ea0a",
+      "obj_type": "cabinet/floor-based cabinet",
+      "role_assets": {}
+    }
+  ]
+}
